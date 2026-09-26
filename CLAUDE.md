@@ -1,34 +1,36 @@
-# central-rules
+# pixelart-design
 
-문서 제작과 저장소 운영의 **중앙 규칙 정본**을 관리하는 저장소입니다. 각 작업 저장소는 이 저장소의
-`core/`를 받아 쓰고(`core/base/rules/central-sync.md`), 중앙 규칙은 **여기서만** 고칩니다.
-이 파일은 이 저장소에서 일할 때의 진입점입니다.
+등신대 픽셀 아트 캐릭터의 규칙을 설계하고, 그 규칙으로 캐릭터를 만들어 Spine으로 보내는 작업
+저장소입니다. 이 파일은 모든 작업이 따르는 규칙의 진입점입니다.
 
-## 폴더 구조
+## 중앙 규칙
 
-- `core/base/` — 안 켤 수 없는 중앙 규칙. `doc-playbook.md`(문서 제작 절차) · `dictionary.md`(중앙
-  용어집 색인) · `rules/`(방법론 · 운영 규칙) · `scripts/`(검사 · 재생성 · 받기 도구) ·
-  `design-guide/`(기본 마스터 · 시각 규칙서 · 글꼴) · `design-template/`(고르는 법 · 프로젝트와
-  저장소의 빈 서식).
-- `core/modules/` — 골라 켜는 모듈. 각 모듈의 `module.md`가 자기소개(언제 켜나 · 따라오는 것 ·
-  전제)입니다. 목록은 `python core/base/scripts/module.py list`로 봅니다.
-- `center-change-log.md` · `center-remaining-work.md` — 중앙 규칙의 이력과 남은 일.
-- `README.md` — 받아 가는 법.
+규칙의 정본은 `core/`이며 **중앙 저장소에서 받아 온 사본입니다**(받은 기록: `core/.source.json`).
+이 저장소에서 `core/`를 고치지 않습니다 — 고칠 것은 `repo-remaining-work.md`의 「중앙에 되돌려
+보낼 것」에 적고 중앙 저장소에서 고칩니다(`core/base/rules/central-sync.md`).
 
-**base와 modules를 가르는 기준**은 「이 규칙을 안 켠 프로젝트가 있을 수 있는가」, **중앙과 프로젝트를
-가르는 기준**은 「문장에서 프로젝트 이름을 지워도 성립하는가」입니다(`core/base/rules/site-structure.md`).
+- 문서 제작 요청 → `core/base/doc-playbook.md`를 처음부터 끝까지 따릅니다. **확인 ① · ②를 받기
+  전에는 본문을 쓰지 않습니다.**
+- 요청 범위 밖의 수정은 제안만 합니다(`core/base/rules/change-scope.md`).
+- 코드를 보여 줄 때(채팅 포함) → `core/base/rules/code-example.md`.
+- 커밋 · push는 요청과 승인이 있을 때만 합니다(`core/base/rules/git-rules.md`).
 
-## 이 저장소에서 일할 때 (필수)
+## 이 저장소
 
-1. **작업 전에 `center-change-log.md`와 `center-remaining-work.md`를 읽습니다.**
-2. `core/`에 **특정 저장소 · 프로젝트의 이름 · 값 · 경로를 적지 않습니다.** 예시는 자리 표시자로 씁니다.
-3. base 문서는 모듈 이름이나 모듈 안의 파일을 가리키지 않습니다. `check_rules.py`의 경로 검사가 잡습니다.
-4. 규칙을 바꾸면 `center-change-log.md`에 항목과 **태그**(받아 가는 쪽의 할 일)를 적습니다.
-5. 커밋 전에 검사 셋을 돌립니다 — `regen.py --check` · `check_rules.py` · 모듈 점검
-   (`python core/modules/{모듈}/check.py`) · 도구 시험(`python -m unittest discover -s core/base/scripts -p "test_*.py"`).
-6. 커밋 · push · 태그는 요청과 승인이 있을 때만 합니다(`core/base/rules/git-rules.md`). 이 저장소의
-   커밋 영역은 `[Center]`입니다.
-7. 요청 범위 밖의 수정은 제안만 합니다(`core/base/rules/change-scope.md`).
+| 자리 | 무엇 |
+|---|---|
+| `workspace.json` | 저장소 이름표 — 공개 범위 · 프로젝트를 찾을 자리 · 저장소 전체 모듈 |
+| `repo-change-log.md` · `repo-remaining-work.md` | 저장소 설정과 중앙 받기의 이력 · 할 일 |
+| `projects/` | 픽셀 아트 프로젝트들. 캐릭터 규칙 · 제작은 `pixel-art` 모듈을 켜서 합니다 |
+
+## 이 저장소만의 규칙
+
+- **응답 언어** — 사용자에게 보내는 모든 설명 · 보고 · 질문은 한국어로 씁니다. 코드 · 명령 · 경로 ·
+  에러 원문만 원문 그대로 둡니다.
+- **공개 저장소** — 남의 그림(레퍼런스 보드 · 스크린샷)은 저장소에 넣지 않고 링크와 관찰 수치만
+  기록합니다. 커밋과 push 전에 저작권 게이트를 통과시킵니다(`core/base/rules/git-rules.md` §5).
+- **Aseprite 환경** — 작업을 시작하기 전에 호스트 모듈 점검 도구로 이 컴퓨터를 확인합니다
+  (`python core/modules/aseprite/scripts/aseprite_env.py`).
 
 ## 참조 규칙
 

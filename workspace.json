@@ -1,7 +1,7 @@
 {
-  "name": "rsj-centralized-control",
-  "subtitle": "문서 제작 · 저장소 운영 중앙 규칙",
-  "repo": "https://github.com/RyuSeoJin/rsj-centralized-control",
+  "name": "pixelart-design",
+  "subtitle": "등신대 픽셀 아트 캐릭터 설계 · 제작",
+  "repo": "https://github.com/RyuSeoJin/pixelart-design",
   "visibility": "public",
   "project_roots": ["projects"],
   "modules": []
