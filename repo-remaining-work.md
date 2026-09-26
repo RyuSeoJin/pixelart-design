@@ -19,9 +19,14 @@
 
 ## 사용자 결정 대기
 
-- **저장소 CI** — 중앙 게이트를 지운 뒤 이 저장소에는 자동 검사가 없습니다. 받는 저장소용 검사
-  (`check_rules.py` · 모듈 점검)를 GitHub Actions로 돌릴지 정합니다.
+- **push 때 검사** — 중앙 받기 확인은 매일 돌지만, push할 때 규칙 검사(`check_rules.py`) · 모듈
+  점검을 돌리는 워크플로는 아직 없습니다. 둘지 정합니다.
 
 ## 백로그
 
+- **Actions가 PR을 만들 수 있게 허용** — 저장소 Settings ▸ Actions ▸ General ▸ Workflow permissions의
+  「Allow GitHub Actions to create and approve pull requests」가 꺼져 있으면 받기 PR 단계가 실패합니다.
+  첫 수동 실행(Actions ▸ central-sync ▸ Run workflow)으로 확인합니다.
+- **예약 실행 정지** — 공개 저장소는 60일 동안 활동이 없으면 GitHub이 예약 워크플로를 멈춥니다.
+  멈추면 Actions 탭에서 다시 켭니다.
 - 루트 구조도 — 프로젝트 구조가 잡힌 뒤 만듭니다(중앙 이력 2026-09-27 23:30 태그 ③).

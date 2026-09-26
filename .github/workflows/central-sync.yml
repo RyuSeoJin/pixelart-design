@@ -1,0 +1,118 @@
+# 중앙 규칙 받기 — 매일 중앙 저장소를 확인하고, 바뀐 것이 있으면 받기 PR을 엽니다.
+#
+# 받기는 사용자 승인 뒤에만 합니다(core/base/rules/central-sync.md §2). 그래서 이 워크플로는
+# main에 직접 반영하지 않고 PR만 엽니다 — PR을 머지하는 것이 곧 승인입니다. 머지 전에 PR 본문의
+# 새 중앙 이력 항목 태그를 처리하고 repo-change-log.md에 기록을 더합니다.
+#
+# 중앙 저장소 주소는 여기 적지 않고 core/.source.json의 source에서 읽습니다 — 받은 기록이 정본입니다.
+name: central-sync
+
+on:
+  schedule:
+    - cron: "0 0 * * *"          # 매일 00:00 UTC (한국 09:00)
+  workflow_dispatch:              # Actions 탭에서 손으로도 돌릴 수 있습니다
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: central-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: 중앙 저장소 확인 (--check)
+        id: check
+        run: |
+          central=$(python -c "import json;print(json.load(open('core/.source.json',encoding='utf-8'))['source'])")
+          echo "central=$central" >> "$GITHUB_OUTPUT"
+          # 받은 뒤 이 저장소에서 core/를 손댔으면 도구가 1로 멈춥니다 — 그 경우 작업을 실패로 남겨 알립니다
+          python core/base/scripts/sync_core.py --from "$central" --check | tee check.txt
+          n=$(python - <<'PY'
+          import re
+          m = re.search(r"더함 (\d+) · 바뀜 (\d+) · 지움 (\d+)", open("check.txt", encoding="utf-8").read())
+          print(sum(map(int, m.groups())) if m else 0)
+          PY
+          )
+          head=$(grep -oE '커밋 [0-9a-f]{7,40}' check.txt | head -1 | awk '{print substr($2,1,7)}')
+          echo "changes=$n" >> "$GITHUB_OUTPUT"
+          echo "head=$head" >> "$GITHUB_OUTPUT"
+          echo "바뀐 core/ 파일 ${n}개 (중앙 ${head})"
+
+      - name: 이미 열린 받기 PR이 있는지 확인
+        id: open
+        if: steps.check.outputs.changes != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="feature/central-sync-${{ steps.check.outputs.head }}"
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+          if git ls-remote --exit-code --heads origin "$branch" >/dev/null; then
+            echo "exists=1" >> "$GITHUB_OUTPUT"
+            echo "같은 중앙 커밋의 받기 브랜치가 이미 있습니다 — 건너뜁니다"
+          else
+            echo "exists=0" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 받기 · 재생성 · 검사
+        id: receive
+        if: steps.check.outputs.changes != '0' && steps.open.outputs.exists == '0'
+        run: |
+          python core/base/scripts/sync_core.py --from "${{ steps.check.outputs.central }}"
+          python core/base/scripts/regen.py
+          # 검사가 걸려도 PR은 엽니다 — 결과를 본문에 실어 사람이 판단하게 합니다
+          if python core/base/scripts/check_rules.py > rules.txt 2>&1; then
+            echo "rules=통과" >> "$GITHUB_OUTPUT"
+          else
+            echo "rules=걸림 — 아래 검사 결과를 봅니다" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 받기 PR 열기
+        if: steps.check.outputs.changes != '0' && steps.open.outputs.exists == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="${{ steps.open.outputs.branch }}"
+          head="${{ steps.check.outputs.head }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add core AGENTS.md CLAUDE.md
+          git commit -q -m "[Repo] 중앙 규칙 받기 — ${head}"
+          git push -q origin "$branch"
+          {
+            echo "중앙 저장소의 새 변경을 받았습니다. **머지가 곧 받기 승인입니다** (core/base/rules/central-sync.md §2)."
+            echo
+            echo "## 머지 전에 할 일"
+            echo
+            echo "- [ ] 아래 「새 중앙 이력 항목」의 태그를 처리합니다 (core/base/rules/change-log-writing.md §6)"
+            echo "- [ ] repo-change-log.md에 받은 커밋과 처리한 태그를 한 항목으로 적어 이 브랜치에 더합니다"
+            echo "- [ ] 커밋 제목이 규칙 형식(\`[Repo] 중앙 규칙 받기 — ${head}\`)이고 본문이 채워졌는지 봅니다"
+            echo
+            echo "규칙 검사: ${{ steps.receive.outputs.rules }}"
+            echo
+            echo "## 받기 확인 결과"
+            echo
+            echo '```'
+            cat check.txt
+            echo '```'
+            if [ -s rules.txt ]; then
+              echo
+              echo "## 규칙 검사 결과"
+              echo
+              echo '```'
+              cat rules.txt
+              echo '```'
+            fi
+          } > body.md
+          gh pr create --base main --head "$branch" \
+            --title "[Repo] 중앙 규칙 받기 — ${head}" --body-file body.md
