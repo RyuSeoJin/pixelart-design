@@ -1,0 +1,103 @@
+{
+  "stage": "2단계 정지 디자인",
+  "status": "사용자 승인 대기",
+  "file": "ice-queen-still-320x320-v2.png",
+  "size": [
+    320,
+    320
+  ],
+  "changed_pixels": 21,
+  "outside_face_mask_changed_pixels": 0,
+  "alpha_unchanged": true,
+  "visible_colors": 33,
+  "visible_rgb_channel_min": 26,
+  "palette_pass": true,
+  "layer_recomposition_pass": true,
+  "editable_source": "sprites/ice-queen-still-v2.aseprite",
+  "changed_coordinates": [
+    [
+      158,
+      71
+    ],
+    [
+      165,
+      71
+    ],
+    [
+      148,
+      72
+    ],
+    [
+      158,
+      72
+    ],
+    [
+      159,
+      72
+    ],
+    [
+      148,
+      73
+    ],
+    [
+      160,
+      74
+    ],
+    [
+      162,
+      74
+    ],
+    [
+      163,
+      74
+    ],
+    [
+      149,
+      75
+    ],
+    [
+      161,
+      75
+    ],
+    [
+      163,
+      75
+    ],
+    [
+      153,
+      78
+    ],
+    [
+      154,
+      78
+    ],
+    [
+      157,
+      81
+    ],
+    [
+      153,
+      82
+    ],
+    [
+      154,
+      82
+    ],
+    [
+      155,
+      82
+    ],
+    [
+      156,
+      82
+    ],
+    [
+      154,
+      83
+    ],
+    [
+      155,
+      83
+    ]
+  ]
+}
