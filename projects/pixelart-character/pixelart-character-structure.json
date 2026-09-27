@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "resources": [
+    {"id": "illustration-guide", "label": "픽셀 아트 6등신 캐릭터 일러스트 제작 규칙서", "path": "spec/design/pixel-art-6head-illustration-guide.html", "role": "specification", "kind": "file", "depends_on": ["spec-field", "spec-portrait"]},
     {"id": "spec-field", "label": "필드 스프라이트 사양", "path": "spec/design/pixel-spec-field.json", "role": "specification", "kind": "file"},
     {"id": "spec-portrait", "label": "초상화 사양", "path": "spec/design/pixel-spec-portrait.json", "role": "specification", "kind": "file"},
     {"id": "source", "label": "입력 그림 · 공통 몸체 · 파츠 (자작)", "path": "source", "role": "implementation", "kind": "directory", "depends_on": ["spec-field"]},

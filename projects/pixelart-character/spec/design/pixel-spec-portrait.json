@@ -1,6 +1,56 @@
 {
   "schema_version": 1,
-  "canvas": {"width": 320, "height": 320},
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "render_grid": {
+    "working_canvas": {
+      "width": 160,
+      "height": 160
+    },
+    "output_scale": 2,
+    "resampling": "nearest",
+    "block_origin": [
+      0,
+      0
+    ],
+    "body_height_dots": 126,
+    "head_height_dots": 21,
+    "outline_width_dots": 1,
+    "shading_base_steps": 3,
+    "reference": "source/igfrit/density-reference-approved.png",
+    "enforcement": "manual-review-required",
+    "face_retouch": {
+      "enabled": true,
+      "canvas": {
+        "width": 320,
+        "height": 320
+      },
+      "pixel_step": 1,
+      "scope": [
+        "eyes",
+        "eyebrows",
+        "nose",
+        "mouth",
+        "facial_skin_shading"
+      ],
+      "exclude": [
+        "face_silhouette",
+        "hair",
+        "ears",
+        "neck",
+        "body",
+        "clothing",
+        "tail",
+        "accessories"
+      ],
+      "mask_required": true,
+      "outside_mask_rgba_must_equal_upscaled_base": true,
+      "preserve_base_mask_and_retouch_layer": true,
+      "enforcement": "제작 메타데이터 — 기존 생성기·검사기의 자동 지원은 별도 구현 필요"
+    }
+  },
   "center_x": 160,
   "light": "top-left",
   "anchors": {
@@ -18,17 +68,66 @@
   "palette": {
     "outline": "#221A26",
     "ramps": {
-      "SKIN": ["#FFF1E4", "#F6D2BC", "#E2A895", "#B87574", "#7A4A58"],
-      "HAIR": ["#FFE6A6", "#F2C069", "#CC8A45", "#8F5438", "#57303A"],
-      "CLOTH_A": ["#9FC3E8", "#6A8FC9", "#4A63A0", "#353F75", "#241F4A"],
-      "CLOTH_B": ["#FAF6F0", "#E3DCD8", "#BCB0BC", "#8A7D97", "#5A506E"],
-      "LEATHER": ["#D8A87A", "#A8744C", "#7A4E38", "#523030", "#33202A"],
-      "METAL": ["#F4F7FA", "#C3CCD8", "#8C97AD", "#5B637F", "#383C55"],
-      "ACCENT": ["#FFB0A0", "#E8646A", "#B43A56", "#7A2446", "#4A1636"],
-      "EYE": ["#FFFFFF", "#7FD0E0", "#3E8FB8", "#2A4F80"]
+      "SKIN": [
+        "#FFF1E4",
+        "#F6D2BC",
+        "#E2A895",
+        "#B87574",
+        "#7A4A58"
+      ],
+      "HAIR": [
+        "#FFE6A6",
+        "#F2C069",
+        "#CC8A45",
+        "#8F5438",
+        "#57303A"
+      ],
+      "CLOTH_A": [
+        "#9FC3E8",
+        "#6A8FC9",
+        "#4A63A0",
+        "#353F75",
+        "#241F4A"
+      ],
+      "CLOTH_B": [
+        "#FAF6F0",
+        "#E3DCD8",
+        "#BCB0BC",
+        "#8A7D97",
+        "#5A506E"
+      ],
+      "LEATHER": [
+        "#D8A87A",
+        "#A8744C",
+        "#7A4E38",
+        "#523030",
+        "#33202A"
+      ],
+      "METAL": [
+        "#F4F7FA",
+        "#C3CCD8",
+        "#8C97AD",
+        "#5B637F",
+        "#383C55"
+      ],
+      "ACCENT": [
+        "#FFB0A0",
+        "#E8646A",
+        "#B43A56",
+        "#7A2446",
+        "#4A1636"
+      ],
+      "EYE": [
+        "#FFFFFF",
+        "#7FD0E0",
+        "#3E8FB8",
+        "#2A4F80"
+      ]
     }
   },
-  "limits": {"colors_max": 64},
+  "limits": {
+    "colors_max": 64
+  },
   "slots": [
     "hair_back",
     "tail",
@@ -59,26 +158,106 @@
     "hand_R"
   ],
   "bones": {
-    "root": [null, 160, 304],
-    "hip": ["root", 160, 170],
-    "spine": ["hip", 160, 136],
-    "neck": ["spine", 160, 96],
-    "head": ["neck", 160, 96],
-    "ear_L": ["head", 138, 76],
-    "ear_R": ["head", 182, 76],
-    "shoulder_L": ["spine", 136, 106],
-    "elbow_L": ["shoulder_L", 128, 144],
-    "wrist_L": ["elbow_L", 126, 176],
-    "shoulder_R": ["spine", 184, 106],
-    "elbow_R": ["shoulder_R", 192, 144],
-    "wrist_R": ["elbow_R", 194, 176],
-    "thigh_L": ["hip", 148, 176],
-    "knee_L": ["thigh_L", 148, 236],
-    "ankle_L": ["knee_L", 148, 292],
-    "thigh_R": ["hip", 172, 176],
-    "knee_R": ["thigh_R", 172, 236],
-    "ankle_R": ["knee_R", 172, 292],
-    "tail": ["hip", 160, 170]
+    "root": [
+      null,
+      160,
+      304
+    ],
+    "hip": [
+      "root",
+      160,
+      170
+    ],
+    "spine": [
+      "hip",
+      160,
+      136
+    ],
+    "neck": [
+      "spine",
+      160,
+      96
+    ],
+    "head": [
+      "neck",
+      160,
+      96
+    ],
+    "ear_L": [
+      "head",
+      138,
+      76
+    ],
+    "ear_R": [
+      "head",
+      182,
+      76
+    ],
+    "shoulder_L": [
+      "spine",
+      136,
+      106
+    ],
+    "elbow_L": [
+      "shoulder_L",
+      128,
+      144
+    ],
+    "wrist_L": [
+      "elbow_L",
+      126,
+      176
+    ],
+    "shoulder_R": [
+      "spine",
+      184,
+      106
+    ],
+    "elbow_R": [
+      "shoulder_R",
+      192,
+      144
+    ],
+    "wrist_R": [
+      "elbow_R",
+      194,
+      176
+    ],
+    "thigh_L": [
+      "hip",
+      148,
+      176
+    ],
+    "knee_L": [
+      "thigh_L",
+      148,
+      236
+    ],
+    "ankle_L": [
+      "knee_L",
+      148,
+      292
+    ],
+    "thigh_R": [
+      "hip",
+      172,
+      176
+    ],
+    "knee_R": [
+      "thigh_R",
+      172,
+      236
+    ],
+    "ankle_R": [
+      "knee_R",
+      172,
+      292
+    ],
+    "tail": [
+      "hip",
+      160,
+      170
+    ]
   },
   "slot_bone": {
     "hair_back": "head",
@@ -108,5 +287,84 @@
     "forearm_R": "elbow_R",
     "weapon": "wrist_R",
     "hand_R": "wrist_R"
+  },
+  "color_safety": {
+    "visible_rgb_channel_min": 10,
+    "forbidden_visible_colors": [
+      "#000000"
+    ],
+    "transparent_alpha": 0,
+    "enforcement": "명시적 프레임 검사 필요 — 기존 lint 자동 지원 아님"
+  },
+  "production_workflow": {
+    "concept_canvas": {
+      "width": 1024,
+      "height": 1024
+    },
+    "concept_background": "transparent",
+    "still_canvas": {
+      "width": 320,
+      "height": 320
+    },
+    "working_canvas": {
+      "width": 160,
+      "height": 160
+    },
+    "output_scale": 2,
+    "resampling": "nearest",
+    "concept_approval_required": true,
+    "still_approval_required": true,
+    "animation_requires_separate_request": true,
+    "verify_actual_file_dimensions": true,
+    "approval_record_fields": [
+      "file",
+      "version",
+      "approved_at"
+    ],
+    "enforcement": "제작 절차 메타데이터 — 자동 승인·자동 생성 기능 아님",
+    "post_upscale_step": "320 격자의 얼굴 내부만 1px 보정하고 정지 이미지를 승인받은 뒤, 원본을 확대하지 않고 512 투명 캔버스에 배치하여 배포 검수합니다.",
+    "revision_note": "2026-09-27: 규칙서 v1.8. 1024 시안 → 160 작업 → 320 얼굴 보정 → 512 배포. 머리 21·신체 126도트. 기존 이미지·승인 이력은 보존하며 생성기·동작 offsets와 배포 도구는 적용 검수 전 호환 완료로 보지 않습니다."
+  },
+  "delivery": {
+    "canvas": {
+      "width": 512,
+      "height": 512
+    },
+    "source_canvas": {
+      "width": 320,
+      "height": 320
+    },
+    "content_rect": [
+      96,
+      96,
+      320,
+      320
+    ],
+    "rect_format": "x,y,width,height; 오른쪽·아래 경계 제외",
+    "padding": {
+      "left": 96,
+      "top": 96,
+      "right": 96,
+      "bottom": 96
+    },
+    "scale": 1,
+    "transparent_alpha": 0,
+    "source_pivot": [
+      160,
+      304
+    ],
+    "pivot": [
+      256,
+      400
+    ],
+    "pivot_coordinate_system": "왼쪽 위 원점, 픽셀 경계 좌표; 실제 발바닥 픽셀 행은 399",
+    "source_rgba_preserved": true,
+    "auto_trim": false,
+    "per_frame_recenter": false,
+    "animation_frame_size": [
+      512,
+      512
+    ],
+    "enforcement": "배포 메타데이터 — 기존 도구가 자동 구현하거나 Unreal Engine 동작을 보장하지 않습니다. R28의 원본 일치·패딩·기준점·엔진 검수가 필요합니다."
   }
 }
