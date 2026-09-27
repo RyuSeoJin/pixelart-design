@@ -113,3 +113,64 @@ def shift(sp, lay, dx, dy):
             if lay.px[y][x]:
                 out.set(x + dx, y + dy, lay.px[y][x])
     return out
+
+
+# ---------------------------------------------------------------- CQ-Ref 얼굴 · 머리카락 (pixel-style.md §9-3)
+def hair_render(sp, lay, mask_fn, ramp, hi_center, hi_size=(7, 4), strands=(), tips=(), back=False):
+    """머리카락 덩어리를 4단계로 칠합니다.
+
+    mask_fn(tmp): 실루엣을 색 1로 칠하는 함수. hi_center=(x, y): 밝은 뭉치 중심. strands: [(x0, y0, x1, y1)] 가닥선.
+    tips: [(x, y)] 뾰족 끝 1도트. back=True면 뒷머리 — 전체를 한 단계 어둡게.
+    """
+    tmp = layer(sp, "m")
+    mask_fn(tmp)
+    pts = [(x, y) for y in range(sp.height) for x in range(sp.width) if tmp.px[y][x]]
+    if not pts:
+        return
+    base, shade = (2, 3) if back else (1, 2)
+    inside = lambda x, y: tmp.inside(x, y) and tmp.px[y][x]
+    for x, y in pts:
+        step = base
+        if not inside(x, y + 1) or not inside(x, y + 2) or not inside(x + 1, y):     # 아랫줄 · 오른쪽 가장자리
+            step = shade
+        elif not back:
+            dx, dy = (x + .5 - hi_center[0]) / (hi_size[0] / 2), (y + .5 - hi_center[1]) / (hi_size[1] / 2)
+            if dx * dx + dy * dy <= 1:
+                step = 0
+        lay.set(x, y, sp.c(ramp, min(step, 3)))
+    for x0, y0, x1, y1 in strands:
+        t = layer(sp, "s"); t.line(x0, y0, x1, y1, 1)
+        for y in range(sp.height):
+            for x in range(sp.width):
+                if t.px[y][x] and inside(x, y) and inside(x, y + 2):
+                    lay.set(x, y, sp.c(ramp, shade))
+    for x, y in tips:
+        lay.set(x, y, sp.c(ramp, base))
+
+
+def face(sp, lay, ex, ey, skin, iris, mouth="smile", far_first=True):
+    """CQ-Ref 얼굴 — 눈 2(+속눈썹)×4, 홍채 밝은 1줄 + 어두운 2줄, 하이라이트, 볼 2도트, 입.
+    ex, ey: 먼 쪽(왼쪽) 눈의 왼쪽 위 좌표. 두 눈 사이 5도트."""
+    OUT = 1
+    for i, x in enumerate((ex, ex + 7)):
+        lash_out = x - 1 if i == 0 else x + 2                      # 바깥쪽 속눈썹 1도트
+        lay.pixels([(x, ey), (x + 1, ey), (lash_out, ey)], OUT)
+        lay.pixels([(x, ey + 1), (x + 1, ey + 1)], sp.c(iris, 1))
+        lay.pixels([(x, ey + 2), (x + 1, ey + 2), (x, ey + 3), (x + 1, ey + 3)], sp.c(iris, 2))
+        lay.set(x + (1 if i == 0 else 0), ey + 1, sp.c(iris, 0))    # 하이라이트: 안쪽 위
+        lay.set(x, ey + 3, sp.c(iris, 3)) if len(sp.ramps[iris]) > 3 else None
+    lay.pixels([(ex - 1, ey + 4), (ex, ey + 4), (ex + 8, ey + 4), (ex + 9, ey + 4)], sp.c("ACCENT", 0))   # 볼
+    mx = ex + 3
+    if mouth == "smile":
+        lay.pixels([(mx, ey + 5), (mx + 1, ey + 5), (mx + 2, ey + 5)], sp.c("ACCENT", 2))
+        lay.pixels([(mx + 1, ey + 6)], sp.c("ACCENT", 1))
+    else:
+        lay.pixels([(mx, ey + 5), (mx + 1, ey + 5)], sp.c(skin, 2))
+
+
+def forehead_shadow(sp, body, hair_front, skin):
+    """앞머리 바로 아래 피부 1줄을 그림자 단계로 (이마 그림자)."""
+    for y in range(1, sp.height):
+        for x in range(sp.width):
+            if body.px[y][x] == sp.c(skin, 1) and hair_front.px[y - 1][x] and not hair_front.px[y][x]:
+                body.px[y][x] = sp.c(skin, 2)

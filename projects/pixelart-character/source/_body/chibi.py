@@ -46,14 +46,9 @@ def body(sp, dh=(0, 0), db=(0, 0), hr=(0, 0), hl=(0, 0), legs=None, feet=None):
     fk.paint(sp, L, lambda t: t.ellipse(HEAD[0] + dh[0], HEAD[1] + dh[1], HEAD[2], HEAD[3], 1), SKIN, "sphere", 2)
     fk.paint(sp, L, lambda t: t.poly(sh(ARM_R, hr), 1), SKIN, "cyl", 2)
     fk.paint(sp, L, lambda t: t.ellipse(HAND_R[0] + hr[0], HAND_R[1] + hr[1], 2.2, 2.0, 1), SKIN, "sphere", 2)
-    # 얼굴 기호 — CQ-Ref: 눈은 머리 아래쪽(y 40), 세로 4 · 가로 2, 하이라이트 1. 3/4라 두 눈이 왼쪽으로 몰림
-    ex, ey = 25 + dh[0], 40 + dh[1]                # 눈 중심 y=41 (CQ-Ref: 턱 위 5도트)
-    for x in (ex, ex + 8):
-        L.pixels([(x, ey), (x, ey + 1), (x, ey + 2), (x, ey + 3), (x + 1, ey), (x + 1, ey + 1), (x + 1, ey + 2), (x + 1, ey + 3)], 1)
-        L.pixels([(x, ey + 1), (x, ey + 2), (x + 1, ey + 1), (x + 1, ey + 2)], sp.c("EYE", 2))
-        L.set(x, ey + 1, sp.c("EYE", 0))
-    L.pixels([(ex - 1, ey + 4), (ex + 10, ey + 4)], sp.c("ACCENT", 0))          # 볼
-    L.pixels([(ex + 4, ey + 5), (ex + 5, ey + 5)], sp.c(SKIN, 3))                # 입
+    # 얼굴 — CQ-Ref §9-3: 눈 2(+속눈썹)×4 · 홍채 2단계 · 하이라이트 · 볼 · 웃는 입. 눈 중심 y=41
+    fk.face(sp, L, 25 + dh[0], 39 + dh[1], SKIN, "EYE")
+    L.pixels([(x, 46 + dh[1]) for x in range(27, 37)], sp.c(SKIN, 2))          # 턱 밑 그림자 1줄
     L.add_outline()
     for y in range(sp.height):
         for x in range(sp.width):
