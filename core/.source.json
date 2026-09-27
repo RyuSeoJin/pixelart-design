@@ -1,9 +1,9 @@
 {
  "source": "https://github.com/RyuSeoJin/rsj-centralized-control",
- "commit": "c64fadb6e28ca375599f846418dfe30ff4668f59",
+ "commit": "5eab0003f6a99b5943b1bda80e9a1188f76be767",
  "tag": null,
  "dirty": false,
- "synced": "2026-09-27 09:35",
+ "synced": "2026-09-27 09:49",
  "files": {
   "base/dictionary.md": "c63217df47576f1f0e3828f7cc85ba5ab1a4b8b999a66b71d893bcb22497709b",
   "base/doc-playbook.md": "8ecd157623b5cd5064b046dad9a2e620fbc3fdc9e0e4ec635774531992567aa9",
@@ -188,7 +188,7 @@
   "modules/pixel-art/requirements.txt": "dce978a554b00caca70d59f539d25c61fcc89681e02d7fec42948cd5c3c0a127",
   "modules/pixel-art/rules/pixel-pipeline.md": "5819229a7bc150d1425f482fad7d3b3b2eb9a7a18110cb1199aa4c205867ea36",
   "modules/pixel-art/rules/pixel-rig.md": "29a7029e0914096e37a64de2e3576dc6547994f74d7df4c9264a97feeae18a0d",
-  "modules/pixel-art/rules/pixel-style.md": "86a22dfbfa305c20e36bfc4811fd808f4291c2e84a628787f38f0afbc1d1e983",
+  "modules/pixel-art/rules/pixel-style.md": "1ecd28731757cf229f6cf3df419fafc754957294e6af0239408a4c8b9c608310",
   "modules/pixel-art/scripts/lineup.py": "21726480a28a71c0365ef11424b20eab9f44cf667293b83612baf1dd777c6b02",
   "modules/pixel-art/scripts/lint.py": "38e913ac7b78d02406d9a359aeb0fe18ec28065aff118e3d27e9f8535fc7f4f0",
   "modules/pixel-art/scripts/palette_suggest.py": "cc30ab5c72db8df5e4c1af80cd3a2af293b806bff3b6957f550a1f4fdb2d76c4",
