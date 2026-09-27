@@ -322,8 +322,8 @@
       "approved_at"
     ],
     "enforcement": "제작 절차 메타데이터 — 자동 승인·자동 생성 기능 아님",
-    "post_upscale_step": "320 격자의 얼굴 내부만 1px 보정하고 정지 이미지를 승인받은 뒤, 원본을 확대하지 않고 512 투명 캔버스에 배치하여 배포 검수합니다.",
-    "revision_note": "2026-09-27: 규칙서 v1.8. 1024 시안 → 160 작업 → 320 얼굴 보정 → 512 배포. 머리 21·신체 126도트. 기존 이미지·승인 이력은 보존하며 생성기·동작 offsets와 배포 도구는 적용 검수 전 호환 완료로 보지 않습니다.",
+    "post_upscale_step": "320 얼굴 내부만 1px 보정하고 승인·검수한 320 투명 PNG를 추가 패딩 없이 배포합니다.",
+    "revision_note": "2026-09-28: 규칙서 v1.13. 1024 시안 → 160 작업 → 320 얼굴 보정·배포. 512 포장 폐지. 기존 결과는 이력 보존, 새 도구 적용은 별도 검수합니다.",
     "ground_alignment": {
       "revision": "2026-09-28 / v1.10",
       "reference": "기준 정지본의 접지 발바닥을 확인해 한 번 결정",
@@ -347,8 +347,8 @@
         304
       ],
       "fixed_delivery_pivot": [
-        256,
-        400
+        160,
+        304
       ],
       "delivery_after_correction": true,
       "record_input_version_offset_and_applied_state": true,
@@ -377,25 +377,25 @@
   },
   "delivery": {
     "canvas": {
-      "width": 512,
-      "height": 512
+      "width": 320,
+      "height": 320
     },
     "source_canvas": {
       "width": 320,
       "height": 320
     },
     "content_rect": [
-      96,
-      96,
+      0,
+      0,
       320,
       320
     ],
     "rect_format": "x,y,width,height; 오른쪽·아래 경계 제외",
     "padding": {
-      "left": 96,
-      "top": 96,
-      "right": 96,
-      "bottom": 96
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
     },
     "scale": 1,
     "transparent_alpha": 0,
@@ -404,17 +404,25 @@
       304
     ],
     "pivot": [
-      256,
-      400
+      160,
+      304
     ],
-    "pivot_coordinate_system": "왼쪽 위 원점, 픽셀 경계 좌표; 실제 발바닥 픽셀 행은 399",
+    "pivot_coordinate_system": "왼쪽 위 원점, 픽셀 경계 좌표; 실제 기본 발바닥 픽셀 행은 303",
     "source_rgba_preserved": true,
     "auto_trim": false,
     "per_frame_recenter": false,
     "animation_frame_size": [
-      512,
-      512
+      320,
+      320
     ],
-    "enforcement": "배포 메타데이터 — 기존 도구가 자동 구현하거나 Unreal Engine 동작을 보장하지 않습니다. R28의 원본 일치·패딩·기준점·엔진 검수가 필요합니다."
+    "enforcement": "승인 320 RGBA·기준점·방향별 외형·엔진 검수가 필요합니다. 기존 도구의 자동 적용 완료를 의미하지 않습니다.",
+    "unreal_settings": {
+      "mip_gen_settings": "NoMipmaps",
+      "filter": "Nearest",
+      "never_stream": true,
+      "power_of_two_mode": "None",
+      "expected_mip_count": 1,
+      "engine_validation": "pending"
+    }
   }
 }
