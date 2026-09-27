@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "project": "pixelart-icon",
+  "id": "icons.items.ice-crystal",
+  "version": "v1",
+  "kind": "icon",
+  "default_file": "icon-32.png",
+  "approval": {"status": "pending", "by": "", "at": "", "evidence": ""},
+  "review": {
+    "status": "pending", "by": "", "at": "", "evidence": "",
+    "checks": {"visual": false, "project_spec": false, "rights": false}
+  },
+  "files": [
+    {"source":"export/ice-crystal/icon-16.png","name":"icon-16.png","role":"icon","size":[16,16],"sha256":""},
+    {"source":"export/ice-crystal/icon-32.png","name":"icon-32.png","role":"icon","size":[32,32],"sha256":""},
+    {"source":"export/ice-crystal/icon-48.png","name":"icon-48.png","role":"icon","size":[48,48],"sha256":""},
+    {"source":"export/ice-crystal/icon-64.png","name":"icon-64.png","role":"icon","size":[64,64],"sha256":""}
+  ],
+  "animations": {}
+}

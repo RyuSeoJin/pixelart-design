@@ -22,6 +22,10 @@
 | `workspace.json` | 저장소 이름표 — 공개 범위 · 프로젝트를 찾을 자리 · 저장소 전체 모듈 |
 | `repo-change-log.md` · `repo-remaining-work.md` | 저장소 설정과 중앙 받기의 이력 · 할 일 |
 | `projects/` | 픽셀 아트 프로젝트들. 캐릭터 규칙 · 제작은 `pixel-art` 모듈을 켜서 합니다 |
+| `RESOURCE_WORKFLOW.md` | 캐릭터·아이콘 최종본의 승인·등록·사용 절차 |
+| `resources/` | 다른 프로젝트가 읽는 공용 최종 리소스와 목록 |
+
+<!-- CHANGELOG v1.0 · 2026-09-27 — 공용 최종 리소스 절차와 폴더 진입점 추가 -->
 
 ## 이 저장소만의 규칙
 
