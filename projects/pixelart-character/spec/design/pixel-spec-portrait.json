@@ -354,6 +354,25 @@
       "record_input_version_offset_and_applied_state": true,
       "verify_no_clipping": true,
       "enforcement": "제작 절차 메타데이터 — 자동 보정 구현 아님"
+    },
+    "expression_rules": {
+      "types": [
+        "default",
+        "smile",
+        "sad",
+        "angry"
+      ],
+      "default": "캐릭터의 평소 대표 표정이며 무표정으로 한정하지 않습니다.",
+      "emotion_definition": "웃음·슬픔·화남은 각각 독립된 감정으로 정의합니다.",
+      "overlap": "기본과 특정 감정이 겹치면 해당 감정 표정이 기본과 명확히 구분되어야 합니다.",
+      "record": [
+        "상황",
+        "강도",
+        "눈썹",
+        "눈매",
+        "입"
+      ],
+      "review": "동일 시점·배율에서 이름을 가려도 감정이 읽히고 기본과 구별되어야 합니다."
     }
   },
   "delivery": {
