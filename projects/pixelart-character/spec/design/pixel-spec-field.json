@@ -593,6 +593,37 @@
         "lag": 0.1
       },
       "evidence": "export/ice-queen/sprite-gen-idle-v1/validation.json"
+    },
+    "ground_alignment": {
+      "revision": "2026-09-28 / v1.10",
+      "reference": "기준 정지본의 접지 발바닥을 확인해 한 번 결정",
+      "target_sole_y": 303,
+      "native_target_sole_y": 151,
+      "offset_320_formula": "303 - reference_still_contact_sole_y",
+      "apply_uniformly_to": [
+        "still",
+        "all_animation_frames",
+        "parts",
+        "face_overlay",
+        "face_mask",
+        "attached_content_coordinates"
+      ],
+      "native_translation_integer": true,
+      "output_translation_multiple_of": 2,
+      "per_frame_bottom_alignment": false,
+      "preserve_airborne_feet_and_relative_motion": true,
+      "fixed_source_pivot": [
+        160,
+        304
+      ],
+      "fixed_delivery_pivot": [
+        256,
+        400
+      ],
+      "delivery_after_correction": true,
+      "record_input_version_offset_and_applied_state": true,
+      "verify_no_clipping": true,
+      "enforcement": "제작 절차 메타데이터 — 자동 보정 구현 아님"
     }
   },
   "delivery": {

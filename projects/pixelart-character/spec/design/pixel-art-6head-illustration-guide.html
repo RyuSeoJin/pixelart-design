@@ -1,3 +1,4 @@
+<!-- CHANGELOG v1.10 · 2026-09-28 — (추가) 정지본 기준의 전 프레임 일괄 접지 보정과 보행 높이 보존 -->
 <!-- CHANGELOG v1.9 · 2026-09-28 — (추가) sprite-gen idle 시험·얼굴 보존·도구 버전과 검수 경계 -->
 <!-- CHANGELOG v1.8 · 2026-09-27 — (변경) 160·320 제작 복귀와 512 배포·기준점·언리얼 검수 규칙 -->
 <!DOCTYPE html>
@@ -833,7 +834,7 @@ footer { border-top: 1px solid var(--border); padding: 28px 48px; max-width: 920
 </style>
 </head><body>
 <nav aria-label="문서 내 이동"><span class="nav-logo">제작 규칙서</span><div class="nav-links"><a href="#scope">원칙</a><a href="#proportion">비율</a><a href="#rendering">표현</a><a href="#review">검수</a></div></nav>
-<header class="hero"><div class="hero-eyebrow">공통 제작 기준 · v1.9 · 2026-09-27</div><h1>픽셀 아트 6등신 캐릭터 일러스트 제작 규칙서</h1><p class="hero-sub">어떤 캐릭터든 6등신과 큼직한 도트 밀도를 지킵니다. 160×160 작업 원본을 최근접 보간으로 2배 확대한 뒤, 320×320에서 얼굴 내부만 1px 단위로 보정합니다. 완성 그림에 투명 여백을 더해 512×512로 배포합니다. 개성은 얼굴, 머리 모양, 의상과 소품으로 표현합니다.</p><div class="hero-meta"><span class="badge badge-blue">전 캐릭터 필수 준수</span><span class="badge badge-green">6등신 · 320×320</span><span class="badge badge-purple">일러스트 제작·검수</span></div></header>
+<header class="hero"><div class="hero-eyebrow">공통 제작 기준 · v1.10 · 2026-09-27</div><h1>픽셀 아트 6등신 캐릭터 일러스트 제작 규칙서</h1><p class="hero-sub">어떤 캐릭터든 6등신과 큼직한 도트 밀도를 지킵니다. 160×160 작업 원본을 최근접 보간으로 2배 확대한 뒤, 320×320에서 얼굴 내부만 1px 단위로 보정합니다. 완성 그림에 투명 여백을 더해 512×512로 배포합니다. 개성은 얼굴, 머리 모양, 의상과 소품으로 표현합니다.</p><div class="hero-meta"><span class="badge badge-blue">전 캐릭터 필수 준수</span><span class="badge badge-green">6등신 · 320×320</span><span class="badge badge-purple">일러스트 제작·검수</span></div></header>
 <main class="content">
 <section class="section" id="scope"><div class="section-label">01 · 적용 원칙</div><h2>같은 기준으로 그리고, 같은 기준으로 검수합니다</h2>
 <p>캐릭터마다 스타일이 달라지는 것을 막기 위해, 이 문서를 신규 캐릭터·의상 변형·수정 작업의 <strong>공통 필수 기준</strong>으로 사용합니다. 직접 그리기, 외주, 생성 도구 등 제작 수단이 달라도 완성 판정은 같습니다. 기준 이미지는 Pinterest의 <a href="https://kr.pinterest.com/ryuujin0218/pixel-art/">pixel-art 보드</a>입니다.</p>
@@ -987,6 +988,16 @@ footer { border-top: 1px solid var(--border); padding: 28px 48px; max-width: 920
 <p>기준점은 왼쪽 위 원점의 <strong>픽셀 경계 좌표</strong>입니다. 모든 프레임에 같은 (256,400)을 사용하고, 프레임마다 자동 자르기·중앙 재배치·크기 맞추기를 하지 않습니다. 보행 시 떠 있는 발이 움직여도 기준점은 고정합니다. 오른쪽 버전은 전신을 함께 반전하고 중앙 기준점을 유지합니다. 도구별 원점·축·정규화 방식은 가져오기 단계에서 변환합니다.</p>
 <p>512 PNG의 (96,96)부터 320×320을 잘라낸 RGBA는 승인된 320 PNG와 완전히 같아야 합니다. 그 밖은 알파 0이어야 하며, 원본의 얼굴 밖 2배 격자·색상 하한·팔레트·알파 0/255를 다시 확인합니다. 투명 픽셀의 RGB 값은 색상 하한 검사에서 제외합니다. 파일명은 <code>{캐릭터}-delivery-512x512-vN.png</code>, 동작 배포 프레임은 <code>{캐릭터}-{동작}-frame-XX-512x512-vN.png</code>로 구분합니다. 320 원본·얼굴 마스크·보정 레이어는 제작 폴더에 보존합니다.</p>
 <p>2단계는 320 외형 승인 뒤 512 포장 검수까지 수행합니다. 최종 리소스 등록은 실제 512 파일을 대상으로 승인·검수 기록을 남긴 뒤 진행합니다. 애니메이션은 320 그림으로 제작하고 <strong>배포 프레임마다 512×512</strong>로 포장합니다. 시트로 묶을 때 전체 가로·세로도 2의 거듭제곱으로 정합니다. 예를 들어 idle 4프레임은 2×2칸의 1024×1024, walk 8프레임은 4×2칸의 2048×1024입니다. 시트 전체 좌표의 프레임 영역과 각 프레임 내부의 기준점을 구분하여 기록합니다.</p>
+<h3 id="ground-alignment">R28 · 전 프레임의 발바닥 위치 보정</h3>
+<p>프레임마다 그림을 바닥으로 당기면 보행의 발 들림과 몸의 상하 운동이 사라집니다. 위치 보정량은 <strong>기준 정지본의 실제 접지 발바닥</strong>에서 한 번만 정하고, 해당 방향에서 같은 원점으로 제작한 정지본·모든 동작 프레임·파츠·얼굴 보정 레이어·얼굴 마스크에 동일하게 적용합니다. 꼬리·옷자락·그림자를 포함한 전체 이미지의 최하단을 발바닥으로 판단하지 않습니다.</p>
+<table class="tbl"><thead><tr><th>항목</th><th>적용 기준</th></tr></thead><tbody>
+<tr><td>이동량 결정</td><td>320 좌표에서 목표 발바닥 행 303에서 기준 정지본의 접지 행을 뺍니다. 기존 얼음여왕의 301 → 303은 아래로 2px이며 160 원본에서는 아래로 1도트입니다. 이미 맞는 캐릭터는 0px입니다. 2px은 모든 캐릭터의 고정 이동량이 아닙니다.</td></tr>
+<tr><td>격자와 얼굴</td><td>160 원본의 정수 도트 이동과 320 얼굴·마스크의 정확히 두 배 이동을 함께 적용합니다. 320에서 홀수 픽셀 이동이 필요하면 몸의 2배 격자가 어긋나므로 자동 반올림하거나 1px만 옮기지 않고 작업 원본의 접지를 다시 정리합니다.</td></tr>
+<tr><td>idle·walk</td><td>발이 고정된 idle은 모든 프레임의 접지 행이 같아야 합니다. walk는 모든 프레임에 같은 이동량만 더하고, 떠 있는 발의 높이와 프레임 사이의 상대 위치는 유지합니다. 프레임별 최하단 정렬·자동 중앙 배치·크기 조절은 금지합니다.</td></tr>
+<tr><td>기준점과 배포</td><td>움직이는 그림과 그림에 붙는 마스크·파츠 좌표를 옮기되, 사양의 기준선과 지면 기준점 (160,304)은 바꾸지 않습니다. 보정된 320 그림에 96px 여백을 더해 512로 포장하며 기준점 (256,400), 기본 접지 행 399를 유지합니다. 보정된 결과에 이동을 중복 적용하지 않습니다.</td></tr>
+<tr><td>검수와 기록</td><td>입력·버전·원래 접지 행·좌표 공간별 이동량·보정 여부를 기록합니다. 프레임 수·시간·얼굴 RGBA·상대 움직임·가시 픽셀 수를 보존하고 캔버스 밖 잘림이 없는지 검사합니다. 발바닥 보정만으로 등신·정수리·관절의 전체 기준선 검수가 통과한 것으로 보지 않습니다.</td></tr>
+</tbody></table>
+<p>새 캐릭터는 160 정지 작업 단계에서 발바닥 마지막 행 151에 맞춰 불필요한 사후 보정을 줄입니다. 1024 시안은 외형 검토 단계이므로 게임용 기준선 좌표를 그대로 적용하지 않습니다. 기존 얼음여왕 시험 v1은 미보정 기록으로 보존하며, 실제 보정본은 별도 버전으로 제작합니다.</p>
 <h3 id="sprite-gen-idle">R28 · sprite-gen 보조 도구와 idle 시험</h3>
 <p>확정 외형을 유지하면서 반복 작업을 줄이기 위해 <strong>sprite-gen을 선택적 보조 도구</strong>로 사용합니다. 현재 도입 범위는 정지 그림을 이용한 로컬 idle 호흡 시험입니다. 이미지·영상 생성이나 walk 제작, 기존 공통 몸체 대체는 별도 요청·검수 대상입니다. 도구 설치나 기술 검사 통과만으로 외형·배포 승인을 대신하지 않습니다.</p>
 <table class="tbl" style="table-layout:fixed;overflow-wrap:anywhere"><colgroup><col style="width:16%"><col style="width:42%"><col style="width:42%"></colgroup><thead><tr><th>단계</th><th>작업 기준</th><th>검수와 기록</th></tr></thead><tbody>
@@ -1059,7 +1070,7 @@ footer { border-top: 1px solid var(--border); padding: 28px 48px; max-width: 920
 </tbody></table>
 <p>외부 작품 이미지는 포함하지 않았습니다. 기준선 도식은 확정 사양으로 직접 구성했습니다. 참고 작품의 특정 얼굴·의상·문양을 그대로 복제하지 않고 새로운 캐릭터를 설계합니다.</p>
 </section>
-</main><footer>픽셀 아트 6등신 캐릭터 일러스트 제작 규칙서 · v1.9<br>기준 마스터 v1.13 · 프로젝트 전용 템플릿 01 v1.0</footer>
+</main><footer>픽셀 아트 6등신 캐릭터 일러스트 제작 규칙서 · v1.10<br>기준 마스터 v1.13 · 프로젝트 전용 템플릿 01 v1.0</footer>
 <script>
 const heads = [...document.querySelectorAll('.check-head[role="checkbox"]')];
 function toggleCheck(head) {

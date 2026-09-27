@@ -323,7 +323,38 @@
     ],
     "enforcement": "제작 절차 메타데이터 — 자동 승인·자동 생성 기능 아님",
     "post_upscale_step": "320 격자의 얼굴 내부만 1px 보정하고 정지 이미지를 승인받은 뒤, 원본을 확대하지 않고 512 투명 캔버스에 배치하여 배포 검수합니다.",
-    "revision_note": "2026-09-27: 규칙서 v1.8. 1024 시안 → 160 작업 → 320 얼굴 보정 → 512 배포. 머리 21·신체 126도트. 기존 이미지·승인 이력은 보존하며 생성기·동작 offsets와 배포 도구는 적용 검수 전 호환 완료로 보지 않습니다."
+    "revision_note": "2026-09-27: 규칙서 v1.8. 1024 시안 → 160 작업 → 320 얼굴 보정 → 512 배포. 머리 21·신체 126도트. 기존 이미지·승인 이력은 보존하며 생성기·동작 offsets와 배포 도구는 적용 검수 전 호환 완료로 보지 않습니다.",
+    "ground_alignment": {
+      "revision": "2026-09-28 / v1.10",
+      "reference": "기준 정지본의 접지 발바닥을 확인해 한 번 결정",
+      "target_sole_y": 303,
+      "native_target_sole_y": 151,
+      "offset_320_formula": "303 - reference_still_contact_sole_y",
+      "apply_uniformly_to": [
+        "still",
+        "all_animation_frames",
+        "parts",
+        "face_overlay",
+        "face_mask",
+        "attached_content_coordinates"
+      ],
+      "native_translation_integer": true,
+      "output_translation_multiple_of": 2,
+      "per_frame_bottom_alignment": false,
+      "preserve_airborne_feet_and_relative_motion": true,
+      "fixed_source_pivot": [
+        160,
+        304
+      ],
+      "fixed_delivery_pivot": [
+        256,
+        400
+      ],
+      "delivery_after_correction": true,
+      "record_input_version_offset_and_applied_state": true,
+      "verify_no_clipping": true,
+      "enforcement": "제작 절차 메타데이터 — 자동 보정 구현 아님"
+    }
   },
   "delivery": {
     "canvas": {
