@@ -2,12 +2,12 @@
  "image": "cook_sheet.png",
  "mirrored": "cook_sheet_R.png",
  "cell": [
-  320,
-  320
+  64,
+  64
  ],
  "facing": "left",
- "ground": 304,
- "center_x": 160.0,
+ "ground": 60,
+ "center_x": 32.0,
  "tags": {
   "idle": {
    "row": 0,
