@@ -1,0 +1,31 @@
+{
+  "stage": "concept",
+  "approval": "pending",
+  "tool": "built-in image_gen; Aseprite sizing and RGB minimum",
+  "file": "desert-fox-concept-1024x1024-v1.png",
+  "size": [
+    1024,
+    1024
+  ],
+  "has_transparent_pixels": true,
+  "alpha_values_count": 256,
+  "visible_rgb_min": [
+    10,
+    10,
+    10
+  ],
+  "bounding_box": [
+    48,
+    9,
+    995,
+    1017
+  ],
+  "sha256": "c4270ada7405400ced5291686899a341c436252bfc2b3e5aecd27ad6fbcc4edb",
+  "all_game_pixel_checks_passed": false,
+  "notes": [
+    "고해상도 외형 시안이며 160 도트 원본이 아닙니다.",
+    "알파를 보존한 최근접 크기 조정과 RGB 채널 하한 적용만 수행했습니다.",
+    "방향·6등신·도트 밀도·정확 팔레트와 접지는 도트 제작 때 별도 검수합니다.",
+    "이 시안은 최종 배포본 또는 애니메이션 승인본이 아닙니다."
+  ]
+}
