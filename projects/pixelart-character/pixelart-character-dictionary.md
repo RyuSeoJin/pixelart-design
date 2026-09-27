@@ -10,6 +10,7 @@
 
 | 용어 | 뜻 | 처음 쓰인 곳 |
 |---|---|---|
+| CQ-Ref | 필드 스프라이트(치비)의 기준 레퍼런스 세트 — 사용자가 올린 게임 화면 캡처 3장의 측정값 · 특징 | `reference/cq-ref.md` |
 | 레퍼런스 보드 | 사용자가 목표 스타일로 모은 픽셀 아트 보드(핀 33개) | `analysis/reference-board.md` |
 | 사슴 소녀 | 사용자 스케치 캐릭터 — 사슴뿔 · 지팡이 · 새 | `analysis/chibi-experiments.md` |
 | 양 전사 | 사용자 스케치 캐릭터 — 말린 뿔 · 망치 · 갑옷 | `analysis/chibi-experiments.md` |

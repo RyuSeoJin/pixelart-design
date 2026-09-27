@@ -8,14 +8,14 @@
   "antlers"
  ],
  "parts": {
-  "staff": {
-   "anchor": "hand_R"
-  },
   "hair_back": {
    "anchor": "head"
   },
   "outfit": {
    "anchor": "body"
+  },
+  "staff": {
+   "anchor": "hand_R"
   },
   "hair_front": {
    "anchor": "head"
