@@ -1,18 +1,281 @@
 {
   "schema_version": 1,
-  "revision": "1.0",
+  "revision": "1.8",
   "status": "approved",
-  "native_size": [16, 16],
-  "default_size": [32, 32],
-  "outputs": [
-    {"ui_percent": 50, "size": [16, 16], "scale": 1},
-    {"ui_percent": 100, "size": [32, 32], "scale": 2},
-    {"ui_percent": 150, "size": [48, 48], "scale": 3},
-    {"ui_percent": 200, "size": [64, 64], "scale": 4}
+  "native_size": [
+    16,
+    16
   ],
-  "resampling": "nearest",
+  "default_size": [
+    32,
+    32
+  ],
+  "outputs": [
+    {
+      "ui_percent": 50,
+      "size": [
+        16,
+        16
+      ],
+      "scale": 1
+    },
+    {
+      "ui_percent": 100,
+      "size": [
+        32,
+        32
+      ],
+      "scale": 2
+    },
+    {
+      "ui_percent": 150,
+      "size": [
+        48,
+        48
+      ],
+      "scale": 3
+    },
+    {
+      "ui_percent": 200,
+      "size": [
+        64,
+        64
+      ],
+      "scale": 4
+    }
+  ],
+  "resampling": "per_render_mode",
   "post_scale_retouch": false,
-  "alpha_values": [0, 255],
+  "alpha_values": [
+    0,
+    255
+  ],
   "visible_rgb_channel_min": 10,
-  "palette_status": "per_asset_approval_required"
+  "palette_status": "per_asset_approval_required",
+  "revision_note": "2026-09-28: 주요 오브젝트별 외곽선과 합성 후 접촉 경계 검사",
+  "display": {
+    "base_physical_pixels": [
+      32,
+      32
+    ],
+    "supported_ui_percent": [
+      50,
+      100,
+      150,
+      200
+    ],
+    "unsupported_ui_percent": [
+      25
+    ],
+    "resample_at_runtime": false,
+    "integer_screen_alignment": true,
+    "os_dpi_validation_required": true,
+    "ue_implementation_status": "pending",
+    "note": "파일 픽셀과 최종 화면 픽셀을 1:1로 맞춥니다. UI 배율과 운영체제 DPI가 중복 적용되지 않게 검수합니다. 임의 중간 배율은 보장하지 않습니다."
+  },
+  "color_modes": {
+    "color": {
+      "groups": [
+        "menu",
+        "symbol",
+        "category",
+        "ticket",
+        "emotion",
+        "order",
+        "action"
+      ],
+      "runtime_tint": false
+    }
+  },
+  "representative_gate": {
+    "ids": [
+      "cmd_settings",
+      "sym_close",
+      "icon_book",
+      "tpl_idea",
+      "order_restaurant",
+      "act_cook"
+    ],
+    "approval_required_before_full_production": true,
+    "note": "v1 대표 승인 기록입니다. 수정된 대표 아이콘은 최신 버전의 외형 승인을 별도로 받습니다."
+  },
+  "native_size_scope": "pixel_native_16",
+  "render_modes": {
+    "pixel_native_16": {
+      "groups": [
+        "menu",
+        "category",
+        "ticket",
+        "emotion",
+        "order",
+        "action"
+      ],
+      "native_size": [
+        16,
+        16
+      ],
+      "resampling": "nearest",
+      "post_scale_retouch": false
+    },
+    "geometry_per_size": {
+      "groups": [
+        "symbol"
+      ],
+      "source": "SVG 도형과 동일 좌표의 design.json",
+      "coordinate_space": [
+        32,
+        32
+      ],
+      "outputs": [
+        16,
+        32,
+        48,
+        64
+      ],
+      "method": "각 크기에서 도형을 직접 래스터화",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "antialias": false,
+      "nearest_from_16_required": false,
+      "stroke_width_at_32": 1.8
+    }
+  },
+  "ui_geometry": {
+    "symmetry_default": "vertical",
+    "symmetry_target": "외곽·주요 구조; 방향성 명암은 별도 판정",
+    "require_axis_before_drawing": true,
+    "native_axis_options": [
+      "integer_pixel_center",
+      "between_pixel_centers"
+    ],
+    "face": {
+      "native_width": "odd",
+      "native_height": "equal_to_width_for_round_face",
+      "shared_axis_for_head_neck_shoulders": true,
+      "crop_reflection_match_required": true,
+      "odd_requirement_applies_to": "native_grid",
+      "unequal_canvas_padding_max_native_px": 1
+    },
+    "angles": {
+      "primary_axes_degrees": [
+        0,
+        90
+      ],
+      "diagonal_degrees": 45,
+      "chevron_tip_degrees": 90,
+      "arrow_triangle_tip_degrees": 90,
+      "direction_variants": "90도 회전 또는 반사로 생성"
+    },
+    "hammer_default": {
+      "head": "horizontal",
+      "handle": "vertical",
+      "axes_intersection_degrees": 90
+    },
+    "asymmetry_exception_requires": [
+      "semantic_reason",
+      "component_axes",
+      "review_note"
+    ],
+    "new_asset_required_metadata": [
+      "symmetry_mode",
+      "axis_and_coordinate_space",
+      "face_regions_if_present",
+      "angle_constraints_if_present",
+      "asymmetry_reason_if_applicable"
+    ],
+    "checks": [
+      "외곽 반사 일치",
+      "얼굴 홀수 지름·정사각 경계",
+      "기준 좌표의 직각 내적 0",
+      "사선 dx 절댓값=dy 절댓값",
+      "방향별 회전·반사 일치",
+      "16/32/48/64 실물 확인"
+    ],
+    "legacy_status": "기존 전체를 새 기준으로 통과했다고 간주하지 않습니다. 목록별 ui_geometry_review를 확인합니다.",
+    "rigid_alignment": {
+      "axis_degrees": [
+        0,
+        45,
+        90,
+        135
+      ],
+      "require_points": [
+        "start",
+        "joint",
+        "end"
+      ],
+      "collinear_cross_product": 0,
+      "occluded_axis_continues": true,
+      "exposed_tip_on_shaft_axis": true,
+      "diagonal_step": [
+        1,
+        1
+      ],
+      "constant_cross_axis_width": true,
+      "joint_recheck_after_local_edit": true,
+      "curve_exception_requires": [
+        "component",
+        "reason"
+      ],
+      "checks": [
+        "중심선과 실루엣 검토판",
+        "네 크기 실제 출력",
+        "접합점·끝점 공선성",
+        "축을 따른 명암",
+        "매입된 날과 전경 나무 겹침"
+      ]
+    },
+    "viewpoint": {
+      "default": "side_orthographic",
+      "exception_condition": "다른 시점에서 용도와 대상이 더 직관적으로 읽힐 때",
+      "required_metadata": [
+        "view",
+        "reason"
+      ],
+      "example": "ORDER_RESTAURANT는 접시와 음식이 읽히는 위쪽 시점을 허용합니다.",
+      "connected_parts_share_projection": true,
+      "legacy_review": "개별 수정·검수 시 적용하며 기존 파일을 자동 승인하지 않습니다."
+    },
+    "material_readability": {
+      "pickaxe_metal_fill_in_both_arms": true,
+      "last_tip_pixel_may_be_outline": true,
+      "wood_tip_on_shaft_axis": true,
+      "wood_color_not_on_cutting_edge": true
+    }
+  },
+  "outline": {
+    "default_color": "#342D46",
+    "alpha": 255,
+    "pixel_native_width": 1,
+    "pixel_output_widths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "geometry_stroke_width_at_32": 1.8,
+    "geometry_output_strokes": [
+      0.9,
+      1.8,
+      2.7,
+      3.6
+    ],
+    "geometry_width_note": "기존 도형 방식의 중심선 기준 폭이며 래스터 가장자리 픽셀 수와 같지 않습니다.",
+    "continuity": "외곽은 끊김 없이 둘러싸고 계단 대각선의 모서리 접촉을 허용합니다. 의도하지 않은 투명 틈은 금지합니다.",
+    "junction": "같은 물체의 접합부는 공통 경계 한 줄만 남깁니다. 겹치는 물체는 전경 외곽선을 우선합니다.",
+    "interior": "내부 구분선은 외곽선보다 굵게 만들지 않습니다. 명암을 위해 외곽선을 지우지 않습니다.",
+    "roster": "머리 하단과 몸 상단은 하나의 어두운 경계를 공유합니다. 길게 드러난 목 또는 투명 간격을 두지 않습니다.",
+    "exceptions": "색·두께·열린 형태 예외는 이유와 적용 부위를 목록에 기록하고 검토합니다.",
+    "legacy_review": "미검수 기존 아이콘은 자동 통과 처리하지 않습니다.",
+    "object_overlap": {
+      "outline_objects_before_compositing": true,
+      "front_boundary_native_px": 1,
+      "hide_occluded_back_outline": true,
+      "avoid_double_boundary": true,
+      "check_object_contacts_not_only_alpha_boundary": true,
+      "scope": "별도로 식별되어야 하는 주요 대상; 같은 물체의 미세 명암은 제외"
+    }
+  }
 }

@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "changed_pixels": [
+    [
+      8,
+      3
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      10,
+      4
+    ]
+  ],
+  "wood_tip": [
+    9,
+    4
+  ],
+  "unchanged_outside_tip": true,
+  "art_approval": "pending"
+}

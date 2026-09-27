@@ -1,0 +1,63 @@
+{
+  "revision": "1.0",
+  "faces": {
+    "cmd_recruit": {
+      "center": [
+        7,
+        5
+      ],
+      "diameter": 5
+    },
+    "cmd_roster": {
+      "center": [
+        8,
+        4
+      ],
+      "diameter": 7
+    },
+    "emote_happy": {
+      "center": [
+        8,
+        8
+      ],
+      "diameter": 13
+    },
+    "emote_unhappy": {
+      "center": [
+        8,
+        8
+      ],
+      "diameter": 13
+    }
+  },
+  "reflection_axes": {
+    "cmd_recruit": 7,
+    "cmd_roster": 8,
+    "emote_happy": 8,
+    "emote_unhappy": 8
+  },
+  "hammer": {
+    "head": [
+      8,
+      4,
+      7,
+      4
+    ],
+    "handle": [
+      10,
+      6,
+      3,
+      9
+    ]
+  },
+  "geometry_ids": [
+    "sym_prev",
+    "sym_next",
+    "sym_up",
+    "sym_down",
+    "sym_play",
+    "sym_fold_closed",
+    "sym_fold_open"
+  ],
+  "basis": "사용자 지정 홀수 얼굴·좌우 대칭 우선·일자 망치·직각 화살표"
+}

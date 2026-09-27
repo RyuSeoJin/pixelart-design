@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "modified_pngs": 4,
+  "size_alpha_rgb_nearest": true,
+  "outer_boundary": true,
+  "blade_stump_boundary_one_pixel": true,
+  "wood_tip_preserved": true,
+  "visual_approval": "pending"
+}

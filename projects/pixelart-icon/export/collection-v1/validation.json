@@ -1,0 +1,3049 @@
+{
+  "revision": "1.0",
+  "status": "passed",
+  "native_count": 66,
+  "output_count": 264,
+  "representative_approval": "approved",
+  "remaining_60_art_approval": "pending",
+  "ue_runtime_validation": "pending",
+  "assets": [
+    {
+      "id": "cmd_edit",
+      "visible_colors": 1,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/cmd_edit/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "0194ed8b14ee854a12e1d791a820b626b525be3618fef6eb798f7ef54a5fed97"
+        },
+        {
+          "path": "export/cmd_edit/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "0f0b77904e3a3085be3388557b2779d15ce2855fa60b5cb1d3e2ca3d68171ee3"
+        },
+        {
+          "path": "export/cmd_edit/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "f52159d9c5ece5d31f14747be93b9d1788f41df3c045241bfccdc195c2117431"
+        },
+        {
+          "path": "export/cmd_edit/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "8643a9dc8a154b750fb5ddffe37975af6c07992db534a6992ffda36ff2d678dc"
+        }
+      ]
+    },
+    {
+      "id": "cmd_monument",
+      "visible_colors": 1,
+      "native_bbox": [
+        3,
+        1,
+        12,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/cmd_monument/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "d2b8e379ca2df6a80b751ade4236d040cc8935e27add836049b9b92ba0bf171f"
+        },
+        {
+          "path": "export/cmd_monument/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "fc878e5daba6aba4e6b14076b1238907a725532a883b7f4d7ffa3535c9aa1d85"
+        },
+        {
+          "path": "export/cmd_monument/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "f291fa11b98209f861055312f0afc805558090d318c47a5d0e3dd1d99f516828"
+        },
+        {
+          "path": "export/cmd_monument/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "236187475b3b0136ee05e9b864df05073f3fd11dde6cb43bce307d2d5852ce64"
+        }
+      ]
+    },
+    {
+      "id": "cmd_recruit",
+      "visible_colors": 1,
+      "native_bbox": [
+        2,
+        2,
+        15,
+        13
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/cmd_recruit/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "da273c4ca8da003f3f9536d6b5ced51bd2381ba4aade1d841ed5985da5629635"
+        },
+        {
+          "path": "export/cmd_recruit/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "2315b75f238ad496f373e17c72d713268e7b6fc667b0f3dc55c05077487dc691"
+        },
+        {
+          "path": "export/cmd_recruit/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "a3b1e7f51353358235d5961192d9b3b878fb709d01fb3b51c650ab626c4b6ccd"
+        },
+        {
+          "path": "export/cmd_recruit/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "12742fc0d6e91b73e9638219dc0784c00de45ac5ed4807b054d87eb69bdd4a56"
+        }
+      ]
+    },
+    {
+      "id": "cmd_roster",
+      "visible_colors": 1,
+      "native_bbox": [
+        1,
+        3,
+        14,
+        12
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/cmd_roster/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "b8a2f0eb68683b2b5df9c2acbefbe4a1b1180cbe38dd81007ba093ab87ea4a60"
+        },
+        {
+          "path": "export/cmd_roster/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "1d9756733134f9d31e81f57b1574f792f5d66d084f47d4acea2627e11b9cad01"
+        },
+        {
+          "path": "export/cmd_roster/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "bec979439fa0f3ba65ba579fc9481bb4d68e4b1b45b441f3578e5f9a3ea0f9c5"
+        },
+        {
+          "path": "export/cmd_roster/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "246e155b1a90858979abffa66b9a995acbb7fa9dbb520e70dfb03120d591fd3b"
+        }
+      ]
+    },
+    {
+      "id": "cmd_ticket",
+      "visible_colors": 1,
+      "native_bbox": [
+        2,
+        4,
+        14,
+        12
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/cmd_ticket/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "151e061df2951095c19823dcc82cb7b77512246d3d68722a6c50914a0eedebe8"
+        },
+        {
+          "path": "export/cmd_ticket/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "b78b5b0e6b452b233f7e9f9e8a9d4b4466df29973a4d056fe38178e80d91a69a"
+        },
+        {
+          "path": "export/cmd_ticket/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "d6bf195fd47fa3b0973c8cc431f8baeb887051c7eb8b5a8a2a3de52578d7a324"
+        },
+        {
+          "path": "export/cmd_ticket/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "bc4db9d3663f10b097b3682927dbb9325c7cecbd268c465a71533a2d7cf910fa"
+        }
+      ]
+    },
+    {
+      "id": "cmd_multi",
+      "visible_colors": 1,
+      "native_bbox": [
+        2,
+        3,
+        15,
+        13
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/cmd_multi/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "bc58b870909ac8ef7ebede5a31e0e325e9595f56dcc4f657126165966d89a49d"
+        },
+        {
+          "path": "export/cmd_multi/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "97e249d256561c282311f0a836065f06c148f5456a347b8b7c797e566c0a79e1"
+        },
+        {
+          "path": "export/cmd_multi/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "69ab61c9c43597a70524f79b296d4e20d1ca37696ad49443f2be8cb867c04ec0"
+        },
+        {
+          "path": "export/cmd_multi/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "badb3dcf7f95247b8a0ff6a767647e048bcd0bf7465067c9f245aaaf683902d8"
+        }
+      ]
+    },
+    {
+      "id": "cmd_settings",
+      "visible_colors": 1,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/cmd_settings/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "b42c695f55c55ab79122019a78ba26094d3d5d449f4f619a8be7682fa24c8a2f"
+        },
+        {
+          "path": "export/cmd_settings/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "15716580c4eb3d90a4bc96d78f59ec0f90097b2d321e8c18ebeb235f53ba3842"
+        },
+        {
+          "path": "export/cmd_settings/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "38cf16b9c26a1b24f6620380e5ced16cb3393b7bcfd68cb14e1d64b6ae7de084"
+        },
+        {
+          "path": "export/cmd_settings/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "78c49d54dae7c13e43e01ce6ed958fb265274a06644121df1491c8619fae3a2d"
+        }
+      ]
+    },
+    {
+      "id": "cmd_trash",
+      "visible_colors": 1,
+      "native_bbox": [
+        2,
+        1,
+        14,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/cmd_trash/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "dc714ac226c78fabe22cd2bf87c2ab0bdbdbd454bdcb85a458e76608f144fbb7"
+        },
+        {
+          "path": "export/cmd_trash/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "79cc889b3cad05be72e092862e512a2c75ebce21136d3bfb9c2500766aaa65d0"
+        },
+        {
+          "path": "export/cmd_trash/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "07e9656e8a9942431575500bfda85c2dd3e7ad440b44cb3ee495911494d8671f"
+        },
+        {
+          "path": "export/cmd_trash/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "58c583b6e7340774b1bfdb1f1ceaf3c0fcac1340ae87f2b062b71a8e04f62e33"
+        }
+      ]
+    },
+    {
+      "id": "cmd_guide",
+      "visible_colors": 1,
+      "native_bbox": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/cmd_guide/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "fb1b62f8018345863d103de60e72e1a3221452cfc895fb68454e6d4ea0920732"
+        },
+        {
+          "path": "export/cmd_guide/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "8cda2cad944fa20ecec796241d5af2a58e0734b01d6b1cc86d297c440acca97d"
+        },
+        {
+          "path": "export/cmd_guide/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "758dd9dc19399e8a0bd188c994d022d25b553d4c8d677b6c3f683d4cd30201ae"
+        },
+        {
+          "path": "export/cmd_guide/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "2ddd44b4f3594f8d36d8a273867e4c0d44e55dd7e1bf0c724950cdf5f32505fb"
+        }
+      ]
+    },
+    {
+      "id": "sym_edit",
+      "visible_colors": 1,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_edit/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "96046a9d32302424e9a195e2db0d58866776893ad6a8f7776af34cde8d654d53"
+        },
+        {
+          "path": "export/sym_edit/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "43b645982424797f76adadcf783be7cf17240a178b5d50035b14df4819766a80"
+        },
+        {
+          "path": "export/sym_edit/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "b4564fd1973a8b9cddda67ad9306561a6a7331e2e3607e1f5aef8355799d4097"
+        },
+        {
+          "path": "export/sym_edit/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "bf0da0c53e78711c48527777bf374eb87339f2e7b980f388cf37041a00fe4c17"
+        }
+      ]
+    },
+    {
+      "id": "sym_close",
+      "visible_colors": 1,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_close/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "531b9b26bb9c1d0a7bebf738cf57dff559c33ef5f13dfd1329fefbad1e5292a7"
+        },
+        {
+          "path": "export/sym_close/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "0783920b957de529ca881bc535bfcc834aa2769db05f237022698fdb11a2af02"
+        },
+        {
+          "path": "export/sym_close/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "3934f7e515234a54a5d81ae755bd40a338f8b86bde30983ecb4d22ff9b8053e2"
+        },
+        {
+          "path": "export/sym_close/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "9ee7f31c29b7e36bd381b5d60ab37129d3aa182d6db9fcbe9e3615d0118dffa2"
+        }
+      ]
+    },
+    {
+      "id": "sym_play",
+      "visible_colors": 1,
+      "native_bbox": [
+        4,
+        2,
+        10,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_play/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "5319066fd19a53ce7b2b0ebdd5617684df4ef962128102becc973954030d8457"
+        },
+        {
+          "path": "export/sym_play/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "3dd59e915908487a060d842fdcec6cdd8e6548ef1756dc76132cdff482189d87"
+        },
+        {
+          "path": "export/sym_play/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "10d2c61cc16f7170a170360162cd06d501c29690ca6ee4ce0d58fca8bd8f4e98"
+        },
+        {
+          "path": "export/sym_play/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "48c37f9508fda0e9bae0d4322716ecfa791eb84369406994921095efa6a83437"
+        }
+      ]
+    },
+    {
+      "id": "sym_stop",
+      "visible_colors": 1,
+      "native_bbox": [
+        3,
+        3,
+        13,
+        13
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_stop/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "a38ee61fd54f9b08665e16719c5d4e2216db98ac06780c4f2f52e76bff870692"
+        },
+        {
+          "path": "export/sym_stop/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "cbcc63febf7df58944f7254d03c69a97d790513d85ad8752ee9c749fdd93e9dd"
+        },
+        {
+          "path": "export/sym_stop/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "f94dc359126d98e4bb9146c076a50d4659790f44b666be25618c3afca6d27385"
+        },
+        {
+          "path": "export/sym_stop/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "62ce60c9b00ec4557bfcd8ebdf98427c73fd098260081c15b2a5a074b095b309"
+        }
+      ]
+    },
+    {
+      "id": "sym_prev",
+      "visible_colors": 1,
+      "native_bbox": [
+        4,
+        2,
+        11,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_prev/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "0c30b0728505d9ce826c092225b60d68c91000b077aae8d1098c65a8eb2d5921"
+        },
+        {
+          "path": "export/sym_prev/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "b52819687c174a188cdab880960d5b547995ff2877e3f1ef8dc245b1e0fb1090"
+        },
+        {
+          "path": "export/sym_prev/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "1725638f0a534739a9afc119d4e936c13ff80765867dd858bcd28af6f8af9227"
+        },
+        {
+          "path": "export/sym_prev/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "42b0989f8cd4a8a4fe6beb5ac53d7f5fcc24e63acdfc2b737abe21a8e761b07b"
+        }
+      ]
+    },
+    {
+      "id": "sym_next",
+      "visible_colors": 1,
+      "native_bbox": [
+        5,
+        2,
+        12,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_next/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "444cd79d5d54726ffd6dc346f48d5fd580cb192b82bc7a755ee567d9d1b094d4"
+        },
+        {
+          "path": "export/sym_next/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "bed95ce21d04c18d9644f5419b35c939e5d3eed7429da0d54c6f69b69521503a"
+        },
+        {
+          "path": "export/sym_next/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "8c3ef854787ce6450dac346400635c8c1d5bb610b6e837efb3d6b85eebb51e6d"
+        },
+        {
+          "path": "export/sym_next/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "6e72dbd65dfbcb47fe8ad67783fb29d04f4113279dad6ec602660ebdf5c60224"
+        }
+      ]
+    },
+    {
+      "id": "sym_up",
+      "visible_colors": 1,
+      "native_bbox": [
+        2,
+        4,
+        14,
+        11
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_up/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "4a5165aff6de6a0ca49999c3c4f292c7d36444df2e3797fc0ae21ad4516b6316"
+        },
+        {
+          "path": "export/sym_up/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "55e16669a3af81184f09dc1ca740811608a98328b80e43d1ff1590599bf95034"
+        },
+        {
+          "path": "export/sym_up/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "b0b2e6086e73e74066ba9a7a3ab7484b96ca365d6d0d88de1f7f17569fcc9c33"
+        },
+        {
+          "path": "export/sym_up/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "d51dedf49b15a939125066f0594a80a3438bff80193c1e98cd5258604bed7d63"
+        }
+      ]
+    },
+    {
+      "id": "sym_down",
+      "visible_colors": 1,
+      "native_bbox": [
+        2,
+        5,
+        14,
+        12
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_down/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "ca3173d13eaad6a1ca1330b095252b8b8021abc52e407bf221f47e00910abb6f"
+        },
+        {
+          "path": "export/sym_down/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "19fccb93c32c1e6094a4fc97398259eef59d8b6a834403a253bc4d5b94c43404"
+        },
+        {
+          "path": "export/sym_down/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "67f91d8f58f958c8d9868b4b1c3753562daf5cce44784c5c965d208e5c73de80"
+        },
+        {
+          "path": "export/sym_down/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "0014b22627e043cbd9802ddde524f40850d1e81f71be4a7371b614d0ca6e8065"
+        }
+      ]
+    },
+    {
+      "id": "sym_expand",
+      "visible_colors": 1,
+      "native_bbox": [
+        3,
+        3,
+        13,
+        13
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_expand/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "350e0f019e6111f90d3306e8777747fe8c5b304ecf2a90ebe58c72bdbf30fe57"
+        },
+        {
+          "path": "export/sym_expand/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "921fd2972bdb4a015cc83456b0eb7b96699a8e486770e07a9fd093fd5527e8ec"
+        },
+        {
+          "path": "export/sym_expand/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "7c4d8042638c7ebb48b675b0704a3172382f812f43afae99c032a9e9e85862ef"
+        },
+        {
+          "path": "export/sym_expand/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "d3d6b24530022023b72fee933964f5906bd0f75837228ba6e49c3b886936e946"
+        }
+      ]
+    },
+    {
+      "id": "sym_collapse",
+      "visible_colors": 1,
+      "native_bbox": [
+        3,
+        7,
+        13,
+        9
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_collapse/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "64607927940981ab8d83c502ccab8c489a83189819a62d4ac6532a6c83608cd4"
+        },
+        {
+          "path": "export/sym_collapse/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "cdf1f5b286788ef735782823b4d910ed2c4ff221cddcbf3083bd441ce4b5c509"
+        },
+        {
+          "path": "export/sym_collapse/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "41e232d6cb46f10df405bf8432df2d0e10e7ed0f045d637377ee52f7ed73f687"
+        },
+        {
+          "path": "export/sym_collapse/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "90cf72d3246833408292bd2418a538b0189ea93f9714a7bb0b3e3b1c7dc950a7"
+        }
+      ]
+    },
+    {
+      "id": "sym_check",
+      "visible_colors": 1,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_check/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "149d618cae2f0f5d92459605f2bcaa0d05f5184508aa4253adf9a3ccf18d6019"
+        },
+        {
+          "path": "export/sym_check/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "57f7c6eddad434181c7acf3ed58a75c2655c41f8b067efc7cde77191e6565728"
+        },
+        {
+          "path": "export/sym_check/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "f5242a74346c1f8d408ac48288890b81fb825f18f37f1c1630bc1a8f5517dbae"
+        },
+        {
+          "path": "export/sym_check/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "569061dcb0b8773538ec720b48f8ac8b374c38b6c2e68c8d1471194d12962e09"
+        }
+      ]
+    },
+    {
+      "id": "sym_fold_closed",
+      "visible_colors": 1,
+      "native_bbox": [
+        6,
+        4,
+        10,
+        12
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_fold_closed/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "82fc30646380eca4097f3bd6fee8116a4759722a775dd6974b5a6488338378d2"
+        },
+        {
+          "path": "export/sym_fold_closed/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "3843f90de193c08ad59fb2e10a2393170f53fe2fb7bb23bce3b571e077cfd5d2"
+        },
+        {
+          "path": "export/sym_fold_closed/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "f8176895a4dba952e5b44a4a71c90cba3d4b7fe3f7815ec93e774595ef4526ef"
+        },
+        {
+          "path": "export/sym_fold_closed/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "0367c88f583198430b2423f9c5c2025a75de28fe0cebb6eb2f99001a42a84e2e"
+        }
+      ]
+    },
+    {
+      "id": "sym_fold_open",
+      "visible_colors": 1,
+      "native_bbox": [
+        4,
+        6,
+        12,
+        10
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_fold_open/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "37d4f36cb95527498f42707de183e68f390694f892058c0defcd8c20c1dbedea"
+        },
+        {
+          "path": "export/sym_fold_open/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "b8b1889355742bbaa5258bec8ce5156eb5a303d5996bc570372c761fe4e61930"
+        },
+        {
+          "path": "export/sym_fold_open/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "0d5f6d94f9ec7b4a32d6f4c53332459b51d0d8d360c75aa7e3eee299fce6a690"
+        },
+        {
+          "path": "export/sym_fold_open/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "dd2462c3fa733e79f16f40332af38c5bdc4c65935b65157555f661c239d0c9aa"
+        }
+      ]
+    },
+    {
+      "id": "sym_star",
+      "visible_colors": 1,
+      "native_bbox": [
+        1,
+        2,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/sym_star/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "020fd8f30222f58fdb520c3c283efa2b43753634413c99f1d645e1db4bfe046b"
+        },
+        {
+          "path": "export/sym_star/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "782c8fe9fda2e4162cfd0bc9baf4915b6151b716ece5372c770ea38fea0b724a"
+        },
+        {
+          "path": "export/sym_star/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "c20d6b36b80e5eb9d2827e144acae70fa5755c6fca7d4eff3606be77069f63f7"
+        },
+        {
+          "path": "export/sym_star/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "3b4a73120f7c04dad6dad733e91deb09473a960e87131928f3f48abe2a669885"
+        }
+      ]
+    },
+    {
+      "id": "icon_book",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/icon_book/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "7a924bc4c0a0d5f90e4c0788da6c12edd1b392c2390bd0deb1a85b215ba55fd8"
+        },
+        {
+          "path": "export/icon_book/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "043a06e420fe9d26624cfdc3ac0d2f9b8a7b1fdf1959f0206ee99a09ae82ef69"
+        },
+        {
+          "path": "export/icon_book/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "533c0f579eb495e2aeb2d02fb28c6a936e0faba1a4992500657be3a17ea5d887"
+        },
+        {
+          "path": "export/icon_book/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "a128306ff01fed731ecf45602c3e780f1bef841f9e02a7cdc67fbef692ae6229"
+        }
+      ]
+    },
+    {
+      "id": "icon_code",
+      "visible_colors": 6,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/icon_code/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "df6c81b2edc568ae3b298cba506bca38b269cc03c671118f6893de9ae0b497be"
+        },
+        {
+          "path": "export/icon_code/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "a50abd32e7b76995930106007f6d4953708625101cadcaafe59cc5b4a353df58"
+        },
+        {
+          "path": "export/icon_code/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "afa6e967c3413049e048dea78f611dbfc28c083e3f807555b1af248eb1cb0337"
+        },
+        {
+          "path": "export/icon_code/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "102dc2693bbe1e36822512a0f01ce6c4e526dc4e26981f3ecfc3583e78ad5700"
+        }
+      ]
+    },
+    {
+      "id": "icon_run",
+      "visible_colors": 6,
+      "native_bbox": [
+        1,
+        2,
+        15,
+        13
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/icon_run/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "890819a0d6997cb330ac50bff736c9b858c39ced28a3aa679d4542b6e47d8241"
+        },
+        {
+          "path": "export/icon_run/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "a19eb94fa7b933d19d4a6b8dd4cdce368bfbd5a34c37bedb4471d36a60dcc149"
+        },
+        {
+          "path": "export/icon_run/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "898a7a42151a8d65d635da600c54d5a131851f8fc94ef38c17caad15cafe34dc"
+        },
+        {
+          "path": "export/icon_run/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "2c244954589555f19c1afbaf355454d93d267eacadc43ffda9c83ed570541390"
+        }
+      ]
+    },
+    {
+      "id": "icon_art",
+      "visible_colors": 8,
+      "native_bbox": [
+        1,
+        2,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/icon_art/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "82588ba149835c33d4ff6a886f321e21800b188f287c3afca8c157f0cc3910a6"
+        },
+        {
+          "path": "export/icon_art/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "3ee6f6956ed38450e54d59facb872f77d854b57a59dbf371bfa7759a8d54ff76"
+        },
+        {
+          "path": "export/icon_art/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "78458d7987e6a6c1d14a653830812146dc480ee57581dbc33ed892d63f62c710"
+        },
+        {
+          "path": "export/icon_art/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "4095055ea6d9609b2b696c6dcb25722495ec8542df77ab343c41be8f844f41bd"
+        }
+      ]
+    },
+    {
+      "id": "icon_music",
+      "visible_colors": 5,
+      "native_bbox": [
+        2,
+        1,
+        13,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/icon_music/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "4075d684ff02bae6088d1ed9e193bff74e898f0e33297f7c087f7fec8fc5caa9"
+        },
+        {
+          "path": "export/icon_music/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "e326e81ccc84ce990926ea9feb0147368a69ad8cbe8502602ad6aeeeae3f2e88"
+        },
+        {
+          "path": "export/icon_music/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "8cf31cfd581a9682b9c6c5632f42bd72e294bf3c195d16a5c0e9ca3834d75eff"
+        },
+        {
+          "path": "export/icon_music/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "4a022fea0377128c08dc86298846058c63acc69af7f70f844b546d0ebfe1ba00"
+        }
+      ]
+    },
+    {
+      "id": "icon_lab",
+      "visible_colors": 8,
+      "native_bbox": [
+        2,
+        1,
+        13,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/icon_lab/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "9bb7870590d11be7f3cfbe9ed844f0cb99c23902141d95f2585606109fcd178d"
+        },
+        {
+          "path": "export/icon_lab/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "6426d2ee3d445a98287cf8121a6a192e1554a9fa6ef05055db58aafc1445bc07"
+        },
+        {
+          "path": "export/icon_lab/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "707c5b4a3030a081870bb875903464dc592519dee133c7dcb80773dc46ba9e28"
+        },
+        {
+          "path": "export/icon_lab/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "67f73d341bbdc9e74d03ca61cb8d454e5d14a91353359ba812b2cfd5344830e0"
+        }
+      ]
+    },
+    {
+      "id": "icon_write",
+      "visible_colors": 4,
+      "native_bbox": [
+        2,
+        1,
+        14,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/icon_write/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "2fc6124404447e6c83d6a388965445998bea1ec67734f7f4822fa308c858e286"
+        },
+        {
+          "path": "export/icon_write/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "278867fef0d97883bf8f20537a0d17502abd74a084f099940d0f522b211c328d"
+        },
+        {
+          "path": "export/icon_write/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "29b7ea3c94428c1c2f8dc43d287a3b4de06de6ca91dbcc5daf602866731d6c8a"
+        },
+        {
+          "path": "export/icon_write/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "faa2222e6c384d238d065b2d46373e4133193af9bb230c62369c73333fda9280"
+        }
+      ]
+    },
+    {
+      "id": "icon_folder",
+      "visible_colors": 5,
+      "native_bbox": [
+        1,
+        2,
+        15,
+        13
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/icon_folder/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "c9b19254cc5ece451b708546923636fe7e4f047e06fea0b4372750e16fe7bfa5"
+        },
+        {
+          "path": "export/icon_folder/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "0c8f9335964871f12e8f46e8b66b337ecac1cb0b04423d35e2bff8f3b5f3c41a"
+        },
+        {
+          "path": "export/icon_folder/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "55f48d92e083ff6a20fccb4f4d0abd62e4077941537b19378b17ddf820c55e7a"
+        },
+        {
+          "path": "export/icon_folder/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "02aae02f0926d220b66a1c50f768ca06876287833da1f4de1a5ba8dc87e4da2d"
+        }
+      ]
+    },
+    {
+      "id": "icon_meditate",
+      "visible_colors": 8,
+      "native_bbox": [
+        1,
+        2,
+        15,
+        13
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/icon_meditate/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "ece9db6fdf81ac3a82697acc1a9ccfbb6f42a74251a81ff8552ba01086205153"
+        },
+        {
+          "path": "export/icon_meditate/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "33fcac8c1d3437c2bc563020cc51a101f4ce02afbab5a506afd5c9e709960b41"
+        },
+        {
+          "path": "export/icon_meditate/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "732ea9a6859f402ffbe10e3cff5f4167b455c336248781375d5ad98db5a2f3de"
+        },
+        {
+          "path": "export/icon_meditate/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "d4b96a08ac5cdfa4a7543217ad5678c61299c3e5c783117c3b098fa621959653"
+        }
+      ]
+    },
+    {
+      "id": "icon_cook",
+      "visible_colors": 5,
+      "native_bbox": [
+        1,
+        2,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/icon_cook/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "1b2c11b96280b0758bde1077afbbc80bbb74a701dd9161cf8d4ae0587a92cdf1"
+        },
+        {
+          "path": "export/icon_cook/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "cc5ca4defc654ec0fd9ec4ca4abb088eeeba1594f1f20708a4ad25b73826e381"
+        },
+        {
+          "path": "export/icon_cook/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "c39c07965728ef07a657969a9e7455cbf196e2a849175cf3736d80f90080bdcc"
+        },
+        {
+          "path": "export/icon_cook/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "fed7f031276e35d50cc37900a2558d1f6ce1938850d9701b6b7d84813e474b54"
+        }
+      ]
+    },
+    {
+      "id": "tpl_issue",
+      "visible_colors": 5,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/tpl_issue/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "9984d2a8f2c990dba5a9b4080b4d0e5bcf8bc6416bb5dad600b1afe52b7722d8"
+        },
+        {
+          "path": "export/tpl_issue/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "2775e8f2aee01902aad4faab004c24d4af87c443644282036dd1c7a093a6f8a8"
+        },
+        {
+          "path": "export/tpl_issue/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "7328c306dfa1dbd52f4970a6f3c424666c4af708bfa513f096500881d9e58a48"
+        },
+        {
+          "path": "export/tpl_issue/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "226148c7cdd77e34432015838f72f2b150acbf9cc2e1474926a6a8dd4a3dbf26"
+        }
+      ]
+    },
+    {
+      "id": "tpl_todo",
+      "visible_colors": 7,
+      "native_bbox": [
+        2,
+        1,
+        13,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/tpl_todo/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "651cac30e8d09464378852ef6e25deec6c00ca3cb12f9ccedfb1936bb330ac40"
+        },
+        {
+          "path": "export/tpl_todo/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "bf368b449c9c20e4e942fa97d35b774dbf95fb41c404f7e3f61745caa6f9e508"
+        },
+        {
+          "path": "export/tpl_todo/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "c6bbfa59a59b03adafb44eb1bb6d2aef77664837c27686f5876db2cb71dcad48"
+        },
+        {
+          "path": "export/tpl_todo/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "ef3907d6eb7a4a5e428e0e8094b6458ad8e57140bbe7c29234cacb302acaa063"
+        }
+      ]
+    },
+    {
+      "id": "tpl_idea",
+      "visible_colors": 7,
+      "native_bbox": [
+        2,
+        1,
+        13,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/tpl_idea/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "7ca4a8f5b82b297aec936392262891bacb1ebdebad6b0a76158fddc272170edf"
+        },
+        {
+          "path": "export/tpl_idea/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "36dc0f22e8e899d8594539ac03296a2decf77fec45a793f70aae98e899e2fc7c"
+        },
+        {
+          "path": "export/tpl_idea/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "bd7dbce130958757a4cc7f4cd9a731df7918e94c41d4d155bd97b4ff14b79689"
+        },
+        {
+          "path": "export/tpl_idea/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "fd08aba7aadbfa7437b3483f776b9c1ac668c685d9461331ce4300815000c9b0"
+        }
+      ]
+    },
+    {
+      "id": "tpl_retro",
+      "visible_colors": 6,
+      "native_bbox": [
+        1,
+        2,
+        15,
+        13
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/tpl_retro/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "96ddccbe58d35f4b3a01f265f9cdfc74c1b6228b755409086dc21ec73476f00c"
+        },
+        {
+          "path": "export/tpl_retro/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "de2ded33adecd5eaecfc3c082efbd0c0e499576e27d0e1e90e2fe1600708ca93"
+        },
+        {
+          "path": "export/tpl_retro/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "b765a0c123564927e860728ec2a4006612e64ad0d0bea2860392c88d4afb2a33"
+        },
+        {
+          "path": "export/tpl_retro/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "3b2b77aacdbd132341dac8e2f916bbb9d04dcdf6c114f4ec3a2d6c1a8b883ac7"
+        }
+      ]
+    },
+    {
+      "id": "tpl_ticket",
+      "visible_colors": 5,
+      "native_bbox": [
+        1,
+        4,
+        15,
+        12
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/tpl_ticket/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "054d96c9cb7cab7f1c7bdb209684c4cef8a19119d050cb2b416b3f951edeab42"
+        },
+        {
+          "path": "export/tpl_ticket/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "28306ade040076c04d3355969ef13e8128415de1c80ac3f15a7a3dd93468e56a"
+        },
+        {
+          "path": "export/tpl_ticket/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "e862ab7b6ef30ea81511b727bf5b10f9c5c0f5b6d33a71373d84a8baa6a0c198"
+        },
+        {
+          "path": "export/tpl_ticket/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "7c208a8778a45c8226d4fcbca7ea0bde76c59361f4ede5330d57c63ffb5adc94"
+        }
+      ]
+    },
+    {
+      "id": "emote_happy",
+      "visible_colors": 4,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/emote_happy/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "77439d970d1cc635925b640e363f3d53532e52a8ac2f965e3a9051e97fd4b960"
+        },
+        {
+          "path": "export/emote_happy/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "8b3a0751ca2e0ccfdd9a184722c53b43dc9bac84620e14f95a41f91e480f784a"
+        },
+        {
+          "path": "export/emote_happy/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "facdde305bcb9f3a6181792a76bcc1597db1caa72cec201989f5d4236e9265f0"
+        },
+        {
+          "path": "export/emote_happy/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "5813e9b73ce66d65bb5bebd196bec7256a865cb24a070f2f90173b4aa3d79d93"
+        }
+      ]
+    },
+    {
+      "id": "emote_unhappy",
+      "visible_colors": 4,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/emote_unhappy/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "92dad391ae5d46fdc494012ab0cc235cae8fcc423b7959c18f8437be09715486"
+        },
+        {
+          "path": "export/emote_unhappy/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "06cf1d33c0401d328edd71c2d380ceb4fcb3d955685e4c50ee01809caa290d21"
+        },
+        {
+          "path": "export/emote_unhappy/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "52514c696e7581591dfcc3580221e6206e93581c5d29d720935349c5e8fa7443"
+        },
+        {
+          "path": "export/emote_unhappy/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "cfeae6078fa9e81d070f8a0f0bd8ead341943c8defb1c26f766ce3e08a114915"
+        }
+      ]
+    },
+    {
+      "id": "order_restaurant",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        4,
+        15,
+        12
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_restaurant/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "ee04da342018dd50d29c0cd84a9346bc323d37e0e4698288b04b216d071dc107"
+        },
+        {
+          "path": "export/order_restaurant/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "7c62f97fb831a3d42533ff4bc3a33ce5d989183af2449c69a95d1e9ca733e78b"
+        },
+        {
+          "path": "export/order_restaurant/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "3fb4a761e36f2a8c54c10860cd796972563e71fc39bd4aa3de409e95d1770a5b"
+        },
+        {
+          "path": "export/order_restaurant/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "206b8b913246308be7a4cfb0b99b0962df5763d7e5c4f82c4f700ede81528131"
+        }
+      ]
+    },
+    {
+      "id": "order_stall",
+      "visible_colors": 6,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_stall/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "d496fbf52f20402b7a766481624fe823054dbb056ebe202bd095ee1a5e41f658"
+        },
+        {
+          "path": "export/order_stall/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "33ccb9c9dc1b949a52853271d0085a6af93dc341284869aed2df7000fdb5b036"
+        },
+        {
+          "path": "export/order_stall/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "bad0c91b1f3840e2ff31237046fb44f2799bc0fbc75615a65bc424dd11ba8923"
+        },
+        {
+          "path": "export/order_stall/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "4c68efe39183d8f65815d4a866665482f83349df294452ebb7716d0d4ac8e138"
+        }
+      ]
+    },
+    {
+      "id": "order_store",
+      "visible_colors": 5,
+      "native_bbox": [
+        2,
+        1,
+        13,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_store/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "0e8ab6f0b11f0482e46f57845e349242fb03810fe4011a33584f6c205d82a65c"
+        },
+        {
+          "path": "export/order_store/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "2b1d4689480fb4da7e672d55f07c2e49f88e5337c2fb98c372f4d06a6f86d65d"
+        },
+        {
+          "path": "export/order_store/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "95e03a9887b4789af081695bbba6af1adb867ad11516820c22383146cdf38026"
+        },
+        {
+          "path": "export/order_store/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "44ce4ef497d26de5af245a8d2222084112125a2ea34187c28eeffab3e5cebcc6"
+        }
+      ]
+    },
+    {
+      "id": "order_blacksmith",
+      "visible_colors": 8,
+      "native_bbox": [
+        1,
+        1,
+        14,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_blacksmith/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "f6fd0cc958d0baab92de6a2608cf766f59734d19a5f56cb512a7972568184e06"
+        },
+        {
+          "path": "export/order_blacksmith/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "7d30997be324d16676b0732f318d08d884069594607bcc03fa843784e089c67c"
+        },
+        {
+          "path": "export/order_blacksmith/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "ccfb15841f74e7d6d7fa3cd962a85b6b355f9886de3643d59b092d8600252308"
+        },
+        {
+          "path": "export/order_blacksmith/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "498dca0a02bf9f73e8ec4611f11ac69f9a764dbb4db9bb99e1fec3d5d61a0477"
+        }
+      ]
+    },
+    {
+      "id": "order_carpenter",
+      "visible_colors": 5,
+      "native_bbox": [
+        3,
+        1,
+        13,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_carpenter/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "1979f5032f4f75be9a7c590094039a547ac54769b89ffd47eef9fd28249223f3"
+        },
+        {
+          "path": "export/order_carpenter/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "e9afa177084b9c26176e45f05a1c8deafd23899db45ea36d7d0a8afa3ef6adfd"
+        },
+        {
+          "path": "export/order_carpenter/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "715c7d42215fc15ff1b745b56130e82e39b796f3e8c18b48ac4e59fbfea5c8f2"
+        },
+        {
+          "path": "export/order_carpenter/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "b2c0325c0a4a8f49306a603134e8f70d8cd105eb8b52e571a5a1db692da97d2b"
+        }
+      ]
+    },
+    {
+      "id": "order_alchemist",
+      "visible_colors": 7,
+      "native_bbox": [
+        2,
+        1,
+        13,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_alchemist/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "4862e5e3916b2f02516fe119179d79e36da45a898fa2aa6112c92fd791338ef3"
+        },
+        {
+          "path": "export/order_alchemist/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "d5276b99f2433666bc4ac0f34864fb111fc541c6d2fbb9e4c2e858f154495d2d"
+        },
+        {
+          "path": "export/order_alchemist/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "c217bafe3202b8d8aa3ee4e1373ada8ce833f2c02c7c968ff35edd64e784c191"
+        },
+        {
+          "path": "export/order_alchemist/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "f0ba6119aabc9de9d0051677b124213004e915ac8046517bc6badcd687c06caa"
+        }
+      ]
+    },
+    {
+      "id": "order_tailor",
+      "visible_colors": 6,
+      "native_bbox": [
+        1,
+        2,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_tailor/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "d6f35e95e94869ae6becb333ba66a8e80d6a1d20eaeb9e8067a08e1e64d95009"
+        },
+        {
+          "path": "export/order_tailor/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "70eb014538b820bbbdeb48c7a5bd16da0a5688e83f763225ec9790b2357a6011"
+        },
+        {
+          "path": "export/order_tailor/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "1e2712afdedb0d72a1be8d996cdd726c769d1c7731ba25a71aa05ef2ad9a0055"
+        },
+        {
+          "path": "export/order_tailor/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "06d1dd0e0f29e3411172dcccc3b427ba21a9f0887b199cc3ade18f1ed41919e7"
+        }
+      ]
+    },
+    {
+      "id": "order_lumber",
+      "visible_colors": 6,
+      "native_bbox": [
+        1,
+        2,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_lumber/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "585c770b87a1f7c041e9f18b6e8d5bc942cd8e3f099196770d6c65f95ccea339"
+        },
+        {
+          "path": "export/order_lumber/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "e8825eee45535670a68ce67a0c06aa9615390b3fd6ef91467f3c92b06f4f5330"
+        },
+        {
+          "path": "export/order_lumber/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "9e84fd84d44ea09d0540df6bb8e576dbe76ca99b6b76f1fc603ef125e7dc95ec"
+        },
+        {
+          "path": "export/order_lumber/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "0f8c0720936ee8a053c466d08211239d9e7394dc424f0796802ed6806d698388"
+        }
+      ]
+    },
+    {
+      "id": "order_mine",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_mine/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "74a07c470d819c88bed99de734832ab350621f574854571b0e396a6a8f658992"
+        },
+        {
+          "path": "export/order_mine/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "a9ae5c0c2820e97f0ebbc0333abd2ef48e8eda640a4b17f51df2ec0455099869"
+        },
+        {
+          "path": "export/order_mine/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "369e7c3cbed7a9c80ec44ac5944dacc0118559bbe3f6c48f092fb6d9c3f81fec"
+        },
+        {
+          "path": "export/order_mine/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "84d6c64c540c3d384d22d6ddb3453606876de150772d1e0bc511294e7c4970c9"
+        }
+      ]
+    },
+    {
+      "id": "order_farm",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_farm/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "c7aef3943b3788820fb4bb34d34f053e907dfe2fca0ee93de1cfbcfb3c48d492"
+        },
+        {
+          "path": "export/order_farm/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "f8a0f9694f5bf27035da80f6d22ad83a37c6fe27badcf728e8993a6d3337288b"
+        },
+        {
+          "path": "export/order_farm/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "b3575242a91f10c56b04e2c269c76c6a8fcccd2f7a3bc1461483a62897539db6"
+        },
+        {
+          "path": "export/order_farm/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "b8589556c50e9816ea815653bd425d89772e1dd628a639c137941faa5ee43aee"
+        }
+      ]
+    },
+    {
+      "id": "order_ranch",
+      "visible_colors": 5,
+      "native_bbox": [
+        4,
+        1,
+        12,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_ranch/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "9a8b3c54f22a7565f9dae0d73918a4484b3ffd5158a560a10c443a501db3cbc8"
+        },
+        {
+          "path": "export/order_ranch/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "c592065761b747537391da441aafe7c729fb995681c734190e268e4f81a070fb"
+        },
+        {
+          "path": "export/order_ranch/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "b419a1f7f6032a39dc4ae50401dea6535a829a5564b8ccc47c779f6b8a184d4f"
+        },
+        {
+          "path": "export/order_ranch/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "fd712ffe8f68aaca8cf44529f0109cebcbedaca2df5a9e264df3d84476460f74"
+        }
+      ]
+    },
+    {
+      "id": "order_fishing",
+      "visible_colors": 6,
+      "native_bbox": [
+        1,
+        4,
+        15,
+        12
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/order_fishing/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "40864b17673f463ae34b253b7bb89abde929998dadc16fc44f600225807c8e64"
+        },
+        {
+          "path": "export/order_fishing/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "83fedd828f584c0e7930ac47b3d68a574c06d0fd1ce15ea3209083ff7cbf0bd6"
+        },
+        {
+          "path": "export/order_fishing/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "b6bbf8ba6e0b8623d87e612f8f9d00d9e94ce7d092569d396be5d5c1b1c2f3e6"
+        },
+        {
+          "path": "export/order_fishing/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "aa09c08a53230ab1c1326e96a699ee3e049e198c0a40378337c3722507feec4e"
+        }
+      ]
+    },
+    {
+      "id": "act_cook",
+      "visible_colors": 5,
+      "native_bbox": [
+        2,
+        1,
+        14,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_cook/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "5e7bc7da940b4722ec02ec631e6d45746c1bb22e700caac39aebd48ff4c81ba9"
+        },
+        {
+          "path": "export/act_cook/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "1b49fc1297b7d816dbab4d26574bc7c567b649982418457f815327a721c6d98f"
+        },
+        {
+          "path": "export/act_cook/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "bd84a438db1eab176f4f1d546bca40d0ceeb868235f88bb4d26ad4e109df6a4a"
+        },
+        {
+          "path": "export/act_cook/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "09415713556f8057823d9f97f2bb46ff4bc16390613c93ef7ef32b6dac8bd9a3"
+        }
+      ]
+    },
+    {
+      "id": "act_pay",
+      "visible_colors": 5,
+      "native_bbox": [
+        1,
+        2,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_pay/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "c9f4478e11d1c065f6d77fecf822689f2b6e767958b9c350aa6fdb902bd343a8"
+        },
+        {
+          "path": "export/act_pay/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "bdf7b4fe8ea24425cd5e9c5e9d1da40efd51d67a190abe32ade7dd3e3bba479d"
+        },
+        {
+          "path": "export/act_pay/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "515d0c73cb8929d47cb96bed8f99a270dea4fac51abef6a1b4451cc2bb4b4eae"
+        },
+        {
+          "path": "export/act_pay/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "c9d27fb210a4c2af74450431755fd3ea95b2a3acf8da7aa7bf4f687a5259b3e3"
+        }
+      ]
+    },
+    {
+      "id": "act_forge",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        1,
+        14,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_forge/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "371cc61152d7371fb5bde6db1499ecb4b3917fce4626c87ca2cb008773353d7f"
+        },
+        {
+          "path": "export/act_forge/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "31d939635f43b569a05a79a9e77950e6fd7f69084df1e0be86496500c9ebc7d5"
+        },
+        {
+          "path": "export/act_forge/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "621cf0003828cfe622a9405db2143874a966f39f707d414a56ac4fd8f2f202e1"
+        },
+        {
+          "path": "export/act_forge/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "818fa5c9c1721599345e69c9a7e3a20d4c90986015342d9bbfb1b6af2c2f511d"
+        }
+      ]
+    },
+    {
+      "id": "act_hammer",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        1,
+        14,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_hammer/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "6c1e2e240481bea40fb0d7f4260a9df3fc9ae539157b4702f2351f6263468eac"
+        },
+        {
+          "path": "export/act_hammer/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "9a0d595fcf86b79dd013a7e4614c5cb9a4cf4903b85ca16efe5dab0b017af83c"
+        },
+        {
+          "path": "export/act_hammer/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "f3c30b48698c9495c2961e4b8a3c25ac3e11699abfbef0ddf54cf29264170fa9"
+        },
+        {
+          "path": "export/act_hammer/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "20c75639505e5114814f4bf8aac89fb1ad9aefa537787bc44ea77b760d3d17c6"
+        }
+      ]
+    },
+    {
+      "id": "act_saw",
+      "visible_colors": 4,
+      "native_bbox": [
+        1,
+        4,
+        15,
+        11
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_saw/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "777c237089ee4ec6ec175adab2a979f3fbaf80dc8cf299db59e6ef4e540985fe"
+        },
+        {
+          "path": "export/act_saw/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "c6fb75db58e912386ec1243a9264f5f93be789de7785e035d6cd732c2ed9a409"
+        },
+        {
+          "path": "export/act_saw/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "cb53b912847fc058527f672942f2a1a29f43b0f1f468eb118eccf8f4827984d4"
+        },
+        {
+          "path": "export/act_saw/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "cd7f29197c49cc32b5c8af161db031a9106e4566309bf939c508a1bd8e272517"
+        }
+      ]
+    },
+    {
+      "id": "act_brew",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        1,
+        14,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_brew/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "d6014b6bfa61862134ac3deccd16c78b5ae81ac8d235cba91fb6f124ae1f3565"
+        },
+        {
+          "path": "export/act_brew/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "c6f161f57a87dfa4b8bb74664e251fdcbe2512e64d0c8b20ed60c7662cb0fa3c"
+        },
+        {
+          "path": "export/act_brew/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "88abc0c703b50e6ba94b03ddd8fff0c5942d63bc8b4ce951cba444027d929723"
+        },
+        {
+          "path": "export/act_brew/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "ca3da97943859de033a83edf784007873bb26a8bb4eea2ae4302a5889a7bd4fb"
+        }
+      ]
+    },
+    {
+      "id": "act_bottle",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_bottle/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "e9af6deda9e3a65f526332dce0e40e6e25ceb4b3c9edb49f874bea038cd2c8fe"
+        },
+        {
+          "path": "export/act_bottle/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "fa6813b81829b4723d34f1c408144b3c64a927f449d8243501524ef39a0da100"
+        },
+        {
+          "path": "export/act_bottle/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "90c4a9489e938c4dbc8957c6238ff951ee0c5d50173d0f576fbab0eafbe9b1b4"
+        },
+        {
+          "path": "export/act_bottle/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "e0e8df676a45eb4c475cfbf70e26e2fe3fb43ce5ea4b75be9098140d9d303f51"
+        }
+      ]
+    },
+    {
+      "id": "act_measure",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_measure/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "d1a5908c7009f21c43a3a38599e0edd01b302f5c694c268e572f26625386c0dc"
+        },
+        {
+          "path": "export/act_measure/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "61080bc354dfe58d0c398b4f2f10f0bc0e8cfed83b44f6c566b502ffeae93321"
+        },
+        {
+          "path": "export/act_measure/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "99ddc9c5b9a11a3c2439b1e06774aee34e0584cebaaefc9cdca9012646e2c863"
+        },
+        {
+          "path": "export/act_measure/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "095a42b060810b4d7e9bf449649ecbe0be22e359fa554fde5e937ab5a03d4e31"
+        }
+      ]
+    },
+    {
+      "id": "act_sew",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_sew/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "bfc19680431a259a71fe3f4457112e33b5da8e9bb00dad34246b7b91f50c24cc"
+        },
+        {
+          "path": "export/act_sew/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "19a9c29232ec87373b9b6f67c6c5dc9bec590781112b3e1e63e0a26c68b5d819"
+        },
+        {
+          "path": "export/act_sew/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "dea01ecf8e348989c353ce30a3fddd8d1b11f68ea9ce1b496b99a075c87a78bb"
+        },
+        {
+          "path": "export/act_sew/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "f78eb82844b97ad76f0b5237df721ee391e993d86915ac0c3ef3d603fdaf4010"
+        }
+      ]
+    },
+    {
+      "id": "act_chop",
+      "visible_colors": 8,
+      "native_bbox": [
+        1,
+        1,
+        14,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_chop/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "778ef69b40db061e350cb86758e82006724e5a79eb42f199f540a4c66057648e"
+        },
+        {
+          "path": "export/act_chop/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "ca2c3c40cbfa2de93cb387ddb5310dc596f9b7478e4616a478270f9ee83cfdf4"
+        },
+        {
+          "path": "export/act_chop/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "b579a2d583f16ef5b8a47095fcd67c8e74b564b2977c3ff0910cda40e1af3200"
+        },
+        {
+          "path": "export/act_chop/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "d543070edcdd1421f88005ec0ece1b09087c30418c2c8c296dd77ceff57feec1"
+        }
+      ]
+    },
+    {
+      "id": "act_mine",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_mine/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "87a2e2b57358fdfcce2ee23b2a731c887b627c7f5cf831d43fed56227e635a2c"
+        },
+        {
+          "path": "export/act_mine/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "6df214a79083d646b5f4996f7ce7b0e4ec17150c74b83b6a2a280d4d503efa53"
+        },
+        {
+          "path": "export/act_mine/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "b6ab8ef437feb86839f449e973bf2b99c2b81c7410d9b3a7d175f28fb463638c"
+        },
+        {
+          "path": "export/act_mine/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "5d45ac4ea4e9534309338347f1e043887a6e4d0ec59747003ac0777efd2532be"
+        }
+      ]
+    },
+    {
+      "id": "act_water",
+      "visible_colors": 6,
+      "native_bbox": [
+        1,
+        4,
+        15,
+        12
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_water/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "e2d865435617c3b043aaec9f94d72f477c637a8b7161da9954bb14bcfc0c8462"
+        },
+        {
+          "path": "export/act_water/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "2bf04a51af7e5cb4750fd9b2168ca45b0fe861b20911517a774ee7f05c51f81a"
+        },
+        {
+          "path": "export/act_water/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "e3338681969af6612c29e18ee1a7932fab7851899160f684c1f854ef3c7a6e6e"
+        },
+        {
+          "path": "export/act_water/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "638cf0f82bf0ffe5c17d55d7e9b6c159e88fcf9ddfb11405d8cd347a602f9322"
+        }
+      ]
+    },
+    {
+      "id": "act_feed",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        2,
+        15,
+        13
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_feed/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "9b393bc6f04b1326f750b481a0fc8b5796e40dec1174717988f2bd27275ca467"
+        },
+        {
+          "path": "export/act_feed/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "1b8bb6872821906d710acc91c954b269c8c3740e58b1bfbd201ea141ce6657b3"
+        },
+        {
+          "path": "export/act_feed/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "5fc158f2375b3f0be09131195d2fa0d0d1af5ece65ed65e296b3bfd99b7d5c6b"
+        },
+        {
+          "path": "export/act_feed/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "9f558612ee32c26684f59e2ef77eef40eafa96f98740008ab5f6e33a94ef6814"
+        }
+      ]
+    },
+    {
+      "id": "act_fish",
+      "visible_colors": 7,
+      "native_bbox": [
+        1,
+        1,
+        15,
+        14
+      ],
+      "nearest_rgba_match": true,
+      "binary_alpha": true,
+      "files": [
+        {
+          "path": "export/act_fish/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "23908ecf3c3f92cc9a2bc230581784abdcbdf6a3c30c51a5158980631e62d19a"
+        },
+        {
+          "path": "export/act_fish/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "c73d1922f98846c38bd440f6c2be0d99fb671c14468e203ab40d6a9de61cf3ae"
+        },
+        {
+          "path": "export/act_fish/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "6dfd3150ce3ba62d9220905951647ad5fbb87418f73221a78781cc50b04590f6"
+        },
+        {
+          "path": "export/act_fish/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "7707e6f068911c071731f811005d1ec2d075f516413ceabe8bc1e83230defa55"
+        }
+      ]
+    }
+  ],
+  "representative_files_unchanged": true,
+  "direction_pairs_match": true
+}

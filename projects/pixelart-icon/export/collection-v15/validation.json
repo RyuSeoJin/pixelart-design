@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "current_icons": 66,
+  "current_pngs": 264,
+  "revised_icons": 2,
+  "revised_pngs": 8,
+  "sizes_alpha_color_nearest": true,
+  "outline_margin_and_axes": true,
+  "pickaxe_metal_in_both_arms": true,
+  "pickaxe_reflection": true,
+  "wood_tips_on_axis": true,
+  "axe_blade_wood_overlap": true,
+  "art_approval": "pending"
+}

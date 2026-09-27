@@ -1,0 +1,2327 @@
+{
+  "revision": "1.0",
+  "status": "passed",
+  "current_icons": 66,
+  "current_pngs": 264,
+  "new_v2_pngs": 92,
+  "geometry_icons": 14,
+  "pixel_icons": 52,
+  "art_approval": "pending",
+  "assets": [
+    {
+      "id": "cmd_edit",
+      "version": "v2",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/cmd_edit/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "47c5aa5c59189a0fef52e945c3efd2d181d55da5be6763d3d9815d26f4d2528e"
+        },
+        {
+          "path": "export/cmd_edit/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "cd0965a8769912455a1057f5c68489a4199627d5462c0b3d85894bd2081d1ab6"
+        },
+        {
+          "path": "export/cmd_edit/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "80b8246b3571356c5f8051fa2e50af8f9597901d7ebe2bbbed5dabf092b7cc34"
+        },
+        {
+          "path": "export/cmd_edit/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "42fe5c7a08b2aaddb4309c2015508718e5aa37e432512af3decda3abdb80d507"
+        }
+      ]
+    },
+    {
+      "id": "cmd_monument",
+      "version": "v2",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/cmd_monument/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "b13c50049592921d6c0bf092604ff9e753d8fcf563bb94af07eea8ca80d0b63e"
+        },
+        {
+          "path": "export/cmd_monument/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "dad4ba8d775fa0d89d6292f559664e61a927a0d3a0e4adae0301a8465dc8be96"
+        },
+        {
+          "path": "export/cmd_monument/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "1bea395174857bdc35b654cf2319977718493740f6d93afe56e3949b657bb895"
+        },
+        {
+          "path": "export/cmd_monument/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "b0db8431aa46887a9104b904bd82c1f659e1caa20eb9ddfba6387d499917fde4"
+        }
+      ]
+    },
+    {
+      "id": "cmd_recruit",
+      "version": "v2",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/cmd_recruit/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "3ecab1e9e32150fdd0aefcc25d18f7afb8b63754a094c590147480e2594c4b58"
+        },
+        {
+          "path": "export/cmd_recruit/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "e3d28141de42f6f59d88ae6668c4b931cb5937ae543d1140e2a11e8ed45bacc3"
+        },
+        {
+          "path": "export/cmd_recruit/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "7c01f8e1f3ec25eeba0bdf54262b1f94b63a65024725628ebb87683ca4a7d5ff"
+        },
+        {
+          "path": "export/cmd_recruit/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "0e7d36635ac3ab066eaf5f90ae8c32dcbf62eeabefb207c01ca82d1f5607dc8f"
+        }
+      ]
+    },
+    {
+      "id": "cmd_roster",
+      "version": "v2",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/cmd_roster/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "47640fab469c303c46bab7d3cfc187b39ba1990de058eca2d57b2a3a8bb1ae8a"
+        },
+        {
+          "path": "export/cmd_roster/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "141839c0273ee43b590645540d114fc0b00265173742a19b7bef140a3fd271e4"
+        },
+        {
+          "path": "export/cmd_roster/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "f4f1a47194cbf5addf42deeeaf088d25e9ffe29edbd889eb05e0d51aa0ae6efc"
+        },
+        {
+          "path": "export/cmd_roster/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "0f36fec5a9a87bf7c54d28d71780131a643b48ec85c5125f7eaaf09618ccf796"
+        }
+      ]
+    },
+    {
+      "id": "cmd_ticket",
+      "version": "v2",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/cmd_ticket/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "06ee2a1eff3e67ebeec69d20caf6393499a67873b469f68317308531429b12a2"
+        },
+        {
+          "path": "export/cmd_ticket/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "294d3dbcc95c9fba640182afef01fcb37fd2f3e323f50d79443d8ebda3933aa5"
+        },
+        {
+          "path": "export/cmd_ticket/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "0bca90d622f22d86f205f3c48d0abc92430eb6fafbc2f7340d1937681c428e1f"
+        },
+        {
+          "path": "export/cmd_ticket/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "67739a8331c57625cbead777611ae6f6548ecd87bad85566e9679d4fd89ccd4c"
+        }
+      ]
+    },
+    {
+      "id": "cmd_multi",
+      "version": "v2",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/cmd_multi/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "07361d93e6e2c5f6866f8183056761c072f2ab9e3fdc13bdd94bb3873d5e71bf"
+        },
+        {
+          "path": "export/cmd_multi/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "c262358006d5682c570c209f108b33d56a4864e680a2741944e4beda27cb7a25"
+        },
+        {
+          "path": "export/cmd_multi/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "3c261468899ec8ffbb7e4215337f4d3994bba440876315491ad2b41e46ae341a"
+        },
+        {
+          "path": "export/cmd_multi/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "f36f09a8203160630e93b2bcbb57a8476949a7d5588215fd1afdc15f49116c58"
+        }
+      ]
+    },
+    {
+      "id": "cmd_settings",
+      "version": "v2",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/cmd_settings/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "582bab837d39fdacf1836751e3101c522c35851547fe907b4423374a8e8f1d8b"
+        },
+        {
+          "path": "export/cmd_settings/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "bb43e63e88c453b051762354d453b32763465a96319d430fcf3e457d1b675153"
+        },
+        {
+          "path": "export/cmd_settings/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "40ff9b8bea252cb5333bce118cee9a75bcf439deca61312d7127fa202e539c62"
+        },
+        {
+          "path": "export/cmd_settings/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "45afc2e1161310d41821c2dac242b7c0f4ec1f7edccbf3b0c87904326986a623"
+        }
+      ]
+    },
+    {
+      "id": "cmd_trash",
+      "version": "v2",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/cmd_trash/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "a6f47611b96565f990dc0049c17715a98b0ffc63e96fc8c62686fed2f6b01d57"
+        },
+        {
+          "path": "export/cmd_trash/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "b2dccc1b90b78f7704fbaa447d46bceba329b3b95e6b7e5361c06e30b866e096"
+        },
+        {
+          "path": "export/cmd_trash/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "dc08e4888195e7b3a2a6a21415e30e913ed87e10ea8ed373785367b893ac6b33"
+        },
+        {
+          "path": "export/cmd_trash/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "543bcb61b48bda36a22ec60bf401b262ab06cb4835473ecb7cead38caa72625f"
+        }
+      ]
+    },
+    {
+      "id": "cmd_guide",
+      "version": "v2",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/cmd_guide/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "3f0853ee7170e8e59285f9b12c37dc09f3ab4b3b67a1a45df884a184ec607f5d"
+        },
+        {
+          "path": "export/cmd_guide/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "4cc7704a536a4f033efffb5c5050f253ce4342ed4b2edc7fb0e0b143675c7125"
+        },
+        {
+          "path": "export/cmd_guide/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "690d1819174c2200954bc4784ac8fdc0bf4e7f56cc8e79fdf64bbfacb83d619a"
+        },
+        {
+          "path": "export/cmd_guide/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "d1eca556cfdb97bfce08d7b4188d5a4f07b172dd12a36231128f7ebaf3d552d0"
+        }
+      ]
+    },
+    {
+      "id": "sym_edit",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_edit/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "d7ab78736bd12403c25e51fe6da3adfb892760da2182d6c5591f431826961bcf"
+        },
+        {
+          "path": "export/sym_edit/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "3a2c634b6fffa0a100981ac713e59f44b8fd45c51a14689724af8195c00af035"
+        },
+        {
+          "path": "export/sym_edit/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "26f0687d54fbd787ead57cae79b4d8b165f7768dba23b48f30ddb0f6a1ad828f"
+        },
+        {
+          "path": "export/sym_edit/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "f832861cb9a437f7d650bc29aa089b1905c055e20a131615961fb09f976491d6"
+        }
+      ]
+    },
+    {
+      "id": "sym_close",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_close/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "b6d1a0e97c9a7f24e89d5440645100266631a23fd37b3a44e1b40d703e4db445"
+        },
+        {
+          "path": "export/sym_close/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "cb3713ec4fea695220e5e0b7ca5714ebbf085345c6052376f349fd1e18ce55af"
+        },
+        {
+          "path": "export/sym_close/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "bb16ff40139667419126086a46e40ac0c54445e4cbdb6e5d3679a2872d88ba4e"
+        },
+        {
+          "path": "export/sym_close/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "03bbcf1f6760bc2531faf31b297c3d1f1b9c4e79b67f719f49afc790da311a74"
+        }
+      ]
+    },
+    {
+      "id": "sym_play",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_play/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "ab19163dd0134482bb527e466f8be4d05fac317309f3706825a66d5d94ebdca5"
+        },
+        {
+          "path": "export/sym_play/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "8597e58058b68c01bcdd5a7c3cd2bbbd7a1da84b1c5ee91824ab8564ab73c8a5"
+        },
+        {
+          "path": "export/sym_play/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "dd25a3d2482c375399c9f79e259701167762b6e4eb57845d138cf57732855265"
+        },
+        {
+          "path": "export/sym_play/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "b51907e88c99c56d2b6bc7323bddb585737665aab225dd9190bedff3eb7a98f2"
+        }
+      ]
+    },
+    {
+      "id": "sym_stop",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_stop/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "be026ec344ede1c57b343b7bcc88de61618e4d3d362fc99fb9e764ee23b0661d"
+        },
+        {
+          "path": "export/sym_stop/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "b0d98bd59b0b65118389488199aa3ed128b3664916ae4a672fbabe27aeb39216"
+        },
+        {
+          "path": "export/sym_stop/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "da6c3010fe79ffd18e99f5557e7146bf2a23121e1f3f8f79b9d6536cbef8d3da"
+        },
+        {
+          "path": "export/sym_stop/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "de9cfc5a9bc1679d0dc6e9d296cb7d7cfd392c9ce55b47056b0304def8a70fca"
+        }
+      ]
+    },
+    {
+      "id": "sym_prev",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_prev/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "448958b06ed06232a79e11fca326affd99aafb902ca93aa83d2a61c11046a90b"
+        },
+        {
+          "path": "export/sym_prev/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "e4027fc32b40847b38e12119d8bff3bdb35d3a8f92fbcb0603dec9467e0b0d3f"
+        },
+        {
+          "path": "export/sym_prev/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "343230da3680ef25b831667bfeed743248360e097da46ae60f1f39688193680d"
+        },
+        {
+          "path": "export/sym_prev/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "8f344c2d717af118de02af2067779641f73ae4b57fb6c4f96143fef12f4e0e28"
+        }
+      ]
+    },
+    {
+      "id": "sym_next",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_next/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "aaf8d8b94324768333143035fcf107d660df0124faa80dd8dd6c5e250f1decb2"
+        },
+        {
+          "path": "export/sym_next/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "f2c7c702a1a20e6ab4a2c1a8391b2179a80b4a22620b983c9f55c67daa2f3835"
+        },
+        {
+          "path": "export/sym_next/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "9c8b77473e802b97062580c438f066133f1c793b0cde711b4be4306ba5628d73"
+        },
+        {
+          "path": "export/sym_next/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "78863044a65b2e915175ad69084f78a1268803aa8c82e29ee7d6343dbc97889e"
+        }
+      ]
+    },
+    {
+      "id": "sym_up",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_up/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "8c310e96a711715aa33e1d3cc27554c373f27916ec6d182b81458d64b16d995e"
+        },
+        {
+          "path": "export/sym_up/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "a4cd54e87ec654735b6e296b15a65f8c525c8d4af0de387e6a52682154e2550d"
+        },
+        {
+          "path": "export/sym_up/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "6907a7380dcaca2fd3394836787895b7bb291b833037a731b2473ede035c59c9"
+        },
+        {
+          "path": "export/sym_up/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "fb11e7cf1930dff7e722d6628dd7914fd8cd4c638ab4619c50fb7a7f6f3a8cd2"
+        }
+      ]
+    },
+    {
+      "id": "sym_down",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_down/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "e9311d76ace5643566ad5c63c391eb0f07f780229203979ad5bae322f34d1c9e"
+        },
+        {
+          "path": "export/sym_down/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "75b7e846249d0bd49424dd0ef21f93c12eb9e34c687092c022d1878374e89782"
+        },
+        {
+          "path": "export/sym_down/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "c0da6bca16e24b4785c48ba963b3e5be9ab85c1a575580f4ba20f38adb9704f7"
+        },
+        {
+          "path": "export/sym_down/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "4c1eb55f4f7335afe897e189ee207fee24e0e05632738d78cc43009fa2f656ce"
+        }
+      ]
+    },
+    {
+      "id": "sym_expand",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_expand/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "c8f8735f76bbc89c899a29e4d8edc1ae3eca01efbba36ba7baf820f403f5ceef"
+        },
+        {
+          "path": "export/sym_expand/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "d4ec0049249429618d55f69c4e34603688b05b0ed92a62f8a75867fae272d318"
+        },
+        {
+          "path": "export/sym_expand/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "732cb2678f1e1be87456820b6a24f3841a4a55f711397c59638f51e248a14465"
+        },
+        {
+          "path": "export/sym_expand/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "6253e783224dc2ce68f7bb73ee91ce57198f446b0eb5ecdd5c34c9867d7052e9"
+        }
+      ]
+    },
+    {
+      "id": "sym_collapse",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_collapse/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "abdb205ef1131396165df3531fc71d4d9e567b3f16d7e816bee67602cd1ab090"
+        },
+        {
+          "path": "export/sym_collapse/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "1a071b8d6ee0da56879cdeee55d6a72d12619d451fbd2760c3159ee874a30e0e"
+        },
+        {
+          "path": "export/sym_collapse/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "973534b107e093ca32be83fb20a1fea55764f81e42b6999ff3d2eb98595d85d4"
+        },
+        {
+          "path": "export/sym_collapse/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "bc3c937821b2f2652aeb761ef4375469cdb11e530145259ab90cee23a822c2e2"
+        }
+      ]
+    },
+    {
+      "id": "sym_check",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_check/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "656700d1d1cdaaa5df9ce5ba902073ed3716ce128bdcff4f225336ebf0255b5d"
+        },
+        {
+          "path": "export/sym_check/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "801a03acd4d6fe3e51a0d81b47cc3447d7066750eb07880e26b7b4869ac5a593"
+        },
+        {
+          "path": "export/sym_check/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "a6aa494bcca6d79b8e2f72a95968cbcef492ab6c2fe4544e934c4e1dcc3d12b3"
+        },
+        {
+          "path": "export/sym_check/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "26833e4864b7af1a7240c76ce362c2aeab4116b10b94c3bf4966047439960649"
+        }
+      ]
+    },
+    {
+      "id": "sym_fold_closed",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_fold_closed/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "0b9133f87a4fd33212e2c8c1296d28df30d7b9bfcd5e8e0178ecb53cb6bcd7ac"
+        },
+        {
+          "path": "export/sym_fold_closed/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "fcad27f10f81bac0fb9cdcaccf1480e40b12a5f242abd0142e694fcbe074ed27"
+        },
+        {
+          "path": "export/sym_fold_closed/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "5b9396e9204ca6c20ccbe87f018b6c8a9161e4a6a6b8ae71021a85a9018eb2b3"
+        },
+        {
+          "path": "export/sym_fold_closed/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "54218f3616abf95ce579c3ed3d3d54a6684eb72882bd6997fd0326048663cf38"
+        }
+      ]
+    },
+    {
+      "id": "sym_fold_open",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_fold_open/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "ac11974006791cb6da69e5556498b07cf0d7996ca43f85ef8e4888960c30d69b"
+        },
+        {
+          "path": "export/sym_fold_open/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "320320ffbbd5ec2c123395ec89f252d3ff1b8e9b76ea52b634690c54141bde49"
+        },
+        {
+          "path": "export/sym_fold_open/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "48b84555fb65a89afacb43c4781141649a849c0e27f4ef5669d7c2f33c0a9eb3"
+        },
+        {
+          "path": "export/sym_fold_open/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "0fd527f632d0c2e2c476495f5bde4c3530fc7cab0786a6d6f5ab2f0522115d94"
+        }
+      ]
+    },
+    {
+      "id": "sym_star",
+      "version": "v2",
+      "render_mode": "geometry_per_size",
+      "files": [
+        {
+          "path": "export/sym_star/v2/icon-16.png",
+          "size": 16,
+          "visible_colors": 3,
+          "nearest_from_16_match": true,
+          "sha256": "a52d3aead6ea95481c1f447858ad826f5e52d82b34999f1a039da62d97f387e9"
+        },
+        {
+          "path": "export/sym_star/v2/icon-32.png",
+          "size": 32,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "808135d5342e01cd3a035faeff5f9bee3643f33e1b6e32e0706dbd5b09e13a42"
+        },
+        {
+          "path": "export/sym_star/v2/icon-48.png",
+          "size": 48,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "d30fd83e9de24012bfa487d36de5e370488a87a83a81e1d7e642a7487a5fe30b"
+        },
+        {
+          "path": "export/sym_star/v2/icon-64.png",
+          "size": 64,
+          "visible_colors": 3,
+          "nearest_from_16_match": false,
+          "sha256": "dbf4f3edbe93ac3b50869d13669ecfa8cc8fd578410663fe077dd0a0830a4a01"
+        }
+      ]
+    },
+    {
+      "id": "icon_book",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/icon_book/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "7a924bc4c0a0d5f90e4c0788da6c12edd1b392c2390bd0deb1a85b215ba55fd8"
+        },
+        {
+          "path": "export/icon_book/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "043a06e420fe9d26624cfdc3ac0d2f9b8a7b1fdf1959f0206ee99a09ae82ef69"
+        },
+        {
+          "path": "export/icon_book/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "533c0f579eb495e2aeb2d02fb28c6a936e0faba1a4992500657be3a17ea5d887"
+        },
+        {
+          "path": "export/icon_book/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "a128306ff01fed731ecf45602c3e780f1bef841f9e02a7cdc67fbef692ae6229"
+        }
+      ]
+    },
+    {
+      "id": "icon_code",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/icon_code/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "df6c81b2edc568ae3b298cba506bca38b269cc03c671118f6893de9ae0b497be"
+        },
+        {
+          "path": "export/icon_code/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "a50abd32e7b76995930106007f6d4953708625101cadcaafe59cc5b4a353df58"
+        },
+        {
+          "path": "export/icon_code/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "afa6e967c3413049e048dea78f611dbfc28c083e3f807555b1af248eb1cb0337"
+        },
+        {
+          "path": "export/icon_code/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "102dc2693bbe1e36822512a0f01ce6c4e526dc4e26981f3ecfc3583e78ad5700"
+        }
+      ]
+    },
+    {
+      "id": "icon_run",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/icon_run/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "890819a0d6997cb330ac50bff736c9b858c39ced28a3aa679d4542b6e47d8241"
+        },
+        {
+          "path": "export/icon_run/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "a19eb94fa7b933d19d4a6b8dd4cdce368bfbd5a34c37bedb4471d36a60dcc149"
+        },
+        {
+          "path": "export/icon_run/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "898a7a42151a8d65d635da600c54d5a131851f8fc94ef38c17caad15cafe34dc"
+        },
+        {
+          "path": "export/icon_run/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "2c244954589555f19c1afbaf355454d93d267eacadc43ffda9c83ed570541390"
+        }
+      ]
+    },
+    {
+      "id": "icon_art",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/icon_art/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "82588ba149835c33d4ff6a886f321e21800b188f287c3afca8c157f0cc3910a6"
+        },
+        {
+          "path": "export/icon_art/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "3ee6f6956ed38450e54d59facb872f77d854b57a59dbf371bfa7759a8d54ff76"
+        },
+        {
+          "path": "export/icon_art/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "78458d7987e6a6c1d14a653830812146dc480ee57581dbc33ed892d63f62c710"
+        },
+        {
+          "path": "export/icon_art/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "4095055ea6d9609b2b696c6dcb25722495ec8542df77ab343c41be8f844f41bd"
+        }
+      ]
+    },
+    {
+      "id": "icon_music",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/icon_music/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "4075d684ff02bae6088d1ed9e193bff74e898f0e33297f7c087f7fec8fc5caa9"
+        },
+        {
+          "path": "export/icon_music/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "e326e81ccc84ce990926ea9feb0147368a69ad8cbe8502602ad6aeeeae3f2e88"
+        },
+        {
+          "path": "export/icon_music/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "8cf31cfd581a9682b9c6c5632f42bd72e294bf3c195d16a5c0e9ca3834d75eff"
+        },
+        {
+          "path": "export/icon_music/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "4a022fea0377128c08dc86298846058c63acc69af7f70f844b546d0ebfe1ba00"
+        }
+      ]
+    },
+    {
+      "id": "icon_lab",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/icon_lab/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "9bb7870590d11be7f3cfbe9ed844f0cb99c23902141d95f2585606109fcd178d"
+        },
+        {
+          "path": "export/icon_lab/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "6426d2ee3d445a98287cf8121a6a192e1554a9fa6ef05055db58aafc1445bc07"
+        },
+        {
+          "path": "export/icon_lab/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "707c5b4a3030a081870bb875903464dc592519dee133c7dcb80773dc46ba9e28"
+        },
+        {
+          "path": "export/icon_lab/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "67f73d341bbdc9e74d03ca61cb8d454e5d14a91353359ba812b2cfd5344830e0"
+        }
+      ]
+    },
+    {
+      "id": "icon_write",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/icon_write/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "2fc6124404447e6c83d6a388965445998bea1ec67734f7f4822fa308c858e286"
+        },
+        {
+          "path": "export/icon_write/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "278867fef0d97883bf8f20537a0d17502abd74a084f099940d0f522b211c328d"
+        },
+        {
+          "path": "export/icon_write/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "29b7ea3c94428c1c2f8dc43d287a3b4de06de6ca91dbcc5daf602866731d6c8a"
+        },
+        {
+          "path": "export/icon_write/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "faa2222e6c384d238d065b2d46373e4133193af9bb230c62369c73333fda9280"
+        }
+      ]
+    },
+    {
+      "id": "icon_folder",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/icon_folder/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "c9b19254cc5ece451b708546923636fe7e4f047e06fea0b4372750e16fe7bfa5"
+        },
+        {
+          "path": "export/icon_folder/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "0c8f9335964871f12e8f46e8b66b337ecac1cb0b04423d35e2bff8f3b5f3c41a"
+        },
+        {
+          "path": "export/icon_folder/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "55f48d92e083ff6a20fccb4f4d0abd62e4077941537b19378b17ddf820c55e7a"
+        },
+        {
+          "path": "export/icon_folder/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "02aae02f0926d220b66a1c50f768ca06876287833da1f4de1a5ba8dc87e4da2d"
+        }
+      ]
+    },
+    {
+      "id": "icon_meditate",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/icon_meditate/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "ece9db6fdf81ac3a82697acc1a9ccfbb6f42a74251a81ff8552ba01086205153"
+        },
+        {
+          "path": "export/icon_meditate/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "33fcac8c1d3437c2bc563020cc51a101f4ce02afbab5a506afd5c9e709960b41"
+        },
+        {
+          "path": "export/icon_meditate/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "732ea9a6859f402ffbe10e3cff5f4167b455c336248781375d5ad98db5a2f3de"
+        },
+        {
+          "path": "export/icon_meditate/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "d4b96a08ac5cdfa4a7543217ad5678c61299c3e5c783117c3b098fa621959653"
+        }
+      ]
+    },
+    {
+      "id": "icon_cook",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/icon_cook/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "1b2c11b96280b0758bde1077afbbc80bbb74a701dd9161cf8d4ae0587a92cdf1"
+        },
+        {
+          "path": "export/icon_cook/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "cc5ca4defc654ec0fd9ec4ca4abb088eeeba1594f1f20708a4ad25b73826e381"
+        },
+        {
+          "path": "export/icon_cook/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "c39c07965728ef07a657969a9e7455cbf196e2a849175cf3736d80f90080bdcc"
+        },
+        {
+          "path": "export/icon_cook/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "fed7f031276e35d50cc37900a2558d1f6ce1938850d9701b6b7d84813e474b54"
+        }
+      ]
+    },
+    {
+      "id": "tpl_issue",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/tpl_issue/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "9984d2a8f2c990dba5a9b4080b4d0e5bcf8bc6416bb5dad600b1afe52b7722d8"
+        },
+        {
+          "path": "export/tpl_issue/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "2775e8f2aee01902aad4faab004c24d4af87c443644282036dd1c7a093a6f8a8"
+        },
+        {
+          "path": "export/tpl_issue/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "7328c306dfa1dbd52f4970a6f3c424666c4af708bfa513f096500881d9e58a48"
+        },
+        {
+          "path": "export/tpl_issue/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "226148c7cdd77e34432015838f72f2b150acbf9cc2e1474926a6a8dd4a3dbf26"
+        }
+      ]
+    },
+    {
+      "id": "tpl_todo",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/tpl_todo/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "651cac30e8d09464378852ef6e25deec6c00ca3cb12f9ccedfb1936bb330ac40"
+        },
+        {
+          "path": "export/tpl_todo/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "bf368b449c9c20e4e942fa97d35b774dbf95fb41c404f7e3f61745caa6f9e508"
+        },
+        {
+          "path": "export/tpl_todo/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "c6bbfa59a59b03adafb44eb1bb6d2aef77664837c27686f5876db2cb71dcad48"
+        },
+        {
+          "path": "export/tpl_todo/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "ef3907d6eb7a4a5e428e0e8094b6458ad8e57140bbe7c29234cacb302acaa063"
+        }
+      ]
+    },
+    {
+      "id": "tpl_idea",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/tpl_idea/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "7ca4a8f5b82b297aec936392262891bacb1ebdebad6b0a76158fddc272170edf"
+        },
+        {
+          "path": "export/tpl_idea/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "36dc0f22e8e899d8594539ac03296a2decf77fec45a793f70aae98e899e2fc7c"
+        },
+        {
+          "path": "export/tpl_idea/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "bd7dbce130958757a4cc7f4cd9a731df7918e94c41d4d155bd97b4ff14b79689"
+        },
+        {
+          "path": "export/tpl_idea/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "fd08aba7aadbfa7437b3483f776b9c1ac668c685d9461331ce4300815000c9b0"
+        }
+      ]
+    },
+    {
+      "id": "tpl_retro",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/tpl_retro/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "96ddccbe58d35f4b3a01f265f9cdfc74c1b6228b755409086dc21ec73476f00c"
+        },
+        {
+          "path": "export/tpl_retro/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "de2ded33adecd5eaecfc3c082efbd0c0e499576e27d0e1e90e2fe1600708ca93"
+        },
+        {
+          "path": "export/tpl_retro/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "b765a0c123564927e860728ec2a4006612e64ad0d0bea2860392c88d4afb2a33"
+        },
+        {
+          "path": "export/tpl_retro/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "3b2b77aacdbd132341dac8e2f916bbb9d04dcdf6c114f4ec3a2d6c1a8b883ac7"
+        }
+      ]
+    },
+    {
+      "id": "tpl_ticket",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/tpl_ticket/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "054d96c9cb7cab7f1c7bdb209684c4cef8a19119d050cb2b416b3f951edeab42"
+        },
+        {
+          "path": "export/tpl_ticket/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "28306ade040076c04d3355969ef13e8128415de1c80ac3f15a7a3dd93468e56a"
+        },
+        {
+          "path": "export/tpl_ticket/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "e862ab7b6ef30ea81511b727bf5b10f9c5c0f5b6d33a71373d84a8baa6a0c198"
+        },
+        {
+          "path": "export/tpl_ticket/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "7c208a8778a45c8226d4fcbca7ea0bde76c59361f4ede5330d57c63ffb5adc94"
+        }
+      ]
+    },
+    {
+      "id": "emote_happy",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/emote_happy/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "77439d970d1cc635925b640e363f3d53532e52a8ac2f965e3a9051e97fd4b960"
+        },
+        {
+          "path": "export/emote_happy/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "8b3a0751ca2e0ccfdd9a184722c53b43dc9bac84620e14f95a41f91e480f784a"
+        },
+        {
+          "path": "export/emote_happy/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "facdde305bcb9f3a6181792a76bcc1597db1caa72cec201989f5d4236e9265f0"
+        },
+        {
+          "path": "export/emote_happy/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "5813e9b73ce66d65bb5bebd196bec7256a865cb24a070f2f90173b4aa3d79d93"
+        }
+      ]
+    },
+    {
+      "id": "emote_unhappy",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/emote_unhappy/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "92dad391ae5d46fdc494012ab0cc235cae8fcc423b7959c18f8437be09715486"
+        },
+        {
+          "path": "export/emote_unhappy/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "06cf1d33c0401d328edd71c2d380ceb4fcb3d955685e4c50ee01809caa290d21"
+        },
+        {
+          "path": "export/emote_unhappy/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "52514c696e7581591dfcc3580221e6206e93581c5d29d720935349c5e8fa7443"
+        },
+        {
+          "path": "export/emote_unhappy/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "cfeae6078fa9e81d070f8a0f0bd8ead341943c8defb1c26f766ce3e08a114915"
+        }
+      ]
+    },
+    {
+      "id": "order_restaurant",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_restaurant/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "ee04da342018dd50d29c0cd84a9346bc323d37e0e4698288b04b216d071dc107"
+        },
+        {
+          "path": "export/order_restaurant/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "7c62f97fb831a3d42533ff4bc3a33ce5d989183af2449c69a95d1e9ca733e78b"
+        },
+        {
+          "path": "export/order_restaurant/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "3fb4a761e36f2a8c54c10860cd796972563e71fc39bd4aa3de409e95d1770a5b"
+        },
+        {
+          "path": "export/order_restaurant/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "206b8b913246308be7a4cfb0b99b0962df5763d7e5c4f82c4f700ede81528131"
+        }
+      ]
+    },
+    {
+      "id": "order_stall",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_stall/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "d496fbf52f20402b7a766481624fe823054dbb056ebe202bd095ee1a5e41f658"
+        },
+        {
+          "path": "export/order_stall/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "33ccb9c9dc1b949a52853271d0085a6af93dc341284869aed2df7000fdb5b036"
+        },
+        {
+          "path": "export/order_stall/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "bad0c91b1f3840e2ff31237046fb44f2799bc0fbc75615a65bc424dd11ba8923"
+        },
+        {
+          "path": "export/order_stall/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "4c68efe39183d8f65815d4a866665482f83349df294452ebb7716d0d4ac8e138"
+        }
+      ]
+    },
+    {
+      "id": "order_store",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_store/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "0e8ab6f0b11f0482e46f57845e349242fb03810fe4011a33584f6c205d82a65c"
+        },
+        {
+          "path": "export/order_store/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "2b1d4689480fb4da7e672d55f07c2e49f88e5337c2fb98c372f4d06a6f86d65d"
+        },
+        {
+          "path": "export/order_store/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "95e03a9887b4789af081695bbba6af1adb867ad11516820c22383146cdf38026"
+        },
+        {
+          "path": "export/order_store/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "44ce4ef497d26de5af245a8d2222084112125a2ea34187c28eeffab3e5cebcc6"
+        }
+      ]
+    },
+    {
+      "id": "order_blacksmith",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_blacksmith/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "f6fd0cc958d0baab92de6a2608cf766f59734d19a5f56cb512a7972568184e06"
+        },
+        {
+          "path": "export/order_blacksmith/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "7d30997be324d16676b0732f318d08d884069594607bcc03fa843784e089c67c"
+        },
+        {
+          "path": "export/order_blacksmith/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "ccfb15841f74e7d6d7fa3cd962a85b6b355f9886de3643d59b092d8600252308"
+        },
+        {
+          "path": "export/order_blacksmith/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "498dca0a02bf9f73e8ec4611f11ac69f9a764dbb4db9bb99e1fec3d5d61a0477"
+        }
+      ]
+    },
+    {
+      "id": "order_carpenter",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_carpenter/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "1979f5032f4f75be9a7c590094039a547ac54769b89ffd47eef9fd28249223f3"
+        },
+        {
+          "path": "export/order_carpenter/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "e9afa177084b9c26176e45f05a1c8deafd23899db45ea36d7d0a8afa3ef6adfd"
+        },
+        {
+          "path": "export/order_carpenter/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "715c7d42215fc15ff1b745b56130e82e39b796f3e8c18b48ac4e59fbfea5c8f2"
+        },
+        {
+          "path": "export/order_carpenter/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "b2c0325c0a4a8f49306a603134e8f70d8cd105eb8b52e571a5a1db692da97d2b"
+        }
+      ]
+    },
+    {
+      "id": "order_alchemist",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_alchemist/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "4862e5e3916b2f02516fe119179d79e36da45a898fa2aa6112c92fd791338ef3"
+        },
+        {
+          "path": "export/order_alchemist/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "d5276b99f2433666bc4ac0f34864fb111fc541c6d2fbb9e4c2e858f154495d2d"
+        },
+        {
+          "path": "export/order_alchemist/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "c217bafe3202b8d8aa3ee4e1373ada8ce833f2c02c7c968ff35edd64e784c191"
+        },
+        {
+          "path": "export/order_alchemist/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "f0ba6119aabc9de9d0051677b124213004e915ac8046517bc6badcd687c06caa"
+        }
+      ]
+    },
+    {
+      "id": "order_tailor",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_tailor/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "d6f35e95e94869ae6becb333ba66a8e80d6a1d20eaeb9e8067a08e1e64d95009"
+        },
+        {
+          "path": "export/order_tailor/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "70eb014538b820bbbdeb48c7a5bd16da0a5688e83f763225ec9790b2357a6011"
+        },
+        {
+          "path": "export/order_tailor/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "1e2712afdedb0d72a1be8d996cdd726c769d1c7731ba25a71aa05ef2ad9a0055"
+        },
+        {
+          "path": "export/order_tailor/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "06d1dd0e0f29e3411172dcccc3b427ba21a9f0887b199cc3ade18f1ed41919e7"
+        }
+      ]
+    },
+    {
+      "id": "order_lumber",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_lumber/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "585c770b87a1f7c041e9f18b6e8d5bc942cd8e3f099196770d6c65f95ccea339"
+        },
+        {
+          "path": "export/order_lumber/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "e8825eee45535670a68ce67a0c06aa9615390b3fd6ef91467f3c92b06f4f5330"
+        },
+        {
+          "path": "export/order_lumber/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "9e84fd84d44ea09d0540df6bb8e576dbe76ca99b6b76f1fc603ef125e7dc95ec"
+        },
+        {
+          "path": "export/order_lumber/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "0f8c0720936ee8a053c466d08211239d9e7394dc424f0796802ed6806d698388"
+        }
+      ]
+    },
+    {
+      "id": "order_mine",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_mine/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "74a07c470d819c88bed99de734832ab350621f574854571b0e396a6a8f658992"
+        },
+        {
+          "path": "export/order_mine/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "a9ae5c0c2820e97f0ebbc0333abd2ef48e8eda640a4b17f51df2ec0455099869"
+        },
+        {
+          "path": "export/order_mine/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "369e7c3cbed7a9c80ec44ac5944dacc0118559bbe3f6c48f092fb6d9c3f81fec"
+        },
+        {
+          "path": "export/order_mine/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "84d6c64c540c3d384d22d6ddb3453606876de150772d1e0bc511294e7c4970c9"
+        }
+      ]
+    },
+    {
+      "id": "order_farm",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_farm/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "c7aef3943b3788820fb4bb34d34f053e907dfe2fca0ee93de1cfbcfb3c48d492"
+        },
+        {
+          "path": "export/order_farm/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "f8a0f9694f5bf27035da80f6d22ad83a37c6fe27badcf728e8993a6d3337288b"
+        },
+        {
+          "path": "export/order_farm/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "b3575242a91f10c56b04e2c269c76c6a8fcccd2f7a3bc1461483a62897539db6"
+        },
+        {
+          "path": "export/order_farm/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "b8589556c50e9816ea815653bd425d89772e1dd628a639c137941faa5ee43aee"
+        }
+      ]
+    },
+    {
+      "id": "order_ranch",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_ranch/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "9a8b3c54f22a7565f9dae0d73918a4484b3ffd5158a560a10c443a501db3cbc8"
+        },
+        {
+          "path": "export/order_ranch/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "c592065761b747537391da441aafe7c729fb995681c734190e268e4f81a070fb"
+        },
+        {
+          "path": "export/order_ranch/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "b419a1f7f6032a39dc4ae50401dea6535a829a5564b8ccc47c779f6b8a184d4f"
+        },
+        {
+          "path": "export/order_ranch/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "fd712ffe8f68aaca8cf44529f0109cebcbedaca2df5a9e264df3d84476460f74"
+        }
+      ]
+    },
+    {
+      "id": "order_fishing",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/order_fishing/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "40864b17673f463ae34b253b7bb89abde929998dadc16fc44f600225807c8e64"
+        },
+        {
+          "path": "export/order_fishing/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "83fedd828f584c0e7930ac47b3d68a574c06d0fd1ce15ea3209083ff7cbf0bd6"
+        },
+        {
+          "path": "export/order_fishing/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "b6bbf8ba6e0b8623d87e612f8f9d00d9e94ce7d092569d396be5d5c1b1c2f3e6"
+        },
+        {
+          "path": "export/order_fishing/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "aa09c08a53230ab1c1326e96a699ee3e049e198c0a40378337c3722507feec4e"
+        }
+      ]
+    },
+    {
+      "id": "act_cook",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_cook/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "5e7bc7da940b4722ec02ec631e6d45746c1bb22e700caac39aebd48ff4c81ba9"
+        },
+        {
+          "path": "export/act_cook/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "1b49fc1297b7d816dbab4d26574bc7c567b649982418457f815327a721c6d98f"
+        },
+        {
+          "path": "export/act_cook/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "bd84a438db1eab176f4f1d546bca40d0ceeb868235f88bb4d26ad4e109df6a4a"
+        },
+        {
+          "path": "export/act_cook/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "09415713556f8057823d9f97f2bb46ff4bc16390613c93ef7ef32b6dac8bd9a3"
+        }
+      ]
+    },
+    {
+      "id": "act_pay",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_pay/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "c9f4478e11d1c065f6d77fecf822689f2b6e767958b9c350aa6fdb902bd343a8"
+        },
+        {
+          "path": "export/act_pay/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "bdf7b4fe8ea24425cd5e9c5e9d1da40efd51d67a190abe32ade7dd3e3bba479d"
+        },
+        {
+          "path": "export/act_pay/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "515d0c73cb8929d47cb96bed8f99a270dea4fac51abef6a1b4451cc2bb4b4eae"
+        },
+        {
+          "path": "export/act_pay/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 5,
+          "nearest_from_16_match": true,
+          "sha256": "c9d27fb210a4c2af74450431755fd3ea95b2a3acf8da7aa7bf4f687a5259b3e3"
+        }
+      ]
+    },
+    {
+      "id": "act_forge",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_forge/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "371cc61152d7371fb5bde6db1499ecb4b3917fce4626c87ca2cb008773353d7f"
+        },
+        {
+          "path": "export/act_forge/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "31d939635f43b569a05a79a9e77950e6fd7f69084df1e0be86496500c9ebc7d5"
+        },
+        {
+          "path": "export/act_forge/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "621cf0003828cfe622a9405db2143874a966f39f707d414a56ac4fd8f2f202e1"
+        },
+        {
+          "path": "export/act_forge/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "818fa5c9c1721599345e69c9a7e3a20d4c90986015342d9bbfb1b6af2c2f511d"
+        }
+      ]
+    },
+    {
+      "id": "act_hammer",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_hammer/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "6c1e2e240481bea40fb0d7f4260a9df3fc9ae539157b4702f2351f6263468eac"
+        },
+        {
+          "path": "export/act_hammer/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "9a0d595fcf86b79dd013a7e4614c5cb9a4cf4903b85ca16efe5dab0b017af83c"
+        },
+        {
+          "path": "export/act_hammer/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "f3c30b48698c9495c2961e4b8a3c25ac3e11699abfbef0ddf54cf29264170fa9"
+        },
+        {
+          "path": "export/act_hammer/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "20c75639505e5114814f4bf8aac89fb1ad9aefa537787bc44ea77b760d3d17c6"
+        }
+      ]
+    },
+    {
+      "id": "act_saw",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_saw/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "777c237089ee4ec6ec175adab2a979f3fbaf80dc8cf299db59e6ef4e540985fe"
+        },
+        {
+          "path": "export/act_saw/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "c6fb75db58e912386ec1243a9264f5f93be789de7785e035d6cd732c2ed9a409"
+        },
+        {
+          "path": "export/act_saw/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "cb53b912847fc058527f672942f2a1a29f43b0f1f468eb118eccf8f4827984d4"
+        },
+        {
+          "path": "export/act_saw/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 4,
+          "nearest_from_16_match": true,
+          "sha256": "cd7f29197c49cc32b5c8af161db031a9106e4566309bf939c508a1bd8e272517"
+        }
+      ]
+    },
+    {
+      "id": "act_brew",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_brew/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "d6014b6bfa61862134ac3deccd16c78b5ae81ac8d235cba91fb6f124ae1f3565"
+        },
+        {
+          "path": "export/act_brew/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "c6f161f57a87dfa4b8bb74664e251fdcbe2512e64d0c8b20ed60c7662cb0fa3c"
+        },
+        {
+          "path": "export/act_brew/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "88abc0c703b50e6ba94b03ddd8fff0c5942d63bc8b4ce951cba444027d929723"
+        },
+        {
+          "path": "export/act_brew/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "ca3da97943859de033a83edf784007873bb26a8bb4eea2ae4302a5889a7bd4fb"
+        }
+      ]
+    },
+    {
+      "id": "act_bottle",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_bottle/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "e9af6deda9e3a65f526332dce0e40e6e25ceb4b3c9edb49f874bea038cd2c8fe"
+        },
+        {
+          "path": "export/act_bottle/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "fa6813b81829b4723d34f1c408144b3c64a927f449d8243501524ef39a0da100"
+        },
+        {
+          "path": "export/act_bottle/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "90c4a9489e938c4dbc8957c6238ff951ee0c5d50173d0f576fbab0eafbe9b1b4"
+        },
+        {
+          "path": "export/act_bottle/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "e0e8df676a45eb4c475cfbf70e26e2fe3fb43ce5ea4b75be9098140d9d303f51"
+        }
+      ]
+    },
+    {
+      "id": "act_measure",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_measure/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "d1a5908c7009f21c43a3a38599e0edd01b302f5c694c268e572f26625386c0dc"
+        },
+        {
+          "path": "export/act_measure/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "61080bc354dfe58d0c398b4f2f10f0bc0e8cfed83b44f6c566b502ffeae93321"
+        },
+        {
+          "path": "export/act_measure/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "99ddc9c5b9a11a3c2439b1e06774aee34e0584cebaaefc9cdca9012646e2c863"
+        },
+        {
+          "path": "export/act_measure/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "095a42b060810b4d7e9bf449649ecbe0be22e359fa554fde5e937ab5a03d4e31"
+        }
+      ]
+    },
+    {
+      "id": "act_sew",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_sew/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "bfc19680431a259a71fe3f4457112e33b5da8e9bb00dad34246b7b91f50c24cc"
+        },
+        {
+          "path": "export/act_sew/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "19a9c29232ec87373b9b6f67c6c5dc9bec590781112b3e1e63e0a26c68b5d819"
+        },
+        {
+          "path": "export/act_sew/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "dea01ecf8e348989c353ce30a3fddd8d1b11f68ea9ce1b496b99a075c87a78bb"
+        },
+        {
+          "path": "export/act_sew/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "f78eb82844b97ad76f0b5237df721ee391e993d86915ac0c3ef3d603fdaf4010"
+        }
+      ]
+    },
+    {
+      "id": "act_chop",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_chop/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "778ef69b40db061e350cb86758e82006724e5a79eb42f199f540a4c66057648e"
+        },
+        {
+          "path": "export/act_chop/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "ca2c3c40cbfa2de93cb387ddb5310dc596f9b7478e4616a478270f9ee83cfdf4"
+        },
+        {
+          "path": "export/act_chop/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "b579a2d583f16ef5b8a47095fcd67c8e74b564b2977c3ff0910cda40e1af3200"
+        },
+        {
+          "path": "export/act_chop/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 8,
+          "nearest_from_16_match": true,
+          "sha256": "d543070edcdd1421f88005ec0ece1b09087c30418c2c8c296dd77ceff57feec1"
+        }
+      ]
+    },
+    {
+      "id": "act_mine",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_mine/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "87a2e2b57358fdfcce2ee23b2a731c887b627c7f5cf831d43fed56227e635a2c"
+        },
+        {
+          "path": "export/act_mine/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "6df214a79083d646b5f4996f7ce7b0e4ec17150c74b83b6a2a280d4d503efa53"
+        },
+        {
+          "path": "export/act_mine/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "b6ab8ef437feb86839f449e973bf2b99c2b81c7410d9b3a7d175f28fb463638c"
+        },
+        {
+          "path": "export/act_mine/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "5d45ac4ea4e9534309338347f1e043887a6e4d0ec59747003ac0777efd2532be"
+        }
+      ]
+    },
+    {
+      "id": "act_water",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_water/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "e2d865435617c3b043aaec9f94d72f477c637a8b7161da9954bb14bcfc0c8462"
+        },
+        {
+          "path": "export/act_water/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "2bf04a51af7e5cb4750fd9b2168ca45b0fe861b20911517a774ee7f05c51f81a"
+        },
+        {
+          "path": "export/act_water/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "e3338681969af6612c29e18ee1a7932fab7851899160f684c1f854ef3c7a6e6e"
+        },
+        {
+          "path": "export/act_water/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 6,
+          "nearest_from_16_match": true,
+          "sha256": "638cf0f82bf0ffe5c17d55d7e9b6c159e88fcf9ddfb11405d8cd347a602f9322"
+        }
+      ]
+    },
+    {
+      "id": "act_feed",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_feed/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "9b393bc6f04b1326f750b481a0fc8b5796e40dec1174717988f2bd27275ca467"
+        },
+        {
+          "path": "export/act_feed/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "1b8bb6872821906d710acc91c954b269c8c3740e58b1bfbd201ea141ce6657b3"
+        },
+        {
+          "path": "export/act_feed/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "5fc158f2375b3f0be09131195d2fa0d0d1af5ece65ed65e296b3bfd99b7d5c6b"
+        },
+        {
+          "path": "export/act_feed/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "9f558612ee32c26684f59e2ef77eef40eafa96f98740008ab5f6e33a94ef6814"
+        }
+      ]
+    },
+    {
+      "id": "act_fish",
+      "version": "v1",
+      "render_mode": "pixel_native_16",
+      "files": [
+        {
+          "path": "export/act_fish/v1/icon-16.png",
+          "size": 16,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "23908ecf3c3f92cc9a2bc230581784abdcbdf6a3c30c51a5158980631e62d19a"
+        },
+        {
+          "path": "export/act_fish/v1/icon-32.png",
+          "size": 32,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "c73d1922f98846c38bd440f6c2be0d99fb671c14468e203ab40d6a9de61cf3ae"
+        },
+        {
+          "path": "export/act_fish/v1/icon-48.png",
+          "size": 48,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "6dfd3150ce3ba62d9220905951647ad5fbb87418f73221a78781cc50b04590f6"
+        },
+        {
+          "path": "export/act_fish/v1/icon-64.png",
+          "size": 64,
+          "visible_colors": 7,
+          "nearest_from_16_match": true,
+          "sha256": "7707e6f068911c071731f811005d1ec2d075f516413ceabe8bc1e83230defa55"
+        }
+      ]
+    }
+  ],
+  "v1_264_files_preserved": true,
+  "directional_symmetry": true,
+  "x_symmetry": true,
+  "binary_alpha": true,
+  "minimum_channel": 10
+}

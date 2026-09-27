@@ -1,0 +1,27 @@
+{
+  "revision": "1.0",
+  "date": "2026-09-27",
+  "regen_check": "passed",
+  "rules_check": "passed",
+  "git_diff_check": "passed",
+  "copyright_automated_check": {
+    "status": "review_required",
+    "exit_code": 1,
+    "flagged_binary_files": 474,
+    "scope": "현재 미커밋 아이콘 작업 전체",
+    "reason": "새 PNG와 Aseprite 바이너리 파일 확인 요청"
+  },
+  "provenance_review": {
+    "reviewer": "AI 제작 작업",
+    "sources": ["source/representatives-v1/generation.json", "source/production-v1/generation.json"],
+    "method": "내장 image_gen 개별 생성, Aseprite 도트 정리·보정·출력",
+    "third_party_screenshots_added": false,
+    "external_text_quotations_added": false,
+    "recognizable_brand_logos_in_review_boards": false,
+    "private_source_code_copied": false,
+    "note": "자동 게이트의 사람 확인을 통과했다고 표시하지 않습니다. 커밋·공개 전 확인은 별도입니다."
+  },
+  "commit_status": "not_requested_for_this_unit",
+  "public_registration": "pending",
+  "ue_integration": "pending"
+}

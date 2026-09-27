@@ -1,0 +1,236 @@
+{
+  "revision": "1.0",
+  "assets": [
+    {
+      "id": "sym_play",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              10,
+              4
+            ],
+            [
+              22,
+              16
+            ],
+            [
+              10,
+              28
+            ]
+          ],
+          "fill": "95C83E",
+          "highlight": "B9E567",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_prev",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              21,
+              3
+            ],
+            [
+              26,
+              8
+            ],
+            [
+              18,
+              16
+            ],
+            [
+              26,
+              24
+            ],
+            [
+              21,
+              29
+            ],
+            [
+              8,
+              16
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_next",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              11,
+              3
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              6,
+              24
+            ],
+            [
+              11,
+              29
+            ],
+            [
+              24,
+              16
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_up",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              3,
+              21
+            ],
+            [
+              8,
+              26
+            ],
+            [
+              16,
+              18
+            ],
+            [
+              24,
+              26
+            ],
+            [
+              29,
+              21
+            ],
+            [
+              16,
+              8
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_down",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              3,
+              11
+            ],
+            [
+              8,
+              6
+            ],
+            [
+              16,
+              14
+            ],
+            [
+              24,
+              6
+            ],
+            [
+              29,
+              11
+            ],
+            [
+              16,
+              24
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_fold_closed",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              12,
+              8
+            ],
+            [
+              20,
+              16
+            ],
+            [
+              12,
+              24
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_fold_open",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              24,
+              12
+            ],
+            [
+              16,
+              20
+            ],
+            [
+              8,
+              12
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    }
+  ],
+  "angle_rule": "사선 절댓값 dx=dy, 화살촉과 꺾쇠 꼭짓점 90도"
+}

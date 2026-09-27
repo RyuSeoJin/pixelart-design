@@ -1,0 +1,92 @@
+{
+  "revision": "1.0",
+  "status": "passed",
+  "assets": [
+    {
+      "id": "cmd_edit",
+      "files": [
+        {
+          "path": "export/cmd_edit/v3/icon-16.png",
+          "sha256": "9a1be1c1a030c4d232e10ba714b5a79e085c5e9cd30ce0a7df32146262f4139e"
+        },
+        {
+          "path": "export/cmd_edit/v3/icon-32.png",
+          "sha256": "0feb3bc1dfabf36e630c930dc450762cfac46a5cccd874b634f107b01045a573"
+        },
+        {
+          "path": "export/cmd_edit/v3/icon-48.png",
+          "sha256": "1e56ed21779f224e04dd61617fb9cf4c44e8f1a154a7b4b9fd3343e9f5981c80"
+        },
+        {
+          "path": "export/cmd_edit/v3/icon-64.png",
+          "sha256": "ab5436e4b510eac0f9b98bb07cf608fee3365abd227691bdb0942f45de7a15e5"
+        }
+      ]
+    },
+    {
+      "id": "cmd_recruit",
+      "files": [
+        {
+          "path": "export/cmd_recruit/v3/icon-16.png",
+          "sha256": "e7b4cf4e06549adf283746b94f076603ca63428a1caf2f92a9a7d7c3508bb570"
+        },
+        {
+          "path": "export/cmd_recruit/v3/icon-32.png",
+          "sha256": "5b2139c3ba9a75a602929aecf830713938388c85f3ce68fc80ffde47f87c4eb4"
+        },
+        {
+          "path": "export/cmd_recruit/v3/icon-48.png",
+          "sha256": "f56f659367ef09b94d3c4460e67d122ac25da52e1db0eb488695c97c1fed2214"
+        },
+        {
+          "path": "export/cmd_recruit/v3/icon-64.png",
+          "sha256": "25419049a964267350264099f2ad6b651d9c4608a464e7ad8d8d8f0b13c1afe2"
+        }
+      ]
+    },
+    {
+      "id": "cmd_roster",
+      "files": [
+        {
+          "path": "export/cmd_roster/v3/icon-16.png",
+          "sha256": "71605e1805fd9e725f803e091b2bc43065d4672ec5afde6165a6406569db201e"
+        },
+        {
+          "path": "export/cmd_roster/v3/icon-32.png",
+          "sha256": "e98a45b27603abd625a7ca456206193b8967b85fb34bb962a5a2063e8c79e0fd"
+        },
+        {
+          "path": "export/cmd_roster/v3/icon-48.png",
+          "sha256": "938fdc558a620472a795741b47070aa22a9d345d9570da15e09b23d00a2fd114"
+        },
+        {
+          "path": "export/cmd_roster/v3/icon-64.png",
+          "sha256": "8976a86ec9d148a01f3042f79a9ae368d2f6dffbb709d038201c801c332c9d72"
+        }
+      ]
+    },
+    {
+      "id": "cmd_settings",
+      "files": [
+        {
+          "path": "export/cmd_settings/v3/icon-16.png",
+          "sha256": "55ef992d44538df3e75bb4448654cd54ba26cd952671981990d317ed060ce590"
+        },
+        {
+          "path": "export/cmd_settings/v3/icon-32.png",
+          "sha256": "a00cac6b5b6c0fa131e649b92c47064f7f48860916bd8757a17e4dbc99e0aa6a"
+        },
+        {
+          "path": "export/cmd_settings/v3/icon-48.png",
+          "sha256": "2e93c5b1261a83072975561ffd51ec2962adc025cda3e3c3ee5b290a538a778e"
+        },
+        {
+          "path": "export/cmd_settings/v3/icon-64.png",
+          "sha256": "9c6c53004991aa703ad8318ae9f640151b0a752d009e2fb66bbd10b30d3302b4"
+        }
+      ]
+    }
+  ],
+  "previous_264_outputs_preserved": true,
+  "gear_outline_symmetry": true
+}

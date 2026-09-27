@@ -1,0 +1,1 @@
+{"act_chop": {"curve_exception": "없음", "finish": [13, 8], "joint": [11, 6], "start": [7, 2]}, "act_mine": {"curve_exception": "곡괭이 날만 완만하게 굽고, 양끝은 1px 꼭짓점으로 좁아집니다. 자루는 직선입니다.", "finish": [11, 5], "joint": [10, 6], "start": [3, 13]}}

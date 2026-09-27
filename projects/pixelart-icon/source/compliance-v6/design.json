@@ -1,0 +1,545 @@
+{
+  "revision": "1.0",
+  "assets": [
+    {
+      "id": "sym_edit",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              5,
+              22
+            ],
+            [
+              22,
+              5
+            ],
+            [
+              28,
+              11
+            ],
+            [
+              11,
+              28
+            ],
+            [
+              3,
+              29
+            ]
+          ],
+          "fill": "EDB547",
+          "highlight": "FFE29A",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_close",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              7,
+              3
+            ],
+            [
+              16,
+              12
+            ],
+            [
+              25,
+              3
+            ],
+            [
+              29,
+              7
+            ],
+            [
+              20,
+              16
+            ],
+            [
+              29,
+              25
+            ],
+            [
+              25,
+              29
+            ],
+            [
+              16,
+              20
+            ],
+            [
+              7,
+              29
+            ],
+            [
+              3,
+              25
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "fill": "DF656A",
+          "highlight": "F69591",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_play",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              10,
+              4
+            ],
+            [
+              22,
+              16
+            ],
+            [
+              10,
+              28
+            ]
+          ],
+          "fill": "95C83E",
+          "highlight": "B9E567",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_stop",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              7,
+              7
+            ],
+            [
+              25,
+              7
+            ],
+            [
+              25,
+              25
+            ],
+            [
+              7,
+              25
+            ]
+          ],
+          "fill": "DF656A",
+          "highlight": "F69591",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_prev",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              21,
+              3
+            ],
+            [
+              26,
+              8
+            ],
+            [
+              18,
+              16
+            ],
+            [
+              26,
+              24
+            ],
+            [
+              21,
+              29
+            ],
+            [
+              8,
+              16
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_next",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              11,
+              3
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              6,
+              24
+            ],
+            [
+              11,
+              29
+            ],
+            [
+              24,
+              16
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_up",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              3,
+              21
+            ],
+            [
+              8,
+              26
+            ],
+            [
+              16,
+              18
+            ],
+            [
+              24,
+              26
+            ],
+            [
+              29,
+              21
+            ],
+            [
+              16,
+              8
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_down",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              3,
+              11
+            ],
+            [
+              8,
+              6
+            ],
+            [
+              16,
+              14
+            ],
+            [
+              24,
+              6
+            ],
+            [
+              29,
+              11
+            ],
+            [
+              16,
+              24
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_expand",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              13,
+              4
+            ],
+            [
+              19,
+              4
+            ],
+            [
+              19,
+              13
+            ],
+            [
+              28,
+              13
+            ],
+            [
+              28,
+              19
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              19,
+              28
+            ],
+            [
+              13,
+              28
+            ],
+            [
+              13,
+              19
+            ],
+            [
+              4,
+              19
+            ],
+            [
+              4,
+              13
+            ],
+            [
+              13,
+              13
+            ]
+          ],
+          "fill": "95C83E",
+          "highlight": "B9E567",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_collapse",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              5,
+              13
+            ],
+            [
+              27,
+              13
+            ],
+            [
+              27,
+              19
+            ],
+            [
+              5,
+              19
+            ]
+          ],
+          "fill": "EDB547",
+          "highlight": "FFE29A",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_check",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              3,
+              15
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              13,
+              17
+            ],
+            [
+              25,
+              4
+            ],
+            [
+              29,
+              8
+            ],
+            [
+              13,
+              26
+            ]
+          ],
+          "fill": "95C83E",
+          "highlight": "B9E567",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_fold_closed",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              12,
+              8
+            ],
+            [
+              20,
+              16
+            ],
+            [
+              12,
+              24
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_fold_open",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              24,
+              12
+            ],
+            [
+              16,
+              20
+            ],
+            [
+              8,
+              12
+            ]
+          ],
+          "fill": "4F91CF",
+          "highlight": "8DCDF0",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    },
+    {
+      "id": "sym_star",
+      "render_mode": "geometry_per_size",
+      "shapes": [
+        {
+          "points": [
+            [
+              16.0,
+              3.0
+            ],
+            [
+              19.52671151375484,
+              11.145898033750315
+            ],
+            [
+              28.363734711836997,
+              11.982779073125684
+            ],
+            [
+              21.706339097770922,
+              17.854101966249683
+            ],
+            [
+              23.64120827980215,
+              26.517220926874316
+            ],
+            [
+              16.0,
+              22.0
+            ],
+            [
+              8.35879172019785,
+              26.517220926874316
+            ],
+            [
+              10.293660902229078,
+              17.854101966249686
+            ],
+            [
+              3.6362652881630027,
+              11.982779073125684
+            ],
+            [
+              12.47328848624516,
+              11.145898033750317
+            ]
+          ],
+          "fill": "EDB547",
+          "highlight": "FFE29A",
+          "outline": "342D46",
+          "stroke": 1.8
+        }
+      ]
+    }
+  ]
+}

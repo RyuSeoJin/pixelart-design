@@ -1,0 +1,28 @@
+{
+  "revision": "1.0",
+  "method": "Aseprite 16px 직접 도트 수정과 정수배 출력",
+  "changes": {
+    "cmd_recruit": "인물과 정보 줄이 있는 서류",
+    "cmd_roster": "단일 인물의 머리와 어깨",
+    "cmd_edit": "집 뒤 레이어와 전경 망치의 겹침",
+    "cmd_settings": "직선 톱니·사각 중심·좌우상하 대칭"
+  },
+  "reference_use": "사용자 첨부는 구성 참고만 사용하고 복제하지 않았습니다.",
+  "palette": [
+    "342D46",
+    "4F91CF",
+    "8DCDF0",
+    "EDB547",
+    "FFE29A",
+    "FFF0CD",
+    "E6C897"
+  ],
+  "layers_cmd_edit": [
+    "집 몸체",
+    "지붕",
+    "문",
+    "망치 손잡이",
+    "망치 머리"
+  ],
+  "approval": "pending"
+}

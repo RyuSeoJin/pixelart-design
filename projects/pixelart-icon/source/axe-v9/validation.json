@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "outputs": [
+    16,
+    32,
+    48,
+    64
+  ],
+  "nearest_match": true,
+  "outline_color": true,
+  "art_approval": "pending"
+}

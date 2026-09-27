@@ -1,0 +1,24 @@
+{
+  "revision": "1.0",
+  "date": "2026-09-27",
+  "regen_check": "passed",
+  "rules_check": "passed",
+  "git_diff_check": "passed",
+  "asset_validation": "validation.json",
+  "copyright_automated_check": {
+    "status": "review_required",
+    "flagged_files": 631,
+    "scope": "기존 v1 제작과 이번 v2를 포함한 현재 미커밋 아이콘 작업 전체"
+  },
+  "v2_provenance": {
+    "method": "직접 작성한 도형·색상 정의와 Aseprite 렌더링",
+    "source": "source/color-geometry-v2/design.json",
+    "attachment_use": "외형 참고만 사용, 첨부 이미지 복제 없음",
+    "third_party_screenshots_added": false,
+    "private_code_copied": false,
+    "image_generation_calls": 0
+  },
+  "art_approval": "pending",
+  "public_registration": "pending",
+  "ue_integration": "pending"
+}

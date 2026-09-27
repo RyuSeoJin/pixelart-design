@@ -1,0 +1,59 @@
+{
+  "revision": "1.0",
+  "assets": {
+    "emote_happy": {
+      "reason": "16px에서 눈이 사라진 문제를 보정하고 만족·불만의 동일 얼굴 윤곽과 서로 다른 입 모양을 명확히 정리",
+      "colors": {
+        "D": "342747",
+        "Y": "FFD34C",
+        "S": "F3AA27",
+        "H": "FFF0AD"
+      },
+      "rows": [
+        "................",
+        ".....DDDDDD.....",
+        "...DDHHHHHYDD...",
+        "..DHHHHHHHYSSD..",
+        "..DHHHHHHHYSSD..",
+        ".DYYYYYYYYYSSSD.",
+        ".DYYDDYYYYDDSSD.",
+        ".DYYDDYYYYDDSSD.",
+        ".DYYYYYYYYYSSSD.",
+        ".DYYYYYYYYYSSSD.",
+        ".DYYDYYYYYYDSSD.",
+        "..DYYDDDDDDSSD..",
+        "..DSSSSSSSSSSD..",
+        "...DDSSSSSSDD...",
+        ".....DDDDDD.....",
+        "................"
+      ]
+    },
+    "emote_unhappy": {
+      "reason": "16px에서 눈이 사라진 문제를 보정하고 만족·불만의 동일 얼굴 윤곽과 서로 다른 입 모양을 명확히 정리",
+      "colors": {
+        "D": "342747",
+        "Y": "FFD34C",
+        "S": "F3AA27",
+        "H": "FFF0AD"
+      },
+      "rows": [
+        "................",
+        ".....DDDDDD.....",
+        "...DDHHHHHYDD...",
+        "..DHHHHHHHYSSD..",
+        "..DHHHHHHHYSSD..",
+        ".DYYYYYYYYYSSSD.",
+        ".DYYDDYYYYDDSSD.",
+        ".DYYDDYYYYDDSSD.",
+        ".DYYYYYYYYYSSSD.",
+        ".DYYYYYYYYYSSSD.",
+        ".DYYYDDDDDDSSSD.",
+        "..DYDYYYYYYDSD..",
+        "..DSSSSSSSSSSD..",
+        "...DDSSSSSSDD...",
+        ".....DDDDDD.....",
+        "................"
+      ]
+    }
+  }
+}

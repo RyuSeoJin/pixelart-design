@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "pick_head_reflection": true,
+  "single_pixel_terminal_points": [
+    [
+      4,
+      3
+    ],
+    [
+      13,
+      12
+    ]
+  ],
+  "outputs": [
+    16,
+    32,
+    48,
+    64
+  ],
+  "art_approval": "pending"
+}

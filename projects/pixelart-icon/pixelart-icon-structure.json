@@ -1,11 +1,72 @@
 {
   "schema_version": 1,
   "resources": [
-    {"id":"icon-spec","label":"아이콘 크기·격자 사양","path":"spec/design/pixel-spec-icon.json","role":"specification","kind":"file"},
-    {"id":"icon-rules","label":"아이콘 제작 규칙","path":"rules/icon-production.md","role":"policy","kind":"file","depends_on":["icon-spec"]},
-    {"id":"source","label":"시안·작업 자료","path":"source","role":"implementation","kind":"directory","depends_on":["icon-spec"]},
-    {"id":"sprites","label":"편집 원본","path":"sprites","role":"implementation","kind":"directory","depends_on":["source"]},
-    {"id":"export","label":"크기별 출력·검토본","path":"export","role":"output","kind":"directory","depends_on":["sprites"]},
-    {"id":"releases","label":"최종 등록 승인·검수 기록","path":"releases","role":"evidence","kind":"directory","depends_on":["export"]}
+    {
+      "id": "icon-spec",
+      "label": "아이콘 크기·격자 사양",
+      "path": "spec/design/pixel-spec-icon.json",
+      "role": "specification",
+      "kind": "file"
+    },
+    {
+      "id": "recordtales-icons",
+      "label": "RecordTales 아이콘 66종 제작 목록",
+      "path": "spec/design/recordtales-icon-catalog.json",
+      "role": "specification",
+      "kind": "file",
+      "depends_on": [
+        "icon-spec"
+      ]
+    },
+    {
+      "id": "icon-rules",
+      "label": "아이콘 제작 규칙",
+      "path": "rules/icon-production.md",
+      "role": "policy",
+      "kind": "file",
+      "depends_on": [
+        "icon-spec"
+      ]
+    },
+    {
+      "id": "source",
+      "label": "시안·작업 자료",
+      "path": "source",
+      "role": "implementation",
+      "kind": "directory",
+      "depends_on": [
+        "icon-spec"
+      ]
+    },
+    {
+      "id": "sprites",
+      "label": "편집 원본",
+      "path": "sprites",
+      "role": "implementation",
+      "kind": "directory",
+      "depends_on": [
+        "source"
+      ]
+    },
+    {
+      "id": "export",
+      "label": "크기별 출력·검토본",
+      "path": "export",
+      "role": "output",
+      "kind": "directory",
+      "depends_on": [
+        "sprites"
+      ]
+    },
+    {
+      "id": "releases",
+      "label": "최종 등록 승인·검수 기록",
+      "path": "releases",
+      "role": "evidence",
+      "kind": "directory",
+      "depends_on": [
+        "export"
+      ]
+    }
   ]
 }

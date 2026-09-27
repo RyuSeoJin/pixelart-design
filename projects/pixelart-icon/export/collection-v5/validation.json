@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "roster_version": "v5",
+  "png_count": 4,
+  "native_face_diameter": 7,
+  "head_body_shared_outline": true,
+  "outline_color": "#342D46",
+  "all_boundary_pixels_outline_color": true,
+  "connected_silhouette": true,
+  "left_right_symmetry": true,
+  "nearest_rgba_match": true,
+  "previous_pngs_preserved": 264,
+  "other_icons_outline_review": "pending",
+  "art_approval": "pending"
+}

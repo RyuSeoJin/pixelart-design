@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+<!-- CHANGELOG v1.0 · 2026-09-27 — 45도 사선·90도 꼭짓점 -->
+<defs><linearGradient id="c" x1="0" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse"><stop offset="50%" stop-color="#8DCDF0"/><stop offset="50%" stop-color="#4F91CF"/></linearGradient></defs>
+<polygon points="12,8 20,16 12,24" fill="url(#c)" stroke="#342D46" stroke-width="1.8" stroke-linejoin="round"/>
+</svg>

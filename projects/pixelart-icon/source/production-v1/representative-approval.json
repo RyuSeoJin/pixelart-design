@@ -1,0 +1,231 @@
+{
+  "revision": "1.0",
+  "recorded_at": "2026-09-27 22:34",
+  "basis": "대표 6종을 기준으로 나머지 60종을 진행하겠다는 안내에 사용자가 네 진행해주세요라고 답했습니다.",
+  "scope": "대표 6종 v1 스타일 승인과 동일 방식의 나머지 제작 승인",
+  "excluded": "새 60종의 개별 외형 승인·공용 등록·UE 연결",
+  "assets": [
+    {
+      "id": "cmd_settings",
+      "files": [
+        {
+          "path": "export/cmd_settings/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "b42c695f55c55ab79122019a78ba26094d3d5d449f4f619a8be7682fa24c8a2f"
+        },
+        {
+          "path": "export/cmd_settings/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "15716580c4eb3d90a4bc96d78f59ec0f90097b2d321e8c18ebeb235f53ba3842"
+        },
+        {
+          "path": "export/cmd_settings/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "38cf16b9c26a1b24f6620380e5ced16cb3393b7bcfd68cb14e1d64b6ae7de084"
+        },
+        {
+          "path": "export/cmd_settings/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "78c49d54dae7c13e43e01ce6ed958fb265274a06644121df1491c8619fae3a2d"
+        }
+      ]
+    },
+    {
+      "id": "sym_close",
+      "files": [
+        {
+          "path": "export/sym_close/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "531b9b26bb9c1d0a7bebf738cf57dff559c33ef5f13dfd1329fefbad1e5292a7"
+        },
+        {
+          "path": "export/sym_close/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "0783920b957de529ca881bc535bfcc834aa2769db05f237022698fdb11a2af02"
+        },
+        {
+          "path": "export/sym_close/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "3934f7e515234a54a5d81ae755bd40a338f8b86bde30983ecb4d22ff9b8053e2"
+        },
+        {
+          "path": "export/sym_close/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "9ee7f31c29b7e36bd381b5d60ab37129d3aa182d6db9fcbe9e3615d0118dffa2"
+        }
+      ]
+    },
+    {
+      "id": "icon_book",
+      "files": [
+        {
+          "path": "export/icon_book/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "7a924bc4c0a0d5f90e4c0788da6c12edd1b392c2390bd0deb1a85b215ba55fd8"
+        },
+        {
+          "path": "export/icon_book/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "043a06e420fe9d26624cfdc3ac0d2f9b8a7b1fdf1959f0206ee99a09ae82ef69"
+        },
+        {
+          "path": "export/icon_book/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "533c0f579eb495e2aeb2d02fb28c6a936e0faba1a4992500657be3a17ea5d887"
+        },
+        {
+          "path": "export/icon_book/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "a128306ff01fed731ecf45602c3e780f1bef841f9e02a7cdc67fbef692ae6229"
+        }
+      ]
+    },
+    {
+      "id": "tpl_idea",
+      "files": [
+        {
+          "path": "export/tpl_idea/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "7ca4a8f5b82b297aec936392262891bacb1ebdebad6b0a76158fddc272170edf"
+        },
+        {
+          "path": "export/tpl_idea/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "36dc0f22e8e899d8594539ac03296a2decf77fec45a793f70aae98e899e2fc7c"
+        },
+        {
+          "path": "export/tpl_idea/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "bd7dbce130958757a4cc7f4cd9a731df7918e94c41d4d155bd97b4ff14b79689"
+        },
+        {
+          "path": "export/tpl_idea/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "fd08aba7aadbfa7437b3483f776b9c1ac668c685d9461331ce4300815000c9b0"
+        }
+      ]
+    },
+    {
+      "id": "order_restaurant",
+      "files": [
+        {
+          "path": "export/order_restaurant/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "ee04da342018dd50d29c0cd84a9346bc323d37e0e4698288b04b216d071dc107"
+        },
+        {
+          "path": "export/order_restaurant/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "7c62f97fb831a3d42533ff4bc3a33ce5d989183af2449c69a95d1e9ca733e78b"
+        },
+        {
+          "path": "export/order_restaurant/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "3fb4a761e36f2a8c54c10860cd796972563e71fc39bd4aa3de409e95d1770a5b"
+        },
+        {
+          "path": "export/order_restaurant/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "206b8b913246308be7a4cfb0b99b0962df5763d7e5c4f82c4f700ede81528131"
+        }
+      ]
+    },
+    {
+      "id": "act_cook",
+      "files": [
+        {
+          "path": "export/act_cook/v1/icon-16.png",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "5e7bc7da940b4722ec02ec631e6d45746c1bb22e700caac39aebd48ff4c81ba9"
+        },
+        {
+          "path": "export/act_cook/v1/icon-32.png",
+          "size": [
+            32,
+            32
+          ],
+          "sha256": "1b49fc1297b7d816dbab4d26574bc7c567b649982418457f815327a721c6d98f"
+        },
+        {
+          "path": "export/act_cook/v1/icon-48.png",
+          "size": [
+            48,
+            48
+          ],
+          "sha256": "bd84a438db1eab176f4f1d546bca40d0ceeb868235f88bb4d26ad4e109df6a4a"
+        },
+        {
+          "path": "export/act_cook/v1/icon-64.png",
+          "size": [
+            64,
+            64
+          ],
+          "sha256": "09415713556f8057823d9f97f2bb46ff4bc16390613c93ef7ef32b6dac8bd9a3"
+        }
+      ]
+    }
+  ]
+}

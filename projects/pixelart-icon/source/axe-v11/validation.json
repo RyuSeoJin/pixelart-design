@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "wood_tip": [
+    13,
+    8
+  ],
+  "old_tip_removed": true,
+  "outputs": [
+    16,
+    32,
+    48,
+    64
+  ],
+  "art_approval": "pending"
+}

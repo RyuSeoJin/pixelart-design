@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "pick_head_reflection_match": true,
+  "pick_head_joint": [
+    10,
+    6
+  ],
+  "pick_head_tips": [
+    [
+      7,
+      3
+    ],
+    [
+      13,
+      9
+    ]
+  ],
+  "equal_tip_distance": true,
+  "outputs_per_icon": [
+    16,
+    32,
+    48,
+    64
+  ],
+  "art_approval": "pending"
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+<!-- CHANGELOG v1.0 · 2026-09-27 — 색상과 일정한 획을 가진 기호 도형 원본 -->
+<defs><linearGradient id="color" x1="0" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse"><stop offset="50%" stop-color="#F69591"/><stop offset="50%" stop-color="#DF656A"/></linearGradient></defs>
+<polygon points="7.0000,3.0000 16.0000,12.0000 25.0000,3.0000 29.0000,7.0000 20.0000,16.0000 29.0000,25.0000 25.0000,29.0000 16.0000,20.0000 7.0000,29.0000 3.0000,25.0000 12.0000,16.0000 3.0000,7.0000" fill="url(#color)" stroke="#342D46" stroke-width="1.8" stroke-linejoin="round"/>
+</svg>
