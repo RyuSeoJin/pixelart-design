@@ -105,7 +105,42 @@ def goat(sp):
     write(sp, "goat_warrior", order, parts, L)
 
 
+def cook(sp):
+    """요리사 「모리」 — spec/design/characters/cook.md 대로. 소품은 모자 하나(임시 허용치 상자 위 8도트)."""
+    HAIR, WHITE, RED, PANTS, BTN = "HAIR", "CLOTH_B", "ACCENT", "CLOTH_A", "LEATHER"
+    L = {n: fk.layer(sp, n) for n in ("hair_back", "outfit", "hair_front", "hat")}
+    # 뒷머리: 둥근 단발, 폭 24(x 19~42), 턱 위(y 45)까지. 3/4라 왼쪽이 1도트 넓음
+    fk.paint(sp, L["hair_back"], lambda t: t.ellipse(30.5, 37, 12, 10, 1), HAIR, "sphere", 3)
+    fk.paint(sp, L["hair_back"], lambda t: t.poly([(19, 36), (24, 36), (24, 46), (20, 46), (18, 42)], 1), HAIR, "cyl", 3)
+    fk.paint(sp, L["hair_back"], lambda t: t.poly([(39, 36), (43, 36), (44, 42), (42, 46), (39, 46)], 1), HAIR, "cyl", 3)
+    # 앞머리: 눈(y 40) 바로 위에서 끝남, 뾰족 3개(가운데가 가장 김), 윤기 띠
+    fk.paint(sp, L["hair_front"], lambda t: t.poly([(20, 40), (20, 33), (24, 29), (31, 28), (38, 29), (42, 33), (42, 40),
+                                                  (40, 37), (37, 40), (34, 36), (31, 41), (28, 36), (25, 40), (22, 37)], 1), HAIR, "sphere", 2)
+    L["hair_front"].pixels([(26, 31), (27, 31), (28, 31)], sp.c(HAIR, 0))
+    # 옷: 흰 더블 재킷(몸통 46~53) + 앞치마(53~55) + 바지(53~57) + 목수건
+    fk.paint(sp, L["outfit"], lambda t: t.poly([(27, 53), (37, 53), (37, 57), (27, 57)], 1), PANTS, "cyl", 3)
+    for y in range(sp.height):                                                        # 바지는 한 단계 어둡게
+        for x in range(sp.width):
+            if L["outfit"].px[y][x] == sp.c(PANTS, 1):
+                L["outfit"].px[y][x] = sp.c(PANTS, 2)
+    fk.paint(sp, L["outfit"], lambda t: t.poly([(27, 46), (37, 46), (38, 53), (38, 55), (26, 55), (26, 53)], 1), WHITE, "cyl", 2)
+    L["outfit"].pixels([(33, 48), (33, 50)], sp.c(BTN, 1))                         # 단추 2개 (가까운 쪽 여밈)
+    L["outfit"].pixels([(31, 47), (31, 48), (31, 49), (31, 50), (31, 51)], sp.c(WHITE, 2))  # 여밈 선
+    L["outfit"].pixels([(x, 46) for x in range(29, 36)] + [(x, 47) for x in range(30, 35)], sp.c(RED, 1))  # 목수건
+    L["outfit"].pixels([(32, 48), (32, 49)], sp.c(RED, 2))                          # 매듭 끝
+    L["outfit"].pixels([(37, 52), (26, 52)], sp.c(WHITE, 2))                        # 소매 끝 접힘
+    # 모자(소품 · 임시): 상자 위 8도트, y 20~30, 위가 넓은 원통
+    fk.paint(sp, L["hat"], lambda t: t.poly([(24, 30), (39, 30), (40, 24), (38, 20), (25, 20), (23, 24)], 1), WHITE, "cyl", 2)
+    L["hat"].pixels([(x, 29) for x in range(25, 39)], sp.c(WHITE, 2))               # 띠
+    L["hat"].pixels([(27, 21), (28, 21), (33, 21), (34, 21)], sp.c(WHITE, 0))       # 주름 하이라이트
+    order = ["hair_back", "BODY", "outfit", "hair_front", "hat"]
+    parts = {"hair_back": {"anchor": "head"}, "outfit": {"anchor": "body"}, "hair_front": {"anchor": "head"},
+             "hat": {"anchor": "head"}}
+    write(sp, "cook", order, parts, L)
+
+
 if __name__ == "__main__":
     sp = fk.load_spec()
     deer(sp)
     goat(sp)
+    cook(sp)
