@@ -1,0 +1,16 @@
+# pixelart-character — dictionary
+
+이 프로젝트에서만 통하는 말을 모읍니다. 범용 용어는 중앙 `core/base/dictionary.md`에, 픽셀 아트
+용어는 `pixel-art` 모듈의 용어집에 있습니다. 배치 기준은 **「정의 문장에서 프로젝트 이름을 지워도
+성립하는가」** — 성립하면 중앙 · 모듈, 아니면 여기입니다.
+
+---
+
+## 용어
+
+| 용어 | 뜻 | 처음 쓰인 곳 |
+|---|---|---|
+| 레퍼런스 보드 | 사용자가 목표 스타일로 모은 픽셀 아트 보드(핀 33개) | `analysis/reference-board.md` |
+| 사슴 소녀 | 사용자 스케치 캐릭터 — 사슴뿔 · 지팡이 · 새 | `analysis/chibi-experiments.md` |
+| 양 전사 | 사용자 스케치 캐릭터 — 말린 뿔 · 망치 · 갑옷 | `analysis/chibi-experiments.md` |
+| 치비 실험 | 이 프로젝트 전에 48px 치비 규칙으로 한 두 번의 실험 (폐기) | `analysis/chibi-experiments.md` |
