@@ -2,7 +2,7 @@
 
 목표 스타일을 정하려고 사용자가 모은 레퍼런스 보드를 관찰한 기록입니다. 이 폴더는 조사 자료라
 여기 수치는 기대값으로 쓰지 않습니다 — 채택한 값은 `reference/adopted-values.md`, 확정값은
-`spec/design/pixel-spec.json`에 있습니다.
+`spec/design/pixel-spec-portrait.json`(초상화)에 있습니다.
 
 ## 출처와 저작권
 
