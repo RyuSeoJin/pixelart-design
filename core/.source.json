@@ -1,9 +1,9 @@
 {
  "source": "https://github.com/RyuSeoJin/rsj-centralized-control",
- "commit": "5cb0a6b4005297dfa72c2c17a49f6fdeb631b235",
+ "commit": "097e683cfd452adddd9dab8d05a92a5ca03ad9ce",
  "tag": null,
  "dirty": false,
- "synced": "2026-09-27 10:47",
+ "synced": "2026-09-27 12:48",
  "files": {
   "base/dictionary.md": "c63217df47576f1f0e3828f7cc85ba5ab1a4b8b999a66b71d893bcb22497709b",
   "base/doc-playbook.md": "8ecd157623b5cd5064b046dad9a2e620fbc3fdc9e0e4ec635774531992567aa9",
@@ -190,7 +190,7 @@
   "modules/pixel-art/rules/pixel-anim.md": "c5af4d22f038a521910ac50dae88c50af27189f0b6feda3ca641232b1fc1a768",
   "modules/pixel-art/rules/pixel-pipeline.md": "636fadeae1d640235fca8fef7f0d4ace6be2033c5d1f4aedacab58b3a362ae78",
   "modules/pixel-art/rules/pixel-rig.md": "fd5817ccd5e831d9cfeae9a9af266856e7c1c2d30a0229ba2379b7dfbd7ba9a1",
-  "modules/pixel-art/rules/pixel-style.md": "7482af25b89d7b1e6a4285f42e30e815c416b5c1be69250eb451bcf61a0e1fd3",
+  "modules/pixel-art/rules/pixel-style.md": "3f59ef3aedbed0888b4fb82102e0d1cb17153ab7616a640abbf9aeccd03654b5",
   "modules/pixel-art/scripts/anim_build.py": "f3f54f29f51ae86930454cf8939cc0b7c05f2c079eab227b5d7aecc4f44037f7",
   "modules/pixel-art/scripts/lineup.py": "21726480a28a71c0365ef11424b20eab9f44cf667293b83612baf1dd777c6b02",
   "modules/pixel-art/scripts/lint.py": "38e913ac7b78d02406d9a359aeb0fe18ec28065aff118e3d27e9f8535fc7f4f0",
