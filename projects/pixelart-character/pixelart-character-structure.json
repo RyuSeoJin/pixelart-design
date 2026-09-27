@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "resources": [
+    {"id": "spec-field", "label": "필드 스프라이트 사양", "path": "spec/design/pixel-spec-field.json", "role": "specification", "kind": "file"},
+    {"id": "spec-portrait", "label": "초상화 사양", "path": "spec/design/pixel-spec-portrait.json", "role": "specification", "kind": "file"},
+    {"id": "source", "label": "입력 그림 · 공통 몸체 · 파츠 (자작)", "path": "source", "role": "implementation", "kind": "directory", "depends_on": ["spec-field"]},
+    {"id": "sprites", "label": "캐릭터 원본 .aseprite (자작)", "path": "sprites", "role": "implementation", "kind": "directory", "depends_on": ["source"]},
+    {"id": "export", "label": "동작 시트 · 반전 시트 · 미리보기 (파생물)", "path": "export", "role": "output", "kind": "directory", "depends_on": ["sprites"]}
+  ]
+}

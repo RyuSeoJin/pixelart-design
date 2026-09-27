@@ -1,0 +1,27 @@
+{
+ "order": [
+  "hair_back",
+  "BODY",
+  "outfit",
+  "staff",
+  "hair_front",
+  "antlers"
+ ],
+ "parts": {
+  "staff": {
+   "anchor": "hand_R"
+  },
+  "hair_back": {
+   "anchor": "head"
+  },
+  "outfit": {
+   "anchor": "body"
+  },
+  "hair_front": {
+   "anchor": "head"
+  },
+  "antlers": {
+   "anchor": "head"
+  }
+ }
+}
