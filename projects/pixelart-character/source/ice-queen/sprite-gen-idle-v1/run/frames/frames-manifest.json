@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "engine": "component-row",
+  "run_dir": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\ice-queen\\sprite-gen-idle-v1\\.run.sg-staging",
+  "cell": {
+    "shape": "square",
+    "width": 160,
+    "height": 160,
+    "size": 160,
+    "safe_margin": 0
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": 1,
+      "method": "unpacked",
+      "files": [
+        "frames/idle/frame-0.png"
+      ],
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

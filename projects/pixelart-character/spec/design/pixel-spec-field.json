@@ -559,7 +559,41 @@
     ],
     "enforcement": "제작 절차 메타데이터 — 자동 승인·자동 생성 기능 아님",
     "post_upscale_step": "320 격자의 얼굴 내부만 1px 보정하고 정지 이미지를 승인받은 뒤, 원본을 확대하지 않고 512 투명 캔버스에 배치하여 배포 검수합니다.",
-    "revision_note": "2026-09-27: 규칙서 v1.8. 1024 시안 → 160 작업 → 320 얼굴 보정 → 512 배포. 머리 21·신체 126도트. 기존 이미지·승인 이력은 보존하며 생성기·동작 offsets와 배포 도구는 적용 검수 전 호환 완료로 보지 않습니다."
+    "revision_note": "2026-09-27: 규칙서 v1.8. 1024 시안 → 160 작업 → 320 얼굴 보정 → 512 배포. 머리 21·신체 126도트. 기존 이미지·승인 이력은 보존하며 생성기·동작 offsets와 배포 도구는 적용 검수 전 호환 완료로 보지 않습니다.",
+    "sprite_gen_trial": {
+      "tool": "sprite-gen",
+      "version": "2.11.0",
+      "commit": "b725baa5aad026f183e2083275b441f2db225c48",
+      "scope": "optional_local_idle_trial",
+      "official_animation_spec_unchanged": true,
+      "native_canvas": [
+        160,
+        160
+      ],
+      "face_retouch_canvas": [
+        320,
+        320
+      ],
+      "delivery_canvas": [
+        512,
+        512
+      ],
+      "head_transform": "verified_integer_translation_only",
+      "body_resampling": "nearest_2x",
+      "preserve_face_overlay_and_mask": true,
+      "disable_automatic_recenter": true,
+      "require_visual_and_engine_approval": true,
+      "external_generation_requires_separate_authorization": true,
+      "trial_settings": {
+        "frames": 6,
+        "duration_ms": 250,
+        "depth": 0.02,
+        "depth_x": 0,
+        "breaths": 1,
+        "lag": 0.1
+      },
+      "evidence": "export/ice-queen/sprite-gen-idle-v1/validation.json"
+    }
   },
   "delivery": {
     "canvas": {

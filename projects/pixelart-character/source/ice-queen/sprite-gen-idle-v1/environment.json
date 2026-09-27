@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "sprite-gen": "2.11.0",
+    "Pillow": "12.3.0",
+    "numpy": "2.5.3",
+    "fonttools": "4.66.0",
+    "brotli": "1.2.0"
+  },
+  "tool_commit": "b725baa5aad026f183e2083275b441f2db225c48"
+}
