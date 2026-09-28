@@ -297,7 +297,7 @@
       "purpose"
     ],
     "enforcement": "제작 절차 메타데이터 — 자동 승인·자동 생성 기능 아님",
-    "revision_note": "v1.18 — 180 직접 작업·출력, 얼굴 전용 보정 제거, 일러스트 자세·감정 몸짓·파일명 버전 적용",
+    "revision_note": "v1.19 — 설정·계획 및 기준 시안 사전 승인 단계 명시",
     "ground_alignment": {
       "revision": "2026-09-28 / v1.10",
       "reference": "기준 정지본의 접지 발바닥을 확인해 한 번 결정",
@@ -548,6 +548,40 @@
       ],
       "approval": "approval_vNNN.json",
       "work": "생성 원본·요청·검수·참조 중간 자료"
+    },
+    "approval_gates": {
+      "planning_approval_before_any_generation": true,
+      "planning_fields": [
+        "콘셉트·종족·역할·체형·성격",
+        "헤어·얼굴·기본 표정",
+        "복식·배색·문양 개수·신체 기준 부착점",
+        "귀·꼬리·소품",
+        "계승 범위·변경 범위",
+        "미정 사항·추천안",
+        "크기·시점별 목적·파일 목록",
+        "첫 기준 시안·제작 순서·승인 지점"
+      ],
+      "applies_to_restart": true,
+      "stages": [
+        "설정·제작 계획 승인",
+        "1024 기준 정면 승인",
+        "1024 시점 묶음 승인",
+        "감정 몸짓 시안 승인",
+        "180 정지본 승인",
+        "별도 요청된 방향별 동작 제작·승인"
+      ],
+      "unapproved_reference_as_generation_input": false,
+      "parallel_generation_before_reference_approval": false,
+      "approval_scope": "직전에 제시한 대상·버전에 한정하며 다음 승인 단계로 자동 확대하지 않습니다.",
+      "approval_record_fields": [
+        "대상",
+        "버전",
+        "근거",
+        "범위",
+        "허용된 다음 단계"
+      ],
+      "changed_basis_requires_reapproval": true,
+      "existing_unapproved_images": "보존하되 후속 제작 기준으로 자동 채택하지 않습니다."
     }
   },
   "delivery": {
@@ -600,5 +634,5 @@
       "engine_validation": "pending"
     }
   },
-  "_revision_note": "v1.18 · 2026-09-28 — 180 직접 제작·배포, 일러스트 자세·감정 몸짓·파일명 버전, 얼굴 전용 보정 제거"
+  "_revision_note": "v1.19 · 2026-09-28 — 설정·계획 승인 전 생성 금지, 미승인 기준의 후속 제작 금지"
 }
