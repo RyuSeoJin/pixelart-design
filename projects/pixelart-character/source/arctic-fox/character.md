@@ -1,3 +1,4 @@
+<!-- CHANGELOG v1.24 · 2026-09-28 — (변경) 8종 기준 보완·후보 선택 후 표정 제작 -->
 <!-- CHANGELOG v1.23 · 2026-09-28 — (추가) 1024 시점 6장 묶음 승인 -->
 <!-- CHANGELOG v1.22 · 2026-09-28 — (추가) 1024 나머지 시점 6장 검토본 -->
 <!-- CHANGELOG v1.21 · 2026-09-28 — (추가) 1024 전신 정면 v004 사용자 승인 -->
@@ -17,7 +18,7 @@
 <!-- CHANGELOG v1.7 · 2026-09-28 — (제거) 앞 목깃 연결부, (추가) 가슴 자수 검토안 -->
 <!-- CHANGELOG v1.6 · 2026-09-28 — (변경) 목깃 앞면 단순화, (제거) 둥근 털장식 -->
 <!-- CHANGELOG v1.5 · 2026-09-28 — (변경) 서리꽃 목깃·빙청색 안감, (제거) 펜던트·땋은 머리 -->
-<!-- CHANGELOG v1.4 · 2026-09-28 — (변경) 공통 제작 규칙서 v1.21 참조 -->
+<!-- CHANGELOG v1.4 · 2026-09-28 — (변경) 공통 제작 규칙서 v1.22 참조 -->
 <!-- CHANGELOG v1.3 · 2026-09-28 — (변경) 고유 설정과 공통 규칙 분리, (제거) 감정별 몸짓 -->
 <!-- CHANGELOG v1.2 · 2026-09-28 — (변경) 관리 폴더 이름 arctic-fox -->
 <!-- CHANGELOG v1.1 · 2026-09-28 — (변경) 설정·제작 계획 확인 대기로 복귀 -->
@@ -26,9 +27,9 @@
 
 ## 현재 상태와 공통 기준
 
-관리 식별자는 `arctic-fox`입니다. 사용자가 서리꽃 목깃 안을 선택하고 펜던트·땋은 머리 제외를 요청했습니다. 흰 천 후드 상반신 정면 v003과 3/4 v004가 승인되었습니다. 귀 명암·비대칭 주름·좁은 옆트임을 적용한 전신 정면 front_v004도 승인되었습니다. 기준 이미지는 image-confirmed/1024/view/front_v004.png이며 승인 기록은 image-confirmed/approval_v002.json입니다. 이 정면을 기준으로 제작한 나머지 시점 6장 v001도 승인되어 image-confirmed/1024/view에 저장했습니다. 묶음 승인 기록은 image-confirmed/approval_v003.json입니다.
+관리 식별자는 `arctic-fox`입니다. 사용자가 서리꽃 목깃 안을 선택하고 펜던트·땋은 머리 제외를 요청했습니다. 흰 천 후드 상반신 정면 v003과 3/4 v004가 승인되었습니다. 귀 명암·비대칭 주름·좁은 옆트임을 적용한 전신 정면 front_v004도 승인되었습니다. 기준 이미지는 image-confirmed/1024/view/front_v004.png이며 승인 기록은 image-confirmed/approval_v002.json입니다. 이 정면을 기준으로 제작한 나머지 시점 6장 v001도 승인되어 image-confirmed/1024/view에 저장했습니다. 묶음 승인 기록은 image-confirmed/approval_v003.json입니다. 기존 7장 승인은 유지하며 새 규칙의 8번째 head_front 시점은 제작·승인 전입니다. 8종을 채운 뒤 일러스트 후보를 선택·확정하고 그 선택본으로 표정을 제작합니다.
 
-공통 항목은 [캐릭터 설정 템플릿](../../spec/design/character-settings-template.md), 제작·표정·승인·저장 규칙은 [제작 규칙서 v1.21](../../spec/design/pixel-art-6head-illustration-guide.html), 수치는 [필드 사양](../../spec/design/pixel-spec-field.json)과 [초상화 사양](../../spec/design/pixel-spec-portrait.json)을 따릅니다.
+공통 항목은 [캐릭터 설정 템플릿](../../spec/design/character-settings-template.md), 제작·표정·승인·저장 규칙은 [제작 규칙서 v1.22](../../spec/design/pixel-art-6head-illustration-guide.html), 수치는 [필드 사양](../../spec/design/pixel-spec-field.json)과 [초상화 사양](../../spec/design/pixel-spec-portrait.json)을 따릅니다.
 
 ## 채택한 외형
 
@@ -57,9 +58,13 @@
 
 ## 캐릭터별 시점 선택
 
-일러스트용 `view-three-quarter-front`는 정면에서 화면 왼쪽으로 약 30도 회전한 승인 전신입니다. 얼굴과 시선은 같은 방향이며 기본 자세는 편안히 서서 두 팔을 내린 모습입니다.
+일러스트용 `view-three-quarter-front`는 정면에서 화면 왼쪽으로 약 30도 회전한 승인 전신입니다. 얼굴과 시선은 같은 방향이며 기본 자세는 편안히 서서 두 팔을 내린 모습입니다. 추가할 `view-three-quarter-head_front`는 몸·골반·발을 같은 자세로 유지하고 고개를 카메라 쪽으로 돌려 얼굴과 시선이 정면을 향하도록 합니다.
 
 방향별 주요 확인 요소는 팔 바깥쪽 소매 문양과 골반 뒤 꼬리의 가림입니다.
+
+## 일러스트 후보 선택 상태
+
+후보 수·용도·구도 변경 범위는 8종 승인 후 제안합니다. 현재 선택된 일러스트 후보는 없으며 illustration-selection.json의 selections는 빈 목록입니다. 기존 일러스트용 기준 시점 승인을 후보 선택 승인으로 간주하지 않습니다.
 
 ## 승인과 미정 사항
 

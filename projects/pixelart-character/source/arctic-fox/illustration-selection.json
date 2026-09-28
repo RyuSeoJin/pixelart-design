@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "character_id": "arctic-fox",
+  "status": "8번째 head_front 기준 시안 제작·승인 전, 일러스트 후보 미선택",
+  "selections": [],
+  "rule_reference": "../../spec/design/pixel-spec-portrait.json#/production_workflow/illustration_workflow"
+}

@@ -297,7 +297,7 @@
       "purpose"
     ],
     "enforcement": "제작 절차 메타데이터 — 자동 승인·자동 생성 기능 아님",
-    "revision_note": "v1.21 — 단계별 자료 확인과 적용·검수 기록",
+    "revision_note": "v1.22 — 8종 기준 시안·일러스트 후보 승인·선택본 기반 표정",
     "ground_alignment": {
       "revision": "2026-09-28 / v1.10",
       "reference": "기준 정지본의 접지 발바닥을 확인해 한 번 결정",
@@ -416,7 +416,8 @@
         "behind_vNNN.png",
         "three-quarter_left_vNNN.png",
         "three-quarter_right_vNNN.png",
-        "view-three-quarter-front_vNNN.png"
+        "view-three-quarter-front_vNNN.png",
+        "view-three-quarter-head_front_vNNN.png"
       ],
       "direction_links": {
         "left": [
@@ -469,11 +470,30 @@
         "enforcement": "제작자 수동 검수 필수 — JSON 메타데이터는 자동 검사 통과를 뜻하지 않습니다."
       },
       "illustration_view": {
-        "name": "view-three-quarter-front",
-        "rotation": "정면에 가까운 30~45도, 캐릭터 설정에 방향 고정",
-        "usage": "일러스트·얼굴 표정 기준, 이동용 자세와 구분",
-        "approval_before_expressions": true
-      }
+        "variants": {
+          "front": {
+            "name": "view-three-quarter-front",
+            "body_rotation": "정면에서 약30~45도, 방향은 캐릭터 설정",
+            "head_direction": "얼굴·시선은 몸 방향과 일치"
+          },
+          "head_front": {
+            "name": "view-three-quarter-head_front",
+            "body_rotation": "front와 같은 몸·골반·발 방향",
+            "head_direction": "고개를 카메라로 돌려 얼굴과 시선이 정면, 목 연결·턱·코·귀 원근 검수"
+          }
+        },
+        "initial_comparison_preserve": [
+          "몸 자세",
+          "기본 표정",
+          "배율",
+          "위치",
+          "광원",
+          "복식"
+        ],
+        "usage": "8종 외형 기준 중 일러스트용 두 시점, 후보 제작 입력",
+        "does_not_override_movement_alignment": true
+      },
+      "concept_view_count": 8
     },
     "expression_rules": {
       "types": [
@@ -493,7 +513,6 @@
         "입"
       ],
       "review": "같은 시점·배율에서 얼굴만으로 감정을 구별하고 얼굴 밖 요소가 기준 시안과 같은지 비교합니다. 기본과 겹친 감정도 구분되어야 합니다.",
-      "source_view": "view-three-quarter-front",
       "format": "1024 투명 전신 정지 시안",
       "body_gesture_required": false,
       "animation": false,
@@ -514,7 +533,18 @@
         "배율·위치",
         "광원"
       ],
-      "native_pixel_face_retouch": false
+      "native_pixel_face_retouch": false,
+      "source": "illustration-selection.json에서 선택한 image-confirmed/1024/illustration의 승인 후보 파일·버전·해시",
+      "source_approval_required": true,
+      "filename": "{candidate_id}_{default|smile|sad|angry}_vNNN.png",
+      "source_tracking": [
+        "candidate_id",
+        "confirmed_path",
+        "source_version",
+        "sha256",
+        "approval_record"
+      ],
+      "sets": "선택된 후보마다 별도 4종. default는 선택한 원본과 동일한 기준 표정이며 불필요한 재생성 없음."
     },
     "directional_animation": {
       "clips": [
@@ -561,7 +591,22 @@
         "manifest_vNNN.json"
       ],
       "approval": "approval_vNNN.json",
-      "work": "생성 원본·요청·검수·참조 중간 자료"
+      "work": "생성 원본·요청·검수·참조 중간 자료",
+      "concept_categories": [
+        "view",
+        "illustration",
+        "expression"
+      ],
+      "illustration_filename": "{front|head_front}-{후보번호}_vNNN.png",
+      "expression_filename": "{candidate_id}_{default|smile|sad|angry}_vNNN.png",
+      "selection_record": "illustration-selection.json",
+      "confirmed_name": "image-confirmed (대화의 confirm과 같은 역할이며 별도 confirm 폴더를 만들지 않습니다.)",
+      "approval_copy_scope": [
+        "8종 기준 시안",
+        "선택·승인된 일러스트 후보",
+        "승인된 표정 시안",
+        "승인된 180 정지·동작"
+      ]
     },
     "approval_gates": {
       "planning_approval_before_any_generation": true,
@@ -579,7 +624,8 @@
       "stages": [
         "설정·제작 계획 승인",
         "1024 기준 정면 승인",
-        "1024 시점 묶음 승인",
+        "1024 기준 시안 8종 묶음 승인",
+        "일러스트 후보 선택·승인 및 확정본 저장",
         "감정 표정 시안 승인",
         "180 정지본 승인",
         "별도 요청된 방향별 동작 제작·승인"
@@ -592,10 +638,17 @@
         "버전",
         "근거",
         "범위",
-        "허용된 다음 단계"
+        "허용된 다음 단계",
+        "원본 경로",
+        "확정 경로",
+        "승인 일시",
+        "sha256",
+        "기준 이미지 파일·버전·해시",
+        "후보 식별자·용도(해당 시)"
       ],
       "changed_basis_requires_reapproval": true,
-      "existing_unapproved_images": "보존하되 후속 제작 기준으로 자동 채택하지 않습니다."
+      "existing_unapproved_images": "보존하되 후속 제작 기준으로 자동 채택하지 않습니다.",
+      "illustration_before_expressions": true
     },
     "character_settings_template": "character-settings-template.md",
     "rule_application": {
@@ -637,6 +690,39 @@
         "디자인 일치 검수",
         "사용자 승인"
       ]
+    },
+    "illustration_workflow": {
+      "requires_approved_eight_views": true,
+      "stage": "8종 기준 승인 후 일러스트 후보 제작·비교·선택·승인",
+      "candidate_plan_fields": [
+        "용도",
+        "front 또는 head_front",
+        "후보 수",
+        "후보별 변경 요소",
+        "유지할 외형",
+        "구도·자세 범위"
+      ],
+      "candidate_count": "작업 계획에서 정하며 임의 고정하지 않습니다.",
+      "identity_source": "승인된 8종 외형 기준",
+      "candidate_id": "{front|head_front}-{두 자리 후보 번호}",
+      "revision_suffix": "_vNNN",
+      "undecided_path": "image-undecided/1024/illustration/{candidate_id}_vNNN.png",
+      "confirmed_path": "image-confirmed/1024/illustration/{candidate_id}_vNNN.png",
+      "copy_exact_approved_file": true,
+      "selection_record": "illustration-selection.json",
+      "selection_fields": [
+        "candidate_id",
+        "view_variant",
+        "confirmed_path",
+        "source_version",
+        "sha256",
+        "approval_record",
+        "purpose"
+      ],
+      "multiple_selections_allowed": true,
+      "no_default_selection": true,
+      "expressions_require_selected_confirmed_candidate": true,
+      "selected_candidate_change": "선택 버전·해시가 바뀌면 종전 표정 연결을 최신으로 간주하지 않고 영향 확인 후 재검수·승인합니다."
     }
   },
   "delivery": {
@@ -689,5 +775,5 @@
       "engine_validation": "pending"
     }
   },
-  "_revision_note": "v1.21 · 2026-09-28 — 제작 자료 확인·승인 입력·결과 검수 분리"
+  "_revision_note": "v1.22 · 2026-09-28 — 일러스트 front/head_front와 후보 승인·저장 단계"
 }
