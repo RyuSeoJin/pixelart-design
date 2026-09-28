@@ -1,0 +1,21 @@
+{
+  "설정": "character.md v1.11",
+  "입력": "work/front-edit-generated_v006.png",
+  "요청": "목깃 끝이 후드처럼 옷의 접합 부분에 맞닿는 구조",
+  "출력": "projects\\pixelart-character\\source\\arctic-fox\\work\\front-edit-generated_v007.png",
+  "실제 크기": [
+    1254,
+    1254
+  ],
+  "모드": "RGBA",
+  "sha256": "24f7b85167180dcbe6f33ea3100576e680f2652eac9b8e33e027fd243e16bf97",
+  "도구": "내장 imagegen",
+  "검수": [
+    "양쪽 털깃 끝과 튜닉 목선이 연결된 윤곽 확인",
+    "두툼한 어깨 목깃 유지",
+    "가슴 자수 유지",
+    "앞목 파임 유지, 별도 중앙 연결 조각 없음"
+  ],
+  "기술 상태": "1254×1254 중간본. 1024 규격 정리 미완료.",
+  "사용자 승인": false
+}
