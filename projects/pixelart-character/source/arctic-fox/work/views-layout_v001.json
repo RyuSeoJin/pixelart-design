@@ -1,0 +1,110 @@
+[
+  {
+    "scale": 0.779746835443038,
+    "file": "side_left_v001.png",
+    "source_alpha_y": [
+      30,
+      1214
+    ],
+    "offset": [
+      44,
+      27
+    ],
+    "color_floor_pixels": 1242,
+    "source": "exec-e183d36b-accc-43c9-b1e9-a00d50c247b8.png",
+    "source_size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "scale": 0.7784330244313395,
+    "file": "side_right_v001.png",
+    "source_alpha_y": [
+      26,
+      1212
+    ],
+    "offset": [
+      6,
+      30
+    ],
+    "color_floor_pixels": 1038,
+    "source": "exec-0b477a92-3baa-48d3-84ee-25b9fa5b059a.png",
+    "source_size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "scale": 0.81195079086116,
+    "file": "behind_v001.png",
+    "source_alpha_y": [
+      49,
+      1186
+    ],
+    "offset": [
+      3,
+      10
+    ],
+    "color_floor_pixels": 1672,
+    "source": "exec-4682193b-1e3a-4201-88f0-5ed95c372d38.png",
+    "source_size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "scale": 0.7725752508361204,
+    "file": "three-quarter_left_v001.png",
+    "source_alpha_y": [
+      29,
+      1224
+    ],
+    "offset": [
+      29,
+      28
+    ],
+    "color_floor_pixels": 1328,
+    "source": "exec-0ceb3d76-b108-491a-ae5f-4b8aab1146a5.png",
+    "source_size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "scale": 0.7790893760539629,
+    "file": "three-quarter_right_v001.png",
+    "source_alpha_y": [
+      36,
+      1221
+    ],
+    "offset": [
+      -6,
+      22
+    ],
+    "color_floor_pixels": 1150,
+    "source": "exec-a61b29bd-0feb-4d76-942c-0b40cf129c90.png",
+    "source_size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "scale": 0.7938144329896907,
+    "file": "view-three-quarter-front_v001.png",
+    "source_alpha_y": [
+      48,
+      1211
+    ],
+    "offset": [
+      20,
+      12
+    ],
+    "color_floor_pixels": 1501,
+    "source": "exec-58b8eddc-89db-4e61-a7de-043c0f27e23f.png",
+    "source_size": [
+      1254,
+      1254
+    ]
+  }
+]

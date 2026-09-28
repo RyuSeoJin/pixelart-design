@@ -1,0 +1,46 @@
+{
+  "날짜": "2026-09-28T17:41:46.789391+09:00",
+  "근거": "네 좋습니다",
+  "범위": "직전에 제시한 1024 시점 6장 v001 묶음 승인",
+  "대상": [
+    {
+      "원본": "image-undecided/1024/view/side_left_v001.png",
+      "대상": "image-confirmed/1024/view/side_left_v001.png",
+      "버전": "v001",
+      "sha256": "85df9e52edbcafa724e555324887586b80ccdf1a304244285939836e69b3b458"
+    },
+    {
+      "원본": "image-undecided/1024/view/side_right_v001.png",
+      "대상": "image-confirmed/1024/view/side_right_v001.png",
+      "버전": "v001",
+      "sha256": "1f2f97d494b9a40b55d03bee3344722d8c77c4b2a1f4ec6c5939a21b9e561ed0"
+    },
+    {
+      "원본": "image-undecided/1024/view/behind_v001.png",
+      "대상": "image-confirmed/1024/view/behind_v001.png",
+      "버전": "v001",
+      "sha256": "93d83fa06bc6e85c89f9ab1f8f45724b44ea48b16da24a71e1cfa8fd9c2dd5c2"
+    },
+    {
+      "원본": "image-undecided/1024/view/three-quarter_left_v001.png",
+      "대상": "image-confirmed/1024/view/three-quarter_left_v001.png",
+      "버전": "v001",
+      "sha256": "6b25cc74501a1531ccb0d0d9a7da587d078b74be57eed68eb79b96db9d9c3ed8"
+    },
+    {
+      "원본": "image-undecided/1024/view/three-quarter_right_v001.png",
+      "대상": "image-confirmed/1024/view/three-quarter_right_v001.png",
+      "버전": "v001",
+      "sha256": "4dc08f22e2ba5607eeabe4c2b8acdd802ca066f75c5c54922f0199a09d7c8c06"
+    },
+    {
+      "원본": "image-undecided/1024/view/view-three-quarter-front_v001.png",
+      "대상": "image-confirmed/1024/view/view-three-quarter-front_v001.png",
+      "버전": "v001",
+      "sha256": "172548f0a4e199e65e29aec34b3c4ceb8f5f6e5f63e76e05fcf3a90c2795e3b9"
+    }
+  ],
+  "검수": "work/views-review_v001.json",
+  "허용된 다음 단계": "승인된 view-three-quarter-front_v001 기준으로 기본·웃음·슬픔·화남 얼굴 표정 시안 제작·검수·승인",
+  "제약": "얼굴 외 자세·헤어·귀·꼬리·복식·배율·위치는 유지합니다. 표정 승인 및 180 도트·동작 승인은 별도입니다."
+}
