@@ -533,7 +533,7 @@
       "purpose"
     ],
     "enforcement": "제작 절차 메타데이터 — 자동 승인·자동 생성 기능 아님",
-    "revision_note": "v1.19 — 설정·계획 및 기준 시안 사전 승인 단계 명시",
+    "revision_note": "v1.20 — 공통 설정 템플릿 참조와 얼굴만 변경하는 감정 시안",
     "sprite_gen_trial": {
       "tool": "sprite-gen",
       "version": "2.11.0",
@@ -737,7 +737,7 @@
       "illustration_view": {
         "name": "view-three-quarter-front",
         "rotation": "정면에 가까운 30~45도, 캐릭터 설정에 방향 고정",
-        "usage": "일러스트·감정 몸짓 기준, 이동용 자세와 구분",
+        "usage": "일러스트·얼굴 표정 기준, 이동용 자세와 구분",
         "approval_before_expressions": true
       }
     },
@@ -756,17 +756,31 @@
         "강도",
         "눈썹",
         "눈매",
-        "입",
-        "고개",
-        "어깨",
-        "팔·손",
-        "귀·꼬리"
+        "입"
       ],
-      "review": "동일 시점·배율에서 이름을 가려도 감정이 읽히고 기본과 구별되어야 합니다.",
+      "review": "같은 시점·배율에서 얼굴만으로 감정을 구별하고 얼굴 밖 요소가 기준 시안과 같은지 비교합니다. 기본과 겹친 감정도 구분되어야 합니다.",
       "source_view": "view-three-quarter-front",
       "format": "1024 투명 전신 정지 시안",
-      "body_gesture_required": true,
-      "animation": false
+      "body_gesture_required": false,
+      "animation": false,
+      "face_only": true,
+      "allowed_changes": [
+        "눈썹",
+        "눈꺼풀·눈매",
+        "입 모양",
+        "표정에 필요한 얼굴 내부 묘사"
+      ],
+      "preserve": [
+        "얼굴형·눈의 기본 비례",
+        "고개 각도",
+        "시선 방향",
+        "몸·어깨·팔·손 자세",
+        "귀·꼬리",
+        "헤어·복식",
+        "배율·위치",
+        "광원"
+      ],
+      "native_pixel_face_retouch": false
     },
     "directional_animation": {
       "clips": [
@@ -832,7 +846,7 @@
         "설정·제작 계획 승인",
         "1024 기준 정면 승인",
         "1024 시점 묶음 승인",
-        "감정 몸짓 시안 승인",
+        "감정 표정 시안 승인",
         "180 정지본 승인",
         "별도 요청된 방향별 동작 제작·승인"
       ],
@@ -848,7 +862,8 @@
       ],
       "changed_basis_requires_reapproval": true,
       "existing_unapproved_images": "보존하되 후속 제작 기준으로 자동 채택하지 않습니다."
-    }
+    },
+    "character_settings_template": "character-settings-template.md"
   },
   "delivery": {
     "canvas": {
@@ -900,5 +915,5 @@
       "engine_validation": "pending"
     }
   },
-  "_revision_note": "v1.19 · 2026-09-28 — 설정·계획 승인 전 생성 금지, 미승인 기준의 후속 제작 금지"
+  "_revision_note": "v1.20 · 2026-09-28 — 설정 템플릿 분리, 감정 시안 얼굴만 변경"
 }
