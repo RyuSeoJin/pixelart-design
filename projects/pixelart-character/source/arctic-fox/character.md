@@ -1,3 +1,4 @@
+<!-- CHANGELOG v1.4 · 2026-09-28 — (변경) 공통 제작 규칙서 v1.21 참조 -->
 <!-- CHANGELOG v1.3 · 2026-09-28 — (변경) 고유 설정과 공통 규칙 분리, (제거) 감정별 몸짓 -->
 <!-- CHANGELOG v1.2 · 2026-09-28 — (변경) 관리 폴더 이름 arctic-fox -->
 <!-- CHANGELOG v1.1 · 2026-09-28 — (변경) 설정·제작 계획 확인 대기로 복귀 -->
@@ -8,7 +9,7 @@
 
 관리 식별자는 `arctic-fox`입니다. 현재는 **설정·제작 계획 확인 대기**이며, 이미지 리소스는 없습니다. 아래 외형은 재시작을 위해 확인받을 설정 초안입니다.
 
-공통 항목은 [캐릭터 설정 템플릿](../../spec/design/character-settings-template.md), 제작·표정·승인·저장 규칙은 [제작 규칙서 v1.20](../../spec/design/pixel-art-6head-illustration-guide.html), 수치는 [필드 사양](../../spec/design/pixel-spec-field.json)과 [초상화 사양](../../spec/design/pixel-spec-portrait.json)을 따릅니다.
+공통 항목은 [캐릭터 설정 템플릿](../../spec/design/character-settings-template.md), 제작·표정·승인·저장 규칙은 [제작 규칙서 v1.21](../../spec/design/pixel-art-6head-illustration-guide.html), 수치는 [필드 사양](../../spec/design/pixel-spec-field.json)과 [초상화 사양](../../spec/design/pixel-spec-portrait.json)을 따릅니다.
 
 ## 확인받을 외형
 
