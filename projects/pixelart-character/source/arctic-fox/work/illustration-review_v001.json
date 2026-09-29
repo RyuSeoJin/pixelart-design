@@ -1,0 +1,79 @@
+{
+  "날짜": "2026-09-28T19:56:28.351438+09:00",
+  "계획": "work/illustration-plan_v001.json",
+  "규칙": "제작 규칙서 v1.22 / 초상화 사양 v1.22 / 캐릭터 설정 v1.26",
+  "후보": [
+    {
+      "candidate_id": "front-01",
+      "파일": "image-undecided/1024/illustration/front-01_v001.png",
+      "sha256": "172548f0a4e199e65e29aec34b3c4ceb8f5f6e5f63e76e05fcf3a90c2795e3b9",
+      "규격": [
+        1024,
+        1024
+      ],
+      "투명 픽셀": 852729,
+      "가시 RGB 최솟값": 10,
+      "승인 입력": "image-confirmed/1024/view/view-three-quarter-front_v001.png",
+      "입력 해시": "172548f0a4e199e65e29aec34b3c4ceb8f5f6e5f63e76e05fcf3a90c2795e3b9",
+      "제작 방식": "승인 기준 원본 복사",
+      "디자인 검수": "얼굴 방향·차분한 표정·흰 단발·귀·후드·가슴 자수·문양 부착점·꼬리·전신 확인",
+      "자세": "양팔 내림",
+      "승인": "후보 선택·승인 대기"
+    },
+    {
+      "candidate_id": "front-02",
+      "파일": "image-undecided/1024/illustration/front-02_v001.png",
+      "sha256": "0ad6d475395452624f4476023653290bb97d250c292d64f88083ed4a62bbf3d7",
+      "규격": [
+        1024,
+        1024
+      ],
+      "투명 픽셀": 856436,
+      "가시 RGB 최솟값": 10,
+      "승인 입력": "image-confirmed/1024/view/view-three-quarter-front_v001.png",
+      "입력 해시": "172548f0a4e199e65e29aec34b3c4ceb8f5f6e5f63e76e05fcf3a90c2795e3b9",
+      "제작 방식": "내장 imagegen 팔 자세 편집 후 System.Drawing 1254→1024 축소·RGB 하한 정리",
+      "디자인 검수": "얼굴 방향·차분한 표정·흰 단발·귀·후드·가슴 자수·문양 부착점·꼬리·전신 확인",
+      "자세": "가까운 손을 허리 앞에 가볍게 둠, 반대팔 내림",
+      "승인": "후보 선택·승인 대기"
+    },
+    {
+      "candidate_id": "head_front-01",
+      "파일": "image-undecided/1024/illustration/head_front-01_v001.png",
+      "sha256": "a5ef5befd237882e68213701559b688f956a2e155f49c8a3ba27de0b93741c6a",
+      "규격": [
+        1024,
+        1024
+      ],
+      "투명 픽셀": 847813,
+      "가시 RGB 최솟값": 10,
+      "승인 입력": "image-confirmed/1024/view/view-three-quarter-head_front_v001.png",
+      "입력 해시": "a5ef5befd237882e68213701559b688f956a2e155f49c8a3ba27de0b93741c6a",
+      "제작 방식": "승인 기준 원본 복사",
+      "디자인 검수": "얼굴 방향·차분한 표정·흰 단발·귀·후드·가슴 자수·문양 부착점·꼬리·전신 확인",
+      "자세": "양팔 내림",
+      "승인": "후보 선택·승인 대기"
+    },
+    {
+      "candidate_id": "head_front-02",
+      "파일": "image-undecided/1024/illustration/head_front-02_v001.png",
+      "sha256": "d79d1fb07764e3596c9bc5468040202050bbea27e5d6b236f2b6638e9453ba83",
+      "규격": [
+        1024,
+        1024
+      ],
+      "투명 픽셀": 852650,
+      "가시 RGB 최솟값": 10,
+      "승인 입력": "image-confirmed/1024/view/view-three-quarter-head_front_v001.png",
+      "입력 해시": "a5ef5befd237882e68213701559b688f956a2e155f49c8a3ba27de0b93741c6a",
+      "제작 방식": "내장 imagegen 팔 자세 편집 후 System.Drawing 1254→1024 축소·RGB 하한 정리",
+      "디자인 검수": "얼굴 방향·차분한 표정·흰 단발·귀·후드·가슴 자수·문양 부착점·꼬리·전신 확인",
+      "자세": "가까운 손을 허리 앞에 가볍게 둠, 반대팔 내림",
+      "승인": "후보 선택·승인 대기"
+    }
+  ],
+  "비교": "work/illustration-comparison_v001.png",
+  "판정": "기술·디자인 검수 완료, 사용자 후보 선택 대기",
+  "한계": "두 02 후보는 각 승인 원본에서 독립 편집하여 손가락·소매 접힘에 미세 차이가 있습니다. 의복 구조와 자세 의미는 일치합니다.",
+  "표정 제작": "선택·승인한 정확한 버전을 확정 폴더에 저장한 뒤 진행"
+}

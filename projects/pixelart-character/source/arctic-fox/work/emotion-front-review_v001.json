@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28T20:52:03.600977+09:00",
+  "authorization": "다음 작업을 진행해주세요",
+  "rule_version": "v1.23",
+  "character_version": "v1.33",
+  "reference_approval": "image-confirmed/approval_v005.json",
+  "outputs": [
+    {
+      "file": "image-undecided/1024/illustration/pose-02_front_v001.png",
+      "sha256": "4857c92501795ba7fbbb9215d245fe352e42e6cc1754926cec507e25af58a852",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "visible_rgb_min": 10,
+      "input": "image-confirmed/1024/illustration/pose-02_head_front_v001.png",
+      "input_sha256": "68eef31d040a297c813ed643ced92667e61773073ff10bdff7610b623ef81709",
+      "prompt": "work/emotion-front-basic-prompt_v001.txt"
+    },
+    {
+      "file": "image-undecided/1024/expression/pose-03_front_smile_v001.png",
+      "sha256": "a5a89fa85444122c97bb1f2414075c53482471b96f4b3f37799363c4f376d8f5",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "visible_rgb_min": 10,
+      "input": "image-confirmed/1024/expression/pose-03_head_front_smile_v001.png",
+      "input_sha256": "5aa31d1612a9fcc87f8b4496b3df942e6276e0616be0e5ee0d5b434fd7d51b9f",
+      "prompt": "work/emotion-front-smile-prompt_v001.txt"
+    },
+    {
+      "file": "image-undecided/1024/expression/pose-05_front_sad_v001.png",
+      "sha256": "1fc5cc73bb81983983450242eac5ce477084db940c369c2a776c8d0a2cabbe40",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "visible_rgb_min": 10,
+      "input": "image-confirmed/1024/illustration/pose-05_head_front_sad_v001.png",
+      "input_sha256": "794182a91e54c4d6ce43eed3fafb68ea3f8fed0585b94d4ee33582cef82b853a",
+      "prompt": "work/emotion-front-sad-prompt_v001.txt"
+    },
+    {
+      "file": "image-undecided/1024/expression/pose-04_front_angry_v001.png",
+      "sha256": "0a76b4db62f58ac3cc441b983b641f48425ddd25a6c49a3addc89074905e64dd",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "visible_rgb_min": 10,
+      "input": "image-confirmed/1024/expression/pose-04_head_front_angry_v001.png",
+      "input_sha256": "cf8f8922ddcdfa866806116adab21afa5bbf982f18b27911c8ce71768cdefde3",
+      "prompt": "work/emotion-front-angry-prompt_v001.txt"
+    }
+  ],
+  "preview": "work/emotion-front-comparison_v001.png",
+  "review": [
+    "네 감정 모두 코·입·얼굴 중심선과 시선이 몸 전방인 화면 왼쪽을 향함",
+    "기본 직립·웃음 옆 체중 이동·슬픔 움츠림·화남 앞발 자세 유지",
+    "뒷짐·후드·가슴 자수·소매와 옷단 문양·바지·부츠·꼬리 확인",
+    "머리 회전에 따른 귀 원근과 머리카락 윤곽 변화. 독립 생성으로 세부 선은 픽셀 단위 동일하지 않음"
+  ],
+  "approval": false
+}

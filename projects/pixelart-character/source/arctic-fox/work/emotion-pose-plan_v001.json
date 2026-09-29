@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28T20:27:58.820028+09:00",
+  "authorization": [
+    "2번이 기본 동작, 3번이 웃을때 동작이면 너무 좋을거같아요",
+    "4번이 화남으로 가고, 슬픔은 어떻게 하면 좋을까요?",
+    "네 그렇게 진행해주세요"
+  ],
+  "exception": "이번 캐릭터의 감정별 자세 변경. 공통 규칙 유지.",
+  "mapping": [
+    {
+      "emotion": "기본",
+      "pose_id": "pose-02",
+      "approval_scope": "포즈 및 감정 배정",
+      "proposal": "work/pose-proposals_v001.json"
+    },
+    {
+      "emotion": "웃음",
+      "pose_id": "pose-03",
+      "approval_scope": "포즈 및 감정 배정",
+      "proposal": "work/pose-proposals_v001.json"
+    },
+    {
+      "emotion": "화남",
+      "pose_id": "pose-04",
+      "approval_scope": "포즈 및 감정 배정",
+      "proposal": "work/pose-proposals_v001.json"
+    },
+    {
+      "emotion": "슬픔",
+      "pose_id": "pose-05",
+      "approval_scope": "자세 설명과 제작 진행",
+      "proposal": "work/emotion-pose-plan_v001.json",
+      "image_status": "검토 대기"
+    }
+  ],
+  "sad_description": "2번에서 어깨를 낮추고 상체를 조금 숙이며 턱·시선을 살짝 아래로. 두 손은 등 뒤에서 느슨하게 모으고 양발은 가까이 접지. 무릎의 과도한 안쪽 굽힘 없음.",
+  "proposal_sha256": "072bae8ad998eb28730b6ce35a545a391c89b7b2ed096e9c4837730cc21feb80",
+  "selected_references": [
+    {
+      "pose_id": "pose-02",
+      "path": "image-undecided/1024/illustration/pose-02_head_front_v001.png",
+      "sha256": "68eef31d040a297c813ed643ced92667e61773073ff10bdff7610b623ef81709"
+    },
+    {
+      "pose_id": "pose-03",
+      "path": "image-undecided/1024/illustration/pose-03_head_front_v001.png",
+      "sha256": "779e291abedd3b00b7a4dcdb92ea4fc7079523f366dcff57958f26e70f6210d7"
+    },
+    {
+      "pose_id": "pose-04",
+      "path": "image-undecided/1024/illustration/pose-04_head_front_v001.png",
+      "sha256": "f4d146f5fcc86a3f5ca22d1eaeb3a56535f8466edb1b84688fb9d7d8d1217bb9"
+    }
+  ],
+  "new_image_approval": false
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28T20:27:58.820028+09:00",
+  "input": "image-undecided/1024/illustration/pose-02_head_front_v001.png",
+  "input_authority": "사용자 기본 포즈 선택 및 슬픔 파생 진행 승인",
+  "rule_version": "v1.23",
+  "character_version": "v1.30",
+  "output": "image-undecided/1024/illustration/pose-05_head_front_sad_v001.png",
+  "sha256": "794182a91e54c4d6ce43eed3fafb68ea3f8fed0585b94d4ee33582cef82b853a",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "visible_rgb_min": 10,
+  "prompt": "work/pose-05-sad-prompt_v001.txt",
+  "source": "work/pose-05-sad-generated_v001.png",
+  "review": [
+    "고개·시선 낮춤과 처진 눈매·다문 입 확인",
+    "뒷짐과 양발 접지 유지, 손은 몸 뒤에 가려짐",
+    "흰 단발·귀·꼬리·천 후드·가슴 자수·소매와 옷단 띠·바지·부츠 유지",
+    "독립 생성에 따른 주름과 머리카락 윤곽의 미세한 차이 있음"
+  ],
+  "approval": false
+}

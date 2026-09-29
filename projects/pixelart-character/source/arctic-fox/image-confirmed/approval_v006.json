@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28T21:05:13.318999+09:00",
+  "authorization": "네 좋습니다. 4종 확정합니다",
+  "scope": "직전 front 감정 4종 확정",
+  "files": [
+    {
+      "emotion": "기본",
+      "pose_id": "pose-02",
+      "variant": "front",
+      "source": "image-undecided/1024/illustration/pose-02_front_v001.png",
+      "file": "image-confirmed/1024/illustration/pose-02_front_v001.png",
+      "version": "v001",
+      "sha256": "4857c92501795ba7fbbb9215d245fe352e42e6cc1754926cec507e25af58a852",
+      "approval": "image-confirmed/approval_v006.json",
+      "purpose": "일러스트"
+    },
+    {
+      "emotion": "웃음",
+      "pose_id": "pose-03",
+      "variant": "front",
+      "source": "image-undecided/1024/expression/pose-03_front_smile_v001.png",
+      "file": "image-confirmed/1024/expression/pose-03_front_smile_v001.png",
+      "version": "v001",
+      "sha256": "a5a89fa85444122c97bb1f2414075c53482471b96f4b3f37799363c4f376d8f5",
+      "approval": "image-confirmed/approval_v006.json",
+      "purpose": "일러스트"
+    },
+    {
+      "emotion": "슬픔",
+      "pose_id": "pose-05",
+      "variant": "front",
+      "source": "image-undecided/1024/expression/pose-05_front_sad_v001.png",
+      "file": "image-confirmed/1024/expression/pose-05_front_sad_v001.png",
+      "version": "v001",
+      "sha256": "1fc5cc73bb81983983450242eac5ce477084db940c369c2a776c8d0a2cabbe40",
+      "approval": "image-confirmed/approval_v006.json",
+      "purpose": "일러스트"
+    },
+    {
+      "emotion": "화남",
+      "pose_id": "pose-04",
+      "variant": "front",
+      "source": "image-undecided/1024/expression/pose-04_front_angry_v001.png",
+      "file": "image-confirmed/1024/expression/pose-04_front_angry_v001.png",
+      "version": "v001",
+      "sha256": "0a76b4db62f58ac3cc441b983b641f48425ddd25a6c49a3addc89074905e64dd",
+      "approval": "image-confirmed/approval_v006.json",
+      "purpose": "일러스트"
+    }
+  ],
+  "comparison": "work/emotion-front-comparison_v001.png",
+  "comparison_sha256": "32875a5112d39fb25833a348fa13239341b521e65a0920f75329badf8b058b95",
+  "purpose_boundary": "일러스트용 감정별 자세·표정입니다. 이동용 180 도트·idle·walk는 기본 시점 8종과 캐릭터 설정을 기준으로 별도 제작하며 뒷짐·감정 자세를 자동 적용하지 않습니다. 일러스트 자체의 도트화는 별도 요청 대상입니다.",
+  "copy_check": "4종 모두 검수 당시·승인 원본·확정본 SHA-256 일치"
+}

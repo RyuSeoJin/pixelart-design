@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28T20:18:31.956024+09:00",
+  "status": "포즈 비교용 미확정 후보",
+  "authorization": "각각 후보 포즈로 하나씩 제작해주실수있나요?",
+  "exception": "이번 캐릭터 포즈 선택 전 이미지 4종 비교만 허용. 공통 글 제안 규칙 유지.",
+  "rule_version": "v1.23",
+  "character_version": "v1.29",
+  "proposal": "work/pose-proposals_v001.json",
+  "approved_input": "image-confirmed/1024/view/view-three-quarter-head_front_v001.png",
+  "approved_input_sha256": "a5ef5befd237882e68213701559b688f956a2e155f49c8a3ba27de0b93741c6a",
+  "output": [
+    {
+      "pose_id": "pose-01",
+      "file": "image-undecided/1024/illustration/pose-01_head_front_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "transparent_pixels": 843144,
+      "visible_rgb_min": 10,
+      "sha256": "7343f2a1b2fa9d3160f9b3a87904fc60a56d1cd72affdd4a7f82a1e061e232fd"
+    },
+    {
+      "pose_id": "pose-02",
+      "file": "image-undecided/1024/illustration/pose-02_head_front_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "transparent_pixels": 854009,
+      "visible_rgb_min": 10,
+      "sha256": "68eef31d040a297c813ed643ced92667e61773073ff10bdff7610b623ef81709"
+    },
+    {
+      "pose_id": "pose-03",
+      "file": "image-undecided/1024/illustration/pose-03_head_front_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "transparent_pixels": 835942,
+      "visible_rgb_min": 10,
+      "sha256": "779e291abedd3b00b7a4dcdb92ea4fc7079523f366dcff57958f26e70f6210d7"
+    },
+    {
+      "pose_id": "pose-04",
+      "file": "image-undecided/1024/illustration/pose-04_head_front_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "transparent_pixels": 853654,
+      "visible_rgb_min": 10,
+      "sha256": "f4d146f5fcc86a3f5ca22d1eaeb3a56535f8466edb1b84688fb9d7d8d1217bb9"
+    }
+  ],
+  "preview": "work/pose-comparison_v001.png",
+  "processing": "생성 도구로 각각 제작 후 알파를 보존하여 1024로 정규화. 가시 RGB 채널 하한 10 적용.",
+  "review": [
+    "네 장 모두 뒷짐·흰 단발·여우 귀·흰 튜닉과 천 후드·가슴 자수·옷단 문양·바지·부츠·꼬리 확인",
+    "1번 앞 기울기, 2번 직립, 3번 옆 체중 이동, 4번 앞뒤 발 차이 비교",
+    "손은 몸 뒤에 가려져 손목을 잡는 구체적인 형태는 확인되지 않음",
+    "독립 생성으로 주름·머리카락·자수 윤곽에 미세한 차이가 있어 동일 픽셀 복제는 아님"
+  ],
+  "pose01_revision": "초기 목 파임이 깊어 승인 원본으로 재생성. 중간 국소 수정 요청은 도구 차단으로 결과 없음. 최종 원본은 work/pose-01-generated_v002.png.",
+  "approval": false
+}

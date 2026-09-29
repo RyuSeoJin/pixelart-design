@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28T20:33:52.190977+09:00",
+  "rule_version": "v1.23",
+  "character_version": "v1.31",
+  "authorization": "작업먼저 진행해주세요",
+  "plan": "work/emotion-pose-plan_v001.json",
+  "outputs": [
+    {
+      "file": "image-undecided/1024/expression/pose-03_head_front_smile_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "5aa31d1612a9fcc87f8b4496b3df942e6276e0616be0e5ee0d5b434fd7d51b9f",
+      "visible_rgb_min": 10,
+      "input": "image-undecided/1024/illustration/pose-03_head_front_v001.png",
+      "prompt": "work/pose-03-smile-prompt_v001.txt"
+    },
+    {
+      "file": "image-undecided/1024/expression/pose-04_head_front_angry_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "cf8f8922ddcdfa866806116adab21afa5bbf982f18b27911c8ce71768cdefde3",
+      "visible_rgb_min": 10,
+      "input": "image-undecided/1024/illustration/pose-04_head_front_v001.png",
+      "prompt": "work/pose-04-angry-prompt_v001.txt"
+    }
+  ],
+  "comparison": "work/emotion-comparison_v001.png",
+  "review": [
+    "웃음: 눈을 뜬 작은 다문 미소와 부드러운 눈매",
+    "화남: 안쪽이 낮은 눈썹과 다문 입, 슬픔과 구분",
+    "각 입력의 뒷짐·발 위치·복식·문양·꼬리 실루엣 유지 확인",
+    "독립 생성으로 세부 선과 주름이 완전히 픽셀 단위로 같지는 않음"
+  ],
+  "approval": false
+}

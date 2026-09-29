@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28T20:39:05.146709+09:00",
+  "authorization": "좋아요 확정합시다",
+  "scope": "직전 감정 비교본의 기본·웃음·슬픔·화남 head_front 4종 이미지 승인",
+  "comparison": "work/emotion-comparison_v001.png",
+  "comparison_sha256": "90d48d833f65a5c53146791c4255f6235861940cd1e9710adf549c10bdc6b45a",
+  "files": [
+    {
+      "emotion": "기본",
+      "pose_id": "pose-02",
+      "variant": "head_front",
+      "source": "image-undecided/1024/illustration/pose-02_head_front_v001.png",
+      "file": "image-confirmed/1024/illustration/pose-02_head_front_v001.png",
+      "version": "v001",
+      "sha256": "68eef31d040a297c813ed643ced92667e61773073ff10bdff7610b623ef81709",
+      "approval": "image-confirmed/approval_v005.json"
+    },
+    {
+      "emotion": "웃음",
+      "pose_id": "pose-03",
+      "variant": "head_front",
+      "source": "image-undecided/1024/expression/pose-03_head_front_smile_v001.png",
+      "file": "image-confirmed/1024/expression/pose-03_head_front_smile_v001.png",
+      "version": "v001",
+      "sha256": "5aa31d1612a9fcc87f8b4496b3df942e6276e0616be0e5ee0d5b434fd7d51b9f",
+      "approval": "image-confirmed/approval_v005.json"
+    },
+    {
+      "emotion": "슬픔",
+      "pose_id": "pose-05",
+      "variant": "head_front",
+      "source": "image-undecided/1024/illustration/pose-05_head_front_sad_v001.png",
+      "file": "image-confirmed/1024/illustration/pose-05_head_front_sad_v001.png",
+      "version": "v001",
+      "sha256": "794182a91e54c4d6ce43eed3fafb68ea3f8fed0585b94d4ee33582cef82b853a",
+      "approval": "image-confirmed/approval_v005.json"
+    },
+    {
+      "emotion": "화남",
+      "pose_id": "pose-04",
+      "variant": "head_front",
+      "source": "image-undecided/1024/expression/pose-04_head_front_angry_v001.png",
+      "file": "image-confirmed/1024/expression/pose-04_head_front_angry_v001.png",
+      "version": "v001",
+      "sha256": "cf8f8922ddcdfa866806116adab21afa5bbf982f18b27911c8ce71768cdefde3",
+      "approval": "image-confirmed/approval_v005.json"
+    }
+  ],
+  "pose_plan": "work/emotion-pose-plan_v001.json",
+  "copy_check": "4종 모두 승인 원본과 확정본 SHA-256 일치",
+  "excluded": "미제작 front 방향, 180 도트, 애니메이션은 이번 승인 대상이 아님"
+}

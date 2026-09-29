@@ -1,0 +1,54 @@
+{
+  "날짜": "2026-09-28T19:50:19.083445+09:00",
+  "근거": "네 좋습니다",
+  "범위": "직전에 제시한 head_front v001 승인. 기존 승인 7종과 함께 8종 외형 기준 완성.",
+  "대상": [
+    {
+      "원본": "image-undecided\\1024\\view\\view-three-quarter-head_front_v001.png",
+      "대상": "image-confirmed\\1024\\view\\view-three-quarter-head_front_v001.png",
+      "버전": "v001",
+      "sha256": "a5ef5befd237882e68213701559b688f956a2e155f49c8a3ba27de0b93741c6a"
+    }
+  ],
+  "기존 승인 기록": [
+    "approval_v002.json",
+    "approval_v003.json"
+  ],
+  "확정 8종": [
+    {
+      "파일": "image-confirmed\\1024\\view\\behind_v001.png",
+      "sha256": "93d83fa06bc6e85c89f9ab1f8f45724b44ea48b16da24a71e1cfa8fd9c2dd5c2"
+    },
+    {
+      "파일": "image-confirmed\\1024\\view\\front_v004.png",
+      "sha256": "7703f2b3774c98ca2080247772ffbcefe47aa720d3afe808a0f4472c8170c46f"
+    },
+    {
+      "파일": "image-confirmed\\1024\\view\\side_left_v001.png",
+      "sha256": "85df9e52edbcafa724e555324887586b80ccdf1a304244285939836e69b3b458"
+    },
+    {
+      "파일": "image-confirmed\\1024\\view\\side_right_v001.png",
+      "sha256": "1f2f97d494b9a40b55d03bee3344722d8c77c4b2a1f4ec6c5939a21b9e561ed0"
+    },
+    {
+      "파일": "image-confirmed\\1024\\view\\three-quarter_left_v001.png",
+      "sha256": "6b25cc74501a1531ccb0d0d9a7da587d078b74be57eed68eb79b96db9d9c3ed8"
+    },
+    {
+      "파일": "image-confirmed\\1024\\view\\three-quarter_right_v001.png",
+      "sha256": "4dc08f22e2ba5607eeabe4c2b8acdd802ca066f75c5c54922f0199a09d7c8c06"
+    },
+    {
+      "파일": "image-confirmed\\1024\\view\\view-three-quarter-front_v001.png",
+      "sha256": "172548f0a4e199e65e29aec34b3c4ceb8f5f6e5f63e76e05fcf3a90c2795e3b9"
+    },
+    {
+      "파일": "image-confirmed\\1024\\view\\view-three-quarter-head_front_v001.png",
+      "sha256": "a5ef5befd237882e68213701559b688f956a2e155f49c8a3ba27de0b93741c6a"
+    }
+  ],
+  "검수": "work/view-three-quarter-head_front-review_v001.json",
+  "허용된 다음 단계": "일러스트 후보의 용도·후보 수·구도·변경 요소 제안 및 계획 확인",
+  "제약": "이번 승인은 일러스트 후보 선택이나 표정 제작 승인을 포함하지 않습니다."
+}

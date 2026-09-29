@@ -1,7 +1,161 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "arctic-fox",
-  "status": "8번째 head_front 기준 시안 제작·승인 전, 일러스트 후보 미선택",
-  "selections": [],
-  "rule_reference": "../../spec/design/pixel-spec-portrait.json#/production_workflow/illustration_workflow"
+  "status": "일러스트 front 4종과 head_front 4종 총 8장 확정",
+  "selections": [
+    {
+      "emotion": "기본",
+      "pose_id": "pose-02",
+      "variant": "head_front",
+      "source": "image-undecided/1024/illustration/pose-02_head_front_v001.png",
+      "file": "image-confirmed/1024/illustration/pose-02_head_front_v001.png",
+      "version": "v001",
+      "sha256": "68eef31d040a297c813ed643ced92667e61773073ff10bdff7610b623ef81709",
+      "approval": "image-confirmed/approval_v005.json"
+    },
+    {
+      "emotion": "웃음",
+      "pose_id": "pose-03",
+      "variant": "head_front",
+      "source": "image-undecided/1024/expression/pose-03_head_front_smile_v001.png",
+      "file": "image-confirmed/1024/expression/pose-03_head_front_smile_v001.png",
+      "version": "v001",
+      "sha256": "5aa31d1612a9fcc87f8b4496b3df942e6276e0616be0e5ee0d5b434fd7d51b9f",
+      "approval": "image-confirmed/approval_v005.json"
+    },
+    {
+      "emotion": "슬픔",
+      "pose_id": "pose-05",
+      "variant": "head_front",
+      "source": "image-undecided/1024/illustration/pose-05_head_front_sad_v001.png",
+      "file": "image-confirmed/1024/illustration/pose-05_head_front_sad_v001.png",
+      "version": "v001",
+      "sha256": "794182a91e54c4d6ce43eed3fafb68ea3f8fed0585b94d4ee33582cef82b853a",
+      "approval": "image-confirmed/approval_v005.json"
+    },
+    {
+      "emotion": "화남",
+      "pose_id": "pose-04",
+      "variant": "head_front",
+      "source": "image-undecided/1024/expression/pose-04_head_front_angry_v001.png",
+      "file": "image-confirmed/1024/expression/pose-04_head_front_angry_v001.png",
+      "version": "v001",
+      "sha256": "cf8f8922ddcdfa866806116adab21afa5bbf982f18b27911c8ce71768cdefde3",
+      "approval": "image-confirmed/approval_v005.json"
+    },
+    {
+      "emotion": "기본",
+      "pose_id": "pose-02",
+      "variant": "front",
+      "source": "image-undecided/1024/illustration/pose-02_front_v001.png",
+      "file": "image-confirmed/1024/illustration/pose-02_front_v001.png",
+      "version": "v001",
+      "sha256": "4857c92501795ba7fbbb9215d245fe352e42e6cc1754926cec507e25af58a852",
+      "approval": "image-confirmed/approval_v006.json",
+      "purpose": "일러스트"
+    },
+    {
+      "emotion": "웃음",
+      "pose_id": "pose-03",
+      "variant": "front",
+      "source": "image-undecided/1024/expression/pose-03_front_smile_v001.png",
+      "file": "image-confirmed/1024/expression/pose-03_front_smile_v001.png",
+      "version": "v001",
+      "sha256": "a5a89fa85444122c97bb1f2414075c53482471b96f4b3f37799363c4f376d8f5",
+      "approval": "image-confirmed/approval_v006.json",
+      "purpose": "일러스트"
+    },
+    {
+      "emotion": "슬픔",
+      "pose_id": "pose-05",
+      "variant": "front",
+      "source": "image-undecided/1024/expression/pose-05_front_sad_v001.png",
+      "file": "image-confirmed/1024/expression/pose-05_front_sad_v001.png",
+      "version": "v001",
+      "sha256": "1fc5cc73bb81983983450242eac5ce477084db940c369c2a776c8d0a2cabbe40",
+      "approval": "image-confirmed/approval_v006.json",
+      "purpose": "일러스트"
+    },
+    {
+      "emotion": "화남",
+      "pose_id": "pose-04",
+      "variant": "front",
+      "source": "image-undecided/1024/expression/pose-04_front_angry_v001.png",
+      "file": "image-confirmed/1024/expression/pose-04_front_angry_v001.png",
+      "version": "v001",
+      "sha256": "0a76b4db62f58ac3cc441b983b641f48425ddd25a6c49a3addc89074905e64dd",
+      "approval": "image-confirmed/approval_v006.json",
+      "purpose": "일러스트"
+    }
+  ],
+  "rule_reference": "../../spec/design/pixel-spec-portrait.json#/production_workflow/illustration_workflow",
+  "reference_approval": "image-confirmed/approval_v004.json",
+  "pose_selections": [
+    {
+      "emotion": "기본",
+      "pose_id": "pose-02",
+      "approval_scope": "포즈 및 감정 배정",
+      "proposal": "work/pose-proposals_v001.json",
+      "image_status": "해당 head_front 감정 이미지 승인",
+      "image_approval": "image-confirmed/approval_v005.json"
+    },
+    {
+      "emotion": "웃음",
+      "pose_id": "pose-03",
+      "approval_scope": "포즈 및 감정 배정",
+      "proposal": "work/pose-proposals_v001.json",
+      "image_status": "해당 head_front 감정 이미지 승인",
+      "image_approval": "image-confirmed/approval_v005.json"
+    },
+    {
+      "emotion": "화남",
+      "pose_id": "pose-04",
+      "approval_scope": "포즈 및 감정 배정",
+      "proposal": "work/pose-proposals_v001.json",
+      "image_status": "해당 head_front 감정 이미지 승인",
+      "image_approval": "image-confirmed/approval_v005.json"
+    },
+    {
+      "emotion": "슬픔",
+      "pose_id": "pose-05",
+      "approval_scope": "자세 설명과 제작 진행",
+      "proposal": "work/emotion-pose-plan_v001.json",
+      "image_status": "해당 head_front 감정 이미지 승인",
+      "image_approval": "image-confirmed/approval_v005.json"
+    }
+  ],
+  "legacy_candidates": {
+    "status": "이전 두 자세×두 얼굴 방향 후보, 새 절차 자동 채택 대상 아님",
+    "plan": "work/illustration-plan_v001.json",
+    "review": "work/illustration-review_v001.json",
+    "files": [
+      "image-undecided/1024/illustration/front-01_v001.png",
+      "image-undecided/1024/illustration/head_front-01_v001.png",
+      "image-undecided/1024/illustration/front-02_v001.png",
+      "image-undecided/1024/illustration/head_front-02_v001.png"
+    ]
+  },
+  "workflow_revision": "v1.23",
+  "pose_proposals": "work/pose-proposals_v001.json",
+  "pose_comparison": {
+    "review": "work/pose-comparison-review_v001.json",
+    "preview": "work/pose-comparison_v001.png",
+    "exception": "각 후보를 한 장씩 제작해 달라는 사용자 요청으로 이번 비교만 이미지 제작"
+  },
+  "emotion_pose_plan": "work/emotion-pose-plan_v001.json",
+  "emotion_review": "work/emotion-review_v001.json",
+  "emotion_approval": "image-confirmed/approval_v005.json",
+  "front_candidates": {
+    "review": "work/emotion-front-review_v001.json",
+    "preview": "work/emotion-front-comparison_v001.png",
+    "files": [
+      "image-undecided/1024/illustration/pose-02_front_v001.png",
+      "image-undecided/1024/expression/pose-03_front_smile_v001.png",
+      "image-undecided/1024/expression/pose-05_front_sad_v001.png",
+      "image-undecided/1024/expression/pose-04_front_angry_v001.png"
+    ],
+    "approved": true,
+    "approval": "image-confirmed/approval_v006.json"
+  },
+  "purpose_boundary": "일러스트용 감정별 자세·표정입니다. 이동용 180 도트·idle·walk는 기본 시점 8종과 캐릭터 설정을 기준으로 별도 제작하며 뒷짐·감정 자세를 자동 적용하지 않습니다. 일러스트 자체의 도트화는 별도 요청 대상입니다."
 }
