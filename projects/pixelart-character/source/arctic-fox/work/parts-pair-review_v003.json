@@ -1,0 +1,48 @@
+{
+  "version": 3,
+  "date": "2026-09-29",
+  "scope": "입가·손 피부 내부 흰색 혼입 수정",
+  "status": "사용자 확인 전",
+  "results": {
+    "left": {
+      "path": "image-undecided/180/view/side_left_v006.png",
+      "sha256": "0ece5365c814ba87f8ba62eb09b9949e6573c1f38396abc157a11882b4ace497",
+      "changed_pixels": 3,
+      "coordinates": [
+        [
+          82,
+          50
+        ],
+        [
+          94,
+          107
+        ],
+        [
+          96,
+          107
+        ]
+      ],
+      "other_pixels_unchanged": true,
+      "recomposition_mismatches": 0
+    },
+    "right": {
+      "path": "image-undecided/180/view/side_right_v006.png",
+      "sha256": "caff25cbba8d4b3b63020df05dec1c19686da0e6256b1ec4990fac1d7befd1d2",
+      "changed_pixels": 2,
+      "coordinates": [
+        [
+          97,
+          50
+        ],
+        [
+          85,
+          107
+        ]
+      ],
+      "other_pixels_unchanged": true,
+      "recomposition_mismatches": 0
+    }
+  },
+  "visual_review": "detail-inspection_v003.png를 직접 열어 입가·손 안쪽의 흰 점 제거와 주변 윤곽 보존을 확인했습니다.",
+  "pending": "정지본·팔레트 사용자 승인, 숨은 면·관절·실제 재생·엔진 검수는 기존 상태를 유지합니다."
+}

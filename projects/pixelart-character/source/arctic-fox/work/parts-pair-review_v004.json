@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-29",
+  "scope": "옷단 자수 옆 청록색 혼입 수정",
+  "results": {
+    "left": {
+      "sha256": "855f84cb3adcb01f89653b84d9b14e38efd7501a1cc641873f566e0b6c94e904",
+      "changed_pixels": 1,
+      "recomposition_mismatches": 0
+    },
+    "right": {
+      "sha256": "caff25cbba8d4b3b63020df05dec1c19686da0e6256b1ec4990fac1d7befd1d2",
+      "changed_pixels": 0,
+      "recomposition_mismatches": 0
+    }
+  },
+  "status": "미확정"
+}

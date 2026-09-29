@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-29",
+  "status": "사용자 확인 전",
+  "regression": {
+    "v005": {
+      "left": 6,
+      "right": 2
+    },
+    "v006": {
+      "left": 3,
+      "right": 0
+    },
+    "v007": {
+      "left": 2,
+      "right": 0
+    },
+    "v008": {
+      "left": 0,
+      "right": 0
+    }
+  },
+  "checks": {
+    "left": {
+      "changed_pixels": 2,
+      "sha256": "4737bcdd9fe6d2153649ba4b192b953fc39253151a97d5dc3a13253e739b6ec7",
+      "other_pixels_unchanged": true,
+      "recomposition_mismatches": 0
+    },
+    "right": {
+      "changed_pixels": 0,
+      "sha256": "caff25cbba8d4b3b63020df05dec1c19686da0e6256b1ec4990fac1d7befd1d2",
+      "other_pixels_unchanged": true,
+      "recomposition_mismatches": 0
+    }
+  },
+  "visual_review": "detail-inspection_v004.png에서 양쪽 입가·손가락·엄지·소매 접점·옷단 문양을 확대 대조했습니다. 좌향 엄지 흰색 2픽셀을 피부색으로 복원했습니다. 자동 검사 통과가 모든 디자인·관절·동작 검수 완료를 뜻하지 않습니다."
+}

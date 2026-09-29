@@ -1,0 +1,254 @@
+{
+  "version": 2,
+  "created_at": "2026-09-28T22:32:19.741737+09:00",
+  "rule_version": "v1.26",
+  "status": "static_review_complete_playback_pending",
+  "presentation_allowed": false,
+  "plan": "direction-pair-plan_v001.json",
+  "plan_sha256": "43deed529f1b7fdd0b8369219bf65023b2edd20c0a579038e1b0e99fa1da4f8f",
+  "references": [
+    {
+      "path": "image-confirmed/1024/view/behind_v001.png",
+      "sha256": "93d83fa06bc6e85c89f9ab1f8f45724b44ea48b16da24a71e1cfa8fd9c2dd5c2",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/front_v004.png",
+      "sha256": "7703f2b3774c98ca2080247772ffbcefe47aa720d3afe808a0f4472c8170c46f",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/side_left_v001.png",
+      "sha256": "85df9e52edbcafa724e555324887586b80ccdf1a304244285939836e69b3b458",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/side_right_v001.png",
+      "sha256": "1f2f97d494b9a40b55d03bee3344722d8c77c4b2a1f4ec6c5939a21b9e561ed0",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/three-quarter_left_v001.png",
+      "sha256": "6b25cc74501a1531ccb0d0d9a7da587d078b74be57eed68eb79b96db9d9c3ed8",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/three-quarter_right_v001.png",
+      "sha256": "4dc08f22e2ba5607eeabe4c2b8acdd802ca066f75c5c54922f0199a09d7c8c06",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/view-three-quarter-front_v001.png",
+      "sha256": "172548f0a4e199e65e29aec34b3c4ceb8f5f6e5f63e76e05fcf3a90c2795e3b9",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/view-three-quarter-head_front_v001.png",
+      "sha256": "a5ef5befd237882e68213701559b688f956a2e155f49c8a3ba27de0b93741c6a",
+      "opened_for_review": true
+    }
+  ],
+  "outputs": [
+    {
+      "path": "image-undecided/180/view/side_left_v002.png",
+      "sha256": "6e418d3e117db2ec338572e60538dd2b23b307260c600f347d346a192e6311ab",
+      "size": [
+        180,
+        180
+      ],
+      "opaque_colors": 13,
+      "alpha": [
+        0,
+        255
+      ],
+      "sole_row": 170,
+      "bbox_inclusive": [
+        74,
+        15,
+        127,
+        170
+      ],
+      "aseprite_pixel_match": true
+    },
+    {
+      "path": "image-undecided/180/view/side_right_v002.png",
+      "sha256": "b2e32aef68dc9c94be5d7b5e2c4509affa6ff42b1c6be45724bbaf325885ce14",
+      "size": [
+        180,
+        180
+      ],
+      "opaque_colors": 12,
+      "alpha": [
+        0,
+        255
+      ],
+      "sole_row": 170,
+      "bbox_inclusive": [
+        52,
+        15,
+        105,
+        170
+      ],
+      "aseprite_pixel_match": true
+    }
+  ],
+  "measurements": [
+    {
+      "item": "눈 중심 행의 머리 폭",
+      "row": 43,
+      "left": 27,
+      "right": 27,
+      "difference": 0,
+      "criterion": "좌우 공통 윤곽의 같은 행에서 일치",
+      "status": "pass"
+    },
+    {
+      "item": "어깨 행의 전체 폭",
+      "row": 60,
+      "left": 22,
+      "right": 22,
+      "difference": 0,
+      "criterion": "좌우 공통 윤곽의 같은 행에서 일치",
+      "status": "pass"
+    },
+    {
+      "item": "상체 행 폭",
+      "row": 70,
+      "left": 22,
+      "right": 22,
+      "difference": 0,
+      "criterion": "좌우 공통 윤곽의 같은 행에서 일치",
+      "status": "pass"
+    },
+    {
+      "item": "허리 행 폭",
+      "row": 83,
+      "left": 21,
+      "right": 21,
+      "difference": 0,
+      "criterion": "좌우 공통 윤곽의 같은 행에서 일치",
+      "status": "pass"
+    },
+    {
+      "item": "발목 행 폭",
+      "row": 164,
+      "left": 19,
+      "right": 19,
+      "difference": 0,
+      "criterion": "좌우 공통 윤곽의 같은 행에서 일치",
+      "status": "pass"
+    },
+    {
+      "item": "지면 접촉 폭",
+      "row": 170,
+      "left": 20,
+      "right": 20,
+      "difference": 0,
+      "criterion": "좌우 공통 윤곽의 같은 행에서 일치",
+      "status": "pass"
+    },
+    {
+      "item": "홍채 크기",
+      "target": [
+        2,
+        3
+      ],
+      "left": [
+        2,
+        3
+      ],
+      "right": [
+        2,
+        3
+      ],
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "item": "홍채 중심 행",
+      "target": 43,
+      "left": 43,
+      "right": 43,
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "item": "발바닥 마지막 행",
+      "target": 170,
+      "left": 170,
+      "right": 170,
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "item": "반전 윤곽 전체 차이 픽셀 수",
+      "target": 0,
+      "measured": 0,
+      "status": "pass"
+    }
+  ],
+  "construction_note": "초기 세부 치수는 제작 목표이며 해부학 실측을 뜻하지 않습니다. 몸 속 관절은 사양 기준선에 두고, 가시 윤곽은 좌우 한 구조로 편집했습니다. 원본 그림만으로 가려진 관절의 위치를 측정했다고 주장하지 않습니다.",
+  "manual_review": [
+    {
+      "item": "승인 외형",
+      "status": "pass",
+      "observation": "승인 측면의 흰 단발·후드·소매/옷단 띠·바지·부츠·단일 꼬리, 얼굴/몸/발 진행 방향을 전신 비교본에서 확인했습니다."
+    },
+    {
+      "item": "얼굴",
+      "status": "pass",
+      "observation": "차분한 윗눈꺼풀과 2×3 홍채, 다문 입을 동일 원 격자에서 정리했습니다. 먼 눈을 보이게 하지 않았습니다."
+    },
+    {
+      "item": "형태",
+      "status": "pass",
+      "observation": "윤곽은 공통 구조로 맞췄습니다. 후드 처짐과 꼬리 부피·끝 높이가 반전 겹침에서 대응합니다. 내부 헤어·주름·명암은 방향별 입력을 정리했습니다."
+    },
+    {
+      "item": "색",
+      "status": "pass",
+      "observation": "꼬리는 양쪽 화면 오른쪽에 그림자를 두고, 바지의 흰 얼룩을 수정했습니다. 같은 팔레트를 사용하되 실제 사용 색 수는 좌13/우12입니다."
+    }
+  ],
+  "toggle_review": {
+    "file": "side180-direction-toggle_v002.gif",
+    "frames": 2,
+    "durations_ms": [
+      600,
+      600
+    ],
+    "rgba_matches_outputs": true,
+    "method": "GIF를 다시 읽어 추출한 좌우 프레임을 동일180캔버스에서 순서대로 시각 대조했습니다. 실시간 플레이어 화면 재생 관찰은 수행하지 않았습니다.",
+    "not_idle_or_walk": true
+  },
+  "evidence": [
+    {
+      "file": "side180-comparison_v002.png",
+      "sha256": "cf35f0cbf2479c2f8df02b03deeb0c286fa34d86b902c4d79ce01d0259f646dd"
+    },
+    {
+      "file": "side180-guides_v002.png",
+      "sha256": "12aacd3d4b440d809abde38ffecaf0b52cf5638392ebda5a617647d3fc46a16e"
+    },
+    {
+      "file": "side180-overlay_v002.png",
+      "sha256": "3f876eed8fa3fe52c3cdf2d80421662e9994d612fc941c2be875fda70ecb98e3"
+    },
+    {
+      "file": "side180-face_v002.png",
+      "sha256": "90713ff061a1276e2a48e62bcb934dc31fa77c403198a0092720b8f0cb1e01fe"
+    },
+    {
+      "file": "side180-approved-reference_v002.png",
+      "sha256": "0bd59d7daa0bfa2d8460414638f9174db1009be675d3872fd6d097433b801f8d"
+    },
+    {
+      "file": "side180-direction-toggle_v002.gif",
+      "sha256": "5bdd0cc9e470f8a36c01d09a9fe1e9af375fe8be91921dd0aff902d411f2f4a6"
+    }
+  ],
+  "approval": "사용자 이미지 승인 전입니다. image-confirmed와 resources에 등록하지 않았습니다.",
+  "method": "내장 imagegen의 좌우 한 쌍 초안 → Aseprite 공통 배율 → 공통 윤곽에 방향별 채색 재배치 → 꼬리 재조명·바지 주름·눈 격자 정리. 완성 PNG 단순 좌우 반전이 아닙니다.",
+  "approval_request_allowed": false,
+  "pending_gate": "방향 교대 GIF의 실시간 재생 관찰. 정지 이미지와 디코딩한 프레임은 검수했으나 이 조건까지 완료로 기록하지 않습니다."
+}

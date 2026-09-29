@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-29",
+  "status": "사용자 확인 전",
+  "scope": "손 외곽선 연결",
+  "results": {
+    "left": {
+      "changed_pixels": 22,
+      "sha256": "e0edd6ba51d33bbba28d3f461dc352e11541174d4d2becf13959c0b9b1a840ad",
+      "outside_hand_edge_changes": 0,
+      "recomposition_mismatches": 0
+    },
+    "right": {
+      "changed_pixels": 16,
+      "sha256": "444c81f646328acac48492fed56a9cd2fd1e3d884b69c0dc2635bdd8cb2fe68c",
+      "outside_hand_edge_changes": 0,
+      "recomposition_mismatches": 0
+    }
+  },
+  "visual_review": "detail-inspection_v005.png에서 엄지 바깥·손 옆·손끝 아래의 회보라색 1px 경계를 확인했습니다. 피부 영역 검사와 함께 통과했습니다."
+}

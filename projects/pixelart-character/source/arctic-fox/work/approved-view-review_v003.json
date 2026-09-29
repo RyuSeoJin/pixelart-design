@@ -1,0 +1,190 @@
+{
+  "version": 3,
+  "status": "reviewed_awaiting_user_approval",
+  "reason": "사용자 승인: 첨부 눈빛을 유지하고 이동용 직접 기준을 side_left/right로 변경",
+  "rule_version": "v1.25",
+  "manifest": "image-confirmed/approval_v004.json",
+  "references": [
+    {
+      "file": "image-confirmed/1024/view/behind_v001.png",
+      "sha256": "93d83fa06bc6e85c89f9ab1f8f45724b44ea48b16da24a71e1cfa8fd9c2dd5c2",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "후드가 목뒤에서 등 위로 처지고 꼬리 하나가 골반 뒤에 연결됨"
+    },
+    {
+      "file": "image-confirmed/1024/view/front_v004.png",
+      "sha256": "7703f2b3774c98ca2080247772ffbcefe47aa720d3afe808a0f4472c8170c46f",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "차분한 푸른 눈·흰 단발·흰 튜닉·중앙 서리 결정·회청색 띠 확인"
+    },
+    {
+      "file": "image-confirmed/1024/view/side_left_v001.png",
+      "sha256": "85df9e52edbcafa724e555324887586b80ccdf1a304244285939836e69b3b458",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "좌향 직접 기준: 어깨·팔·다리의 측면 겹침, 후드·꼬리 부착과 가까운 소매 문양"
+    },
+    {
+      "file": "image-confirmed/1024/view/side_right_v001.png",
+      "sha256": "1f2f97d494b9a40b55d03bee3344722d8c77c4b2a1f4ec6c5939a21b9e561ed0",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "우향 직접 기준: 우향 코·가슴·발끝, 가까운 팔과 문양, 꼬리 반대 방향 가림"
+    },
+    {
+      "file": "image-confirmed/1024/view/three-quarter_left_v001.png",
+      "sha256": "6b25cc74501a1531ccb0d0d9a7da587d078b74be57eed68eb79b96db9d9c3ed8",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "외형 보조 기준. 이번 측면 제작의 몸 방향 정본으로 사용하지 않음"
+    },
+    {
+      "file": "image-confirmed/1024/view/three-quarter_right_v001.png",
+      "sha256": "4dc08f22e2ba5607eeabe4c2b8acdd802ca066f75c5c54922f0199a09d7c8c06",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "외형 보조 기준. 이번 측면 제작의 몸 방향 정본으로 사용하지 않음"
+    },
+    {
+      "file": "image-confirmed/1024/view/view-three-quarter-front_v001.png",
+      "sha256": "172548f0a4e199e65e29aec34b3c4ceb8f5f6e5f63e76e05fcf3a90c2795e3b9",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "일러스트용: 두 눈을 보이는 각도이며 이동용 자세 기준과 구분"
+    },
+    {
+      "file": "image-confirmed/1024/view/view-three-quarter-head_front_v001.png",
+      "sha256": "a5ef5befd237882e68213701559b688f956a2e155f49c8a3ba27de0b93741c6a",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "일러스트용: 얼굴 정면을 이동용 도트에 적용하지 않음"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "image-undecided/180/view/side_left_v001.png",
+      "sha256": "84b794b83fd3d069c4e0536c0c9af5bcc998bb36915f27b6d5627ec7797746ed",
+      "primary": "image-confirmed/1024/view/side_left_v001.png",
+      "supporting": [
+        "image-confirmed/1024/view/front_v004.png"
+      ],
+      "checks": {
+        "eyes_and_face": {
+          "status": "pass",
+          "evidence": "승인 측면의 코·턱 방향을 유지하고 사용자 눈빛 참고의 편안한 윗눈꺼풀과 푸른 홍채를 적용했습니다. 180 격자에서 홍채 세로 단계가 두 방향 모두 읽히도록 정리했습니다."
+        },
+        "skin_material_color_and_shading": {
+          "status": "pass",
+          "evidence": "피부 기본 #F6D2BC와 흰 소재 #F4F7FA·회청색 명암을 공통 사용합니다. 생성 단계의 미세 얼룩은 큰 색면으로 단순화했습니다."
+        },
+        "hair_ears_tail": {
+          "status": "pass",
+          "evidence": "흰 단발·귀 두 개·꼬리 하나, 밝은 귀 내부와 후드의 분리, 골반 뒤 꼬리와 외곽선을 승인 8종에 대조했습니다."
+        },
+        "clothes_patterns_accessories": {
+          "status": "pass",
+          "evidence": "측면의 가까운 팔 소매 띠·마름모와 옷단·좁은 트임을 승인 측면에 대조했습니다. 가슴 문양은 측면에서 일부만 보이고 먼 팔은 가려집니다."
+        },
+        "proportions_facing_ground": {
+          "status": "pass",
+          "evidence": "승인 측면처럼 얼굴·몸·골반·부츠가 같은 진행 방향이며 팔·다리가 겹칩니다. 전신 비율과 접지 170행을 확인했습니다. 정지 상태의 겹친 다리이며 보행 검수 전입니다."
+        }
+      },
+      "technical": {
+        "size": [
+          180,
+          180
+        ],
+        "colors": 13,
+        "alpha": [
+          0,
+          255
+        ],
+        "sole_y": 170,
+        "pivot": [
+          90,
+          171
+        ],
+        "bbox": [
+          74,
+          11,
+          141,
+          170
+        ]
+      },
+      "native": "../../sprites/arctic-fox/side_left_v001.aseprite"
+    },
+    {
+      "file": "image-undecided/180/view/side_right_v001.png",
+      "sha256": "bacf5b860fcf7236872cf65e2e41cabc6e1c452c70acd691c8d6c47fe8ad47d6",
+      "primary": "image-confirmed/1024/view/side_right_v001.png",
+      "supporting": [
+        "image-confirmed/1024/view/front_v004.png"
+      ],
+      "checks": {
+        "eyes_and_face": {
+          "status": "pass",
+          "evidence": "승인 측면의 코·턱 방향을 유지하고 사용자 눈빛 참고의 편안한 윗눈꺼풀과 푸른 홍채를 적용했습니다. 180 격자에서 홍채 세로 단계가 두 방향 모두 읽히도록 정리했습니다."
+        },
+        "skin_material_color_and_shading": {
+          "status": "pass",
+          "evidence": "피부 기본 #F6D2BC와 흰 소재 #F4F7FA·회청색 명암을 공통 사용합니다. 생성 단계의 미세 얼룩은 큰 색면으로 단순화했습니다."
+        },
+        "hair_ears_tail": {
+          "status": "pass",
+          "evidence": "흰 단발·귀 두 개·꼬리 하나, 밝은 귀 내부와 후드의 분리, 골반 뒤 꼬리와 외곽선을 승인 8종에 대조했습니다."
+        },
+        "clothes_patterns_accessories": {
+          "status": "pass",
+          "evidence": "측면의 가까운 팔 소매 띠·마름모와 옷단·좁은 트임을 승인 측면에 대조했습니다. 가슴 문양은 측면에서 일부만 보이고 먼 팔은 가려집니다."
+        },
+        "proportions_facing_ground": {
+          "status": "pass",
+          "evidence": "승인 측면처럼 얼굴·몸·골반·부츠가 같은 진행 방향이며 팔·다리가 겹칩니다. 전신 비율과 접지 170행을 확인했습니다. 정지 상태의 겹친 다리이며 보행 검수 전입니다."
+        }
+      },
+      "technical": {
+        "size": [
+          180,
+          180
+        ],
+        "colors": 13,
+        "alpha": [
+          0,
+          255
+        ],
+        "sole_y": 170,
+        "pivot": [
+          90,
+          171
+        ],
+        "bbox": [
+          39,
+          11,
+          102,
+          170
+        ]
+      },
+      "native": "../../sprites/arctic-fox/side_right_v001.aseprite"
+    }
+  ],
+  "presentation_allowed": true,
+  "comparisons": {
+    "full_body": "work/side180-full-reference_v001.png",
+    "face_detail": "work/side180-face-reference_v001.png",
+    "pattern_detail": "work/side180-pattern-reference_v001.png",
+    "side_by_side": "work/side180-comparison_v001.png",
+    "face_layout": "열: 승인 측면 / 사용자가 선택한 눈빛 / 새 180 결과. 행: 좌향 / 우향."
+  },
+  "note": "승인 8종은 보존합니다. 이 시안은 측면 전환과 눈빛 참고 사용을 승인한 뒤 만든 미확정 결과입니다. 전신·얼굴·문양 비교를 수행했으며 눈매의 픽셀 완전 일치나 보행·엔진 검수 완료를 뜻하지 않습니다.",
+  "reviewed_at": "2026-09-28T22:06:42.291890+09:00",
+  "eye_reference": {
+    "file": "work/side-eye-reference_v001.png",
+    "sha256": "43aafc327a395c7081d48c5eec123f003392a02426a15e8217241e02ba28fee8",
+    "role": "사용자가 선택한 차분한 눈빛·큰 도트 표현만 참고. 몸 방향은 승인 측면 원본을 따릅니다.",
+    "approval_basis": "첨부 이미지의 눈빛 선호와 side_left/right 전환 제안에 대한 사용자 네"
+  },
+  "method": "방향별 승인 측면과 눈빛 참조로 imagegen 각각 생성 후 Aseprite에서 180 격자·소재 팔레트·접지 정리. 같은 180 격자에서 세로 홍채 정리. 얼굴 고해상도 합성 없음."
+}

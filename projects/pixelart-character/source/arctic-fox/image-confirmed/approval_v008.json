@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-29T01:00:43.729862",
+  "authorization": [
+    "좋습니다. 지금까지 진행한 것중 규칙으로 업데이트해야할 것들은 업데이트해주세요",
+    "이제 idle 애니메이션 제작할수있을까요?"
+  ],
+  "scope": "v010 좌우 및 포함 색상을 idle 입력으로 사용",
+  "files": [
+    {
+      "direction": "left",
+      "source": "image-undecided/180/view/side_left_v010.png",
+      "file": "image-confirmed/180/view/side_left_v010.png",
+      "version": "v010",
+      "sha256": "5c7bb200682decc0d3ab2cc0852e7cbfe260753c2f2d9be288012b9e832963c7"
+    },
+    {
+      "direction": "right",
+      "source": "image-undecided/180/view/side_right_v010.png",
+      "file": "image-confirmed/180/view/side_right_v010.png",
+      "version": "v010",
+      "sha256": "1939033ea14014127ca9dc85e4245c4e28a6cd0e6a04e0e6ecd1fc430fbb1fbc"
+    }
+  ],
+  "resources_registered": false
+}

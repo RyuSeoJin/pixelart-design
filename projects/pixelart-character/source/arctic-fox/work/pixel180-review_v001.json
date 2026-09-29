@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "created_at": "2026-09-28T21:25:59.900618+09:00",
+  "status": "사용자 승인 대기",
+  "method": "승인된 1024 이동용 시점별 이미지로 생성한 도트 원형을 Aseprite Lua에서 동일 최근접 표본 격자·정본 팔레트로 180에 정리. 순수 수작업 재작화가 아니며 별도 얼굴 보정 없음.",
+  "references": [
+    "image-confirmed/1024/view/three-quarter_left_v001.png",
+    "image-confirmed/1024/view/three-quarter_right_v001.png"
+  ],
+  "reference_approvals": [
+    "approval_v003.json",
+    "approval_v004.json"
+  ],
+  "build_script": "work/pixel180-build_v001.lua",
+  "aseprite_version": "1.3.18.6",
+  "visual_review": [
+    "좌우 개별 생성, 반전 아님",
+    "얼굴·몸·발끝이 이동 방향을 향함",
+    "후드는 머리 뒤에서 내려오며 별도 윤곽",
+    "좌우 소매 문양은 손목 위 띠에 배치",
+    "흰 꼬리에 어두운 외곽선 있음",
+    "얼굴과 몸에 같은 1px 격자 적용",
+    "뒷짐·감정 포즈 미사용"
+  ],
+  "limitations": [
+    "정지 시안이며 애니메이션 파츠 분리·보행 검수·엔진 검수 전",
+    "신체 세부 기준점은 시각 검수 기준이며 모든 관절 좌표의 자동 측정 통과를 뜻하지 않음"
+  ],
+  "results": [
+    {
+      "direction": "left",
+      "file": "source/arctic-fox/image-undecided/180/view/three-quarter_left_v001.png",
+      "sha256": "ea373f766a16a3f7d7c0ccf3634e7b21fc59e9e692fdbd8b23c5645411606d5b",
+      "size": [
+        180,
+        180
+      ],
+      "visible_bbox": [
+        68,
+        11,
+        143,
+        170
+      ],
+      "colors": 19,
+      "alpha": [
+        0,
+        255
+      ],
+      "visible_channel_min": 26,
+      "sole_y": 170,
+      "pivot": [
+        90,
+        171
+      ],
+      "palette_exact": true,
+      "native_file": "sprites/arctic-fox/three-quarter_left_v001.aseprite"
+    },
+    {
+      "direction": "right",
+      "file": "source/arctic-fox/image-undecided/180/view/three-quarter_right_v001.png",
+      "sha256": "6fb48836b61b1079b66925f7695ea545aaaa6245cc12948d4cd9ba75e6e2688f",
+      "size": [
+        180,
+        180
+      ],
+      "visible_bbox": [
+        41,
+        11,
+        108,
+        170
+      ],
+      "colors": 18,
+      "alpha": [
+        0,
+        255
+      ],
+      "visible_channel_min": 26,
+      "sole_y": 170,
+      "pivot": [
+        90,
+        171
+      ],
+      "palette_exact": true,
+      "native_file": "sprites/arctic-fox/three-quarter_right_v001.aseprite"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "status": "needs_revision",
+  "reason": "사용자 지적: 좌우 눈매가 다릅니다. 승인 8종을 기준으로 재검수해야 합니다.",
+  "rule_version": "v1.25",
+  "manifest": "image-confirmed/approval_v004.json",
+  "references": [
+    {
+      "file": "image-confirmed/1024/view/behind_v001.png",
+      "sha256": "93d83fa06bc6e85c89f9ab1f8f45724b44ea48b16da24a71e1cfa8fd9c2dd5c2",
+      "hash_verified": true,
+      "visual_review": "pending"
+    },
+    {
+      "file": "image-confirmed/1024/view/front_v004.png",
+      "sha256": "7703f2b3774c98ca2080247772ffbcefe47aa720d3afe808a0f4472c8170c46f",
+      "hash_verified": true,
+      "visual_review": "pending"
+    },
+    {
+      "file": "image-confirmed/1024/view/side_left_v001.png",
+      "sha256": "85df9e52edbcafa724e555324887586b80ccdf1a304244285939836e69b3b458",
+      "hash_verified": true,
+      "visual_review": "pending"
+    },
+    {
+      "file": "image-confirmed/1024/view/side_right_v001.png",
+      "sha256": "1f2f97d494b9a40b55d03bee3344722d8c77c4b2a1f4ec6c5939a21b9e561ed0",
+      "hash_verified": true,
+      "visual_review": "pending"
+    },
+    {
+      "file": "image-confirmed/1024/view/three-quarter_left_v001.png",
+      "sha256": "6b25cc74501a1531ccb0d0d9a7da587d078b74be57eed68eb79b96db9d9c3ed8",
+      "hash_verified": true,
+      "visual_review": "pending"
+    },
+    {
+      "file": "image-confirmed/1024/view/three-quarter_right_v001.png",
+      "sha256": "4dc08f22e2ba5607eeabe4c2b8acdd802ca066f75c5c54922f0199a09d7c8c06",
+      "hash_verified": true,
+      "visual_review": "pending"
+    },
+    {
+      "file": "image-confirmed/1024/view/view-three-quarter-front_v001.png",
+      "sha256": "172548f0a4e199e65e29aec34b3c4ceb8f5f6e5f63e76e05fcf3a90c2795e3b9",
+      "hash_verified": true,
+      "visual_review": "pending"
+    },
+    {
+      "file": "image-confirmed/1024/view/view-three-quarter-head_front_v001.png",
+      "sha256": "a5ef5befd237882e68213701559b688f956a2e155f49c8a3ba27de0b93741c6a",
+      "hash_verified": true,
+      "visual_review": "pending"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "image-undecided/180/view/three-quarter_left_v003.png",
+      "sha256": "cf68ec24c2048c884e023e449b6bbb0a900741cfe857fbcb63de3cd8fb0e9a5a",
+      "primary": "image-confirmed/1024/view/three-quarter_left_v001.png",
+      "supporting": [
+        "image-confirmed/1024/view/side_left_v001.png",
+        "image-confirmed/1024/view/front_v004.png"
+      ],
+      "checks": {
+        "eyes_and_face": {
+          "status": "needs_revision",
+          "evidence": "사용자가 좌우 눈매 차이를 지적했습니다."
+        },
+        "skin_material_color_and_shading": {
+          "status": "pending",
+          "evidence": null
+        },
+        "hair_ears_tail": {
+          "status": "pending",
+          "evidence": null
+        },
+        "clothes_patterns_accessories": {
+          "status": "pending",
+          "evidence": null
+        },
+        "proportions_facing_ground": {
+          "status": "pending",
+          "evidence": null
+        }
+      }
+    },
+    {
+      "file": "image-undecided/180/view/three-quarter_right_v003.png",
+      "sha256": "f807a369c9e8394a195915ad16dd7cf377a280248be3c592b06ffed27b3f81bc",
+      "primary": "image-confirmed/1024/view/three-quarter_right_v001.png",
+      "supporting": [
+        "image-confirmed/1024/view/side_right_v001.png",
+        "image-confirmed/1024/view/front_v004.png"
+      ],
+      "checks": {
+        "eyes_and_face": {
+          "status": "needs_revision",
+          "evidence": "사용자가 좌우 눈매 차이를 지적했습니다."
+        },
+        "skin_material_color_and_shading": {
+          "status": "pending",
+          "evidence": null
+        },
+        "hair_ears_tail": {
+          "status": "pending",
+          "evidence": null
+        },
+        "clothes_patterns_accessories": {
+          "status": "pending",
+          "evidence": null
+        },
+        "proportions_facing_ground": {
+          "status": "pending",
+          "evidence": null
+        }
+      }
+    }
+  ],
+  "presentation_allowed": false,
+  "comparisons": {
+    "full_body": null,
+    "face_detail": null,
+    "pattern_detail": null
+  },
+  "note": "해시·경로만 검증했습니다. 이번 규칙 갱신 작업에서 시각 대조나 이미지 수정은 하지 않았습니다."
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "status": "construction_targets",
+  "rule_version": "v1.26",
+  "references": [
+    {
+      "path": "image-confirmed/1024/view/behind_v001.png",
+      "sha256": "93d83fa06bc6e85c89f9ab1f8f45724b44ea48b16da24a71e1cfa8fd9c2dd5c2",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/front_v004.png",
+      "sha256": "7703f2b3774c98ca2080247772ffbcefe47aa720d3afe808a0f4472c8170c46f",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/side_left_v001.png",
+      "sha256": "85df9e52edbcafa724e555324887586b80ccdf1a304244285939836e69b3b458",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/side_right_v001.png",
+      "sha256": "1f2f97d494b9a40b55d03bee3344722d8c77c4b2a1f4ec6c5939a21b9e561ed0",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/three-quarter_left_v001.png",
+      "sha256": "6b25cc74501a1531ccb0d0d9a7da587d078b74be57eed68eb79b96db9d9c3ed8",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/three-quarter_right_v001.png",
+      "sha256": "4dc08f22e2ba5607eeabe4c2b8acdd802ca066f75c5c54922f0199a09d7c8c06",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/view-three-quarter-front_v001.png",
+      "sha256": "172548f0a4e199e65e29aec34b3c4ceb8f5f6e5f63e76e05fcf3a90c2795e3b9",
+      "opened_for_review": true
+    },
+    {
+      "path": "image-confirmed/1024/view/view-three-quarter-head_front_v001.png",
+      "sha256": "a5ef5befd237882e68213701559b688f956a2e155f49c8a3ba27de0b93741c6a",
+      "opened_for_review": true
+    }
+  ],
+  "primary": {
+    "left": "side_left_v001.png",
+    "right": "side_right_v001.png"
+  },
+  "eye_reference": "work/side-eye-reference_v001.png",
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "anchors": {
+    "head_top": 29,
+    "eye": 43,
+    "chin": 53,
+    "shoulder": 60,
+    "waist": 83,
+    "crotch": 100,
+    "knee": 133,
+    "ankle": 164,
+    "sole": 170,
+    "ground": 171
+  },
+  "dimensions_px": {
+    "head_width": 27,
+    "head_height": 24,
+    "torso_depth": 22,
+    "pelvis_depth": 20,
+    "hood_depth": 13,
+    "tail_centerline_length": 55,
+    "tail_max_thickness": 24,
+    "tail_tip_y": 147,
+    "sleeve_end_y": 103,
+    "hand_end_y": 112,
+    "boot_length": 22
+  },
+  "provenance": "기준선은 현행 사양, 가로폭과 부착물 치수는 승인 측면의 비율을 180 격자에 해석한 공통 제작 목표입니다. 원본 실측 완료나 사용자 신규 이미지 승인으로 간주하지 않습니다.",
+  "occlusion": "좌향에서는 캐릭터 오른쪽 팔·다리, 우향에서는 왼쪽 팔·다리가 가까운 쪽입니다. 먼 팔다리는 같은 관절 길이로 겹치고 문양은 신체 바깥쪽 부착을 유지합니다.",
+  "allowed_differences": [
+    "헤어 가닥 내부 배치",
+    "자연스러운 옷 주름",
+    "화면 왼쪽 위 광원의 명암 면 배치"
+  ],
+  "independent_bbox_fit": false,
+  "presentation_allowed": false
+}

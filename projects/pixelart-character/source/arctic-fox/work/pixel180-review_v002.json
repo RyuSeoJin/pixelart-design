@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "created_at": "2026-09-28T21:37:18.558502+09:00",
+  "status": "사용자 승인 대기",
+  "method": "Aseprite v001 편집 원본의 RGB만 역할별로 교체. 재생성·재축소 없음.",
+  "material_colors": "../material-colors.json",
+  "build_script": "pixel180-recolor_v002.lua",
+  "rule_version": "v1.24",
+  "results": [
+    {
+      "side": "left",
+      "sha256": "aa04d1027dec385802678caa607762cb503ce8ff2d3064415d0e97722b97e5c6",
+      "colors": 14,
+      "changed_rgb_pixels": 1390,
+      "alpha_and_silhouette_unchanged": true,
+      "sole_y": 170,
+      "size": [
+        180,
+        180
+      ],
+      "mixed_warm_and_purple_neutrals_removed": true
+    },
+    {
+      "side": "right",
+      "sha256": "550a92a62838e30e9999b951f5b248d456268d0f2f2cb7558d4c37d06bf5f937",
+      "colors": 14,
+      "changed_rgb_pixels": 942,
+      "alpha_and_silhouette_unchanged": true,
+      "sole_y": 170,
+      "size": [
+        180,
+        180
+      ],
+      "mixed_warm_and_purple_neutrals_removed": true
+    }
+  ],
+  "visual_review": [
+    "좌우 꼬리·머리·옷에 동일 회청색 단계 적용 확인",
+    "양쪽 바지 기본색과 그림자색 통일 확인",
+    "의도된 명암 면적 차이 보존",
+    "피부·눈 색 교체 없음"
+  ]
+}

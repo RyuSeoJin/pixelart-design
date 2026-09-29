@@ -10,7 +10,7 @@
 | 번호 | 템플릿 | 입력 → 산출 | 버전 |
 |---|---|---|---|
 | 01 | `01-illustration-rules.html` | 확정 사양·관찰 기록 → 모든 캐릭터가 준수할 일러스트 제작 기준서 | v1.0 |
-| 02 | [캐릭터 설정 공통 템플릿](../spec/design/character-settings-template.md) | 캐릭터 고유 설정 → source/{캐릭터}/character.md, 공통 제작 규칙은 참조 | v1.2 |
+| 02 | [캐릭터 설정 공통 템플릿](../spec/design/character-settings-template.md) | 캐릭터 고유 설정 → source/{캐릭터}/character.md, 공통 제작 규칙은 참조 | v1.14 |
 
 ## 섹션 구조와 사용법
 

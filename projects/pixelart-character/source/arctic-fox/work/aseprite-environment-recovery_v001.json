@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28T21:15:09.793048+09:00",
+  "authorization": "aseprite 실행 환경부터 복구합니다",
+  "aseprite_version": "1.3.18.6",
+  "python_version": "3.13.15",
+  "uv_version": "0.12.19",
+  "causes": [
+    "제한된 CodexSandboxOffline 실행에서는 Steam Aseprite 배치가 종료 코드 1로 실패. 일반 사용자 권한에서 정상 실행.",
+    "기존 MCP .venv가 참조하는 Python 3.13.15 실행 파일 누락.",
+    "uv 설치는 존재하나 현재 명령 검색 경로에서 발견되지 않음."
+  ],
+  "repair": [
+    "기존 설치된 uv 실행 파일을 직접 사용하여 Python 3.13.15 복원",
+    "MCP 서버 소스·가상환경·등록을 변경하지 않고 기존 환경 재사용"
+  ],
+  "python_install_note": "uv의 minor-version 폴더 연결 오류가 보고되었으나 실제 python.exe 설치와 기존 가상환경 실행은 성공. 실제 MCP 기능 시험으로 확인.",
+  "execution": "Aseprite 및 MCP 배치는 require_escalated의 일반 사용자 실행 환경에서 수행. 제한 실행 실패를 재설치 필요로 단정하지 않음.",
+  "paths": {
+    "aseprite": "C:/Program Files (x86)/Steam/steamapps/common/Aseprite/Aseprite.exe",
+    "mcp_python": "P:/github-repository/aseprite-mcp/.venv/Scripts/python.exe",
+    "python": "C:/Users/meeho/AppData/Roaming/uv/python/cpython-3.13.15-windows-x86_64-none/python.exe",
+    "uv": "C:/Users/meeho/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/uv.exe"
+  },
+  "checks": {
+    "batch_lua_version": "통과",
+    "claude_mcp_status": "Connected",
+    "mcp_stdio_initialize": "통과",
+    "mcp_tool_count": 116,
+    "mcp_run_lua_script": "통과",
+    "aseprite_save_reopen": "통과",
+    "png_size": [
+      180,
+      180
+    ],
+    "png_pixel_90_170": [
+      34,
+      26,
+      38,
+      255
+    ],
+    "png_0_0_alpha": 0
+  },
+  "artwork_modified": false,
+  "next": "승인된 기본 시점 기반 180 이동용 정지 도트 제작"
+}

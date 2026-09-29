@@ -1,0 +1,107 @@
+{
+  "version": 5,
+  "status": "side_left/right v002 사용자 이미지 승인 완료",
+  "master": "../../spec/design/pixel-spec-field.json",
+  "light": "screen-top-left",
+  "materials": {
+    "hair": {
+      "base": "#F4F7FA",
+      "light": "#F4F7FA",
+      "shadow": "#C3CCD8",
+      "deep_shadow": "#8C97AD",
+      "outline": "#383C55"
+    },
+    "ears": {
+      "base": "#F4F7FA",
+      "light": "#F4F7FA",
+      "shadow": "#C3CCD8",
+      "deep_shadow": "#8C97AD",
+      "outline": "#383C55"
+    },
+    "tail": {
+      "base": "#F4F7FA",
+      "light": "#F4F7FA",
+      "shadow": "#C3CCD8",
+      "deep_shadow": "#8C97AD",
+      "outline": "#383C55"
+    },
+    "tunic": {
+      "base": "#F4F7FA",
+      "light": "#F4F7FA",
+      "shadow": "#C3CCD8",
+      "deep_shadow": "#8C97AD",
+      "outline": "#383C55"
+    },
+    "hood": {
+      "base": "#F4F7FA",
+      "light": "#F4F7FA",
+      "shadow": "#C3CCD8",
+      "deep_shadow": "#8C97AD",
+      "outline": "#383C55"
+    },
+    "boots": {
+      "base": "#F4F7FA",
+      "light": "#F4F7FA",
+      "shadow": "#C3CCD8",
+      "deep_shadow": "#8C97AD",
+      "outline": "#383C55"
+    },
+    "white_pattern": {
+      "base": "#F4F7FA",
+      "light": "#F4F7FA",
+      "shadow": "#C3CCD8",
+      "deep_shadow": "#8C97AD",
+      "outline": "#383C55"
+    },
+    "pants": {
+      "base": "#8C97AD",
+      "light": "#C3CCD8",
+      "shadow": "#5B637F",
+      "deep_shadow": "#383C55",
+      "outline": "#221A26"
+    },
+    "cuff_band": {
+      "base": "#8C97AD",
+      "light": "#C3CCD8",
+      "shadow": "#5B637F",
+      "deep_shadow": "#383C55",
+      "outline": "#221A26"
+    },
+    "hem_band": {
+      "base": "#8C97AD",
+      "light": "#C3CCD8",
+      "shadow": "#5B637F",
+      "deep_shadow": "#383C55",
+      "outline": "#221A26"
+    },
+    "chest_embroidery": {
+      "base": "#8C97AD",
+      "light": "#C3CCD8",
+      "shadow": "#5B637F",
+      "deep_shadow": "#383C55",
+      "outline": "#221A26"
+    }
+  },
+  "note": "흰 소재의 밝은색과 기본색은 같은 값으로 합칩니다. 추가 색을 만들지 않습니다.",
+  "skin": [
+    "#FFF1E4",
+    "#F6D2BC",
+    "#E2A895",
+    "#B87574",
+    "#7A4A58"
+  ],
+  "eyes": [
+    "#7FD0E0",
+    "#3E8FB8",
+    "#2A4F80"
+  ],
+  "deep_outline": "#221A26",
+  "skin_roles": {
+    "base": "#F6D2BC",
+    "light": "#F6D2BC",
+    "shadow": "#E2A895",
+    "accent": "#B87574",
+    "deep_shadow": "#7A4A58"
+  },
+  "approval": "image-confirmed/approval_v007.json"
+}

@@ -1,0 +1,163 @@
+{
+  "version": 2,
+  "status": "reviewed_awaiting_user_approval",
+  "reason": "승인된 8종을 실제로 열어 대조하고 좌우 이동용 원본 기준 눈매·귀 안쪽 수정",
+  "rule_version": "v1.25",
+  "manifest": "image-confirmed/approval_v004.json",
+  "references": [
+    {
+      "file": "image-confirmed/1024/view/behind_v001.png",
+      "sha256": "93d83fa06bc6e85c89f9ab1f8f45724b44ea48b16da24a71e1cfa8fd9c2dd5c2",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "후드가 목뒤에서 등 위로 처지고 꼬리 하나가 골반 뒤에 연결됨"
+    },
+    {
+      "file": "image-confirmed/1024/view/front_v004.png",
+      "sha256": "7703f2b3774c98ca2080247772ffbcefe47aa720d3afe808a0f4472c8170c46f",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "차분한 푸른 눈·흰 단발·흰 튜닉·중앙 서리 결정·회청색 띠 확인"
+    },
+    {
+      "file": "image-confirmed/1024/view/side_left_v001.png",
+      "sha256": "85df9e52edbcafa724e555324887586b80ccdf1a304244285939836e69b3b458",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "좌향 눈꺼풀과 세로 홍채, 손목 바깥 문양·좁은 옆트임 확인"
+    },
+    {
+      "file": "image-confirmed/1024/view/side_right_v001.png",
+      "sha256": "1f2f97d494b9a40b55d03bee3344722d8c77c4b2a1f4ec6c5939a21b9e561ed0",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "우향 눈꺼풀과 세로 홍채, 후드와 머리 분리·손목 문양 확인"
+    },
+    {
+      "file": "image-confirmed/1024/view/three-quarter_left_v001.png",
+      "sha256": "6b25cc74501a1531ccb0d0d9a7da587d078b74be57eed68eb79b96db9d9c3ed8",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "좌향 도트의 직접 기준: 얇은 눈꺼풀·가려진 먼 눈·팔을 내린 자세"
+    },
+    {
+      "file": "image-confirmed/1024/view/three-quarter_right_v001.png",
+      "sha256": "4dc08f22e2ba5607eeabe4c2b8acdd802ca066f75c5c54922f0199a09d7c8c06",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "우향 도트의 직접 기준: 눈꺼풀의 완만한 기울기·세로 홍채·우향 몸과 발"
+    },
+    {
+      "file": "image-confirmed/1024/view/view-three-quarter-front_v001.png",
+      "sha256": "172548f0a4e199e65e29aec34b3c4ceb8f5f6e5f63e76e05fcf3a90c2795e3b9",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "일러스트용: 두 눈을 보이는 각도이며 이동용 자세 기준과 구분"
+    },
+    {
+      "file": "image-confirmed/1024/view/view-three-quarter-head_front_v001.png",
+      "sha256": "a5ef5befd237882e68213701559b688f956a2e155f49c8a3ba27de0b93741c6a",
+      "hash_verified": true,
+      "visual_review": "reviewed",
+      "observation": "일러스트용: 얼굴 정면을 이동용 도트에 적용하지 않음"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "image-undecided/180/view/three-quarter_left_v004.png",
+      "sha256": "39c6dd23cf347015594c8a8f763b6ba2cd1f73246fec241b7468d68ce0030654",
+      "primary": "image-confirmed/1024/view/three-quarter_left_v001.png",
+      "supporting": [
+        "image-confirmed/1024/view/side_left_v001.png",
+        "image-confirmed/1024/view/front_v004.png"
+      ],
+      "checks": {
+        "eyes_and_face": {
+          "status": "pass",
+          "evidence": "승인 원본의 얇은 눈꺼풀·기울기와 세로 홍채를 비교하여 두 방향을 각각 수정했습니다. 얼굴 격자 확대 없이 5×4 영역과 기존 눈꺼풀 잔여점 1개를 정리했습니다. 얼굴·입·턱 윤곽은 유지합니다."
+        },
+        "skin_material_color_and_shading": {
+          "status": "pass",
+          "evidence": "v003의 피부 기본색과 바지 명암을 보존했습니다. 좌우 흰 소재와 회청색 명암을 전신 비교본에서 대조했습니다."
+        },
+        "hair_ears_tail": {
+          "status": "pass",
+          "evidence": "흰 단발·귀 두 개·꼬리 하나의 배치와 회청색 명암, 머리와 후드의 경계를 대조했습니다. 귀의 잔여 살색을 승인 원본처럼 회청색으로 수정했습니다."
+        },
+        "clothes_patterns_accessories": {
+          "status": "pass",
+          "evidence": "넓은 소매·회청색 손목 띠의 흰 문양·옷단 마름모·중앙 서리 결정·좁은 옆트임·내려온 천 후드를 원본과 대조했습니다. 미세 문양은 도트 격자에 단순화되며 장식 추가는 없습니다."
+        },
+        "proportions_facing_ground": {
+          "status": "pass",
+          "evidence": "대응 원본과 같은 신체 높이의 비교본에서 전신 비율과 얼굴·몸·양 발의 진행 방향을 확인했습니다. 도트 좌표·실루엣은 이전 시안과 동일하며 접지 170행입니다."
+        }
+      },
+      "technical": {
+        "size": [
+          180,
+          180
+        ],
+        "colors": 13,
+        "sole_y": 170,
+        "alpha_unchanged": true,
+        "changes_limited_to_eyes_and_inner_ears": true,
+        "changed_pixels": 28
+      }
+    },
+    {
+      "file": "image-undecided/180/view/three-quarter_right_v004.png",
+      "sha256": "1bd9d42b365ea41dd675fc4352d0c97616d15bb0d8ad59ced3b7ebc5eb4d25ad",
+      "primary": "image-confirmed/1024/view/three-quarter_right_v001.png",
+      "supporting": [
+        "image-confirmed/1024/view/side_right_v001.png",
+        "image-confirmed/1024/view/front_v004.png"
+      ],
+      "checks": {
+        "eyes_and_face": {
+          "status": "pass",
+          "evidence": "승인 원본의 얇은 눈꺼풀·기울기와 세로 홍채를 비교하여 두 방향을 각각 수정했습니다. 얼굴 격자 확대 없이 5×4 영역과 기존 눈꺼풀 잔여점 1개를 정리했습니다. 얼굴·입·턱 윤곽은 유지합니다."
+        },
+        "skin_material_color_and_shading": {
+          "status": "pass",
+          "evidence": "v003의 피부 기본색과 바지 명암을 보존했습니다. 좌우 흰 소재와 회청색 명암을 전신 비교본에서 대조했습니다."
+        },
+        "hair_ears_tail": {
+          "status": "pass",
+          "evidence": "흰 단발·귀 두 개·꼬리 하나의 배치와 회청색 명암, 머리와 후드의 경계를 대조했습니다. 귀의 잔여 살색을 승인 원본처럼 회청색으로 수정했습니다."
+        },
+        "clothes_patterns_accessories": {
+          "status": "pass",
+          "evidence": "넓은 소매·회청색 손목 띠의 흰 문양·옷단 마름모·중앙 서리 결정·좁은 옆트임·내려온 천 후드를 원본과 대조했습니다. 미세 문양은 도트 격자에 단순화되며 장식 추가는 없습니다."
+        },
+        "proportions_facing_ground": {
+          "status": "pass",
+          "evidence": "대응 원본과 같은 신체 높이의 비교본에서 전신 비율과 얼굴·몸·양 발의 진행 방향을 확인했습니다. 도트 좌표·실루엣은 이전 시안과 동일하며 접지 170행입니다."
+        }
+      },
+      "technical": {
+        "size": [
+          180,
+          180
+        ],
+        "colors": 13,
+        "sole_y": 170,
+        "alpha_unchanged": true,
+        "changes_limited_to_eyes_and_inner_ears": true,
+        "changed_pixels": 10
+      }
+    }
+  ],
+  "presentation_allowed": true,
+  "comparisons": {
+    "full_body": "work/pixel180-full-reference_v004.png",
+    "face_detail": "work/pixel180-face-reference_v004.png",
+    "pattern_detail": "work/pixel180-pattern-reference_v004.png",
+    "native_size": [
+      "image-undecided/180/view/three-quarter_left_v004.png",
+      "image-undecided/180/view/three-quarter_right_v004.png"
+    ]
+  },
+  "note": "8종 파일과 전신·얼굴·문양 비교본 및 실제 180 이미지를 확인했습니다. 통과는 제작자의 시각 검수이며 사용자 승인이 아닙니다. 미세 머리카락·자수는 180에서 단순화했습니다. 관절 좌표 전체 자동 측정이나 엔진 검수는 수행하지 않았습니다.",
+  "reviewed_at": "2026-09-28T21:55:13.202080+09:00"
+}

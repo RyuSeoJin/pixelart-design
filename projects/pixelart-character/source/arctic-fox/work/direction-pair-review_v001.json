@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "created_at": "2026-09-28T22:16:55.097174+09:00",
+  "rule_version": "v1.26",
+  "status": "needs_revision",
+  "presentation_allowed": false,
+  "supersedes": "approved-view-review_v003.json의 측면 v001 승인 요청 가능 판정",
+  "reason": "공통 치수·구조·방향 교대의 실제 검수 근거가 부족한 상태에서 제시한 판정을 정정합니다.",
+  "outputs": [
+    {
+      "path": "image-undecided/180/view/side_left_v001.png",
+      "sha256": "84b794b83fd3d069c4e0536c0c9af5bcc998bb36915f27b6d5627ec7797746ed"
+    },
+    {
+      "path": "image-undecided/180/view/side_right_v001.png",
+      "sha256": "bacf5b860fcf7236872cf65e2e41cabc6e1c452c70acd691c8d6c47fe8ad47d6"
+    }
+  ],
+  "checks": [
+    {
+      "item": "공통 구조표·기준선 실측",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "item": "눈·관절·신체 치수 대응",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "item": "후드·꼬리 부피와 부착점",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "item": "반전 윤곽 겹침",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "item": "실제 방향 교대 재생",
+      "status": "pending",
+      "evidence": null
+    }
+  ],
+  "observed_concerns": [
+    "좌우 후드와 꼬리 실루엣 차이",
+    "신체 비율·눈높이의 수치 근거 없음"
+  ],
+  "preserved": [
+    "승인 1024 기준 8종",
+    "선택 눈빛 참조",
+    "기존 생성물과 당시 기록"
+  ],
+  "next_action": "공통 구조표 작성 후 좌우 윤곽부터 수정하고 모든 증거를 실제 측정·재생하여 새 버전에 기록합니다."
+}

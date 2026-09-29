@@ -1,0 +1,65 @@
+{
+  "status": "restored_still_awaiting_approval",
+  "method": "aseprite-visible-pixel-partition",
+  "design_reference": {
+    "file": "work/design-restoration-reference_v001.png",
+    "sha256": "033ed7306e922c56a09ef238a606e6ff2db827f9de4d17242a3f4196721b4b58",
+    "role": "사용자가 초기 디자인 차이를 지적하며 지정한 외형 기준. 새 180 정지본 자동 승인 아님"
+  },
+  "production_rule": "v1.27",
+  "previous_animation": "native idle/walk v001은 사용자 외형 지적으로 후속 기준에서 제외. 기존 파일·당시 검수·승인 이력은 보존.",
+  "completed": [
+    "공통 배율로 180 정지본 복원 초안",
+    "보이는 픽셀 분리 및 무손실 재합성"
+  ],
+  "pending": [
+    "사용자 복원 정지본 확인",
+    "파츠별 해부학적 경계 검수 및 가려진 면 복원",
+    "관절 시험",
+    "idle/walk 재제작 및 실제 재생 검수"
+  ],
+  "files": [
+    {
+      "direction": "left",
+      "file": "image-undecided\\180\\view\\side_left_v003.png",
+      "sha256": "321ba7bf80007ced184d54f61b77d6024c8944e6eb805532438f4a7db6053ce6",
+      "size": [
+        180,
+        180
+      ],
+      "bbox": [
+        75,
+        15,
+        142,
+        171
+      ],
+      "colors": 55,
+      "recomposition_difference_pixels": 0,
+      "recombined": "work/parts-left/recombined_v001.png",
+      "native": "../../sprites/arctic-fox/parts_left_v002.aseprite",
+      "hidden_parts": "미복원",
+      "movement_applied": false
+    },
+    {
+      "direction": "right",
+      "file": "image-undecided\\180\\view\\side_right_v003.png",
+      "sha256": "b356dcaef23f37f5f3431d469a3712140965c8959b6d40a502b5ac4546ac94bc",
+      "size": [
+        180,
+        180
+      ],
+      "bbox": [
+        39,
+        15,
+        106,
+        171
+      ],
+      "colors": 56,
+      "recomposition_difference_pixels": 0,
+      "recombined": "work/parts-right/recombined_v001.png",
+      "native": "../../sprites/arctic-fox/parts_right_v002.aseprite",
+      "hidden_parts": "미복원",
+      "movement_applied": false
+    }
+  ]
+}

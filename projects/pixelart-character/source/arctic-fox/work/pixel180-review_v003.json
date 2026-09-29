@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "status": "승인 대기",
+  "method": "Aseprite v002 편집 원본에서 피부 밝은 면을 기본색으로 통일하고 바지 내부 작은 명암 조각을 정리",
+  "results": [
+    {
+      "side": "left",
+      "size": [
+        180,
+        180
+      ],
+      "colors": 13,
+      "alpha_unchanged": true,
+      "sole_y": 170,
+      "skin_base": "#F6D2BC",
+      "skin_pixels_changed": 90,
+      "pants_pixels_changed": 50,
+      "changes_outside_skin_and_pants": 0,
+      "sha256": "cf68ec24c2048c884e023e449b6bbb0a900741cfe857fbcb63de3cd8fb0e9a5a"
+    },
+    {
+      "side": "right",
+      "size": [
+        180,
+        180
+      ],
+      "colors": 13,
+      "alpha_unchanged": true,
+      "sole_y": 170,
+      "skin_base": "#F6D2BC",
+      "skin_pixels_changed": 13,
+      "pants_pixels_changed": 10,
+      "changes_outside_skin_and_pants": 0,
+      "sha256": "f807a369c9e8394a195915ad16dd7cf377a280248be3c592b06ffed27b3f81bc"
+    }
+  ],
+  "visual_review": [
+    "바지의 밝은 점과 작은 얼룩 감소",
+    "좌우 피부 기본 면이 동일 색",
+    "큰 주름·눈·입·실루엣 보존"
+  ],
+  "build": "pixel180-cleanup_v003.lua"
+}

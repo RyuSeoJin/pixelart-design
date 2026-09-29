@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28T22:36:35.172615+09:00",
+  "authorization": "좋습니다. 확정해주세요",
+  "scope": "직전 제시한 180×180 좌우 측면 정지본 v002 두 장의 이미지 확정",
+  "files": [
+    {
+      "direction": "left",
+      "source": "image-undecided/180/view/side_left_v002.png",
+      "file": "image-confirmed/180/view/side_left_v002.png",
+      "version": "v002",
+      "sha256": "6e418d3e117db2ec338572e60538dd2b23b307260c600f347d346a192e6311ab",
+      "purpose": "이동용 측면 정지본",
+      "native": "../../sprites/arctic-fox/side_left_v002.aseprite",
+      "native_sha256": "5fadc3ee97417a104908b5a5ba7f4a1d3805661f7feed5edf07ca26ff3f0d031"
+    },
+    {
+      "direction": "right",
+      "source": "image-undecided/180/view/side_right_v002.png",
+      "file": "image-confirmed/180/view/side_right_v002.png",
+      "version": "v002",
+      "sha256": "b2e32aef68dc9c94be5d7b5e2c4509affa6ff42b1c6be45724bbaf325885ce14",
+      "purpose": "이동용 측면 정지본",
+      "native": "../../sprites/arctic-fox/side_right_v002.aseprite",
+      "native_sha256": "c0da47b3488da35a2ea31bf79e3b9258418f0e5633310a5273e383b9bd17947d"
+    }
+  ],
+  "review": "work/direction-pair-review_v002.json",
+  "review_sha256": "2414d3d0552f4e7208330150d2271190bd92770264e2eb1f348d807368c0149b",
+  "comparison": "work/side180-comparison_v002.png",
+  "comparison_sha256": "cf35f0cbf2479c2f8df02b03deeb0c286fa34d86b902c4d79ce01d0259f646dd",
+  "copy_check": "검수 기록·미확정 원본·확정본의 SHA-256 모두 일치",
+  "technical_review_boundary": "사용자 이미지 승인을 기록합니다. 남아 있는 실시간 방향 교대 재생 검수를 통과로 바꾸지 않습니다. 실제 idle·walk와 엔진 검수는 별도입니다.",
+  "allowed_next_stage": "남은 재생 검수 및 별도 요청 시 승인된 좌우 정지본을 기준으로 idle·walk 제작",
+  "resources_registered": false
+}

@@ -1,0 +1,14 @@
+{
+  "left": {
+    "path": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\image-undecided\\180\\view\\side_left_v010.png",
+    "sha256": "5c7bb200682decc0d3ab2cc0852e7cbfe260753c2f2d9be288012b9e832963c7",
+    "errors": [],
+    "pass": true
+  },
+  "right": {
+    "path": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\image-undecided\\180\\view\\side_right_v010.png",
+    "sha256": "1939033ea14014127ca9dc85e4245c4e28a6cd0e6a04e0e6ecd1fc430fbb1fbc",
+    "errors": [],
+    "pass": true
+  }
+}

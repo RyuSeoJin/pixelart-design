@@ -1,0 +1,23 @@
+{
+  "status": "geometry_corrected_detail_review_pending",
+  "date": "2026-09-28T23:46:30.133070+09:00",
+  "correction": "우향 1px 중심 보정 뒤 원본 별도 채색을 유지하면서 좌향을 공통 윤곽 가이드로 사용",
+  "silhouette_difference_before": 360,
+  "silhouette_difference_after_alignment": 50,
+  "silhouette_difference_after_correction": 0,
+  "scope": "중심과 공통 실루엣. 전체 RGB 일치 또는 디자인·동작 검수 완료를 뜻하지 않습니다.",
+  "files": [
+    {
+      "direction": "left",
+      "file": "image-undecided\\180\\view\\side_left_v004.png",
+      "sha256": "321ba7bf80007ced184d54f61b77d6024c8944e6eb805532438f4a7db6053ce6",
+      "recomposition_difference_pixels": 0
+    },
+    {
+      "direction": "right",
+      "file": "image-undecided\\180\\view\\side_right_v004.png",
+      "sha256": "6eac1d76c6e3cd295f48dabad5a3d67c35ee294e544243f1602363d455f82708",
+      "recomposition_difference_pixels": 0
+    }
+  ]
+}
