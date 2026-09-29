@@ -1,0 +1,39 @@
+{
+  "kind": "sprite-gen-gen-set-report",
+  "run_dir": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\animation-left-run_v002",
+  "states": [
+    "idle",
+    "walk"
+  ],
+  "ok": 2,
+  "failed": [],
+  "not_started": [],
+  "items": [
+    {
+      "state": "idle",
+      "out": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\animation-left-run_v002\\raw\\idle.png",
+      "report": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\animation-left-run_v002\\reports\\gen-set\\idle.json",
+      "refs": [
+        "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\animation-left-run_v002\\base-source.png",
+        "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\animation-left-run_v002\\references\\layout-guides\\idle.png"
+      ],
+      "provider": "codex",
+      "provider_resolved_from": "explicit",
+      "elapsed_seconds": 60.7,
+      "ok": true
+    },
+    {
+      "state": "walk",
+      "out": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\animation-left-run_v002\\raw\\walk.png",
+      "report": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\animation-left-run_v002\\reports\\gen-set\\walk.json",
+      "refs": [
+        "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\animation-left-run_v002\\base-source.png",
+        "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\animation-left-run_v002\\references\\layout-guides\\walk.png"
+      ],
+      "provider": "codex",
+      "provider_resolved_from": "explicit",
+      "elapsed_seconds": 68.3,
+      "ok": true
+    }
+  ]
+}

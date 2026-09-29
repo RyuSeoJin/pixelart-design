@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-unpack-source",
+  "layout_source": "imported-pngs",
+  "cell": {
+    "width": 180,
+    "height": 180
+  },
+  "source_dir": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\hem-fix-idle-right",
+  "files": [
+    "frame-00_v005.png",
+    "frame-01_v005.png",
+    "frame-02_v005.png",
+    "frame-03_v005.png",
+    "frame-04_v005.png",
+    "frame-05_v005.png"
+  ],
+  "labels": [
+    "frame-00_v005",
+    "frame-01_v005",
+    "frame-02_v005",
+    "frame-03_v005",
+    "frame-04_v005",
+    "frame-05_v005"
+  ],
+  "groups": [
+    "idle_right"
+  ],
+  "base_source": null,
+  "imported_refs": {}
+}

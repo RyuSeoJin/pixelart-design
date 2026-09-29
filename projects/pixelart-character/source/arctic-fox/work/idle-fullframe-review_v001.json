@@ -1,0 +1,159 @@
+{
+  "method": "single_full_frame_pixel_edits",
+  "status": "미확정",
+  "realtime_playback_observed": false,
+  "engine_review": false,
+  "directions": {
+    "left": {
+      "frames": [
+        {
+          "file": "frame-00_v003.png",
+          "sha256": "5c7bb200682decc0d3ab2cc0852e7cbfe260753c2f2d9be288012b9e832963c7",
+          "changed_pixels": 0,
+          "checks": {
+            "size": true,
+            "alpha": true,
+            "palette": true,
+            "face_fixed": true,
+            "hands_fixed": true,
+            "feet_fixed": true,
+            "sole": true,
+            "material": true,
+            "first_frame": true
+          }
+        },
+        {
+          "file": "frame-01_v003.png",
+          "sha256": "722a32d281356705edf335d79011c81206f2f4730e6717b7a663059152cdfbf2",
+          "changed_pixels": 18,
+          "checks": {
+            "size": true,
+            "alpha": true,
+            "palette": true,
+            "face_fixed": true,
+            "hands_fixed": true,
+            "feet_fixed": true,
+            "sole": true,
+            "material": true,
+            "first_frame": true
+          }
+        },
+        {
+          "file": "frame-02_v003.png",
+          "sha256": "05d0e6581d87c1928852886f8d4ea0e109f9f93abd2212e44812bcf595ce50a7",
+          "changed_pixels": 74,
+          "checks": {
+            "size": true,
+            "alpha": true,
+            "palette": true,
+            "face_fixed": true,
+            "hands_fixed": true,
+            "feet_fixed": true,
+            "sole": true,
+            "material": true,
+            "first_frame": true
+          }
+        },
+        {
+          "file": "frame-03_v003.png",
+          "sha256": "81a3f7666fbe3c6d326e0788817dd0ac313af9e5d281114e44f8bd44895cc202",
+          "changed_pixels": 52,
+          "checks": {
+            "size": true,
+            "alpha": true,
+            "palette": true,
+            "face_fixed": true,
+            "hands_fixed": true,
+            "feet_fixed": true,
+            "sole": true,
+            "material": true,
+            "first_frame": true
+          }
+        }
+      ],
+      "gif_duration_ms": [
+        260,
+        200,
+        260,
+        200
+      ],
+      "gif_valid": true
+    },
+    "right": {
+      "frames": [
+        {
+          "file": "frame-00_v003.png",
+          "sha256": "1939033ea14014127ca9dc85e4245c4e28a6cd0e6a04e0e6ecd1fc430fbb1fbc",
+          "changed_pixels": 0,
+          "checks": {
+            "size": true,
+            "alpha": true,
+            "palette": true,
+            "face_fixed": true,
+            "hands_fixed": true,
+            "feet_fixed": true,
+            "sole": true,
+            "material": true,
+            "first_frame": true
+          }
+        },
+        {
+          "file": "frame-01_v003.png",
+          "sha256": "e60e4c34db7306412c88cf59cea19f5548bf66e3f3ba44c77bed172b9c3f5318",
+          "changed_pixels": 18,
+          "checks": {
+            "size": true,
+            "alpha": true,
+            "palette": true,
+            "face_fixed": true,
+            "hands_fixed": true,
+            "feet_fixed": true,
+            "sole": true,
+            "material": true,
+            "first_frame": true
+          }
+        },
+        {
+          "file": "frame-02_v003.png",
+          "sha256": "46c6df111d6aecb849e4c8fe2678e5c6c045ed4fc1a68c0c02c79dc17bf771f2",
+          "changed_pixels": 74,
+          "checks": {
+            "size": true,
+            "alpha": true,
+            "palette": true,
+            "face_fixed": true,
+            "hands_fixed": true,
+            "feet_fixed": true,
+            "sole": true,
+            "material": true,
+            "first_frame": true
+          }
+        },
+        {
+          "file": "frame-03_v003.png",
+          "sha256": "fbd201a2abf6e3f903d3502786cadc7091d1e09c41340fb55536aef2d10fe0d2",
+          "changed_pixels": 52,
+          "checks": {
+            "size": true,
+            "alpha": true,
+            "palette": true,
+            "face_fixed": true,
+            "hands_fixed": true,
+            "feet_fixed": true,
+            "sole": true,
+            "material": true,
+            "first_frame": true
+          }
+        }
+      ],
+      "gif_duration_ms": [
+        260,
+        200,
+        260,
+        200
+      ],
+      "gif_valid": true
+    }
+  },
+  "technical_pass": true
+}

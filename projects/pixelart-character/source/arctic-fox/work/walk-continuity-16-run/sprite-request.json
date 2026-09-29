@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-request",
+  "engine": "component-row",
+  "character": {
+    "id": ".walk-continuity-16-run.sg-staging",
+    "description": "imported PNG set from P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\walk-continuity-16-import"
+  },
+  "cell": {
+    "shape": "square",
+    "width": 180,
+    "height": 180,
+    "size": 180,
+    "safe_margin": 0
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "states": {
+    "walk": {
+      "frames": 16,
+      "fps": 20,
+      "loop": true,
+      "action": "0.8초 주기 유지·16프레임 중간 자세 수정본"
+    }
+  }
+}

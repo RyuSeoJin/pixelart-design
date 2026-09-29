@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-unpack-source",
+  "layout_source": "imported-pngs",
+  "cell": {
+    "width": 180,
+    "height": 180
+  },
+  "source_dir": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\spritegen-breathe-input\\idle_left",
+  "files": [
+    "frame-00_v001.png",
+    "frame-00_v001.png"
+  ],
+  "labels": [
+    "frame-00_v001",
+    "frame-00_v001"
+  ],
+  "groups": [
+    "idle_left",
+    "idle_right"
+  ],
+  "base_source": null,
+  "imported_refs": {}
+}

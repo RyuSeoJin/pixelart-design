@@ -1,0 +1,60 @@
+{
+  "status": "미확정",
+  "method": "single_full_frame_pixel_edits",
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "sole_row": 170,
+  "direction": "left",
+  "source": "../../../../image-confirmed/180/view/side_left_v010.png",
+  "native": "../../../../../../sprites/arctic-fox/idle_left_v003.aseprite",
+  "sheet": "sheet_v003.png",
+  "preview": "preview_v003.gif",
+  "frames": [
+    {
+      "file": "frame-00_v003.png",
+      "duration_ms": 260,
+      "rect": [
+        0,
+        0,
+        180,
+        180
+      ]
+    },
+    {
+      "file": "frame-01_v003.png",
+      "duration_ms": 200,
+      "rect": [
+        180,
+        0,
+        180,
+        180
+      ]
+    },
+    {
+      "file": "frame-02_v003.png",
+      "duration_ms": 260,
+      "rect": [
+        360,
+        0,
+        180,
+        180
+      ]
+    },
+    {
+      "file": "frame-03_v003.png",
+      "duration_ms": 200,
+      "rect": [
+        540,
+        0,
+        180,
+        180
+      ]
+    }
+  ]
+}

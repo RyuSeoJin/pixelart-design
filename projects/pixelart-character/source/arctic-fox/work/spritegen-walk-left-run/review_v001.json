@@ -1,0 +1,11 @@
+{
+  "status": "needs_revision",
+  "experimental": true,
+  "source": "../../image-confirmed/180/view/side_left_v010.png",
+  "findings": [
+    "생성 도트가 원본보다 촘촘하여 추출기의 크기 제한 경고 발생",
+    "전후 반주기의 지지 다리 교대 확인 미통과"
+  ],
+  "motion_playback_observed": false,
+  "retry": "../spritegen-walk-left-retry"
+}

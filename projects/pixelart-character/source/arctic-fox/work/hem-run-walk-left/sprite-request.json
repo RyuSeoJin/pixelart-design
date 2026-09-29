@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-request",
+  "engine": "component-row",
+  "character": {
+    "id": ".hem-run-walk-left.sg-staging",
+    "description": "imported PNG set from P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\hem-fix-walk-left"
+  },
+  "cell": {
+    "shape": "square",
+    "width": 180,
+    "height": 180,
+    "size": 180,
+    "safe_margin": 0
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "states": {
+    "walk_left": {
+      "frames": 8,
+      "fps": 10,
+      "loop": true,
+      "action": "옆트임 안감·옷단 경계 수정"
+    }
+  }
+}

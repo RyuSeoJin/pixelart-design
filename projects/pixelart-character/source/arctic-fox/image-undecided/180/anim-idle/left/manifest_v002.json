@@ -1,0 +1,97 @@
+{
+  "version": 2,
+  "direction": "left",
+  "motion": "idle",
+  "frame_size": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "sheet": "sheet_v002.png",
+  "preview": "preview_v002.gif",
+  "loop": true,
+  "frames": [
+    {
+      "file": "frame-00_v002.png",
+      "duration_ms": 260,
+      "rect": [
+        0,
+        0,
+        180,
+        180
+      ],
+      "sha256": "5c7bb200682decc0d3ab2cc0852e7cbfe260753c2f2d9be288012b9e832963c7",
+      "upper_tail_offset": [
+        0,
+        0
+      ],
+      "lower_offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "file": "frame-01_v002.png",
+      "duration_ms": 200,
+      "rect": [
+        180,
+        0,
+        180,
+        180
+      ],
+      "sha256": "e37dec5c3b13185544d9bce7a32ca9c3182f5eae0ba62f634e07b91cddfeed1c",
+      "upper_tail_offset": [
+        0,
+        1
+      ],
+      "lower_offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "file": "frame-02_v002.png",
+      "duration_ms": 260,
+      "rect": [
+        360,
+        0,
+        180,
+        180
+      ],
+      "sha256": "d292ab69401defed3bb202d4bb8e7aef8eeaa75c91443ac0397496d6cca87cf1",
+      "upper_tail_offset": [
+        0,
+        2
+      ],
+      "lower_offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "file": "frame-03_v002.png",
+      "duration_ms": 200,
+      "rect": [
+        540,
+        0,
+        180,
+        180
+      ],
+      "sha256": "e37dec5c3b13185544d9bce7a32ca9c3182f5eae0ba62f634e07b91cddfeed1c",
+      "upper_tail_offset": [
+        0,
+        1
+      ],
+      "lower_offset": [
+        0,
+        0
+      ]
+    }
+  ],
+  "source": "../../../../image-confirmed/180/view/side_left_v010.png",
+  "status": "미확정",
+  "native": "../../../../../../sprites/arctic-fox/idle_left_v002.aseprite"
+}

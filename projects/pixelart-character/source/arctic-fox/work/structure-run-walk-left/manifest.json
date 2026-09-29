@@ -1,0 +1,109 @@
+{
+  "characterId": ".structure-run-walk-left.sg-staging",
+  "engine": "component-row",
+  "game_input": "sprite-sheet-alpha.png",
+  "degraded_static_fallback": false,
+  "curation_applied": false,
+  "frame_variant": "pixel",
+  "sprite_sheet_alpha": "sprite-sheet-alpha.png",
+  "sprite_sheet_alpha_report": "sprite-sheet-alpha.report.json",
+  "base_image": null,
+  "cell": {
+    "shape": "square",
+    "width": 180,
+    "height": 180,
+    "size": 180,
+    "safe_margin": 0
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "animation": {
+    "cellWidth": 180,
+    "cellHeight": 180,
+    "columns": 8,
+    "rows": {
+      "walk_left": {
+        "row": 0,
+        "frames": 8,
+        "fps": 10,
+        "durations_ms": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "loop": true,
+        "frame_variant": "pixel"
+      }
+    }
+  },
+  "frame_layout": {
+    "sheetWidth": 1440,
+    "sheetHeight": 180,
+    "cellWidth": 180,
+    "cellHeight": 180,
+    "rows": {
+      "walk_left": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 180,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 360,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 540,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 720,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 900,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 1080,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 1260,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        }
+      ]
+    }
+  }
+}

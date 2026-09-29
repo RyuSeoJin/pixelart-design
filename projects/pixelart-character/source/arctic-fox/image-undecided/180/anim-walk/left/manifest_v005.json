@@ -1,0 +1,61 @@
+{
+  "version": 5,
+  "status": "미확정·옆트임 수정본",
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "motion": "walk",
+  "direction": "left",
+  "loop": true,
+  "frames": [
+    {
+      "file": "frame-00_v005.png",
+      "sha256": "d4fd38bdafa7f6f0ca74feeb60122765b0f1fcc624cc5e7b67d43d0ab3f79bb9",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-01_v005.png",
+      "sha256": "3b05d85f2409537dae9ca32099b06fe18b097c02c856e375819e4ba9cfdb82b6",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-02_v005.png",
+      "sha256": "7ae01a67e11e4ba1b6774a0058847294369a2ddbab0319a147c795d90fccc0d4",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-03_v005.png",
+      "sha256": "3a2fb9b8c3833bf42ef6e65a92aa172016027b4713c2b2b44155137e653c1766",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-04_v005.png",
+      "sha256": "90793c5fbf422eaff989c0b0c3917aad708419f26cebf3618defe7a13c9d7005",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-05_v005.png",
+      "sha256": "115cb9e53927af3bfdbb1a58f3f262c58b27c99ef34794e8cd45fb95a7b71084",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-06_v005.png",
+      "sha256": "dfc61a96d5e4ecb42b4fdf240a9f454579a665f0fc41ced51229eb903e3a24eb",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-07_v005.png",
+      "sha256": "d35e3e9be52c8ef4875f545bec033d8efc16ee0f0e96c95d769c8308a342bd7e",
+      "duration_ms": 100
+    }
+  ],
+  "sheet": "sheet_v005.png",
+  "preview": "preview_v005.gif",
+  "native": "work/walk-left_v005.aseprite",
+  "review": "work/hem-lining-review_v001.json"
+}

@@ -1,0 +1,441 @@
+{
+  "version": 1,
+  "source": "image-confirmed/180/view/side_left_v010.png",
+  "source_sha256": "5c7bb200682decc0d3ab2cc0852e7cbfe260753c2f2d9be288012b9e832963c7",
+  "status": "부분 기술 검사 완료·보행 미통과",
+  "frames": [
+    {
+      "frame": 0,
+      "file": "work/walk-corrected-left/frame-00_v001.png",
+      "sha256": "3167cbc67a519aaa347d890566efb2e8fa57fb1199ff5b3a04e01695555f0b1a",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        63,
+        15,
+        142,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        0
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정"
+    },
+    {
+      "frame": 1,
+      "file": "work/walk-corrected-left/frame-01_v001.png",
+      "sha256": "5d1a4855c0ee81efd12a6dea2f5dab56c59d87d79ea1a2cc301f2d6385610f21",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        71,
+        16,
+        142,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        1
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정"
+    },
+    {
+      "frame": 2,
+      "file": "work/walk-corrected-left/frame-02_v001.png",
+      "sha256": "1ad6940e8719b44208de4a662d56b6bd770bbf03a93d59d3d498aac548a610f5",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        65,
+        15,
+        142,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        0
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정"
+    },
+    {
+      "frame": 3,
+      "file": "work/walk-corrected-left/frame-03_v001.png",
+      "sha256": "e724e57beacdca6461ffda5d6b77252ca5d42b2e20d15cf343ec62ece52f39ca",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        53,
+        14,
+        142,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        -1
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정"
+    },
+    {
+      "frame": 4,
+      "file": "work/walk-corrected-left/frame-04_v001.png",
+      "sha256": "bfeb28570c15fa37bb92ce2d04ba4c00b8b26579758a2b570473559fc40e789c",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        63,
+        15,
+        142,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        0
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정"
+    },
+    {
+      "frame": 5,
+      "file": "work/walk-corrected-left/frame-05_v001.png",
+      "sha256": "d3b760b5bba64a2603b2e646b5b7fef9d110ae0e31e315619ce3d4cbf5536d01",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        71,
+        16,
+        142,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        1
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정"
+    },
+    {
+      "frame": 6,
+      "file": "work/walk-corrected-left/frame-06_v001.png",
+      "sha256": "48b462cd20e812eef2f6c722e08f784d7d33245884e657d89f0234490f1a278a",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        64,
+        15,
+        142,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        0
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정"
+    },
+    {
+      "frame": 7,
+      "file": "work/walk-corrected-left/frame-07_v001.png",
+      "sha256": "6bb5ec3edab5fa919d640df99aea2eb674f775234e532d723d568d69a5175c67",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        50,
+        14,
+        142,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        -1
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정"
+    }
+  ],
+  "gif": {
+    "file": "work/walk-corrected-left-run/qa/walk.gif",
+    "sha256": "7fe61f1ed7a9d57df12eaa4436db03a089da0b48483a64a26478fe017f9d6258",
+    "frame_count": 8,
+    "durations_ms": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "loop": 0
+  },
+  "limits": [
+    "최하단 불투명 픽셀은 발의 접촉점 판정이 아닙니다.",
+    "원본 팔레트에 포함되어도 재질 위치가 올바르다는 뜻은 아닙니다.",
+    "머리 검사는 지정 영역과 알려진 정수 이동량에 한정됩니다.",
+    "GIF 파일 검사는 실제 반복 재생 관찰을 대신하지 않습니다."
+  ]
+}

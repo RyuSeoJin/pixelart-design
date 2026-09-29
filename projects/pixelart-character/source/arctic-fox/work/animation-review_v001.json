@@ -1,0 +1,794 @@
+{
+  "status": "failed_not_deliverable",
+  "date": "2026-09-28T23:11:08.862249+09:00",
+  "method": "gpt-rows",
+  "attempts": 2,
+  "approved_base": "image-confirmed/approval_v007.json",
+  "motion_playback_review": "미실시 — 정적 프레임·외형 검수에서 실패하여 재생 통과를 주장하지 않습니다.",
+  "reasons": [
+    "walk 앞뒤 절반에서 다리 전후 관계가 반복되어 완전한 교대 보행을 확인할 수 없습니다.",
+    "확정 원본 대비 키·눈매·옷 윤곽이 변합니다.",
+    "추출기가 격자를 1px로 오인해 물리 한계 축소를 적용했습니다.",
+    "idle 내보내기는 고정 250ms로 되어 프로젝트의 260·200·260·200ms 규격과 다릅니다."
+  ],
+  "files": [
+    {
+      "direction": "left",
+      "attempt": 1,
+      "state": "idle",
+      "base_bbox": [
+        74,
+        15,
+        128,
+        171
+      ],
+      "frames": [
+        {
+          "file": "work\\animation-left-run_v001\\frames\\idle\\frame-0.png",
+          "sha256": "bea3a95a4a8a790f100582f918b200daa60af79469017efe652be11df250bf56",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            67,
+            0,
+            128,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v001\\frames\\idle\\frame-1.png",
+          "sha256": "1763e33fed4c442f22e5cf161b4f4a15d3223310381e275ba7ee7f5091cb4ab4",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            67,
+            1,
+            128,
+            170
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v001\\frames\\idle\\frame-2.png",
+          "sha256": "0dff08e29b73903aecc2f0d8bfead4dea2e585cc5ea679586abe9ab371409784",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            67,
+            2,
+            129,
+            168
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v001\\frames\\idle\\frame-3.png",
+          "sha256": "e6129e81d30098ac0d006d8cd6f4869ffbcf764aec7351c96eef79ada599d4ea",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            67,
+            0,
+            128,
+            171
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "left",
+      "attempt": 1,
+      "state": "walk",
+      "base_bbox": [
+        74,
+        15,
+        128,
+        171
+      ],
+      "frames": [
+        {
+          "file": "work\\animation-left-run_v001\\frames\\walk\\frame-0.png",
+          "sha256": "f0c54820ad64a14839904e1c02f796141d4da6a2f4d32baf7eb9522d3f834f3c",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            52,
+            0,
+            137,
+            170
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v001\\frames\\walk\\frame-1.png",
+          "sha256": "36eb662b855e498cf23629d5ad8d546158349306abbdf08a495732604c42fc12",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            55,
+            0,
+            131,
+            170
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v001\\frames\\walk\\frame-2.png",
+          "sha256": "262e5dd696a03cce560a38662e2f22fcb6bd7b8a0617cbba98056e8c44317bf6",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            56,
+            0,
+            134,
+            170
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v001\\frames\\walk\\frame-3.png",
+          "sha256": "6a2149c73601e7c0ac004b9df5eb1ad10a945c2cb8b772a054bfc0cb75dff210",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            56,
+            0,
+            133,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v001\\frames\\walk\\frame-4.png",
+          "sha256": "e11ec8b685636f3d37aedfac5e85571bf5ef4251990f4be4353d96596ccc4a19",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            52,
+            0,
+            138,
+            170
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v001\\frames\\walk\\frame-5.png",
+          "sha256": "b97be268b6e6b639e3bfbc793f2dc460d9f6e47d4b4bd28114308c8884fde9fd",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            55,
+            0,
+            132,
+            170
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v001\\frames\\walk\\frame-6.png",
+          "sha256": "adfbdc7ac8a21f6d0c65cc745abacf40ac61b43418326822f717a0f0c7b45dde",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            56,
+            0,
+            135,
+            170
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v001\\frames\\walk\\frame-7.png",
+          "sha256": "79945649b5fdd1eb11c6a39fc3740c667bad80cd64412058f78276ef5730388c",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            55,
+            0,
+            133,
+            171
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "left",
+      "attempt": 2,
+      "state": "idle",
+      "base_bbox": [
+        74,
+        15,
+        128,
+        171
+      ],
+      "frames": [
+        {
+          "file": "work\\animation-left-run_v002\\frames\\idle\\frame-0.png",
+          "sha256": "8be147ff8540abab7b74d5104b893ca69234135ca675358ff0402559cb354fb2",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            67,
+            0,
+            130,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v002\\frames\\idle\\frame-1.png",
+          "sha256": "bc3994aa92cfdfa3b756fffde7c32c60f33a43c838576d41544f85b4b9d7b0ba",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            67,
+            1,
+            129,
+            168
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v002\\frames\\idle\\frame-2.png",
+          "sha256": "cfa7db7ae99e7d78517e2735017de75d71364b6dfa5c7a5e1cc0c5d0cc1ab295",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            67,
+            4,
+            131,
+            168
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v002\\frames\\idle\\frame-3.png",
+          "sha256": "527e044bf3317fbac15d31a3bfca92513ba421a806411044fb38d0223d786f54",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            67,
+            0,
+            130,
+            171
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "left",
+      "attempt": 2,
+      "state": "walk",
+      "base_bbox": [
+        74,
+        15,
+        128,
+        171
+      ],
+      "frames": [
+        {
+          "file": "work\\animation-left-run_v002\\frames\\walk\\frame-0.png",
+          "sha256": "4279ec7f1d90ddf47fb637e0477cd95e1c165af1ba4b91cb980f23edd3822731",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            50,
+            0,
+            138,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v002\\frames\\walk\\frame-1.png",
+          "sha256": "dfbea23383def86cc3c866c125bbdb19d5d145f0175535e6a279ec681677d85d",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            54,
+            0,
+            136,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v002\\frames\\walk\\frame-2.png",
+          "sha256": "3a23073e7cab81ce3f16b01fbbb7d6a9397893e1adead5fe36196d0a87de2fd7",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            57,
+            0,
+            138,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v002\\frames\\walk\\frame-3.png",
+          "sha256": "d2894762d6078c04d565f9e212c2f13a4cf7233252b9fd5fe01abf8238906ba0",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            45,
+            1,
+            138,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v002\\frames\\walk\\frame-4.png",
+          "sha256": "27331ec69e593278d2d39bf4780dfae96878465de91c9ad4fa2c0eded1b2c7a5",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            53,
+            0,
+            140,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v002\\frames\\walk\\frame-5.png",
+          "sha256": "f776be9e11f1cc8a10baa7f44fa2bc6d648f551b435f3e5a21a7ce2f7d7fdc01",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            54,
+            0,
+            137,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v002\\frames\\walk\\frame-6.png",
+          "sha256": "4f2aa3f2b32227f22c36d5fd6c94b769c6edda7f0ff3f41ef35831b7212e9c40",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            57,
+            0,
+            138,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-left-run_v002\\frames\\walk\\frame-7.png",
+          "sha256": "3320bac865f3bbb95c9bfe80edb3083d53567aa6b2b8ed8d60ad1b3531bfac85",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            45,
+            1,
+            138,
+            171
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "right",
+      "attempt": 1,
+      "state": "idle",
+      "base_bbox": [
+        52,
+        15,
+        106,
+        171
+      ],
+      "frames": [
+        {
+          "file": "work\\animation-right-run_v001\\frames\\idle\\frame-0.png",
+          "sha256": "62b7dc31aba04667d571d8ce1a179974b2facfcce53342193473109561d51679",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            50,
+            0,
+            114,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v001\\frames\\idle\\frame-1.png",
+          "sha256": "83d0ef01770944bbc4a7ff32279d0e43ffef6173d7ec23f04bdb9d931e4e440f",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            49,
+            1,
+            114,
+            169
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v001\\frames\\idle\\frame-2.png",
+          "sha256": "d3f2e718cce2d76afe6ead55e856a82ad57fc16febe7c4b92229a94e87153cb4",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            48,
+            1,
+            114,
+            169
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v001\\frames\\idle\\frame-3.png",
+          "sha256": "d59609ef893d6926c686b839073e7a9380dba0bee95630ea92ebed30b0844f68",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            49,
+            0,
+            114,
+            171
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "right",
+      "attempt": 1,
+      "state": "walk",
+      "base_bbox": [
+        52,
+        15,
+        106,
+        171
+      ],
+      "frames": [
+        {
+          "file": "work\\animation-right-run_v001\\frames\\walk\\frame-0.png",
+          "sha256": "b889dcf17cff62048574e0d911ca3bda4b8b3c3d513b937500f84020b0efbd4d",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            46,
+            3,
+            131,
+            168
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v001\\frames\\walk\\frame-1.png",
+          "sha256": "6f73539db83e231e3ff33c9b064b2704cb1977187b634e71aa66ba237d83b329",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            50,
+            5,
+            120,
+            168
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v001\\frames\\walk\\frame-2.png",
+          "sha256": "fbe4af3704eeca4182cca75f1e90866e4adfbfc7aacf1150db83dd66eaf75cf1",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            49,
+            3,
+            124,
+            169
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v001\\frames\\walk\\frame-3.png",
+          "sha256": "fad8a2f659fe4caf1f449de22d3c54f7d257d2da0708107d731dedbd82dd0ff4",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            52,
+            0,
+            111,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v001\\frames\\walk\\frame-4.png",
+          "sha256": "1b494f6f4d8520a812a5d5e827d3775e2750b956b4ae1de8b345235b13cf0352",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            49,
+            3,
+            132,
+            168
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v001\\frames\\walk\\frame-5.png",
+          "sha256": "b35f9db8fb0fa36f3049aa67474eb278b2a302555a933b857114c25b4f46842b",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            49,
+            5,
+            119,
+            168
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v001\\frames\\walk\\frame-6.png",
+          "sha256": "d53c5416fdae9265c9e156f6709b31e0777381974e7bfa3beb3e935c09dc7b71",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            50,
+            2,
+            124,
+            168
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v001\\frames\\walk\\frame-7.png",
+          "sha256": "d9d26e4864f0d52974113ea8fc898bede551bf937db0ff7fbc4f3c72d1d535e8",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            52,
+            0,
+            111,
+            171
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "right",
+      "attempt": 2,
+      "state": "idle",
+      "base_bbox": [
+        52,
+        15,
+        106,
+        171
+      ],
+      "frames": [
+        {
+          "file": "work\\animation-right-run_v002\\frames\\idle\\frame-0.png",
+          "sha256": "3e73caeff3d9141499e8ff832a7c680b02b34b4de26fd1382792dd3f1a55ff5e",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            51,
+            0,
+            114,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v002\\frames\\idle\\frame-1.png",
+          "sha256": "2815c30b1509dbe47a738bbd5b17e859ced4f70b8d3cde8b8ccb678e257861c3",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            52,
+            0,
+            114,
+            169
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v002\\frames\\idle\\frame-2.png",
+          "sha256": "4c6485f6ad08ec7fb01221664aee72826f64a03a9b3952c7dd913fc2b370b072",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            49,
+            3,
+            114,
+            168
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v002\\frames\\idle\\frame-3.png",
+          "sha256": "344e7baed02ffbd264f08cdf8b5b766ea62d881e6a64c3c0993439ca007b54e8",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            51,
+            0,
+            114,
+            171
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "right",
+      "attempt": 2,
+      "state": "walk",
+      "base_bbox": [
+        52,
+        15,
+        106,
+        171
+      ],
+      "frames": [
+        {
+          "file": "work\\animation-right-run_v002\\frames\\walk\\frame-0.png",
+          "sha256": "68d16af889122cc402d6411953f0d48004f3cd01599ed4e7d634bfaa13e3cac6",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            43,
+            0,
+            131,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v002\\frames\\walk\\frame-1.png",
+          "sha256": "4be43514b3df0c432b917e7d243e25368876131299684bfa3d2ebaefec68bd87",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            40,
+            0,
+            118,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v002\\frames\\walk\\frame-2.png",
+          "sha256": "57c6ae932f9b49c979c2cd8ceb960697ab98c2e7a2bdaad1b8572325b8637866",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            41,
+            0,
+            134,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v002\\frames\\walk\\frame-3.png",
+          "sha256": "3e8d3e159d3e53048bd3baa1c01f44b9586e2f502ebdb0a5e7ec4b564fa63f55",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            46,
+            0,
+            125,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v002\\frames\\walk\\frame-4.png",
+          "sha256": "322a1718db4ba65717a66f4974cabf90ec5903ed987103f0442e5d0fbdc2b14a",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            43,
+            0,
+            131,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v002\\frames\\walk\\frame-5.png",
+          "sha256": "bd04ffef73f8f4806fa27685f4ecce96891b3c2169a75ea3095f7f8c8566f4e5",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            41,
+            0,
+            118,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v002\\frames\\walk\\frame-6.png",
+          "sha256": "5c602e3d913ada565c95297339c40fc447f650c5510012908200f3f1ac1c2b96",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            41,
+            0,
+            134,
+            171
+          ]
+        },
+        {
+          "file": "work\\animation-right-run_v002\\frames\\walk\\frame-7.png",
+          "sha256": "e2345ffbd13299c2ca3c4f2c6e48507873174765534d14376516b2d705fe2f1f",
+          "size": [
+            180,
+            180
+          ],
+          "bbox": [
+            46,
+            0,
+            125,
+            171
+          ]
+        }
+      ]
+    }
+  ],
+  "next_proposal": "확정 도트를 Aseprite 파츠로 분리하고 공통 동작 구조로 직접 애니메이션 제작",
+  "confirmed_assets_changed": false
+}

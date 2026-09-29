@@ -1,0 +1,42 @@
+{
+  "version": 6,
+  "status": "미확정",
+  "size": [
+    180,
+    180
+  ],
+  "loop": true,
+  "frames": [
+    {
+      "file": "frame-00_v006.png",
+      "duration_ms": 250,
+      "sha256": "27856348ae7b42c56696641708ccc764b8d96c8e0087597c5ae15fbdabf7596c"
+    },
+    {
+      "file": "frame-01_v006.png",
+      "duration_ms": 250,
+      "sha256": "86e4f6d2d998fa4c8e69c1d7a6b17bc3e481ea09c4f7e08097f081f54ceb798c"
+    },
+    {
+      "file": "frame-02_v006.png",
+      "duration_ms": 250,
+      "sha256": "dac57d4623cca952175b93d620975089782ef1f53f3f58fa5720f8602d5b2fd3"
+    },
+    {
+      "file": "frame-03_v006.png",
+      "duration_ms": 250,
+      "sha256": "5f04e192e4e4cc85fb09cc21ff0df7f5fd6502ff9ba548443cb1e16b51266be3"
+    },
+    {
+      "file": "frame-04_v006.png",
+      "duration_ms": 250,
+      "sha256": "16bce613c384b12d274fa78f64f6c6c3c89b6a36440f8d6763230f79e2022d56"
+    },
+    {
+      "file": "frame-05_v006.png",
+      "duration_ms": 250,
+      "sha256": "29bd0d36b98fbffd01b01a49fa5520c7d87f8b6d3188f049098c7cde77d12684"
+    }
+  ],
+  "source": "Aseprite 국소 수정 및 sprite-gen 합성 검증"
+}

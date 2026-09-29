@@ -1,0 +1,479 @@
+{
+  "version": 1,
+  "status": "부분 기술 검사 통과·사용자 검토 전",
+  "scope": [
+    "idle_left v005",
+    "idle_right v005",
+    "walk_left v005"
+  ],
+  "rules": [
+    "원본 팔레트의 빙청색 안감과 경계 복원",
+    "옆트임은 소매가 아니라 몸통 기준으로 이동",
+    "호흡 중 늘어난 행에도 같은 안감 경계 적용"
+  ],
+  "frames": [
+    {
+      "motion": "idle",
+      "direction": "left",
+      "frame": 0,
+      "input": "image-undecided/180/anim-idle/left/frame-00_v004.png",
+      "output": "image-undecided/180/anim-idle/left/frame-00_v005.png",
+      "input_sha256": "1103d202fa15f12a1eacf1f14a4fc4d57094c3eb320d9f0c082ec812256fafde",
+      "sha256": "afc13fcdadcefac8d58609c50a759b79ff18b0c47ba4aeedb6ab74f6c501b2e8",
+      "changed_pixels": 35,
+      "changed_bbox": [
+        85,
+        99,
+        89,
+        109
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "frame": 1,
+      "input": "image-undecided/180/anim-idle/left/frame-01_v004.png",
+      "output": "image-undecided/180/anim-idle/left/frame-01_v005.png",
+      "input_sha256": "6b1140fd60932a1728d336837e58167e35f48e67ecb16aa84a405fb95ca6a960",
+      "sha256": "80c7eebf7c620c1fef782c9fc2bc1f652d46f780b6b561b812ee45e9ec79c5cd",
+      "changed_pixels": 35,
+      "changed_bbox": [
+        85,
+        100,
+        89,
+        110
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "frame": 2,
+      "input": "image-undecided/180/anim-idle/left/frame-02_v004.png",
+      "output": "image-undecided/180/anim-idle/left/frame-02_v005.png",
+      "input_sha256": "512d46c9ad76b302750c2add725ed7dc62972fb9e4a982e66154deffdce2f5dd",
+      "sha256": "05865826403dc7d501df8542a0ca2ba3ca1c3a438af94dac00154691e23b3e8f",
+      "changed_pixels": 35,
+      "changed_bbox": [
+        85,
+        100,
+        89,
+        110
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "frame": 3,
+      "input": "image-undecided/180/anim-idle/left/frame-03_v004.png",
+      "output": "image-undecided/180/anim-idle/left/frame-03_v005.png",
+      "input_sha256": "83a3f3eae2f23a728492911161bbc1f5d4a55824601511c9319a357affdb2c8d",
+      "sha256": "b3882de29641baf11d130aae987a57cb1f118e22958b12a6a66dce09642fee20",
+      "changed_pixels": 35,
+      "changed_bbox": [
+        85,
+        100,
+        89,
+        110
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "frame": 4,
+      "input": "image-undecided/180/anim-idle/left/frame-04_v004.png",
+      "output": "image-undecided/180/anim-idle/left/frame-04_v005.png",
+      "input_sha256": "be22705197655f95aa5ba291df44f89e608153485d14f214c0552ca7dcdefcae",
+      "sha256": "e6a7ccdd2d5d40de66094cbca2e4d355f3e0b76e0ab726b700eae07ebab05e48",
+      "changed_pixels": 39,
+      "changed_bbox": [
+        85,
+        98,
+        89,
+        109
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "frame": 5,
+      "input": "image-undecided/180/anim-idle/left/frame-05_v004.png",
+      "output": "image-undecided/180/anim-idle/left/frame-05_v005.png",
+      "input_sha256": "2f0398cfe860498acb5157355d860d911917fbbb04b1d3f3d6d32b1d8fdba6de",
+      "sha256": "06f15847cfa9ee1c90ac6e5e46d3a18a6ad12dfc5eaf9734ee5aad8125249098",
+      "changed_pixels": 35,
+      "changed_bbox": [
+        85,
+        97,
+        89,
+        107
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "frame": 0,
+      "input": "image-undecided/180/anim-idle/right/frame-00_v004.png",
+      "output": "image-undecided/180/anim-idle/right/frame-00_v005.png",
+      "input_sha256": "4f8c8a3b2c63792d10f56aeb5ad3fc58003843fee2ac11a6b90dada09c52f13f",
+      "sha256": "01628512697d61da34a69cfb121bee88fd18b867d6e32ee55bbe117dd541172e",
+      "changed_pixels": 37,
+      "changed_bbox": [
+        91,
+        99,
+        95,
+        109
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "frame": 1,
+      "input": "image-undecided/180/anim-idle/right/frame-01_v004.png",
+      "output": "image-undecided/180/anim-idle/right/frame-01_v005.png",
+      "input_sha256": "dd3764ff666733e415e9ee4a703b72639c8b8ae418d143ba9bfbb492d06f5000",
+      "sha256": "9d21ef4cedf0f5aff33629475d8ee18c61dde0ea79bbafa10afc24aa8720e161",
+      "changed_pixels": 37,
+      "changed_bbox": [
+        91,
+        100,
+        95,
+        110
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "frame": 2,
+      "input": "image-undecided/180/anim-idle/right/frame-02_v004.png",
+      "output": "image-undecided/180/anim-idle/right/frame-02_v005.png",
+      "input_sha256": "5dd85a4de77f443d801cecbd485d8468b6a12c17d4e364a36c3c8a687c37e08b",
+      "sha256": "02256ee9c8e309549fd379871817d3a1ee491146021b83540b603b568e9ec128",
+      "changed_pixels": 37,
+      "changed_bbox": [
+        91,
+        100,
+        95,
+        110
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "frame": 3,
+      "input": "image-undecided/180/anim-idle/right/frame-03_v004.png",
+      "output": "image-undecided/180/anim-idle/right/frame-03_v005.png",
+      "input_sha256": "e210d7427efd96a9e7fff3fa433c4589292dfe0a980c5e158edaa31bfa20e819",
+      "sha256": "41b8b3be46df2382e1bc5e934ab79f3cdf13f12e1a50d4c153ccb4d421be4d9a",
+      "changed_pixels": 37,
+      "changed_bbox": [
+        91,
+        100,
+        95,
+        110
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "frame": 4,
+      "input": "image-undecided/180/anim-idle/right/frame-04_v004.png",
+      "output": "image-undecided/180/anim-idle/right/frame-04_v005.png",
+      "input_sha256": "b145604f13ce6e36425e0e24720d4d85341ac7ab40175a310d4be064093bc5a1",
+      "sha256": "fa0935f06b6310762d41ba5bdc7fcbd0e910cdfbfe9249aa039ec50227faa4a6",
+      "changed_pixels": 41,
+      "changed_bbox": [
+        91,
+        98,
+        95,
+        109
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "frame": 5,
+      "input": "image-undecided/180/anim-idle/right/frame-05_v004.png",
+      "output": "image-undecided/180/anim-idle/right/frame-05_v005.png",
+      "input_sha256": "a077816d862786204c9f54a81e5a222df681e79f9441902a2388bfa09e064d97",
+      "sha256": "522bc9c8f4c766eedeebf4f0c6ca0296f2b977eb3784146cae75205c895d605a",
+      "changed_pixels": 37,
+      "changed_bbox": [
+        91,
+        97,
+        95,
+        107
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "frame": 0,
+      "input": "image-undecided/180/anim-walk/left/frame-00_v004.png",
+      "output": "image-undecided/180/anim-walk/left/frame-00_v005.png",
+      "input_sha256": "1ddafffd359967cd9d4abd990e805733d11904e5480b25583d289c9eaeb7e6ad",
+      "sha256": "d4fd38bdafa7f6f0ca74feeb60122765b0f1fcc624cc5e7b67d43d0ab3f79bb9",
+      "changed_pixels": 68,
+      "changed_bbox": [
+        85,
+        98,
+        92,
+        109
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "frame": 1,
+      "input": "image-undecided/180/anim-walk/left/frame-01_v004.png",
+      "output": "image-undecided/180/anim-walk/left/frame-01_v005.png",
+      "input_sha256": "ba7178a30a2b5d6c5b21284fe5145f6134f835b45dd60c303a3d6842aa830453",
+      "sha256": "3b05d85f2409537dae9ca32099b06fe18b097c02c856e375819e4ba9cfdb82b6",
+      "changed_pixels": 67,
+      "changed_bbox": [
+        85,
+        99,
+        92,
+        110
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "frame": 2,
+      "input": "image-undecided/180/anim-walk/left/frame-02_v004.png",
+      "output": "image-undecided/180/anim-walk/left/frame-02_v005.png",
+      "input_sha256": "5a80552ca97d10ffda3a091bb69f46444efb0e361c19b635f43a37c7e2804c9a",
+      "sha256": "7ae01a67e11e4ba1b6774a0058847294369a2ddbab0319a147c795d90fccc0d4",
+      "changed_pixels": 35,
+      "changed_bbox": [
+        85,
+        99,
+        89,
+        109
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "frame": 3,
+      "input": "image-undecided/180/anim-walk/left/frame-03_v004.png",
+      "output": "image-undecided/180/anim-walk/left/frame-03_v005.png",
+      "input_sha256": "2802a0c7948dab8fbd660b6ac1e5942a699f5c428f4ccc9279f4b513f6cf26e4",
+      "sha256": "3a2fb9b8c3833bf42ef6e65a92aa172016027b4713c2b2b44155137e653c1766",
+      "changed_pixels": 63,
+      "changed_bbox": [
+        85,
+        97,
+        92,
+        108
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "frame": 4,
+      "input": "image-undecided/180/anim-walk/left/frame-04_v004.png",
+      "output": "image-undecided/180/anim-walk/left/frame-04_v005.png",
+      "input_sha256": "3680766e54765c0611c33a036b822e9dd277c18edfffd9bf542cc15d2b6b24a2",
+      "sha256": "90793c5fbf422eaff989c0b0c3917aad708419f26cebf3618defe7a13c9d7005",
+      "changed_pixels": 60,
+      "changed_bbox": [
+        85,
+        98,
+        92,
+        109
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "frame": 5,
+      "input": "image-undecided/180/anim-walk/left/frame-05_v004.png",
+      "output": "image-undecided/180/anim-walk/left/frame-05_v005.png",
+      "input_sha256": "0f1687ff9adeef08f83454797ae539a66a00aaef1578bd96c98aa814465c2396",
+      "sha256": "115cb9e53927af3bfdbb1a58f3f262c58b27c99ef34794e8cd45fb95a7b71084",
+      "changed_pixels": 63,
+      "changed_bbox": [
+        85,
+        99,
+        92,
+        110
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "frame": 6,
+      "input": "image-undecided/180/anim-walk/left/frame-06_v004.png",
+      "output": "image-undecided/180/anim-walk/left/frame-06_v005.png",
+      "input_sha256": "725e4038f771ff93cfaba35e70b3c5aae63fe3c8dc1d178e30a09775b2b8d296",
+      "sha256": "dfc61a96d5e4ecb42b4fdf240a9f454579a665f0fc41ced51229eb903e3a24eb",
+      "changed_pixels": 35,
+      "changed_bbox": [
+        85,
+        99,
+        89,
+        109
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "frame": 7,
+      "input": "image-undecided/180/anim-walk/left/frame-07_v004.png",
+      "output": "image-undecided/180/anim-walk/left/frame-07_v005.png",
+      "input_sha256": "ec29b5c0406e4bc00a89b21404aab6397d9fb224df37faf2a2bca16b45547a29",
+      "sha256": "d35e3e9be52c8ef4875f545bec033d8efc16ee0f0e96c95d769c8308a342bd7e",
+      "changed_pixels": 67,
+      "changed_bbox": [
+        85,
+        97,
+        92,
+        108
+      ],
+      "head_and_legs_unchanged": true,
+      "existing_skin_unchanged": true,
+      "new_colors": 0,
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  ],
+  "user_approved": false,
+  "actual_playback_review": "pending",
+  "walk_right": "이전 실패본은 수정하지 않음·신규 보행 제작 시 적용 필요"
+}

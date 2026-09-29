@@ -1,0 +1,41 @@
+{
+  "version": 7,
+  "status": "미확정",
+  "canvas": [
+    180,
+    180
+  ],
+  "loop": true,
+  "frames": [
+    {
+      "file": "frame-00_v007.png",
+      "duration_ms": 250,
+      "sha256": "f339aac8d29825752d89de82cd47291c55e842c875df4e57f8f67029e6c16873"
+    },
+    {
+      "file": "frame-01_v007.png",
+      "duration_ms": 250,
+      "sha256": "ce12de5f5a713cc629090e42a78af1590d7316868961e8fc49f91cf5ac40830b"
+    },
+    {
+      "file": "frame-02_v007.png",
+      "duration_ms": 250,
+      "sha256": "e9466ff2d3dfa135b852f740f9c39aa2a84165652ed586f661ae6fabc52cd3d3"
+    },
+    {
+      "file": "frame-03_v007.png",
+      "duration_ms": 250,
+      "sha256": "90c8fc9fda4ba5619dd47d59ef0a23e81d20cd0868f4c0f35bb2c186cb86f08c"
+    },
+    {
+      "file": "frame-04_v007.png",
+      "duration_ms": 250,
+      "sha256": "764e19e8caf458545f28873b3d4e6f242236aaea579efc1a719d91bb6151d1a8"
+    },
+    {
+      "file": "frame-05_v007.png",
+      "duration_ms": 250,
+      "sha256": "8cbdec293f1941d47ae8a1897a1fbc58b8537c4f0caa6d13cc3706cb0d696e18"
+    }
+  ]
+}

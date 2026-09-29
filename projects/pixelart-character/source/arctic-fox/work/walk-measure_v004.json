@@ -1,0 +1,480 @@
+{
+  "version": 1,
+  "source": "image-confirmed/180/view/side_left_v010.png",
+  "source_sha256": "5c7bb200682decc0d3ab2cc0852e7cbfe260753c2f2d9be288012b9e832963c7",
+  "status": "다리 연결 보정·부분 기술 검사 완료·실제 재생 미검수",
+  "frames": [
+    {
+      "frame": 0,
+      "file": "work/walk-corrected-left/frame-00_v004.png",
+      "sha256": "1ddafffd359967cd9d4abd990e805733d11904e5480b25583d289c9eaeb7e6ad",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        64,
+        15,
+        142,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        0
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정",
+      "opaque_component_sizes_8_connected": [
+        5884
+      ]
+    },
+    {
+      "frame": 1,
+      "file": "work/walk-corrected-left/frame-01_v004.png",
+      "sha256": "ba7178a30a2b5d6c5b21284fe5145f6134f835b45dd60c303a3d6842aa830453",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        69,
+        16,
+        142,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        1
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        80,
+        81,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정",
+      "opaque_component_sizes_8_connected": [
+        5525
+      ]
+    },
+    {
+      "frame": 2,
+      "file": "work/walk-corrected-left/frame-02_v004.png",
+      "sha256": "5a80552ca97d10ffda3a091bb69f46444efb0e361c19b635f43a37c7e2804c9a",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        72,
+        15,
+        143,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        0
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정",
+      "opaque_component_sizes_8_connected": [
+        5208
+      ]
+    },
+    {
+      "frame": 3,
+      "file": "work/walk-corrected-left/frame-03_v004.png",
+      "sha256": "2802a0c7948dab8fbd660b6ac1e5942a699f5c428f4ccc9279f4b513f6cf26e4",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        67,
+        14,
+        143,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        -1
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정",
+      "opaque_component_sizes_8_connected": [
+        5560
+      ]
+    },
+    {
+      "frame": 4,
+      "file": "work/walk-corrected-left/frame-04_v004.png",
+      "sha256": "3680766e54765c0611c33a036b822e9dd277c18edfffd9bf542cc15d2b6b24a2",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        66,
+        15,
+        143,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        0
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정",
+      "opaque_component_sizes_8_connected": [
+        5602
+      ]
+    },
+    {
+      "frame": 5,
+      "file": "work/walk-corrected-left/frame-05_v004.png",
+      "sha256": "0f1687ff9adeef08f83454797ae539a66a00aaef1578bd96c98aa814465c2396",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        71,
+        16,
+        142,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        1
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        82,
+        83,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정",
+      "opaque_component_sizes_8_connected": [
+        5299
+      ]
+    },
+    {
+      "frame": 6,
+      "file": "work/walk-corrected-left/frame-06_v004.png",
+      "sha256": "725e4038f771ff93cfaba35e70b3c5aae63fe3c8dc1d178e30a09775b2b8d296",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        70,
+        15,
+        141,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        0
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정",
+      "opaque_component_sizes_8_connected": [
+        5350
+      ]
+    },
+    {
+      "frame": 7,
+      "file": "work/walk-corrected-left/frame-07_v004.png",
+      "sha256": "ec29b5c0406e4bc00a89b21404aab6397d9fb224df37faf2a2bca16b45547a29",
+      "canvas": [
+        180,
+        180
+      ],
+      "bbox_xyxy": [
+        65,
+        14,
+        141,
+        171
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "new_colors": 0,
+      "minimum_visible_channel": 26,
+      "head_roi_source_xyxy": [
+        65,
+        15,
+        115,
+        65
+      ],
+      "head_translation_xy": [
+        0,
+        -1
+      ],
+      "head_changed_pixels": 0,
+      "bottommost_visible_row": 170,
+      "row_170_opaque_x": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "spritegen_import_pixels_equal": true,
+      "foot_identity_and_contact": "미판정",
+      "opaque_component_sizes_8_connected": [
+        5837
+      ]
+    }
+  ],
+  "planned_motion": {
+    "near_boot_anchor_x": [
+      81,
+      86,
+      91,
+      96,
+      101,
+      98,
+      90,
+      82
+    ],
+    "near_boot_base_row": [
+      170,
+      170,
+      170,
+      170,
+      170,
+      164,
+      161,
+      165
+    ],
+    "far_phase_offset_frames": 4,
+    "far_x_offset": 2,
+    "coordinate_kind": "보정 스크립트 설계값·실제 접촉점 실측과 구분"
+  },
+  "gif": {
+    "file": "work/walk-cadence-run/qa/walk.gif",
+    "sha256": "c8b11f84c6e4ac34a7ab0ae54ac218525260e597ffefc8a2ad9d00ae59e208cd",
+    "frame_count": 8,
+    "durations_ms": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "loop": 0
+  },
+  "limits": [
+    "최하단 불투명 픽셀은 발의 접촉점 판정이 아닙니다.",
+    "원본 팔레트에 포함되어도 재질 위치가 올바르다는 뜻은 아닙니다.",
+    "머리 검사는 지정 영역과 알려진 정수 이동량에 한정됩니다.",
+    "GIF 파일 검사는 실제 반복 재생 관찰을 대신하지 않습니다.",
+    "연결 성분 검사는 관절 구조·보행의 자연스러움을 판정하지 않습니다."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "method": "aseprite-native-parts",
+  "authorization": "그러면 aseprite에서 직접 움직이는 방식으로 전환해주세요",
+  "source": "image-confirmed/approval_v007.json",
+  "implementation": "work/native-animation_v001.lua",
+  "output": "image-undecided/180/anim-idle 및 anim-walk의 left/right",
+  "common_geometry": {
+    "pivot": [
+      90,
+      171
+    ],
+    "idle_bob": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "walk_bob": [
+      0,
+      1,
+      0,
+      -1,
+      0,
+      1,
+      0,
+      -1
+    ],
+    "near_foot_x_offset": [
+      -10,
+      -5,
+      0,
+      6,
+      11,
+      7,
+      0,
+      -7
+    ],
+    "near_foot_lift": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      9,
+      6
+    ],
+    "far_phase_offset": 4,
+    "arm_counter_swing": 0.6
+  },
+  "identity": "좌우 각 확정 원본 도트 사용. 오른쪽을 왼쪽 완성 이미지 반전으로 만들지 않음. 공통 좌표 계산만 대칭 적용.",
+  "approval": "미확정",
+  "review": "work/native-animation-review_v001.json"
+}

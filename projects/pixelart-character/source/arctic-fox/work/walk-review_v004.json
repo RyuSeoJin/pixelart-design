@@ -1,0 +1,121 @@
+{
+  "version": 4,
+  "status": "needs_revision",
+  "plan": "walk-production-plan_v004.json",
+  "source_versions": [
+    "side_left_v010",
+    "side_right_v010"
+  ],
+  "new_frames_created": true,
+  "directions": {
+    "left": {
+      "identity": {
+        "status": "pending",
+        "evidence": [
+          "walk-measure_v003.json"
+        ],
+        "note": "머리 지정 영역 일치·원본 팔레트 유지. 바지·부츠는 승인 도트를 이용해 수정했으며 전체 외형 최종 검수 전입니다."
+      },
+      "technical": {
+        "status": "pass",
+        "scope": "180·16장·50ms·팔레트·알파·머리 지정 영역·가져오기 픽셀 일치·8방향 연결 성분",
+        "evidence": [
+          "walk-measure_v003.json"
+        ]
+      },
+      "gait": {
+        "status": "pending",
+        "evidence": [
+          "walk-continuity_v003.lua",
+          "walk-continuity-contact_v003.png"
+        ],
+        "note": "8개 기준 자세 사이 관절 위치·발 구름을 다시 구성했습니다. 총 800ms와 가까운/먼 다리의 반주기를 유지합니다. 실제 반복 재생 관찰은 미검수입니다."
+      },
+      "loop": {
+        "status": "pending",
+        "evidence": []
+      },
+      "direction_consistency": {
+        "status": "pending",
+        "evidence": []
+      },
+      "playback": {
+        "status": "pending",
+        "evidence": []
+      }
+    },
+    "right": {
+      "identity": {
+        "status": "needs_revision",
+        "evidence": []
+      },
+      "technical": {
+        "status": "pending",
+        "evidence": []
+      },
+      "gait": {
+        "status": "pending",
+        "evidence": []
+      },
+      "loop": {
+        "status": "pending",
+        "evidence": []
+      },
+      "direction_consistency": {
+        "status": "pending",
+        "evidence": []
+      },
+      "playback": {
+        "status": "pending",
+        "evidence": []
+      }
+    }
+  },
+  "iterations": [
+    {
+      "id": "scaled-reference-left-3",
+      "path": "spritegen-walk-left-scaled-ref",
+      "status": "needs_revision",
+      "finding": "4배 참고 원본에도 외형 재해석·도트 밀도 및 축소 경고 잔존"
+    },
+    {
+      "id": "local-correction-left-1",
+      "path": "walk-corrected-left",
+      "script": "walk-local-correction_v001.lua",
+      "pipeline": "walk-corrected-left-run",
+      "status": "needs_revision",
+      "finding": "원본 상반신 유지와 생성 하체 결합 시험. 공통 제작법으로 미채택"
+    },
+    {
+      "id": "continuity-left-2",
+      "script": "walk-continuity_v002.lua",
+      "measurement": "walk-measure_v002.json",
+      "files": "../image-undecided/180/anim-walk/left/*_v002.*",
+      "status": "pending",
+      "changes": [
+        "하체 일괄 압축을 버리고 승인 바지·부츠 도트와 관절 경로로 재수정",
+        "발 위치·들림의 급격한 변화를 두 차례 보정",
+        "꼬리 마스크에 남은 바지 도트 2픽셀 제거",
+        "Aseprite 편집 원본과 sprite-gen 합성 동기화"
+      ]
+    },
+    {
+      "id": "continuity-left-3",
+      "status": "pending",
+      "script": "walk-continuity_v003.lua",
+      "measurement": "walk-measure_v003.json",
+      "comparison": "walk-before-after_v003.gif",
+      "changes": [
+        "0.8초 유지·16장 각 50ms",
+        "중간 관절 자세와 연속 발 구름 수정",
+        "꼬리 끝 최대 2px 후행 이동",
+        "원본 머리 영역·팔레트 유지 및 고립 도트 검사"
+      ]
+    }
+  ],
+  "user_approved": false,
+  "engine_review": "pending",
+  "presentation_ready": false,
+  "rules_finalized": false,
+  "intermediate_share_allowed": true
+}

@@ -1,0 +1,20 @@
+{
+  "status": "needs_revision",
+  "experimental": true,
+  "attempt": 2,
+  "source": "../../image-confirmed/180/view/side_left_v010.png",
+  "frames": 8,
+  "canvas": [
+    180,
+    180
+  ],
+  "fps": 10,
+  "issues": [
+    "도트 밀도와 원본 대비 비율 불일치",
+    "전후 반주기의 교대 보행 검수 미통과",
+    "4·8번 프레임에서 머리·신체 높이 변화 및 앞뒤 반주기 유사 자세 반복"
+  ],
+  "motion_playback_observed": false,
+  "approved": false,
+  "engine_review": false
+}

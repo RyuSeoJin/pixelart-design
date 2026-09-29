@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-request",
+  "engine": "component-row",
+  "character": {
+    "id": "arctic-fox-left",
+    "description": "Exact approved 6-head adult arctic fox woman, same narrow side profile, calm blue eye, short white bob, white cloth hood hanging on back, white wide-sleeve tunic gray-blue diamond cuffs/hem, gray-blue pants, white boots, one white tail with dark outline. Preserve approved face pixel shapes and palette, NO redesign, NO front turn, NO gradients, no new accessories. Same body scale throughout; top-left screen lighting. Camera fixed; pivot stays fixed. Clear chunky pixel clusters.",
+    "base_image": "base-source.png"
+  },
+  "cell": {
+    "shape": "square",
+    "width": 180,
+    "height": 180,
+    "safe_margin_x": 9,
+    "safe_margin_y": 9,
+    "size": 180,
+    "safe_margin": 9
+  },
+  "chroma_key": {
+    "name": "green",
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "selection": "manual"
+  },
+  "states": {
+    "idle": {
+      "frames": 4,
+      "fps": 4,
+      "loop": true,
+      "action": "All 4 poses face screen left exactly like base. Tiny breathing cycle: rest, down 1px, down 2px, down 1px. Feet immobile. Eye remains calm and open. Subtle tail follow-through. No stepping. Same head silhouette and eye."
+    },
+    "walk": {
+      "frames": 8,
+      "fps": 10,
+      "loop": true,
+      "action": "All 8 poses face screen left. Full in-place humanoid walking cycle in chronological order: near leg forward contact, down, passing with far foot lifted, up, far leg forward contact, down, passing with near foot lifted, up. Moderate stride and opposite arm swing; bent swing knee clears ground; support foot ground constant. Constant limb lengths, same eye and head silhouette, pelvis fixed horizontally; bob at most 3 logical pixels. Tail follows gently, hood stays down. No hopping, no duplicates, no static standing row."
+    }
+  },
+  "style": "Exact approved 6-head adult arctic fox woman, same narrow side profile, calm blue eye, short white bob, white cloth hood hanging on back, white wide-sleeve tunic gray-blue diamond cuffs/hem, gray-blue pants, white boots, one white tail with dark outline. Preserve approved face pixel shapes and palette, NO redesign, NO front turn, NO gradients, no new accessories. Same body scale throughout; top-left screen lighting. Camera fixed; pivot stays fixed. Clear chunky pixel clusters.",
+  "layout": "taxonomy/v1",
+  "fit": {
+    "resample": "nearest",
+    "align_x": "foot-centroid",
+    "align_y": "bottom",
+    "ground_frames": false,
+    "pixel_unfake": true,
+    "logical_height": 156,
+    "palette_size": 16
+  },
+  "chroma": {
+    "mode": "rgb",
+    "unmix_reach": 4,
+    "spill_max_fraction": 0.005
+  }
+}

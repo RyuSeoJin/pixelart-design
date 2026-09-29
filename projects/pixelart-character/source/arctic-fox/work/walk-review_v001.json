@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "status": "pending",
+  "plan": "walk-production-plan_v001.json",
+  "source_versions": [
+    "side_left_v010",
+    "side_right_v010"
+  ],
+  "new_frames_created": false,
+  "directions": {
+    "left": {
+      "identity": {
+        "status": "pending",
+        "evidence": []
+      },
+      "technical": {
+        "status": "pending",
+        "evidence": []
+      },
+      "gait": {
+        "status": "pending",
+        "evidence": []
+      },
+      "loop": {
+        "status": "pending",
+        "evidence": []
+      },
+      "direction_consistency": {
+        "status": "pending",
+        "evidence": []
+      },
+      "playback": {
+        "status": "pending",
+        "evidence": []
+      }
+    },
+    "right": {
+      "identity": {
+        "status": "pending",
+        "evidence": []
+      },
+      "technical": {
+        "status": "pending",
+        "evidence": []
+      },
+      "gait": {
+        "status": "pending",
+        "evidence": []
+      },
+      "loop": {
+        "status": "pending",
+        "evidence": []
+      },
+      "direction_consistency": {
+        "status": "pending",
+        "evidence": []
+      },
+      "playback": {
+        "status": "pending",
+        "evidence": []
+      }
+    }
+  },
+  "iterations": [],
+  "user_approved": false,
+  "engine_review": "pending"
+}

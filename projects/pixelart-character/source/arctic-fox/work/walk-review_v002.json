@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "status": "needs_revision",
+  "plan": "walk-production-plan_v002.json",
+  "source_versions": [
+    "side_left_v010",
+    "side_right_v010"
+  ],
+  "new_frames_created": true,
+  "directions": {
+    "left": {
+      "identity": {
+        "status": "needs_revision",
+        "evidence": [
+          "walk-measure_v001.json"
+        ],
+        "note": "머리 지정 영역은 일치하나 손·옷단·하체·꼬리 뿌리 연결부의 전체 외형 검수는 미통과입니다."
+      },
+      "technical": {
+        "status": "partial_pass",
+        "evidence": [
+          "walk-measure_v001.json"
+        ],
+        "note": "180·8장·100ms·알파·팔레트·지정 머리 영역 검사. 재질별 위치와 접지 판정은 포함하지 않습니다."
+      },
+      "gait": {
+        "status": "needs_revision",
+        "evidence": [
+          "walk-local-correction-contact_v001.png"
+        ],
+        "note": "가까운 다리·먼 다리의 1/5 및 3/7 교대와 실제 접촉점 미확정"
+      },
+      "loop": {
+        "status": "pending",
+        "evidence": []
+      },
+      "direction_consistency": {
+        "status": "pending",
+        "evidence": []
+      },
+      "playback": {
+        "status": "pending",
+        "evidence": []
+      }
+    },
+    "right": {
+      "identity": {
+        "status": "needs_revision",
+        "evidence": []
+      },
+      "technical": {
+        "status": "pending",
+        "evidence": []
+      },
+      "gait": {
+        "status": "pending",
+        "evidence": []
+      },
+      "loop": {
+        "status": "pending",
+        "evidence": []
+      },
+      "direction_consistency": {
+        "status": "pending",
+        "evidence": []
+      },
+      "playback": {
+        "status": "pending",
+        "evidence": []
+      }
+    }
+  },
+  "iterations": [
+    {
+      "id": "scaled-reference-left-3",
+      "path": "spritegen-walk-left-scaled-ref",
+      "status": "needs_revision",
+      "finding": "4배 참고 원본에도 외형 재해석·도트 밀도 및 축소 경고 잔존"
+    },
+    {
+      "id": "local-correction-left-1",
+      "path": "walk-corrected-left",
+      "script": "walk-local-correction_v001.lua",
+      "pipeline": "walk-corrected-left-run",
+      "status": "needs_revision",
+      "finding": "원본 상반신 유지와 생성 하체 결합 시험. 공통 제작법으로 미채택"
+    }
+  ],
+  "user_approved": false,
+  "engine_review": "pending",
+  "presentation_ready": false,
+  "rules_finalized": false
+}

@@ -1,0 +1,75 @@
+{
+  "method": "aseprite-native-parts",
+  "status": "technical_and_frame_review_complete_playback_pending",
+  "approved_base": "image-confirmed/approval_v007.json",
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "clips": [
+    {
+      "motion": "idle",
+      "direction": "left",
+      "frames": 4,
+      "timings_verified": true,
+      "head_pixels_preserved": true,
+      "ground_last_row": 170,
+      "idle_boots_fixed": true,
+      "palette_colors": 13
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "frames": 4,
+      "timings_verified": true,
+      "head_pixels_preserved": true,
+      "ground_last_row": 170,
+      "idle_boots_fixed": true,
+      "palette_colors": 12
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "frames": 8,
+      "timings_verified": true,
+      "head_pixels_preserved": true,
+      "ground_last_row": 170,
+      "idle_boots_fixed": false,
+      "palette_colors": 13
+    },
+    {
+      "motion": "walk",
+      "direction": "right",
+      "frames": 8,
+      "timings_verified": true,
+      "head_pixels_preserved": true,
+      "ground_last_row": 170,
+      "idle_boots_fixed": false,
+      "palette_colors": 12
+    }
+  ],
+  "limits": [
+    "실시간 재생 관찰과 언리얼 엔진 검수는 미완료입니다.",
+    "가려져 있던 먼 팔·다리는 같은 방향 원본 파츠에서 구성한 작업용 복원이며 사용자 이미지 승인은 별도입니다."
+  ],
+  "idle_silhouette_pair_difference_pixels": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "walk_silhouette_pair_difference_pixels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

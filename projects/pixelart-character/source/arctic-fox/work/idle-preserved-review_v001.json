@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-29",
+  "checks": {
+    "left": {
+      "first_frame_exact": true,
+      "head_exact_after_offset": true,
+      "feet_fixed": true,
+      "skin_and_hand_outline_all_frames": true,
+      "no_new_colors": true,
+      "sole": 170,
+      "gif_frames": 4,
+      "duration_ms": [
+        260,
+        200,
+        260,
+        200
+      ]
+    },
+    "right": {
+      "first_frame_exact": true,
+      "head_exact_after_offset": true,
+      "feet_fixed": true,
+      "skin_and_hand_outline_all_frames": true,
+      "no_new_colors": true,
+      "sole": 170,
+      "gif_frames": 4,
+      "duration_ms": [
+        260,
+        200,
+        260,
+        200
+      ]
+    }
+  },
+  "pending": [
+    "실시간 반복 재생 관찰",
+    "사용자 동작 승인",
+    "엔진 검수"
+  ],
+  "part_fixes": [
+    "손끝 피부를 손 파츠에 재분류",
+    "부츠 뒤 외곽선을 꼬리에서 부츠 파츠로 재분류"
+  ],
+  "hidden_restoration": "이 idle은 숨은 팔다리를 드러내지 않습니다. walk용 숨은 면·관절은 별도입니다.",
+  "visual_review": "최종 idle-preserved-contact_v001.png의 좌우 전체 4프레임을 직접 확인했습니다. 밝은 배경의 좌향·어두운 배경의 우향에서 머리·후드·손·옷단·꼬리·접지 형태를 확인했습니다. GIF의 실시간 움직임 관찰과는 구분합니다."
+}

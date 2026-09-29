@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-request",
+  "engine": "component-row",
+  "character": {
+    "id": ".spritegen-breathe-run.sg-staging",
+    "description": "imported PNG set from P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\spritegen-breathe-input\\idle_left"
+  },
+  "cell": {
+    "shape": "square",
+    "width": 180,
+    "height": 180,
+    "size": 180,
+    "safe_margin": 0
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "states": {
+    "idle_left": {
+      "frames": 1,
+      "fps": 4,
+      "loop": true,
+      "action": "승인 정지본의 내장 호흡 효과"
+    },
+    "idle_right": {
+      "frames": 1,
+      "fps": 4,
+      "loop": true,
+      "action": "승인 정지본의 내장 호흡 효과"
+    }
+  }
+}

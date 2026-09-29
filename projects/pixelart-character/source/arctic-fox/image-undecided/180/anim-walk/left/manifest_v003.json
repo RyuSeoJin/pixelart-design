@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "status": "중간 수정본·미확정",
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "direction": "left",
+  "loop": true,
+  "durations_ms": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50
+  ],
+  "frames": [
+    {
+      "file": "frame-00_v003.png",
+      "sha256": "1ddafffd359967cd9d4abd990e805733d11904e5480b25583d289c9eaeb7e6ad"
+    },
+    {
+      "file": "frame-01_v003.png",
+      "sha256": "dfb08b702acecb63f78f7b3bf55dfd2c5b4e5ca41714039c1c79819b47f84cd3"
+    },
+    {
+      "file": "frame-02_v003.png",
+      "sha256": "ba7178a30a2b5d6c5b21284fe5145f6134f835b45dd60c303a3d6842aa830453"
+    },
+    {
+      "file": "frame-03_v003.png",
+      "sha256": "9f9a8d2ec965d9cc5ef106b0a6831501d5f304c173fd48aaf6b546bd95cedc20"
+    },
+    {
+      "file": "frame-04_v003.png",
+      "sha256": "5a80552ca97d10ffda3a091bb69f46444efb0e361c19b635f43a37c7e2804c9a"
+    },
+    {
+      "file": "frame-05_v003.png",
+      "sha256": "de68fda0f377dfa3a5b40fc2a48f1f25d01605291bd94024d50f11c9529bcc3f"
+    },
+    {
+      "file": "frame-06_v003.png",
+      "sha256": "2802a0c7948dab8fbd660b6ac1e5942a699f5c428f4ccc9279f4b513f6cf26e4"
+    },
+    {
+      "file": "frame-07_v003.png",
+      "sha256": "b734219295682149afd3ba6a4fcd82b72bafa058352b169024a3efae249d4851"
+    },
+    {
+      "file": "frame-08_v003.png",
+      "sha256": "3680766e54765c0611c33a036b822e9dd277c18edfffd9bf542cc15d2b6b24a2"
+    },
+    {
+      "file": "frame-09_v003.png",
+      "sha256": "4e67ca01dfe6493e7ea3bfeb673e1ff9713beb6c9b0b5e1fa3b7c402f7e94070"
+    },
+    {
+      "file": "frame-10_v003.png",
+      "sha256": "0f1687ff9adeef08f83454797ae539a66a00aaef1578bd96c98aa814465c2396"
+    },
+    {
+      "file": "frame-11_v003.png",
+      "sha256": "b691d4f619517dc460f7358e3cb53f3c8500291f9e1a41d2260569c02d750a60"
+    },
+    {
+      "file": "frame-12_v003.png",
+      "sha256": "725e4038f771ff93cfaba35e70b3c5aae63fe3c8dc1d178e30a09775b2b8d296"
+    },
+    {
+      "file": "frame-13_v003.png",
+      "sha256": "1c367cb28f33c0627268eba47693a9a693f27f6e0ca71770ff0e1f8d57b77a46"
+    },
+    {
+      "file": "frame-14_v003.png",
+      "sha256": "ec29b5c0406e4bc00a89b21404aab6397d9fb224df37faf2a2bca16b45547a29"
+    },
+    {
+      "file": "frame-15_v003.png",
+      "sha256": "3f6e29f9a18f6a24ad23908d923ee69c8202037955bceeb065baff21370e0b59"
+    }
+  ],
+  "sheet": "sheet_v003.png",
+  "preview": "preview_v003.gif",
+  "source_canonical": "image-confirmed/180/view/side_left_v010.png",
+  "review": "work/walk-review_v004.json",
+  "method": "Aseprite 중간 관절 자세·발 구름 보정, sprite-gen 합성",
+  "approved": false
+}

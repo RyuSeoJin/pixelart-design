@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-unpack-source",
+  "layout_source": "imported-pngs",
+  "cell": {
+    "width": 180,
+    "height": 180
+  },
+  "source_dir": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\walk-continuity-16-import",
+  "files": [
+    "frame-00_v003.png",
+    "frame-01_v003.png",
+    "frame-02_v003.png",
+    "frame-03_v003.png",
+    "frame-04_v003.png",
+    "frame-05_v003.png",
+    "frame-06_v003.png",
+    "frame-07_v003.png",
+    "frame-08_v003.png",
+    "frame-09_v003.png",
+    "frame-10_v003.png",
+    "frame-11_v003.png",
+    "frame-12_v003.png",
+    "frame-13_v003.png",
+    "frame-14_v003.png",
+    "frame-15_v003.png"
+  ],
+  "labels": [
+    "frame-00_v003",
+    "frame-01_v003",
+    "frame-02_v003",
+    "frame-03_v003",
+    "frame-04_v003",
+    "frame-05_v003",
+    "frame-06_v003",
+    "frame-07_v003",
+    "frame-08_v003",
+    "frame-09_v003",
+    "frame-10_v003",
+    "frame-11_v003",
+    "frame-12_v003",
+    "frame-13_v003",
+    "frame-14_v003",
+    "frame-15_v003"
+  ],
+  "groups": [
+    "walk"
+  ],
+  "base_source": null,
+  "imported_refs": {}
+}

@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-gif-run",
+  "run_dir": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\spritegen-breathe-run",
+  "exports": [
+    {
+      "state": "idle_left",
+      "output": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\spritegen-breathe-run\\exports\\idle_left.gif",
+      "frames": 6,
+      "fps": 4.0,
+      "loop": true,
+      "gif_report": {
+        "path": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\spritegen-breathe-run\\exports\\idle_left.gif",
+        "frames": 6,
+        "delay_ticks": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "breathe": {
+        "config": {
+          "depth": 0.025,
+          "depth_x": 0.0,
+          "breaths": 1,
+          "lag": 0.1,
+          "rigid_row": 39,
+          "axis_x": 25,
+          "torso_half": 12,
+          "anatomy": null
+        },
+        "phases": [
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "resolved": {
+          "anatomy": {
+            "width": 67,
+            "height": 156,
+            "axis_x": 25,
+            "neck_row": 39,
+            "neck_source": "bottleneck",
+            "rigid_row": 39,
+            "rigid_source": "manual",
+            "basis_row": 39,
+            "torso_half": 12,
+            "max_half": 41,
+            "torso_source": "manual",
+            "face": [
+              84,
+              103
+            ],
+            "warnings": [
+              "rigid-row-override: auto 104 -> manual 39",
+              "torso-half-override: auto 13 -> manual 12"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "rigid-row-override: auto 104 -> manual 39",
+            "torso-half-override: auto 13 -> manual 12"
+          ]
+        }
+      }
+    },
+    {
+      "state": "idle_right",
+      "output": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\spritegen-breathe-run\\exports\\idle_right.gif",
+      "frames": 6,
+      "fps": 4.0,
+      "loop": true,
+      "gif_report": {
+        "path": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\spritegen-breathe-run\\exports\\idle_right.gif",
+        "frames": 6,
+        "delay_ticks": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "loop": 0,
+        "transparent": true,
+        "disposal": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "breathe": {
+        "config": {
+          "depth": 0.025,
+          "depth_x": 0.0,
+          "breaths": 1,
+          "lag": 0.1,
+          "rigid_row": 39,
+          "axis_x": 41,
+          "torso_half": 12,
+          "anatomy": null
+        },
+        "phases": [
+          0.0,
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "resolved": {
+          "anatomy": {
+            "width": 67,
+            "height": 156,
+            "axis_x": 41,
+            "neck_row": 39,
+            "neck_source": "bottleneck",
+            "rigid_row": 39,
+            "rigid_source": "manual",
+            "basis_row": 39,
+            "torso_half": 12,
+            "max_half": 41,
+            "torso_source": "manual",
+            "face": null,
+            "warnings": [
+              "axis-x-override: auto 40 -> manual 41",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+              "torso-half-override: auto 13 -> manual 12"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "axis-x-override: auto 40 -> manual 41",
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "torso-half-override: auto 13 -> manual 12"
+          ]
+        }
+      }
+    }
+  ]
+}

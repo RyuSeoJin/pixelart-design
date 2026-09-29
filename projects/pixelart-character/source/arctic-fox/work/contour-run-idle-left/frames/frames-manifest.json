@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "engine": "component-row",
+  "run_dir": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\.contour-run-idle-left.sg-staging",
+  "cell": {
+    "shape": "square",
+    "width": 180,
+    "height": 180,
+    "size": 180,
+    "safe_margin": 0
+  },
+  "rows": [
+    {
+      "state": "idle_left",
+      "frames": 6,
+      "method": "imported-pngs",
+      "files": [
+        "frames/idle_left/frame-0.png",
+        "frames/idle_left/frame-1.png",
+        "frames/idle_left/frame-2.png",
+        "frames/idle_left/frame-3.png",
+        "frames/idle_left/frame-4.png",
+        "frames/idle_left/frame-5.png"
+      ],
+      "labels": [
+        "frame-00_v007",
+        "frame-01_v007",
+        "frame-02_v007",
+        "frame-03_v007",
+        "frame-04_v007",
+        "frame-05_v007"
+      ],
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

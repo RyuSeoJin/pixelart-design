@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "engine": "component-row",
+  "run_dir": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\.structure-run-walk-left.sg-staging",
+  "cell": {
+    "shape": "square",
+    "width": 180,
+    "height": 180,
+    "size": 180,
+    "safe_margin": 0
+  },
+  "rows": [
+    {
+      "state": "walk_left",
+      "frames": 8,
+      "method": "imported-pngs",
+      "files": [
+        "frames/walk_left/frame-0.png",
+        "frames/walk_left/frame-1.png",
+        "frames/walk_left/frame-2.png",
+        "frames/walk_left/frame-3.png",
+        "frames/walk_left/frame-4.png",
+        "frames/walk_left/frame-5.png",
+        "frames/walk_left/frame-6.png",
+        "frames/walk_left/frame-7.png"
+      ],
+      "labels": [
+        "frame-00_v006",
+        "frame-01_v006",
+        "frame-02_v006",
+        "frame-03_v006",
+        "frame-04_v006",
+        "frame-05_v006",
+        "frame-06_v006",
+        "frame-07_v006"
+      ],
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "status": "unconfirmed",
+  "character": "arctic-fox",
+  "motion": "idle",
+  "direction": "right",
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "loop": true,
+  "frames": [
+    {
+      "file": "frame-00_v001.png",
+      "sha256": "b2e32aef68dc9c94be5d7b5e2c4509affa6ff42b1c6be45724bbaf325885ce14",
+      "duration_ms": 260,
+      "bbox": [
+        52,
+        15,
+        106,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    },
+    {
+      "file": "frame-01_v001.png",
+      "sha256": "bb5e22e61fe78f436af21d613bf68574b3327f09edfd550119ff5469568743bb",
+      "duration_ms": 200,
+      "bbox": [
+        52,
+        16,
+        106,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    },
+    {
+      "file": "frame-02_v001.png",
+      "sha256": "1034cf8e103d6ad98997579154eb3bd9fcb9b476b8f7a998cce26a4bca05ebe2",
+      "duration_ms": 260,
+      "bbox": [
+        52,
+        17,
+        106,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    },
+    {
+      "file": "frame-03_v001.png",
+      "sha256": "bb5e22e61fe78f436af21d613bf68574b3327f09edfd550119ff5469568743bb",
+      "duration_ms": 200,
+      "bbox": [
+        52,
+        16,
+        106,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    }
+  ],
+  "sheet": {
+    "file": "sheet_v001.png",
+    "columns": 4,
+    "rows": 1
+  },
+  "native": "../../../../../../sprites/arctic-fox/idle_right_v001.aseprite",
+  "base": "../../../../image-confirmed/180/view/side_right_v002.png",
+  "review": "../../../../work/native-animation-review_v001.json"
+}

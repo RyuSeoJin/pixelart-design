@@ -1,0 +1,170 @@
+{
+  "ok": true,
+  "engine": "component-row",
+  "engine_revision": "4c9db55ba735",
+  "extract_args": {},
+  "run_dir": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\spritegen-walk-left-retry",
+  "cell": {
+    "shape": "square",
+    "width": 180,
+    "height": 180,
+    "safe_margin_x": 9,
+    "safe_margin_y": 9,
+    "size": 180,
+    "safe_margin": 9
+  },
+  "chroma_key": {
+    "name": "green",
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "selection": "manual"
+  },
+  "rows": [
+    {
+      "state": "walk",
+      "frames": 8,
+      "method": "components",
+      "files": [
+        "frames/walk/frame-0.png",
+        "frames/walk/frame-1.png",
+        "frames/walk/frame-2.png",
+        "frames/walk/frame-3.png",
+        "frames/walk/frame-4.png",
+        "frames/walk/frame-5.png",
+        "frames/walk/frame-6.png",
+        "frames/walk/frame-7.png"
+      ],
+      "frame_records": [
+        {
+          "index": 0,
+          "nontransparent_pixels": 7216,
+          "bbox": [
+            47,
+            0,
+            140,
+            171
+          ],
+          "edge_pixels": 5,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "nontransparent_pixels": 6826,
+          "bbox": [
+            60,
+            0,
+            138,
+            171
+          ],
+          "edge_pixels": 4,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "nontransparent_pixels": 6677,
+          "bbox": [
+            56,
+            0,
+            135,
+            171
+          ],
+          "edge_pixels": 5,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "nontransparent_pixels": 6479,
+          "bbox": [
+            37,
+            6,
+            136,
+            168
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "nontransparent_pixels": 7207,
+          "bbox": [
+            47,
+            0,
+            138,
+            171
+          ],
+          "edge_pixels": 5,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "nontransparent_pixels": 7031,
+          "bbox": [
+            59,
+            0,
+            141,
+            171
+          ],
+          "edge_pixels": 6,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "nontransparent_pixels": 6698,
+          "bbox": [
+            56,
+            0,
+            135,
+            171
+          ],
+          "edge_pixels": 4,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "nontransparent_pixels": 6437,
+          "bbox": [
+            37,
+            6,
+            136,
+            168
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ],
+      "ok": true,
+      "engine_revision": "4c9db55ba735",
+      "plain_files": [
+        "frames/walk/frame-0.plain.png",
+        "frames/walk/frame-1.plain.png",
+        "frames/walk/frame-2.plain.png",
+        "frames/walk/frame-3.plain.png",
+        "frames/walk/frame-4.plain.png",
+        "frames/walk/frame-5.plain.png",
+        "frames/walk/frame-6.plain.png",
+        "frames/walk/frame-7.plain.png"
+      ],
+      "orig_files": [
+        "frames/walk/orig/frame-0.png",
+        "frames/walk/orig/frame-1.png",
+        "frames/walk/orig/frame-2.png",
+        "frames/walk/orig/frame-3.png",
+        "frames/walk/orig/frame-4.png",
+        "frames/walk/orig/frame-5.png",
+        "frames/walk/orig/frame-6.png",
+        "frames/walk/orig/frame-7.png"
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "walk: pitch disagreement — detect 1.00x1.00 (uniformity 164.3) vs runlen 2.38x2.44 (27.3); detect kept. large gap usually means the raw was drawn finer than the cell contract — reroll with a block-count hint",
+    "walk: native logical exceeds the physical cap 180x171 — capped frames (reroll candidates): 0:246x450, 1:206x450, 2:208x450, 3:260x425, 4:239x450, 5:215x449, 6:207x450, 7:261x425",
+    "palette: rebuilt+pinned (64 colors → palette.lock.json)",
+    "pixel unfake: pitch=1.0 scale=1x logical<=180x180 palette=64"
+  ]
+}

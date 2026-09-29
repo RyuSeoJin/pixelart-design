@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "status": "중간 수정본·미확정",
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "direction": "left",
+  "loop": true,
+  "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "frames": [
+    {
+      "file": "frame-00_v002.png",
+      "sha256": "0621da1e759a3c4ec6350dda22fb41b460a60e568d39ec5e5b23dde8249d6b29"
+    },
+    {
+      "file": "frame-01_v002.png",
+      "sha256": "1eb20b2fd992212e8c2af3079f6a1963df4ea3502704086f32b5d3ebd8fd9e57"
+    },
+    {
+      "file": "frame-02_v002.png",
+      "sha256": "e9b204704705b7ff1bb08fb0a8e2e627ec13b95ac244b76b76e75019ad3fc4cc"
+    },
+    {
+      "file": "frame-03_v002.png",
+      "sha256": "d8f570a8120864dc42b9f8e7cef7e4afd47f27891d58b5cf4811a1a236ae6114"
+    },
+    {
+      "file": "frame-04_v002.png",
+      "sha256": "c72338792f488c91a78347d084559c3d488c2aa36188bf0949747852d020974c"
+    },
+    {
+      "file": "frame-05_v002.png",
+      "sha256": "fc9141308ede065ffb958062028b2433bb50dd95cc93b5c66586f6e6a0af85a3"
+    },
+    {
+      "file": "frame-06_v002.png",
+      "sha256": "833d2399dfb06bdaf1d7e5e05a96a01970c15e4b7e7d7f869f0bf0b4307b85a6"
+    },
+    {
+      "file": "frame-07_v002.png",
+      "sha256": "b59e435c52bcb0f52159e632ae3c93f8e2351d85075f2109509f0bf4784333fd"
+    }
+  ],
+  "sheet": "sheet_v002.png",
+  "preview": "preview_v002.gif",
+  "source_canonical": "image-confirmed/180/view/side_left_v010.png",
+  "review": "work/walk-review_v003.json",
+  "method": "sprite-gen 생성 실패 분석 후 Aseprite 하체 재수정·sprite-gen 합성",
+  "approved": false
+}

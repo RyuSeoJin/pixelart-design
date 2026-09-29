@@ -1,0 +1,119 @@
+{
+  "status": "프레임·파일 기술 검사 통과·사용자 검토 전",
+  "input": "image-confirmed\\180\\view\\side_right_v010.png",
+  "input_sha256": "1939033ea14014127ca9dc85e4245c4e28a6cd0e6a04e0e6ecd1fc430fbb1fbc",
+  "method": "승인 우향 정지본의 도트를 Aseprite에서 변형·부분 수정하고 sprite-gen으로 재합성합니다. 관절 계산의 방향 정규화 후 우향 좌표로 복원하며 완성 좌향 픽셀을 입력으로 사용하지 않습니다.",
+  "timing_ms": 800,
+  "frames": [
+    {
+      "frame": 0,
+      "size": [
+        180,
+        180
+      ],
+      "palette_extra": 0,
+      "binary_alpha": true,
+      "head_matches_right_source": true,
+      "sole_last_row": 170,
+      "different_pixels_from_mirrored_left": 2141,
+      "sha256": "d6eb441392f058ad5548983619043cfdf6397a6c48f36526ddad89f2b3e4e98a"
+    },
+    {
+      "frame": 1,
+      "size": [
+        180,
+        180
+      ],
+      "palette_extra": 0,
+      "binary_alpha": true,
+      "head_matches_right_source": true,
+      "sole_last_row": 170,
+      "different_pixels_from_mirrored_left": 2122,
+      "sha256": "db5efa1a8af81dba2c22b449082a10b066281b59502240740d4ecc4da98fe52e"
+    },
+    {
+      "frame": 2,
+      "size": [
+        180,
+        180
+      ],
+      "palette_extra": 0,
+      "binary_alpha": true,
+      "head_matches_right_source": true,
+      "sole_last_row": 170,
+      "different_pixels_from_mirrored_left": 2066,
+      "sha256": "e350ad1a7613d947f0c8db6a5c0eb9ec79fabf3e50ab8437eb2cc2bfba82d3fd"
+    },
+    {
+      "frame": 3,
+      "size": [
+        180,
+        180
+      ],
+      "palette_extra": 0,
+      "binary_alpha": true,
+      "head_matches_right_source": true,
+      "sole_last_row": 170,
+      "different_pixels_from_mirrored_left": 2136,
+      "sha256": "acc30a24664601e805e09784a62e38778e40f07fa5e9ffdee630603ab42d32d2"
+    },
+    {
+      "frame": 4,
+      "size": [
+        180,
+        180
+      ],
+      "palette_extra": 0,
+      "binary_alpha": true,
+      "head_matches_right_source": true,
+      "sole_last_row": 170,
+      "different_pixels_from_mirrored_left": 2143,
+      "sha256": "6c9eae3a0dd371d3c4e583f1adf4472912a8e8637531bc53f289d685d5321281"
+    },
+    {
+      "frame": 5,
+      "size": [
+        180,
+        180
+      ],
+      "palette_extra": 0,
+      "binary_alpha": true,
+      "head_matches_right_source": true,
+      "sole_last_row": 170,
+      "different_pixels_from_mirrored_left": 2114,
+      "sha256": "c54df202f04b16b45fc7d0ed4adfb9eaa28af20114bf7de99f95170c16aaa06a"
+    },
+    {
+      "frame": 6,
+      "size": [
+        180,
+        180
+      ],
+      "palette_extra": 0,
+      "binary_alpha": true,
+      "head_matches_right_source": true,
+      "sole_last_row": 170,
+      "different_pixels_from_mirrored_left": 2108,
+      "sha256": "7deed67bfae3c3f202c0f18e1faf234c2b9412243233490aaf15b01a009b6beb"
+    },
+    {
+      "frame": 7,
+      "size": [
+        180,
+        180
+      ],
+      "palette_extra": 0,
+      "binary_alpha": true,
+      "head_matches_right_source": true,
+      "sole_last_row": 170,
+      "different_pixels_from_mirrored_left": 2160,
+      "sha256": "262fbff296a1165459abd7068644e326d45c14e39c3d42e9691643016ed2943f"
+    }
+  ],
+  "pending": [
+    "실제 반복 재생 관찰",
+    "사용자 승인",
+    "엔진 검수"
+  ],
+  "sprite_gen_sheet_rgba_matches": true
+}

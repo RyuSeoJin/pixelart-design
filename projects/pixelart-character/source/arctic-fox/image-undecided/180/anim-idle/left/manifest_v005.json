@@ -1,0 +1,51 @@
+{
+  "version": 5,
+  "status": "미확정·옆트임 수정본",
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "motion": "idle",
+  "direction": "left",
+  "loop": true,
+  "frames": [
+    {
+      "file": "frame-00_v005.png",
+      "sha256": "afc13fcdadcefac8d58609c50a759b79ff18b0c47ba4aeedb6ab74f6c501b2e8",
+      "duration_ms": 250
+    },
+    {
+      "file": "frame-01_v005.png",
+      "sha256": "80c7eebf7c620c1fef782c9fc2bc1f652d46f780b6b561b812ee45e9ec79c5cd",
+      "duration_ms": 250
+    },
+    {
+      "file": "frame-02_v005.png",
+      "sha256": "05865826403dc7d501df8542a0ca2ba3ca1c3a438af94dac00154691e23b3e8f",
+      "duration_ms": 250
+    },
+    {
+      "file": "frame-03_v005.png",
+      "sha256": "b3882de29641baf11d130aae987a57cb1f118e22958b12a6a66dce09642fee20",
+      "duration_ms": 250
+    },
+    {
+      "file": "frame-04_v005.png",
+      "sha256": "e6a7ccdd2d5d40de66094cbca2e4d355f3e0b76e0ab726b700eae07ebab05e48",
+      "duration_ms": 250
+    },
+    {
+      "file": "frame-05_v005.png",
+      "sha256": "06f15847cfa9ee1c90ac6e5e46d3a18a6ad12dfc5eaf9734ee5aad8125249098",
+      "duration_ms": 250
+    }
+  ],
+  "sheet": "sheet_v005.png",
+  "preview": "preview_v005.gif",
+  "native": "work/idle-left_v005.aseprite",
+  "review": "work/hem-lining-review_v001.json"
+}

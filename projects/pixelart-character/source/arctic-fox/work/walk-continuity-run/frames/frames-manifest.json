@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "engine": "component-row",
+  "run_dir": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\.walk-continuity-run.sg-staging",
+  "cell": {
+    "shape": "square",
+    "width": 180,
+    "height": 180,
+    "size": 180,
+    "safe_margin": 0
+  },
+  "rows": [
+    {
+      "state": "walk",
+      "frames": 8,
+      "method": "imported-pngs",
+      "files": [
+        "frames/walk/frame-0.png",
+        "frames/walk/frame-1.png",
+        "frames/walk/frame-2.png",
+        "frames/walk/frame-3.png",
+        "frames/walk/frame-4.png",
+        "frames/walk/frame-5.png",
+        "frames/walk/frame-6.png",
+        "frames/walk/frame-7.png"
+      ],
+      "labels": [
+        "frame-00_v002",
+        "frame-01_v002",
+        "frame-02_v002",
+        "frame-03_v002",
+        "frame-04_v002",
+        "frame-05_v002",
+        "frame-06_v002",
+        "frame-07_v002"
+      ],
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

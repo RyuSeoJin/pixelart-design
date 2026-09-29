@@ -1,0 +1,341 @@
+{
+  "status": "미확정",
+  "tool": "sprite-gen 2.11.0 내장 호흡",
+  "config": {
+    "idle_left": {
+      "selected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clones": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "breathe": {
+        "depth": 0.025,
+        "depth_x": 0,
+        "breaths": 1,
+        "lag": 0.1,
+        "rigid_row": 39,
+        "axis_x": 25,
+        "torso_half": 12
+      },
+      "revision": [
+        "1b6375f901e1"
+      ]
+    },
+    "idle_right": {
+      "selected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clones": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "breathe": {
+        "depth": 0.025,
+        "depth_x": 0,
+        "breaths": 1,
+        "lag": 0.1,
+        "rigid_row": 39,
+        "axis_x": 41,
+        "torso_half": 12
+      },
+      "revision": [
+        "d2520b69b550"
+      ]
+    }
+  },
+  "automatic_detection_correction": "좌향 손 부근의 얼굴 오인식 때문에 양쪽 목 경계 39를 지정. 가로 변형 0.",
+  "real_time_playback_observed": false,
+  "engine_review": false,
+  "frames": [
+    {
+      "direction": "left",
+      "frame": 0,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "1103d202fa15f12a1eacf1f14a4fc4d57094c3eb320d9f0c082ec812256fafde",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        -1
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    },
+    {
+      "direction": "left",
+      "frame": 1,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "6b1140fd60932a1728d336837e58167e35f48e67ecb16aa84a405fb95ca6a960",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        2
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    },
+    {
+      "direction": "left",
+      "frame": 2,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "512d46c9ad76b302750c2add725ed7dc62972fb9e4a982e66154deffdce2f5dd",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        2
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    },
+    {
+      "direction": "left",
+      "frame": 3,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "83a3f3eae2f23a728492911161bbc1f5d4a55824601511c9319a357affdb2c8d",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        1
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    },
+    {
+      "direction": "left",
+      "frame": 4,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "be22705197655f95aa5ba291df44f89e608153485d14f214c0552ca7dcdefcae",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        -1
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    },
+    {
+      "direction": "left",
+      "frame": 5,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "2f0398cfe860498acb5157355d860d911917fbbb04b1d3f3d6d32b1d8fdba6de",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        -3
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    },
+    {
+      "direction": "right",
+      "frame": 0,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "4f8c8a3b2c63792d10f56aeb5ad3fc58003843fee2ac11a6b90dada09c52f13f",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        -1
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    },
+    {
+      "direction": "right",
+      "frame": 1,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "dd3764ff666733e415e9ee4a703b72639c8b8ae418d143ba9bfbb492d06f5000",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        2
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    },
+    {
+      "direction": "right",
+      "frame": 2,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "5dd85a4de77f443d801cecbd485d8468b6a12c17d4e364a36c3c8a687c37e08b",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        2
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    },
+    {
+      "direction": "right",
+      "frame": 3,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "e210d7427efd96a9e7fff3fa433c4589292dfe0a980c5e158edaa31bfa20e819",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        1
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    },
+    {
+      "direction": "right",
+      "frame": 4,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "b145604f13ce6e36425e0e24720d4d85341ac7ab40175a310d4be064093bc5a1",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        -1
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    },
+    {
+      "direction": "right",
+      "frame": 5,
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "a077816d862786204c9f54a81e5a222df681e79f9441902a2388bfa09e064d97",
+      "face_roi": [
+        78,
+        38,
+        18,
+        15
+      ],
+      "face_preserved_at_dy": [
+        -3
+      ],
+      "sole_row": 170,
+      "palette_preserved": true,
+      "binary_alpha": true
+    }
+  ],
+  "limitations": [
+    "외곽선 자동 정리로 머리 외곽과 부츠 일부 도트는 원본과 다릅니다. 얼굴 영역은 이동 보정 후 그대로이며 발바닥 최하단은 170입니다.",
+    "기존 4프레임 사양을 대체하지 않는 6프레임 비교 검토본입니다."
+  ]
+}

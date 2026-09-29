@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "status": "unconfirmed",
+  "character": "arctic-fox",
+  "motion": "walk",
+  "direction": "right",
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "loop": true,
+  "frames": [
+    {
+      "file": "frame-00_v001.png",
+      "sha256": "3638fc6022db8fc06697c9ebfdb5c2f9de95222a56b3f7e67c48cc0e262def29",
+      "duration_ms": 100,
+      "bbox": [
+        52,
+        15,
+        112,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    },
+    {
+      "file": "frame-01_v001.png",
+      "sha256": "ad5ea79ed94eb28e6b2ed769333df253c2d738b1854644c0184e4a24734c22af",
+      "duration_ms": 100,
+      "bbox": [
+        51,
+        16,
+        109,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    },
+    {
+      "file": "frame-02_v001.png",
+      "sha256": "f71754128898a4a7b6dedd734863e7319170a5a28921079c20d28e1f332659f5",
+      "duration_ms": 100,
+      "bbox": [
+        50,
+        15,
+        112,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    },
+    {
+      "file": "frame-03_v001.png",
+      "sha256": "d71792094aead0f381d819d48e01d545cb6dc65d2a608c47081798875f82a23a",
+      "duration_ms": 100,
+      "bbox": [
+        51,
+        14,
+        112,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    },
+    {
+      "file": "frame-04_v001.png",
+      "sha256": "45f7f480477130d65416f6166e853e17fe07f9b7cd9b723f9f431f8dc64adf32",
+      "duration_ms": 100,
+      "bbox": [
+        52,
+        15,
+        112,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    },
+    {
+      "file": "frame-05_v001.png",
+      "sha256": "360d43e19a3504d43860d5abb304a57344f0a0b7c67c9da4ec9c306308b90087",
+      "duration_ms": 100,
+      "bbox": [
+        53,
+        16,
+        109,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    },
+    {
+      "file": "frame-06_v001.png",
+      "sha256": "80bd62ee3c06fdb3d7a8a516c8b2a4592482fe4d5bbb8d7178159f6383022cd9",
+      "duration_ms": 100,
+      "bbox": [
+        53,
+        15,
+        112,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    },
+    {
+      "file": "frame-07_v001.png",
+      "sha256": "8b2955dbd486c351c501f658a0fe2aff47b8b94b1c804bf86bc35c122222625c",
+      "duration_ms": 100,
+      "bbox": [
+        53,
+        14,
+        112,
+        171
+      ],
+      "head_translation_only": true,
+      "ground_last_row": 170
+    }
+  ],
+  "sheet": {
+    "file": "sheet_v001.png",
+    "columns": 8,
+    "rows": 1
+  },
+  "native": "../../../../../../sprites/arctic-fox/walk_right_v001.aseprite",
+  "base": "../../../../image-confirmed/180/view/side_right_v002.png",
+  "review": "../../../../work/native-animation-review_v001.json"
+}

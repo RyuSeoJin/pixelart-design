@@ -1,0 +1,208 @@
+{
+  "ok": true,
+  "engine": "component-row",
+  "engine_revision": "4c9db55ba735",
+  "extract_args": {},
+  "run_dir": "P:\\github-repository\\pixelart-design\\projects\\pixelart-character\\source\\arctic-fox\\work\\spritegen-walk-right-run",
+  "cell": {
+    "shape": "square",
+    "width": 180,
+    "height": 180,
+    "safe_margin_x": 9,
+    "safe_margin_y": 9,
+    "size": 180,
+    "safe_margin": 9
+  },
+  "chroma_key": {
+    "name": "green",
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "selection": "auto",
+    "score": 233.17,
+    "min_subject_distance": 226.7,
+    "background": {
+      "mode": "transparent",
+      "opaque_border_fraction": 0.0,
+      "subject_pixels": 3676
+    },
+    "candidates": [
+      {
+        "name": "magenta",
+        "hex": "#FF00FF",
+        "score": 198.24,
+        "min_subject_distance": 195.07,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "green",
+        "hex": "#00FF00",
+        "score": 233.17,
+        "min_subject_distance": 226.7,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "cyan",
+        "hex": "#00FFFF",
+        "score": 190.75,
+        "min_subject_distance": 190.75,
+        "clears_erase_radius": true
+      },
+      {
+        "name": "blue",
+        "hex": "#004DFF",
+        "score": 150.5,
+        "min_subject_distance": 150.5,
+        "clears_erase_radius": true
+      }
+    ],
+    "selection_reason": "highest 1st-percentile subject distance among the 4 candidate(s) clearing the 96 erase radius"
+  },
+  "rows": [
+    {
+      "state": "walk",
+      "frames": 8,
+      "method": "components",
+      "files": [
+        "frames/walk/frame-0.png",
+        "frames/walk/frame-1.png",
+        "frames/walk/frame-2.png",
+        "frames/walk/frame-3.png",
+        "frames/walk/frame-4.png",
+        "frames/walk/frame-5.png",
+        "frames/walk/frame-6.png",
+        "frames/walk/frame-7.png"
+      ],
+      "frame_records": [
+        {
+          "index": 0,
+          "nontransparent_pixels": 9056,
+          "bbox": [
+            30,
+            0,
+            131,
+            171
+          ],
+          "edge_pixels": 6,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "nontransparent_pixels": 8986,
+          "bbox": [
+            27,
+            0,
+            124,
+            171
+          ],
+          "edge_pixels": 7,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "nontransparent_pixels": 8745,
+          "bbox": [
+            29,
+            0,
+            125,
+            171
+          ],
+          "edge_pixels": 7,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "nontransparent_pixels": 8952,
+          "bbox": [
+            27,
+            0,
+            136,
+            171
+          ],
+          "edge_pixels": 7,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "nontransparent_pixels": 8841,
+          "bbox": [
+            31,
+            0,
+            128,
+            171
+          ],
+          "edge_pixels": 7,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "nontransparent_pixels": 8941,
+          "bbox": [
+            27,
+            0,
+            125,
+            171
+          ],
+          "edge_pixels": 8,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "nontransparent_pixels": 8834,
+          "bbox": [
+            29,
+            0,
+            125,
+            171
+          ],
+          "edge_pixels": 7,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "nontransparent_pixels": 9031,
+          "bbox": [
+            27,
+            0,
+            137,
+            171
+          ],
+          "edge_pixels": 7,
+          "chroma_adjacent_pixels": 0
+        }
+      ],
+      "ok": true,
+      "engine_revision": "4c9db55ba735",
+      "plain_files": [
+        "frames/walk/frame-0.plain.png",
+        "frames/walk/frame-1.plain.png",
+        "frames/walk/frame-2.plain.png",
+        "frames/walk/frame-3.plain.png",
+        "frames/walk/frame-4.plain.png",
+        "frames/walk/frame-5.plain.png",
+        "frames/walk/frame-6.plain.png",
+        "frames/walk/frame-7.plain.png"
+      ],
+      "orig_files": [
+        "frames/walk/orig/frame-0.png",
+        "frames/walk/orig/frame-1.png",
+        "frames/walk/orig/frame-2.png",
+        "frames/walk/orig/frame-3.png",
+        "frames/walk/orig/frame-4.png",
+        "frames/walk/orig/frame-5.png",
+        "frames/walk/orig/frame-6.png",
+        "frames/walk/orig/frame-7.png"
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "walk: pitch disagreement — detect 1.00x1.00 (uniformity 211.0) vs runlen 2.34x2.36 (42.7); detect kept. large gap usually means the raw was drawn finer than the cell contract — reroll with a block-count hint",
+    "walk: native logical exceeds the physical cap 180x171 — capped frames (reroll candidates): 0:236x399, 1:227x398, 2:225x399, 3:255x399, 4:227x399, 5:228x399, 6:225x399, 7:257x399",
+    "palette: rebuilt+pinned (64 colors → palette.lock.json)",
+    "pixel unfake: pitch=1.0 scale=1x logical<=180x180 palette=64"
+  ]
+}

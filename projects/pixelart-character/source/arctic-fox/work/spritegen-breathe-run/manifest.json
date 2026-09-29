@@ -1,0 +1,205 @@
+{
+  "characterId": ".spritegen-breathe-run.sg-staging",
+  "engine": "component-row",
+  "game_input": "sprite-sheet-alpha.png",
+  "degraded_static_fallback": false,
+  "curation_applied": true,
+  "frame_variant": "pixel",
+  "sprite_sheet_alpha": "sprite-sheet-alpha.png",
+  "sprite_sheet_alpha_report": "sprite-sheet-alpha.report.json",
+  "base_image": null,
+  "cell": {
+    "shape": "square",
+    "width": 180,
+    "height": 180,
+    "size": 180,
+    "safe_margin": 0
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "animation": {
+    "cellWidth": 180,
+    "cellHeight": 180,
+    "columns": 6,
+    "rows": {
+      "idle_left": {
+        "row": 0,
+        "frames": 6,
+        "fps": 4,
+        "durations_ms": [
+          250,
+          250,
+          250,
+          250,
+          250,
+          250
+        ],
+        "loop": true,
+        "frame_variant": "pixel",
+        "breathe": {
+          "anatomy": {
+            "width": 67,
+            "height": 156,
+            "axis_x": 25,
+            "neck_row": 39,
+            "neck_source": "bottleneck",
+            "rigid_row": 39,
+            "rigid_source": "manual",
+            "basis_row": 39,
+            "torso_half": 12,
+            "max_half": 41,
+            "torso_source": "manual",
+            "face": [
+              84,
+              103
+            ],
+            "warnings": [
+              "rigid-row-override: auto 104 -> manual 39",
+              "torso-half-override: auto 13 -> manual 12"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "rigid-row-override: auto 104 -> manual 39",
+            "torso-half-override: auto 13 -> manual 12"
+          ]
+        }
+      },
+      "idle_right": {
+        "row": 1,
+        "frames": 6,
+        "fps": 4,
+        "durations_ms": [
+          250,
+          250,
+          250,
+          250,
+          250,
+          250
+        ],
+        "loop": true,
+        "frame_variant": "pixel",
+        "breathe": {
+          "anatomy": {
+            "width": 67,
+            "height": 156,
+            "axis_x": 41,
+            "neck_row": 39,
+            "neck_source": "bottleneck",
+            "rigid_row": 39,
+            "rigid_source": "manual",
+            "basis_row": 39,
+            "torso_half": 12,
+            "max_half": 41,
+            "torso_source": "manual",
+            "face": null,
+            "warnings": [
+              "axis-x-override: auto 40 -> manual 41",
+              "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+              "torso-half-override: auto 13 -> manual 12"
+            ]
+          },
+          "matches_sidecar": true,
+          "sidecar_drift": null,
+          "warnings": [
+            "axis-x-override: auto 40 -> manual 41",
+            "face-absent: 대칭 눈쌍을 못 찾아 목만으로 경계를 정했다",
+            "torso-half-override: auto 13 -> manual 12"
+          ]
+        }
+      }
+    }
+  },
+  "frame_layout": {
+    "sheetWidth": 1080,
+    "sheetHeight": 360,
+    "cellWidth": 180,
+    "cellHeight": 180,
+    "rows": {
+      "idle_left": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 180,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 360,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 540,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 720,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 900,
+          "y": 0,
+          "w": 180,
+          "h": 180
+        }
+      ],
+      "idle_right": [
+        {
+          "x": 0,
+          "y": 180,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 180,
+          "y": 180,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 360,
+          "y": 180,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 540,
+          "y": 180,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 720,
+          "y": 180,
+          "w": 180,
+          "h": 180
+        },
+        {
+          "x": 900,
+          "y": 180,
+          "w": 180,
+          "h": 180
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "version": 6,
+  "status": "미확정",
+  "size": [
+    180,
+    180
+  ],
+  "loop": true,
+  "frames": [
+    {
+      "file": "frame-00_v006.png",
+      "duration_ms": 100,
+      "sha256": "263bf0211e66d88fc9dcff54bdab082c8f1c4c6e43b8c0e0d5ee1fa04c39ea70"
+    },
+    {
+      "file": "frame-01_v006.png",
+      "duration_ms": 100,
+      "sha256": "c6143b800e1d5ab18ab3c0f87679680b4dc698b4d3202f319c2230cae3fbce7c"
+    },
+    {
+      "file": "frame-02_v006.png",
+      "duration_ms": 100,
+      "sha256": "ecf847dc85a1806400f28dbb6c2b9633cf155df01c5df6fde971e7bc0ced5a6c"
+    },
+    {
+      "file": "frame-03_v006.png",
+      "duration_ms": 100,
+      "sha256": "8a6ed42ee9328fb106d59b10779a950abda4f7058388ae2bae8885c177ed7f63"
+    },
+    {
+      "file": "frame-04_v006.png",
+      "duration_ms": 100,
+      "sha256": "7ef9f7bbca5ed38be734225a16342bebd3e91cabcd8f48d34790f66718107bbf"
+    },
+    {
+      "file": "frame-05_v006.png",
+      "duration_ms": 100,
+      "sha256": "10e7fd4c45bbab4b0a58b3cd602055c9c3329947de751f77df448601a407ddc8"
+    },
+    {
+      "file": "frame-06_v006.png",
+      "duration_ms": 100,
+      "sha256": "9f5b73053c7bbd4bf1646b789c493d7e84c544bf6f2ec5ec2806331ed140f5d9"
+    },
+    {
+      "file": "frame-07_v006.png",
+      "duration_ms": 100,
+      "sha256": "0e3d44b1fb24b5448dcb587c2778a704c13a5fe35555754da82686d9005fa8f8"
+    }
+  ],
+  "source": "Aseprite 국소 수정 및 sprite-gen 합성 검증"
+}

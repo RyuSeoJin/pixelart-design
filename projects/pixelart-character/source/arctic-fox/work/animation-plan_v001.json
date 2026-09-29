@@ -1,0 +1,35 @@
+{
+  "status": "generation_failed_review",
+  "method": "gpt-rows",
+  "provider": "codex",
+  "access": "user_confirmed",
+  "approved_base": "image-confirmed/approval_v007.json",
+  "approved_views": "image-confirmed/approval_v004.json",
+  "view_review": "8종 실제 열람 및 해시 검증 완료",
+  "idle_ms": [
+    260,
+    200,
+    260,
+    200
+  ],
+  "walk_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "sole": 170,
+  "review": "animation-review_v001.json"
+}

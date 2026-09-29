@@ -1,0 +1,93 @@
+{
+  "status": "미확정",
+  "method": "sprite-gen-breathe",
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "source": "../../../../image-confirmed/180/view/side_right_v010.png",
+  "sheet": "sheet_v004.png",
+  "preview": "preview_v004.gif",
+  "native": "../../../../../../sprites/arctic-fox/idle_right_v004.aseprite",
+  "frames": [
+    {
+      "file": "frame-00_v004.png",
+      "duration_ms": 250,
+      "rect": [
+        0,
+        0,
+        180,
+        180
+      ],
+      "sha256": "4f8c8a3b2c63792d10f56aeb5ad3fc58003843fee2ac11a6b90dada09c52f13f"
+    },
+    {
+      "file": "frame-01_v004.png",
+      "duration_ms": 250,
+      "rect": [
+        180,
+        0,
+        180,
+        180
+      ],
+      "sha256": "dd3764ff666733e415e9ee4a703b72639c8b8ae418d143ba9bfbb492d06f5000"
+    },
+    {
+      "file": "frame-02_v004.png",
+      "duration_ms": 250,
+      "rect": [
+        360,
+        0,
+        180,
+        180
+      ],
+      "sha256": "5dd85a4de77f443d801cecbd485d8468b6a12c17d4e364a36c3c8a687c37e08b"
+    },
+    {
+      "file": "frame-03_v004.png",
+      "duration_ms": 250,
+      "rect": [
+        540,
+        0,
+        180,
+        180
+      ],
+      "sha256": "e210d7427efd96a9e7fff3fa433c4589292dfe0a980c5e158edaa31bfa20e819"
+    },
+    {
+      "file": "frame-04_v004.png",
+      "duration_ms": 250,
+      "rect": [
+        720,
+        0,
+        180,
+        180
+      ],
+      "sha256": "b145604f13ce6e36425e0e24720d4d85341ac7ab40175a310d4be064093bc5a1"
+    },
+    {
+      "file": "frame-05_v004.png",
+      "duration_ms": 250,
+      "rect": [
+        900,
+        0,
+        180,
+        180
+      ],
+      "sha256": "a077816d862786204c9f54a81e5a222df681e79f9441902a2388bfa09e064d97"
+    }
+  ],
+  "breathe_config": {
+    "depth": 0.025,
+    "depth_x": 0,
+    "breaths": 1,
+    "lag": 0.1,
+    "rigid_row": 39,
+    "axis_x": 41,
+    "torso_half": 12
+  }
+}
