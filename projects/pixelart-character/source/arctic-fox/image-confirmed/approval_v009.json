@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-29T08:52:29.402033+09:00",
+  "authorization": [
+    "네 좋습니다"
+  ],
+  "scope": "idle 좌우·walk 좌향 v007 수정본 승인",
+  "files": [
+    {
+      "motion": "idle",
+      "direction": "left",
+      "source": "image-undecided/180/anim-idle/left/frame-00_v007.png",
+      "file": "image-confirmed/180/anim-idle/left/frame-00_v007.png",
+      "sha256": "f339aac8d29825752d89de82cd47291c55e842c875df4e57f8f67029e6c16873"
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "source": "image-undecided/180/anim-idle/left/frame-01_v007.png",
+      "file": "image-confirmed/180/anim-idle/left/frame-01_v007.png",
+      "sha256": "ce12de5f5a713cc629090e42a78af1590d7316868961e8fc49f91cf5ac40830b"
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "source": "image-undecided/180/anim-idle/left/frame-02_v007.png",
+      "file": "image-confirmed/180/anim-idle/left/frame-02_v007.png",
+      "sha256": "e9466ff2d3dfa135b852f740f9c39aa2a84165652ed586f661ae6fabc52cd3d3"
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "source": "image-undecided/180/anim-idle/left/frame-03_v007.png",
+      "file": "image-confirmed/180/anim-idle/left/frame-03_v007.png",
+      "sha256": "90c8fc9fda4ba5619dd47d59ef0a23e81d20cd0868f4c0f35bb2c186cb86f08c"
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "source": "image-undecided/180/anim-idle/left/frame-04_v007.png",
+      "file": "image-confirmed/180/anim-idle/left/frame-04_v007.png",
+      "sha256": "764e19e8caf458545f28873b3d4e6f242236aaea579efc1a719d91bb6151d1a8"
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "source": "image-undecided/180/anim-idle/left/frame-05_v007.png",
+      "file": "image-confirmed/180/anim-idle/left/frame-05_v007.png",
+      "sha256": "8cbdec293f1941d47ae8a1897a1fbc58b8537c4f0caa6d13cc3706cb0d696e18"
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "source": "image-undecided/180/anim-idle/left/sheet_v007.png",
+      "file": "image-confirmed/180/anim-idle/left/sheet_v007.png",
+      "sha256": "9efdbd4b234bbaf182bce0b1d59317350f2d18fcd2b72c780859c1a116343e4b"
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "source": "image-undecided/180/anim-idle/left/preview_v007.gif",
+      "file": "image-confirmed/180/anim-idle/left/preview_v007.gif",
+      "sha256": "d6d12b1c86bbb105343261c208c325433d40c596f353f8f749b6b50746236319"
+    },
+    {
+      "motion": "idle",
+      "direction": "left",
+      "source": "image-undecided/180/anim-idle/left/manifest_v007.json",
+      "file": "image-confirmed/180/anim-idle/left/manifest_v007.json",
+      "sha256": "288e00ee250df020b83ff80d434dbc2780f1e10baf40be7e03df986f49186b44"
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "source": "image-undecided/180/anim-idle/right/frame-00_v007.png",
+      "file": "image-confirmed/180/anim-idle/right/frame-00_v007.png",
+      "sha256": "c14a093713516b889506177368cfc567b33c2f24c84f43c74ba38cbe9d548844"
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "source": "image-undecided/180/anim-idle/right/frame-01_v007.png",
+      "file": "image-confirmed/180/anim-idle/right/frame-01_v007.png",
+      "sha256": "e11c2ba78bc97bcfc5e28ac3e525e035c52cf2a265403112d1fe9619a7cf14fe"
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "source": "image-undecided/180/anim-idle/right/frame-02_v007.png",
+      "file": "image-confirmed/180/anim-idle/right/frame-02_v007.png",
+      "sha256": "7a628d426a61064670b9a381a39df976fe12eb29cb9dc1d1e07d2cc941b1464a"
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "source": "image-undecided/180/anim-idle/right/frame-03_v007.png",
+      "file": "image-confirmed/180/anim-idle/right/frame-03_v007.png",
+      "sha256": "022859eb2159bd785faa88b1506c41725246a341c5b2268828a55be81b113232"
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "source": "image-undecided/180/anim-idle/right/frame-04_v007.png",
+      "file": "image-confirmed/180/anim-idle/right/frame-04_v007.png",
+      "sha256": "20af915e3052e4737b3a2af361bd6e4a942c224e7d3c19c8d5b9c4035de8b5f2"
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "source": "image-undecided/180/anim-idle/right/frame-05_v007.png",
+      "file": "image-confirmed/180/anim-idle/right/frame-05_v007.png",
+      "sha256": "b047a5094357bdcb981fa604adf106e8a5bfa558e31a88a9a29afd69c77d469c"
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "source": "image-undecided/180/anim-idle/right/sheet_v007.png",
+      "file": "image-confirmed/180/anim-idle/right/sheet_v007.png",
+      "sha256": "15a5438c654b0bda67f4dcd869d3efb19fc47068c0d3e9b2e9cacfcf272439cc"
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "source": "image-undecided/180/anim-idle/right/preview_v007.gif",
+      "file": "image-confirmed/180/anim-idle/right/preview_v007.gif",
+      "sha256": "4d080db8f8d6878a575ad05d75d4bcb23d0a762f5b410dc55a72ed172ac8b450"
+    },
+    {
+      "motion": "idle",
+      "direction": "right",
+      "source": "image-undecided/180/anim-idle/right/manifest_v007.json",
+      "file": "image-confirmed/180/anim-idle/right/manifest_v007.json",
+      "sha256": "47dfd0c7c5b88ce64ed81966ad901abe6478d1085030351592e9336054c682ea"
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "source": "image-undecided/180/anim-walk/left/frame-00_v007.png",
+      "file": "image-confirmed/180/anim-walk/left/frame-00_v007.png",
+      "sha256": "fc1afc8f91585d830b9a01cb7750afbfd7015c0f8d59fff2ebfecf3854f2ed6b"
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "source": "image-undecided/180/anim-walk/left/frame-01_v007.png",
+      "file": "image-confirmed/180/anim-walk/left/frame-01_v007.png",
+      "sha256": "8b1f3a0ce60a6b016bbd4e396c8eae200a1b000da069abdbccb35c60701a75ba"
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "source": "image-undecided/180/anim-walk/left/frame-02_v007.png",
+      "file": "image-confirmed/180/anim-walk/left/frame-02_v007.png",
+      "sha256": "aa28a9fa0bd6cd473e895348249817e19171826557f950cf4d5d35fdba495b9b"
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "source": "image-undecided/180/anim-walk/left/frame-03_v007.png",
+      "file": "image-confirmed/180/anim-walk/left/frame-03_v007.png",
+      "sha256": "5c48c244bd45f6e5d5354dbed81076d7885a8c4ecceb2e197900a695e1c62f8d"
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "source": "image-undecided/180/anim-walk/left/frame-04_v007.png",
+      "file": "image-confirmed/180/anim-walk/left/frame-04_v007.png",
+      "sha256": "ed2af890154418f68e158dccceeb561d5bdb560ad71f0ae7b1b5e3708b41b2cb"
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "source": "image-undecided/180/anim-walk/left/frame-05_v007.png",
+      "file": "image-confirmed/180/anim-walk/left/frame-05_v007.png",
+      "sha256": "5cd7c071a0ffd9befe4f86fa718258a5693d75025148fa518687d9b4c2a76420"
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "source": "image-undecided/180/anim-walk/left/frame-06_v007.png",
+      "file": "image-confirmed/180/anim-walk/left/frame-06_v007.png",
+      "sha256": "61ebbeb60e6b083816bc394c866307e4dd1a7586e2a5a0186f3c3530cfd0224d"
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "source": "image-undecided/180/anim-walk/left/frame-07_v007.png",
+      "file": "image-confirmed/180/anim-walk/left/frame-07_v007.png",
+      "sha256": "4dc660fba8558f66b92a762a4de32138bb1b001145235c5855d86509f248a615"
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "source": "image-undecided/180/anim-walk/left/sheet_v007.png",
+      "file": "image-confirmed/180/anim-walk/left/sheet_v007.png",
+      "sha256": "2823a52e668b3b9d1c6a730da9aeac4a3d1493c3c2d0c35a3251dde90c119be2"
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "source": "image-undecided/180/anim-walk/left/preview_v007.gif",
+      "file": "image-confirmed/180/anim-walk/left/preview_v007.gif",
+      "sha256": "c191b1f40dedaded233ba955678d4c21970afe1340644987610193b16422290e"
+    },
+    {
+      "motion": "walk",
+      "direction": "left",
+      "source": "image-undecided/180/anim-walk/left/manifest_v007.json",
+      "file": "image-confirmed/180/anim-walk/left/manifest_v007.json",
+      "sha256": "1b944af13b5cae8299614854cf16323e38e8744bef365a48c7d63e976c25996b"
+    }
+  ],
+  "manifest_note": "복사된 manifest의 미확정 표기는 제작 당시 상태이며 현재 승인 상태는 이 기록을 따릅니다.",
+  "resources_registered": false,
+  "pending": [
+    "우향 walk 제작",
+    "실제 반복 재생 관찰",
+    "엔진 검수"
+  ]
+}

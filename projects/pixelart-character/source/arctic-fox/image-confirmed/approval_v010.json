@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-29T10:09:35.492836+09:00",
+  "authorization": [
+    "그리고 북극여우 컨셉 캐릭터 좌향,우향 walk / idle 전부 확정 지은걸로 아는데, 저장되어 있나요?"
+  ],
+  "scope": "사용자의 전체 동작 확정 의사 재확인에 따라 우향 walk v002 확정 보존; idle 좌우와 walk 좌향 v007은 approval_v009 유지",
+  "files": [
+    {
+      "motion": "walk",
+      "direction": "right",
+      "source": "image-undecided/180/anim-walk/right/frame-00_v002.png",
+      "file": "image-confirmed/180/anim-walk/right/frame-00_v002.png",
+      "sha256": "d6eb441392f058ad5548983619043cfdf6397a6c48f36526ddad89f2b3e4e98a"
+    },
+    {
+      "motion": "walk",
+      "direction": "right",
+      "source": "image-undecided/180/anim-walk/right/frame-01_v002.png",
+      "file": "image-confirmed/180/anim-walk/right/frame-01_v002.png",
+      "sha256": "db5efa1a8af81dba2c22b449082a10b066281b59502240740d4ecc4da98fe52e"
+    },
+    {
+      "motion": "walk",
+      "direction": "right",
+      "source": "image-undecided/180/anim-walk/right/frame-02_v002.png",
+      "file": "image-confirmed/180/anim-walk/right/frame-02_v002.png",
+      "sha256": "e350ad1a7613d947f0c8db6a5c0eb9ec79fabf3e50ab8437eb2cc2bfba82d3fd"
+    },
+    {
+      "motion": "walk",
+      "direction": "right",
+      "source": "image-undecided/180/anim-walk/right/frame-03_v002.png",
+      "file": "image-confirmed/180/anim-walk/right/frame-03_v002.png",
+      "sha256": "acc30a24664601e805e09784a62e38778e40f07fa5e9ffdee630603ab42d32d2"
+    },
+    {
+      "motion": "walk",
+      "direction": "right",
+      "source": "image-undecided/180/anim-walk/right/frame-04_v002.png",
+      "file": "image-confirmed/180/anim-walk/right/frame-04_v002.png",
+      "sha256": "6c9eae3a0dd371d3c4e583f1adf4472912a8e8637531bc53f289d685d5321281"
+    },
+    {
+      "motion": "walk",
+      "direction": "right",
+      "source": "image-undecided/180/anim-walk/right/frame-05_v002.png",
+      "file": "image-confirmed/180/anim-walk/right/frame-05_v002.png",
+      "sha256": "c54df202f04b16b45fc7d0ed4adfb9eaa28af20114bf7de99f95170c16aaa06a"
+    },
+    {
+      "motion": "walk",
+      "direction": "right",
+      "source": "image-undecided/180/anim-walk/right/frame-06_v002.png",
+      "file": "image-confirmed/180/anim-walk/right/frame-06_v002.png",
+      "sha256": "7deed67bfae3c3f202c0f18e1faf234c2b9412243233490aaf15b01a009b6beb"
+    },
+    {
+      "motion": "walk",
+      "direction": "right",
+      "source": "image-undecided/180/anim-walk/right/frame-07_v002.png",
+      "file": "image-confirmed/180/anim-walk/right/frame-07_v002.png",
+      "sha256": "262fbff296a1165459abd7068644e326d45c14e39c3d42e9691643016ed2943f"
+    },
+    {
+      "motion": "walk",
+      "direction": "right",
+      "source": "image-undecided/180/anim-walk/right/manifest_v002.json",
+      "file": "image-confirmed/180/anim-walk/right/manifest_v002.json",
+      "sha256": "5c78ec26f4d37d1eadf7f9b8c34957b6861a2501980420dd50b00264a6279df6"
+    },
+    {
+      "motion": "walk",
+      "direction": "right",
+      "source": "image-undecided/180/anim-walk/right/preview_v002.gif",
+      "file": "image-confirmed/180/anim-walk/right/preview_v002.gif",
+      "sha256": "f15d04b16b51e9e44a5b07f44679c3ffc1a874354eb1d56a8dea5cc44a2640cc"
+    },
+    {
+      "motion": "walk",
+      "direction": "right",
+      "source": "image-undecided/180/anim-walk/right/sheet_v002.png",
+      "file": "image-confirmed/180/anim-walk/right/sheet_v002.png",
+      "sha256": "07d0439a1629d431e514291773ab47c49d5eed45b99d7ddeafa9e727eecd8259"
+    }
+  ],
+  "review_note": "제작 당시 manifest는 그대로 보존하며 현재 승인은 이 기록으로 판단합니다. 반복 재생 전체·루프 경계·방향 전환·엔진 검수는 미완료입니다.",
+  "resources_registered": false
+}

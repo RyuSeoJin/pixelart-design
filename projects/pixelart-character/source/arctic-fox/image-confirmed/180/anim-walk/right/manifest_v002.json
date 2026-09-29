@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "status": "미확정",
+  "direction": "right",
+  "canvas": [
+    180,
+    180
+  ],
+  "pivot": [
+    90,
+    171
+  ],
+  "loop": true,
+  "frames": [
+    {
+      "file": "frame-00_v002.png",
+      "duration_ms": 100,
+      "sha256": "d6eb441392f058ad5548983619043cfdf6397a6c48f36526ddad89f2b3e4e98a"
+    },
+    {
+      "file": "frame-01_v002.png",
+      "duration_ms": 100,
+      "sha256": "db5efa1a8af81dba2c22b449082a10b066281b59502240740d4ecc4da98fe52e"
+    },
+    {
+      "file": "frame-02_v002.png",
+      "duration_ms": 100,
+      "sha256": "e350ad1a7613d947f0c8db6a5c0eb9ec79fabf3e50ab8437eb2cc2bfba82d3fd"
+    },
+    {
+      "file": "frame-03_v002.png",
+      "duration_ms": 100,
+      "sha256": "acc30a24664601e805e09784a62e38778e40f07fa5e9ffdee630603ab42d32d2"
+    },
+    {
+      "file": "frame-04_v002.png",
+      "duration_ms": 100,
+      "sha256": "6c9eae3a0dd371d3c4e583f1adf4472912a8e8637531bc53f289d685d5321281"
+    },
+    {
+      "file": "frame-05_v002.png",
+      "duration_ms": 100,
+      "sha256": "c54df202f04b16b45fc7d0ed4adfb9eaa28af20114bf7de99f95170c16aaa06a"
+    },
+    {
+      "file": "frame-06_v002.png",
+      "duration_ms": 100,
+      "sha256": "7deed67bfae3c3f202c0f18e1faf234c2b9412243233490aaf15b01a009b6beb"
+    },
+    {
+      "file": "frame-07_v002.png",
+      "duration_ms": 100,
+      "sha256": "262fbff296a1165459abd7068644e326d45c14e39c3d42e9691643016ed2943f"
+    }
+  ]
+}

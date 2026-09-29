@@ -1,3 +1,4 @@
+<!-- CHANGELOG v1.1 · 2026-09-29 — (변경) 전체 동작 확정 의사 반영·우향 walk 보존 -->
 <!-- CHANGELOG v1.0 · 2026-09-29 — (추가) 현재 입력·출력과 검수 상태 분리 -->
 # 북극여우 제작 상태
 
@@ -18,7 +19,7 @@
 | 180 이동용 좌우 입력 | image-confirmed/180/view/side_left_v010.png·side_right_v010.png | image-confirmed/approval_v008.json: v010 좌우 및 포함 색상을 idle 입력으로 사용한 승인 범위. 우향 walk 입력 사용은 후속 사용자 제작 요청과 work/walk-right-review_v002.json 참조 |
 | idle 좌우 | image-confirmed/180/anim-idle/left·right의 v007 | image-confirmed/approval_v009.json 승인 완료 |
 | walk 좌향 | image-confirmed/180/anim-walk/left의 v007 | image-confirmed/approval_v009.json 승인 완료 |
-| walk 우향 | image-undecided/180/anim-walk/right의 v002 | 사용자 승인 대기 |
+| walk 우향 | image-confirmed/180/anim-walk/right의 v002 | image-confirmed/approval_v010.json으로 전체 동작 확정 의사 재확인·보존 |
 
 동작 폴더의 frame·sheet·preview·manifest는 같은 버전을 함께 사용합니다. 승인 폴더의 manifest에 남은 미확정 표기는 제작 당시 기록입니다. 이후 승인 여부는 approval_v009.json·approval_v010.json으로 판단하며 원본 기록은 덮어쓰지 않습니다.
 
