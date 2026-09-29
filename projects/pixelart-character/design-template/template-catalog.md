@@ -1,3 +1,4 @@
+<!-- CHANGELOG v1.15 · 2026-09-29 — (변경) 설정과 현재 상태를 분리한 서식 연결 -->
 <!-- CHANGELOG v1.14 · 2026-09-29 — (변경) 설정 템플릿 공통 애니메이션 검수 연결 -->
 <!-- CHANGELOG v1.13 · 2026-09-29 — (변경) 다리 연속성 기록을 포함한 템플릿 v1.13 연결 -->
 <!-- CHANGELOG v1.12 · 2026-09-29 — (변경) walk 기록을 포함한 설정 템플릿 v1.12 연결 -->
@@ -21,7 +22,7 @@
 | 번호 | 템플릿 | 입력 → 산출 | 버전 |
 |---|---|---|---|
 | 01 | `01-illustration-rules.html` | 확정 사양·관찰 기록 → 모든 캐릭터가 준수할 일러스트 제작 기준서 | v1.0 |
-| 02 | [캐릭터 설정 공통 템플릿](../spec/design/character-settings-template.md) | 캐릭터 고유 설정 → source/{캐릭터}/character.md, 공통 제작 규칙은 참조 | v1.14 |
+| 02 | [캐릭터 설정 공통 템플릿](../spec/design/character-settings-template.md) | 캐릭터 고유 설정 → character.md, 현재 입력·검수 → production-status.md, 공통 제작 규칙은 참조 | v1.15 |
 
 ## 섹션 구조와 사용법
 

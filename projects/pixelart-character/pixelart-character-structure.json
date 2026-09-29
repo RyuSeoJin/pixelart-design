@@ -65,6 +65,27 @@
       "depends_on": [
         "sprites"
       ]
+    },
+    {
+      "id": "arctic-fox-settings",
+      "label": "북극여우 고유 설정",
+      "path": "source/arctic-fox/character.md",
+      "role": "implementation",
+      "kind": "file"
+    },
+    {
+      "id": "arctic-fox-production-status",
+      "label": "북극여우 현재 입력·승인·검수 상태",
+      "path": "source/arctic-fox/production-status.md",
+      "role": "implementation",
+      "kind": "file"
+    },
+    {
+      "id": "arctic-fox-document-history",
+      "label": "문서 정리 전 설정·작업 기록",
+      "path": "source/arctic-fox/work/document-history_v001.md",
+      "role": "archive",
+      "kind": "file"
     }
   ]
 }

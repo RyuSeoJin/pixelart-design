@@ -1198,7 +1198,7 @@
       "engine_validation": "pending"
     }
   },
-  "_revision_note": "v1.38 · 2026-09-29 — 모든 애니메이션의 공통 제작·검수 기준",
+  "_revision_note": "v1.39 · 2026-09-29 — 공통 사양에서 캐릭터 전용 설계 참조 분리; 제작 수치 변경 없음",
   "animation_production": {
     "primary_tool": "sprite-gen",
     "idle_breathing": "내장 호흡 효과 우선",
@@ -1240,8 +1240,7 @@
       "disconnected_pixel_review_required": true,
       "intermediate_preview_requires_unfinished_label": true,
       "resampling_requires_cycle_and_pose_mapping": true,
-      "whole_body_cadence_review_required": true,
-      "sample_plan": "../../source/arctic-fox/work/walk-production-plan_v004.json"
+      "whole_body_cadence_review_required": true
     },
     "garment_boundary_review": {
       "required": true,
