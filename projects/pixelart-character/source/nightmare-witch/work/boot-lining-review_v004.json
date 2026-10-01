@@ -1,0 +1,19 @@
+{
+  "input": "image-confirmed/1024/view/front.png (v024)",
+  "selected_patch": "work/boot-lining-selected_v001.png",
+  "output": "image-undecided/1024/view/front_v028.png",
+  "sha256": "455935c8e001519c89a424fc0bff7f3e595fcaef71a559e3e9241970bc1c2e7b",
+  "changed_bounds": [
+    448,
+    822,
+    600,
+    860
+  ],
+  "outside_edit_unchanged": true,
+  "alpha_unchanged": true,
+  "visual": [
+    "사용자가 지정한 넓은 안감이 남아 있는 원본을 적용했습니다.",
+    "1024 전신을 확인했습니다."
+  ],
+  "status": "전신 이미지 승인 대기"
+}

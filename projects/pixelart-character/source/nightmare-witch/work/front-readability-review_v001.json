@@ -1,0 +1,36 @@
+{
+  "rules": "공통 규칙 v1.51 illustration-readability",
+  "settings": "character.md v1.11",
+  "input": "image-undecided/1024/view/front_v016.png",
+  "input_sha256": "4a6f5e2eccd9348eac5cc292d973745bd1e9aeb7bf80778dc87a634de5158453",
+  "style_reference": "사용자 첨부 codex-clipboard-72e95428-c850-47c4-8260-11b3e8bd71d2.png — 선명한 선과 큰 색면만 참조, 저장소에 복사하지 않음",
+  "prompt": "work/front-prompt_v018.txt",
+  "output": "image-undecided\\1024\\view\\front_v017.png",
+  "sha256": "f07813e4dfea17e5c466adca46cf12e104bdd3e7619c81d2f4b6d303d2bc1f23",
+  "technical": {
+    "size": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "low_alpha_count": 0
+  },
+  "visual": {
+    "white": "전신에서 얼굴·머리·소매·손·문양 경계가 구분됩니다.",
+    "dark": "모자·겉옷 윤곽과 머리·얼굴의 겹침이 읽힙니다.",
+    "hair": "가닥의 그림자와 외곽을 머리 확대본에서도 확인했습니다.",
+    "materials": "스타킹·가죽의 잔점 질감을 큰 색면으로 정리했습니다.",
+    "variation": "재작화로 주름·명암 면·소재색이 일부 달라졌으며 사용자 검토 대상입니다."
+  },
+  "evidence": [
+    "work/front-readability-white_v001.png",
+    "work/front-readability-dark_v001.png",
+    "work/hair-detail-front_v017.png"
+  ],
+  "pending": [
+    "사용자 이미지 승인",
+    "180 실제 제작·재현성 검수",
+    "정확한 등신 실측"
+  ],
+  "confirmed_sha256": "14941d213fe28bbb8e76ff5ea1c4f82cda8a0005c175e9d5767686eaea07546a"
+}

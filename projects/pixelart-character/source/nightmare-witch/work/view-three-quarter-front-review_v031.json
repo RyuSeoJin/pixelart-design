@@ -1,0 +1,17 @@
+{
+  "observations": [
+    "모자와 겉옷의 짙은 와인색 조정",
+    "두 배경에서 주름 명암과 외곽 확인"
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "prompt": "view-three-quarter-front-prompt_v031.txt",
+  "provider": "내장 imagegen",
+  "sha256": "108AC615E9CB0348E3DFA239DF686A8A2ED10D1289FCB623C3BA0B6C254304F1",
+  "status": "사용자 검토 대기",
+  "limitations": [
+    "생성 편집의 비수정부위 픽셀 동일성 보장 없음"
+  ]
+}

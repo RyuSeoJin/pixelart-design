@@ -1,0 +1,22 @@
+{
+  "provider": "내장 imagegen",
+  "sha256": "B689E224B3BA5B3E9E7AC8B5E595B7897F3BAA4417E5BBF4389618008BC07A14",
+  "prompts": [
+    "work/view-three-quarter-front-prompt_v016.txt",
+    "work/view-three-quarter-front-prompt_v017.txt"
+  ],
+  "status": "사용자 검토 대기",
+  "limitations": [
+    "생성 편집이며 비수정 부위의 픽셀 동일성은 보장하지 않음"
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "observations": [
+    "눈과 코를 잇던 갈고리 선 제거 확인",
+    "손의 흰색 띠 제거 확인",
+    "손가락 및 소매 경계 보완",
+    "머리 외곽 재정리, 두 배경 확대 검수"
+  ]
+}

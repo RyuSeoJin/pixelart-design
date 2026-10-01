@@ -1,0 +1,18 @@
+{
+  "provider": "내장 imagegen",
+  "limitations": [
+    "생성 편집으로 비수정부위 픽셀 동일성 보장 없음"
+  ],
+  "observations": [
+    "v026 잔여 홈 재교정",
+    "화면 왼쪽 내려온 손끝 단일 둥근 윤곽 확인",
+    "기존 굽힌 손 방향 유지"
+  ],
+  "status": "사용자 검토 대기",
+  "sha256": "5550892CC767C95532CEA780D90CD187FCA496D8846363548266BF3DEFE5C08B",
+  "size": [
+    1024,
+    1024
+  ],
+  "prompt": "view-three-quarter-front-prompt_v027.txt"
+}

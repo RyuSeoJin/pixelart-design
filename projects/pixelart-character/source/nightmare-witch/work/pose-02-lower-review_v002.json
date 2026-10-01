@@ -1,0 +1,14 @@
+{
+  "output": "image-undecided\\1024\\illustration\\pose-02_head_front_v002.png",
+  "sha256": "6839db90152972526c02aac4b0a8c000dc4704fce7993a3d02021c7ab8478c6b",
+  "size": [
+    1024,
+    1024
+  ],
+  "input": "C:/Users/meeho/AppData/Local/Temp/codex-clipboard-2a47581f-c577-4b64-8f32-89072e5a9a38.png",
+  "status": "사용자 검토 대기",
+  "review": "화면 왼쪽 부츠의 앞코·끈·뒤꿈치 방향을 재편집했습니다. 무릎에서 발목으로 내려오는 흐름과 허벅지·종아리 볼륨, 얼굴 정면과 실 정리 상체를 대조했습니다. 밝고 어두운 배경에서 외곽선을 확인했습니다.",
+  "comparison": "work/pose-02-lower-review_v002.png",
+  "limitations": "미세 주름·명암 차이는 존재하며 정확한 관절 회전각은 실측하지 않았습니다.",
+  "approval_unchanged": "approval_v014"
+}

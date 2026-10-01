@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "character_id": "nightmare-witch",
+  "status": "approved",
+  "at": "2026-10-01T03:05:18.751490+09:00",
+  "evidence": [
+    "네 확정해주세요"
+  ],
+  "scope": "일러스트용 머리 정면 전신 v001 추가 확정으로 외형 기준 8종 승인 완료",
+  "previous_approvals": [
+    "work/approval-history/approval_v001.json",
+    "work/approval-history/approval_v002.json",
+    "work/approval-history/approval_v003.json",
+    "work/approval-history/approval_v004.json",
+    "work/approval-history/approval_v005.json",
+    "work/approval-history/approval_v006.json",
+    "work/approval-history/approval_v007.json",
+    "work/approval-history/approval_v008.json",
+    "work/approval-history/approval_v009.json",
+    "work/approval-history/approval_v010.json",
+    "work/approval-history/approval_v011.json"
+  ],
+  "files": [
+    {
+      "source": "image-undecided/1024/view/front_v034.png",
+      "source_version": "v034",
+      "path": "image-confirmed/1024/view/front.png",
+      "source_sha256": "90d3744004b2dfba8ed0fce834289f2d33595f9d2c095a145134777966ffefad",
+      "sha256": "90d3744004b2dfba8ed0fce834289f2d33595f9d2c095a145134777966ffefad",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/side_left_v007.png",
+      "source_version": "v007",
+      "path": "image-confirmed/1024/view/side_left.png",
+      "source_sha256": "35b844a8075acc66e6967d8b8ca31268a4a02ea07b0b6b09fb78ea75ebb2afc7",
+      "sha256": "35b844a8075acc66e6967d8b8ca31268a4a02ea07b0b6b09fb78ea75ebb2afc7",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/side_right_v005.png",
+      "source_version": "v005",
+      "path": "image-confirmed/1024/view/side_right.png",
+      "source_sha256": "43d56a29f64a9b728415a52466631c38148fb4ce36525095f21ed7d536cdd46a",
+      "sha256": "43d56a29f64a9b728415a52466631c38148fb4ce36525095f21ed7d536cdd46a",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/behind_v006.png",
+      "source_version": "v006",
+      "path": "image-confirmed/1024/view/behind.png",
+      "source_sha256": "cd23f3eeb9d0a55b130a644f8dd03b36b32585846d417bb7c81d7d79de6231bf",
+      "sha256": "cd23f3eeb9d0a55b130a644f8dd03b36b32585846d417bb7c81d7d79de6231bf",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/three-quarter_left_v004.png",
+      "source_version": "v004",
+      "path": "image-confirmed/1024/view/three-quarter_left.png",
+      "source_sha256": "e9cb7aac553776ab2e739b931c898621b487377d1bdb6fd5f1987edf88b7aad9",
+      "sha256": "e9cb7aac553776ab2e739b931c898621b487377d1bdb6fd5f1987edf88b7aad9",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/three-quarter_right_v003.png",
+      "source_version": "v003",
+      "path": "image-confirmed/1024/view/three-quarter_right.png",
+      "source_sha256": "658d3332dbb5414179fcc610cbb560ce60ed89adbf4f9761db4dace9550ad0b9",
+      "sha256": "658d3332dbb5414179fcc610cbb560ce60ed89adbf4f9761db4dace9550ad0b9",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/view-three-quarter-front_v032.png",
+      "source_version": "v032",
+      "path": "image-confirmed/1024/view/view-three-quarter-front.png",
+      "source_sha256": "90aafb51a8fd68cb5e4c403523d5b98d33d1ae6d4ac759355951a25847923269",
+      "sha256": "90aafb51a8fd68cb5e4c403523d5b98d33d1ae6d4ac759355951a25847923269",
+      "current": true,
+      "approved_at": "2026-10-01T02:07:42.3034586+09:00",
+      "approval_evidence": "지금 시안으로 확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/view-three-quarter-head_front_v001.png",
+      "source_version": "v001",
+      "path": "image-confirmed/1024/view/view-three-quarter-head_front.png",
+      "source_sha256": "2157ab26592866e62e331b3107bbdbcdf1ca4df12f0a966f69ab9e9f5159a600",
+      "sha256": "2157ab26592866e62e331b3107bbdbcdf1ca4df12f0a966f69ab9e9f5159a600",
+      "current": true,
+      "approved_at": "2026-10-01T03:05:18.751490+09:00",
+      "approval_evidence": "네 확정해주세요"
+    }
+  ],
+  "pending": [
+    "8종 비율·색상·해짐 대응 묶음 검수",
+    "정확한 등신 실측",
+    "후속 포즈 4종 글 제안 및 사용자 선택",
+    "리소스 등록 별도"
+  ]
+}

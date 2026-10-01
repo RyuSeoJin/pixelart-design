@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "character_id": "nightmare-witch",
+  "status": "approved",
+  "at": "2026-10-01T12:00:26.651800+09:00",
+  "evidence": [
+    "네 확정짓겠습니다"
+  ],
+  "scope": "무릎·부츠 방향을 수정한 얼굴 정면 실 정리 v004 확정 및 표정 제작 기준 교체. 외형 8종 유지.",
+  "previous_approvals": [
+    "work/approval-history/approval_v001.json",
+    "work/approval-history/approval_v002.json",
+    "work/approval-history/approval_v003.json",
+    "work/approval-history/approval_v004.json",
+    "work/approval-history/approval_v005.json",
+    "work/approval-history/approval_v006.json",
+    "work/approval-history/approval_v007.json",
+    "work/approval-history/approval_v008.json",
+    "work/approval-history/approval_v009.json",
+    "work/approval-history/approval_v010.json",
+    "work/approval-history/approval_v011.json",
+    "work/approval-history/approval_v012.json",
+    "work/approval-history/approval_v013.json",
+    "work/approval-history/approval_v014.json"
+  ],
+  "files": [
+    {
+      "source": "image-undecided/1024/view/front_v034.png",
+      "source_version": "v034",
+      "path": "image-confirmed/1024/view/front.png",
+      "source_sha256": "90d3744004b2dfba8ed0fce834289f2d33595f9d2c095a145134777966ffefad",
+      "sha256": "90d3744004b2dfba8ed0fce834289f2d33595f9d2c095a145134777966ffefad",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/side_left_v007.png",
+      "source_version": "v007",
+      "path": "image-confirmed/1024/view/side_left.png",
+      "source_sha256": "35b844a8075acc66e6967d8b8ca31268a4a02ea07b0b6b09fb78ea75ebb2afc7",
+      "sha256": "35b844a8075acc66e6967d8b8ca31268a4a02ea07b0b6b09fb78ea75ebb2afc7",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/side_right_v005.png",
+      "source_version": "v005",
+      "path": "image-confirmed/1024/view/side_right.png",
+      "source_sha256": "43d56a29f64a9b728415a52466631c38148fb4ce36525095f21ed7d536cdd46a",
+      "sha256": "43d56a29f64a9b728415a52466631c38148fb4ce36525095f21ed7d536cdd46a",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/behind_v006.png",
+      "source_version": "v006",
+      "path": "image-confirmed/1024/view/behind.png",
+      "source_sha256": "cd23f3eeb9d0a55b130a644f8dd03b36b32585846d417bb7c81d7d79de6231bf",
+      "sha256": "cd23f3eeb9d0a55b130a644f8dd03b36b32585846d417bb7c81d7d79de6231bf",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/three-quarter_left_v004.png",
+      "source_version": "v004",
+      "path": "image-confirmed/1024/view/three-quarter_left.png",
+      "source_sha256": "e9cb7aac553776ab2e739b931c898621b487377d1bdb6fd5f1987edf88b7aad9",
+      "sha256": "e9cb7aac553776ab2e739b931c898621b487377d1bdb6fd5f1987edf88b7aad9",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/three-quarter_right_v003.png",
+      "source_version": "v003",
+      "path": "image-confirmed/1024/view/three-quarter_right.png",
+      "source_sha256": "658d3332dbb5414179fcc610cbb560ce60ed89adbf4f9761db4dace9550ad0b9",
+      "sha256": "658d3332dbb5414179fcc610cbb560ce60ed89adbf4f9761db4dace9550ad0b9",
+      "current": true,
+      "approved_at": "2026-10-01T02:50:39.508737+09:00",
+      "approval_evidence": "확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/view-three-quarter-front_v032.png",
+      "source_version": "v032",
+      "path": "image-confirmed/1024/view/view-three-quarter-front.png",
+      "source_sha256": "90aafb51a8fd68cb5e4c403523d5b98d33d1ae6d4ac759355951a25847923269",
+      "sha256": "90aafb51a8fd68cb5e4c403523d5b98d33d1ae6d4ac759355951a25847923269",
+      "current": true,
+      "approved_at": "2026-10-01T02:07:42.3034586+09:00",
+      "approval_evidence": "지금 시안으로 확정해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/view-three-quarter-head_front_v001.png",
+      "source_version": "v001",
+      "path": "image-confirmed/1024/view/view-three-quarter-head_front.png",
+      "source_sha256": "2157ab26592866e62e331b3107bbdbcdf1ca4df12f0a966f69ab9e9f5159a600",
+      "sha256": "2157ab26592866e62e331b3107bbdbcdf1ca4df12f0a966f69ab9e9f5159a600",
+      "current": true,
+      "approved_at": "2026-10-01T03:05:18.751490+09:00",
+      "approval_evidence": "네 확정해주세요"
+    },
+    {
+      "candidate_id": "pose-02_selected",
+      "pose_id": "pose-02",
+      "view_variant": "user-selected",
+      "source": "image-undecided/1024/illustration/pose-02_selected_v001.png",
+      "source_version": "v001",
+      "path": "image-confirmed/1024/illustration/pose-02_selected.png",
+      "confirmed_path": "image-confirmed/1024/illustration/pose-02_selected.png",
+      "sha256": "85420a1e610debb07ebdcaa7327f8b7e5f4518ea7d259288ea72d94a85445e95",
+      "source_sha256": "85420a1e610debb07ebdcaa7327f8b7e5f4518ea7d259288ea72d94a85445e95",
+      "current": false,
+      "approved_at": "2026-10-01T03:41:23.927608+09:00",
+      "approval_evidence": "실 정리하는 컨셉으로 확정합니다",
+      "approval_record": "work/approval-history/approval_v014.json",
+      "pose_proposal_path": "work/pose-proposals_v001.json",
+      "pose_proposal_version": "v001",
+      "pose_proposal_sha256": "066d8f6646f6ff9a5220a8c847e10fec0392fd9f0bc68c6484d91f6423e97b01",
+      "pose_approval_record": "work/approval-history/approval_v013.json",
+      "purpose": "확정 일러스트 및 후속 표정 제작 기준",
+      "selected_original": "image-confirmed/original/illustration/pose-02_selected.png",
+      "selected_original_sha256": "fd9da21856a2420010786e3ce447ca49d29d4320d0ce40c20710139507f6176e",
+      "normalization": "첨부 1254×1254 원본을 보존하고 비율 유지 1024×1024 규격본을 출력했습니다. 디자인·얼굴 방향은 변경하지 않았습니다.",
+      "approved_exception": "몸과 얼굴 방향이 다른 첨부 초기 시안을 사용자가 직접 선택했습니다. 기존 front/head_front 검토본으로 대체하지 않습니다.",
+      "superseded_by": "image-confirmed/1024/illustration/pose-02_head_front.png"
+    },
+    {
+      "pose_id": "pose-02",
+      "pose_proposal_path": "work/pose-proposals_v001.json",
+      "pose_proposal_version": "v001",
+      "pose_proposal_sha256": "066d8f6646f6ff9a5220a8c847e10fec0392fd9f0bc68c6484d91f6423e97b01",
+      "pose_approval_record": "work/approval-history/approval_v013.json",
+      "purpose": "확정 일러스트 및 후속 표정 제작 기준",
+      "candidate_id": "pose-02_head_front",
+      "view_variant": "head_front",
+      "source": "image-undecided/1024/illustration/pose-02_head_front_v004.png",
+      "source_version": "v004",
+      "path": "image-confirmed/1024/illustration/pose-02_head_front.png",
+      "confirmed_path": "image-confirmed/1024/illustration/pose-02_head_front.png",
+      "sha256": "32fb7548888c45d2be4cf8adc29f13ee8ba8904404a9ad88684f06d7bef77694",
+      "source_sha256": "32fb7548888c45d2be4cf8adc29f13ee8ba8904404a9ad88684f06d7bef77694",
+      "current": true,
+      "approved_at": "2026-10-01T12:00:26.651800+09:00",
+      "approval_evidence": "네 확정짓겠습니다",
+      "approval_record": "work/approval-history/approval_v015.json",
+      "review_record": "work/pose-02-lower-review_v004.json"
+    }
+  ],
+  "pending": [
+    "선택 일러스트 기반 표정 시안",
+    "정확한 등신 실측",
+    "180 도트 제작·검수",
+    "리소스 등록 별도"
+  ]
+}

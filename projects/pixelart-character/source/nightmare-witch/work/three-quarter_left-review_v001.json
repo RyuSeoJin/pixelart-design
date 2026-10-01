@@ -1,0 +1,40 @@
+{
+  "character_version": "v1.27",
+  "rule_version": "v1.52",
+  "approval_reference": "work/approval-history/approval_v007.json",
+  "inputs": [
+    "image-confirmed/1024/view/front.png",
+    "image-confirmed/1024/view/side_left.png"
+  ],
+  "output": "image-undecided/1024/view/three-quarter_left_v001.png",
+  "sha256": "dbd16f01a6365d5c93d3d579214b41b6d4b0d6f08a925c7eb7c8e40649d0bb80",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_bbox": [
+    363,
+    31,
+    762,
+    989
+  ],
+  "tool": "내장 imagegen·Aseprite 출력",
+  "prompts": [
+    "work/three-quarter_left-prompt_v001.txt",
+    "work/three-quarter_left-finish-prompt_v001.txt"
+  ],
+  "correction": "첫 생성의 뒤로 뻗은 모자 끝을 가까운 챙 앞의 매듭·끝 천으로 수정하고 외곽선을 보완했습니다.",
+  "visual": [
+    "얼굴·몸·발의 좌향 및 원근 겹침 확인",
+    "모자 매듭과 끝 천이 가까운 쪽에 보임",
+    "실감개는 오른쪽 허리의 먼쪽 앞틈에 보임",
+    "두 배경 전신·머리·손·옷자락·부츠 확대 확인"
+  ],
+  "limitations": [
+    "각도 65도는 제작 목표이며 3D 실측값이 아닙니다.",
+    "생성에 따른 색·주름·해짐의 미세한 차이가 있으며 8종 묶음 대조는 별도입니다."
+  ],
+  "status": "사용자 외형 승인 완료",
+  "approved_at": "2026-09-30T19:21:59.773784+09:00"
+}

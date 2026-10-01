@@ -1,0 +1,12 @@
+{
+  "output": "image-undecided\\1024\\illustration\\pose-02_head_front_v004.png",
+  "sha256": "32fb7548888c45d2be4cf8adc29f13ee8ba8904404a9ad88684f06d7bef77694",
+  "size": [
+    1024,
+    1024
+  ],
+  "status": "사용자 검토 대기",
+  "direction_reference": "C:/Users/meeho/AppData/Local/Temp/codex-clipboard-21d88d8a-8ea5-427e-a1a9-37f0b8cd8330.png",
+  "review": "표시한 화면 왼쪽 무릎·정강이·발등 방향을 연결하고 부츠 앞코가 화면 오른쪽 아래를 향하는 회전을 확인했습니다. 밝고 어두운 배경에서 전신 윤곽과 부츠·다리 연결을 확인했습니다. 미세 주름·얼굴·색 변화의 픽셀 단위 보존은 보장하지 않습니다.",
+  "comparison": "work/pose-02-lower-review_v004.png"
+}

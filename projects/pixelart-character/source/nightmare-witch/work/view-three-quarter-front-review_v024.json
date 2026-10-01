@@ -1,0 +1,22 @@
+{
+  "observations": [
+    "실 몸통 위아래 굵기 균일화",
+    "소맷단·옷자락 큰 결손 대조와 수정",
+    "실감개·해짐 경계 두 배경 확대 검수"
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "limitations": [
+    "자세별 가림 차이가 있으며 미세 결손까지 완전 동일성은 확인되지 않음"
+  ],
+  "references": [
+    "image-confirmed/1024/view/front.png",
+    "image-confirmed/1024/view/three-quarter_left.png"
+  ],
+  "sha256": "BAFFE15A7CD69C4BD7E5A5B9B66E51F98B8B0BF0FB02F5F43515FC2F0BC14DE9",
+  "status": "사용자 검토 대기",
+  "prompt": "work/view-three-quarter-front-prompt_v024.txt",
+  "provider": "내장 imagegen"
+}

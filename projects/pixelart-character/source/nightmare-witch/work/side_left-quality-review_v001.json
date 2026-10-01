@@ -1,0 +1,23 @@
+{
+  "input": "work/side_left-attempt_v001.png",
+  "selected_reference": "image-undecided/1024/view/side_left_v002.png",
+  "output": "image-undecided/1024/view/side_left_v003.png",
+  "sha256": "f14ead7146b2109d8570ad5f3af7c3501bf0351522eee583a29305d6d4cd62ee",
+  "prompt": "work/side_left-quality-prompt_v001.txt",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "visual": [
+    "전신 흰색·어두운 배경 및 전후 얼굴 확대 대조",
+    "선택된 체형·티셔츠 주름·부츠 형태를 기준으로 선화 정리",
+    "머리 가닥·눈매·손끝·부츠 끈 구분 보완"
+  ],
+  "limitations": [
+    "생성 편집으로 선과 명암의 미세한 변화가 있습니다.",
+    "최종 출력은 1024이며 확대본은 추가 해상도가 아닙니다.",
+    "8종 비율·색상 일치 및 해짐 대응 검수는 아직 미완료입니다."
+  ],
+  "status": "사용자 이미지 승인 대기"
+}

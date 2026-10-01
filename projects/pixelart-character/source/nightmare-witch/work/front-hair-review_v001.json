@@ -1,0 +1,34 @@
+{
+  "output": "image-undecided/1024/view/front_v016.png",
+  "sha256": "4a6f5e2eccd9348eac5cc292d973745bd1e9aeb7bf80778dc87a634de5158453",
+  "input": "image-undecided/1024/view/front_v015.png",
+  "input_sha256": "f4d311d67bcf68434276bc9add704d4da2f0e3a7821db2bce2e83bee12f47831",
+  "method": "내장 imagegen 편집과 Aseprite 출력",
+  "prompt": "work/front-prompt_v017.txt",
+  "settings": "character.md v1.10",
+  "rules": "공통 제작 규칙서 v1.50",
+  "technical": {
+    "size": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "low_alpha_pixels": 0
+  },
+  "visual": [
+    "전후 전신과 동일 영역 확대본을 직접 대조했습니다.",
+    "흰 조각처럼 끊기던 옆머리의 명암을 연속된 가닥으로 정리했습니다.",
+    "옆머리·뒷머리 경계와 머리끝 윤곽의 구분이 개선됐습니다.",
+    "원본과 픽셀 단위 동일성을 보장하는 편집은 아니며 전신 질감에 미세 차이가 있습니다."
+  ],
+  "comparison": [
+    "work/hair-detail-front_v015.png",
+    "work/hair-detail-front_v016.png"
+  ],
+  "status": "수정 시안·사용자 승인 대기",
+  "pending": [
+    "정확한 등신 실측",
+    "180 제작 및 재현성 검수"
+  ],
+  "confirmed_preserved_sha256": "14941d213fe28bbb8e76ff5ea1c4f82cda8a0005c175e9d5767686eaea07546a"
+}

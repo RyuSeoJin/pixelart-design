@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-10-01T02:59:07.608301+09:00",
+  "status": "사용자 검토 대기",
+  "basis": "image-confirmed/1024/view/view-three-quarter-front.png",
+  "face_reference": "image-confirmed/1024/view/front.png",
+  "approval": "image-confirmed/approval.json",
+  "output": "image-undecided/1024/view/view-three-quarter-head_front_v001.png",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "sha256": "2157ab26592866e62e331b3107bbdbcdf1ca4df12f0a966f69ab9e9f5159a600",
+  "tool": "내장 imagegen, Aseprite MCP 출력",
+  "prompt": "work/head-front-prompt_v001.txt",
+  "observations": [
+    "고개와 코·턱 중심선 및 시선이 관객 정면을 향합니다.",
+    "몸통 방향·교차한 다리·들린 뒤꿈치와 기존 전신 자세를 대조했습니다.",
+    "밝은 배경 전신 비교표와 어두운 배경 얼굴 확대표에서 눈·코·머리 경계, 목 연결과 모자 외곽을 확인했습니다."
+  ],
+  "limitations": [
+    "생성 편집으로 비수정부위의 미세한 선·주름 변화가 있으며 픽셀 동일성을 보장하지 않습니다.",
+    "사용자 승인 전이며 8종 확정 완료로 처리하지 않습니다."
+  ],
+  "comparison": [
+    "work/head-front-compare-white_v001.png",
+    "work/head-front-compare-dark_v001.png",
+    "work/head-front-face-white_v001.png",
+    "work/head-front-face-dark_v001.png"
+  ]
+}

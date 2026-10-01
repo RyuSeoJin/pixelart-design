@@ -1,0 +1,23 @@
+{
+  "sha256": "0F75F19ADBB345B629347AD96341A986327730725CE054689E83C699F204DD7D",
+  "status": "체형·외곽 검토용, 왼발 접지 미완료",
+  "prompt": "work/view-three-quarter-front-prompt_v010.txt",
+  "references": [
+    "image-confirmed/1024/view/front.png",
+    "image-confirmed/1024/view/three-quarter_left.png"
+  ],
+  "mode": "RGBA",
+  "size": [
+    1024,
+    1024
+  ],
+  "limitations": [
+    "왼쪽 앞코 최하단이 지지 부츠보다 높게 남아 접지 수정 미완료"
+  ],
+  "output": "image-undecided/1024/view/view-three-quarter-front_v010.png",
+  "observations": [
+    "허벅지와 무릎 연결 체적 보완",
+    "밝은 배경 전신과 손·옷자락 확대, 어두운 배경 머리·부츠 확대 확인"
+  ],
+  "provider": "내장 imagegen"
+}

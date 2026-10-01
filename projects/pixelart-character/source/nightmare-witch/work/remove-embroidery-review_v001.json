@@ -1,0 +1,14 @@
+{
+  "input": "image-undecided/1024/view/front_v028.png",
+  "output": "image-undecided/1024/view/front_v029.png",
+  "prompt": "work/front-prompt_v029.txt",
+  "sha256": "d59e3a8f0399fe2a06e5ace2978387d51dfe588c597671f3e5f8386e70dbc2ef",
+  "outside_edit_unchanged": true,
+  "alpha_unchanged": true,
+  "changed_pixels": 2917,
+  "visual": [
+    "소매와 앞자락의 파란 자수 두 곳 제거",
+    "주변 천 명암으로 채움"
+  ],
+  "status": "사용자 이미지 승인 대기"
+}

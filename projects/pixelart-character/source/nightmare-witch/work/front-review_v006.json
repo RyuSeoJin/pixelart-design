@@ -1,0 +1,16 @@
+{
+  "settings_version": "1.5",
+  "source": "work/front-generated_v007.png",
+  "prompt": "work/front-prompt_v007.txt",
+  "output": "image-undecided\\1024\\view\\front_v006.png",
+  "sha256": "957823fca91fab626335df01082c7725d3410215292f4f5d9c184eb00aa69699",
+  "technical": "1024 RGBA·투명 배경 확인",
+  "visual": "옆쪽 돌출 소폭 완화·가슴 하단에서 허리로 연결되는 천 주름 변경. 변화는 미세하며 중력 표현 충분성은 검토 대상.",
+  "pending": [
+    "가슴 형태·천 지지와 중력 표현 검토",
+    "정수리 가림에 따른 정확한 등신 실측",
+    "손·부츠 경계 색 잔여 및 모자 위 여백 마감",
+    "사용자 이미지 승인"
+  ],
+  "status": "미승인 시안"
+}

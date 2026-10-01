@@ -1,0 +1,20 @@
+{
+  "prompt": "view-three-quarter-front-prompt_v025.txt",
+  "sha256": "84E66405874A5CFB39C6C3EDA092BA3FC33506BE9833283B1A5FBA73020124C7",
+  "status": "사용자 검토 대기",
+  "provider": "내장 imagegen",
+  "observations": [
+    "뒤꿈치가 화면 왼쪽으로 더 향함",
+    "다리 연결 소폭 조정, 허벅지 위치 변화는 작음",
+    "와인색 겉옷",
+    "밝은 배경 부츠 확대와 어두운 배경 전신 외곽 확인"
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "limitations": [
+    "생성 편집의 비수정부위 픽셀 동일성 보장 없음",
+    "해짐의 미세 결손 완전 일치 판정 없음"
+  ]
+}

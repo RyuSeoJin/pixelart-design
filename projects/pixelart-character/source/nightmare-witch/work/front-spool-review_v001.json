@@ -1,0 +1,20 @@
+{
+  "rules": "v1.51",
+  "settings": "v1.13",
+  "input": "image-undecided/1024/view/front_v018.png",
+  "output": "image-undecided/1024/view/front_v019.png",
+  "sha256": "e7867eaad952be97f47724fa49030b01456867ff046227c72f001b9e6115378d",
+  "prompt": "work/front-prompt_v020.txt",
+  "technical": "1024 RGBA·Aseprite 저알파 마감 완료",
+  "visual": [
+    "아이보리빛 나무 양끝과 라벤더 실이 구분됩니다.",
+    "실 곡면에 옅은 라일락 밝은 면과 감긴 방향을 표현했습니다.",
+    "기존 부착 위치와 매달린 형태를 유지했습니다."
+  ],
+  "limitations": [
+    "AI 편집으로 다른 영역의 미세 명암도 변할 수 있습니다.",
+    "180 도트와 동작 검수는 별도입니다."
+  ],
+  "status": "색상 방향 승인·이미지 승인 대기",
+  "confirmed_unchanged": true
+}

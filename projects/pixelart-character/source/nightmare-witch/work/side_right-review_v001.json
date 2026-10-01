@@ -1,0 +1,32 @@
+{
+  "inputs": [
+    "image-undecided/1024/view/side_left_v003.png",
+    "image-confirmed/1024/view/front.png"
+  ],
+  "output": "image-undecided/1024/view/side_right_v001.png",
+  "sha256": "8aba40f3e5e7adb7444b176ad92d7226f57500fb4d5d81b90c1fac3c0686babd",
+  "prompt": "work/side_right-prompt_v001.txt",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_bbox": [
+    285,
+    5,
+    676,
+    1015
+  ],
+  "visual": [
+    "흰색·어두운 배경 전신 확인",
+    "화면 오른쪽을 보는 순측면",
+    "가까운 오른쪽 허리의 보라색 실감개 및 지지끈 확인",
+    "겉옷 자수 없음"
+  ],
+  "limitations": [
+    "8종 비율·색상·해짐 위치 대응 검수 미완료",
+    "모자에 가린 정수리 기준 등신 실측 미완료",
+    "최상단 모자 여백이 좁아 시점 묶음 정렬 때 조정 필요"
+  ],
+  "status": "우측면 검토본, 사용자 이미지 승인 대기"
+}

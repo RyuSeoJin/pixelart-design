@@ -1,0 +1,17 @@
+{
+  "input": "image-undecided/1024/view/front_v022.png",
+  "output": "image-undecided/1024/view/front_v023.png",
+  "settings": "v1.17",
+  "prompt": "work/front-prompt_v024.txt",
+  "sha256": "7833299d9edc774bd041408a2308d27b3d3f54a311eb672447db4ba2536b7063",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "visual": [
+    "회갈색에서 따뜻한 밤갈색으로 조정",
+    "초기 주황색보다 어두운 갈색과 짙은 밑창 확인"
+  ],
+  "status": "사용자 이미지 승인 대기"
+}

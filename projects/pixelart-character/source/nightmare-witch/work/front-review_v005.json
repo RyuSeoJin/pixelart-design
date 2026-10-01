@@ -1,0 +1,15 @@
+{
+  "settings_version": "1.4",
+  "source": "work/front-generated_v006.png",
+  "prompt": "work/front-prompt_v006.txt",
+  "output": "image-undecided\\1024\\view\\front_v005.png",
+  "sha256": "aff5ecfa69675dff9234649e5868c6279ee7a2d9def91ca249d3bf69f37db291",
+  "technical": "1024 RGBA·투명 배경 확인",
+  "visual": "v004 대비 허벅지 상부·중간 볼륨 증가, 기존 키 인상·천 명암·얼굴 유지",
+  "pending": [
+    "정수리 가림에 따른 정확한 등신 실측",
+    "손·부츠 경계 색 잔여 및 모자 위 여백 마감",
+    "사용자 이미지 승인"
+  ],
+  "status": "미승인 시안"
+}

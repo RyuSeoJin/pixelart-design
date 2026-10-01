@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "output": "image-undecided/1024/view/front_v001.png",
+  "source": "work/front-generated_v002.png",
+  "tool": "내장 imagegen 생성·편집, Aseprite 출력",
+  "size": [
+    1024,
+    1024
+  ],
+  "alpha_range": [
+    0,
+    254
+  ],
+  "sha256": "5dba0d612b0d3345c039852e8be64c6a77662b5f0191be6298642c033b5fcddd",
+  "visual_checked": [
+    "정면 전신과 모자·신발 잘림 없음",
+    "졸린 눈매·먹보라 복식·회보라 머리",
+    "오른쪽 허리 실패 1개와 수선 문양 2개"
+  ],
+  "pending": [
+    "모자에 가린 정수리 기준 정확한 6등신 실측",
+    "손 주변 투명 경계의 색 잔여 정리",
+    "카디건 끝이 제안한 허벅지 중간보다 긴 부분 조정",
+    "사용자 디자인 검토"
+  ],
+  "status": "초기 시안, 최종 검수 미통과·미승인"
+}

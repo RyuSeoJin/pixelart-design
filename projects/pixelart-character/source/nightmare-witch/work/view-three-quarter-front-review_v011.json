@@ -1,0 +1,20 @@
+{
+  "prompt": "work/view-three-quarter-front-prompt_v011.txt",
+  "status": "사용자 검토 대기",
+  "input": "work/view-three-quarter-front-generated_v010.png",
+  "size": [
+    1024,
+    1024
+  ],
+  "observations": [
+    "나른한 표정 유지, 눈·코 주변 정돈",
+    "실감개 원판과 몸통 보완, 확대 검수"
+  ],
+  "output": "image-undecided/1024/view/view-three-quarter-front_v011.png",
+  "sha256": "3FA7656FAA5A2CD974EF8D81B20375AE0837C967AB6FF7E9CE791F1369EE524A",
+  "provider": "내장 imagegen",
+  "limitations": [
+    "생성 편집으로 비수정 영역의 픽셀 동일성을 보장하지 않음",
+    "이번 요청 범위에 따라 기존 발 위치 유지"
+  ]
+}

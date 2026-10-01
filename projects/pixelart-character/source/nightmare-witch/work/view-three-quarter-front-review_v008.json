@@ -1,0 +1,40 @@
+{
+  "status": "사용자 검토 대기",
+  "provider": "내장 imagegen",
+  "character_version": "v1.28",
+  "rule_version": "v1.52",
+  "input": "work/view-three-quarter-front-generated_v007.png",
+  "design_references": [
+    "image-confirmed/1024/view/front.png",
+    "image-confirmed/1024/view/three-quarter_left.png"
+  ],
+  "pose_references": [
+    "사용자 제공 KakaoTalk_20260930_212920490_01.jpg",
+    "사용자 제공 KakaoTalk_20260930_212920490_02.jpg",
+    "사용자 제공 KakaoTalk_20260930_212920490.jpg"
+  ],
+  "reference_handling": "사진 세 장을 관찰했고 생성에는 첫 두 장을 사용했습니다. 사진은 저장소에 복사하지 않았습니다.",
+  "prompt": "work/view-three-quarter-front-prompt_v008.txt",
+  "output": "image-undecided/1024/view/view-three-quarter-front_v008.png",
+  "sha256": "82e66306b33464714dc4fbf3135c5f1c8ff5646f3ab61e6a27c88bb6da4e822a",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "corrections": [
+    "v007의 몸통 비틀림을 유지하고 교차한 다리의 발을 지지 발 바깥쪽으로 배치했습니다.",
+    "확정 정면·좌향3/4를 참조해 허벅지 볼륨을 보완했습니다.",
+    "모자·머리·손·소매·옷자락·부츠의 외곽 마무리를 포함했습니다."
+  ],
+  "observations": [
+    "밝은·어두운 배경 전신, 밝은 배경 부츠·손과 옷자락 확대, 어두운 배경 머리 확대를 확인했습니다.",
+    "앞 정강이가 화면 오른쪽 아래로 이어지고 부츠는 지지 부츠 바깥쪽으로 나옵니다. 두 부츠가 겹쳐 뭉치는 부분을 분리했습니다.",
+    "전체 보기에서 눈에 띄는 색테·고립 파편은 관찰되지 않았습니다. 해진 옷자락 형태는 유지했습니다."
+  ],
+  "limitations": [
+    "사진은 다른 카메라 시점의 맨발 자세입니다. 부츠의 단단한 밑창을 고려해 적용했으며 정확한 관절 복제나 생체역학 측정은 아닙니다.",
+    "체형 비교는 시각 대조이며 체적 수치 측정은 아닙니다.",
+    "생성 편집으로 타 부위 픽셀 동일성을 보장하지 않습니다. 사용자 승인과 8종 전체 대응 검수는 별도입니다."
+  ]
+}

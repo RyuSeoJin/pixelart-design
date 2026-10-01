@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "settings_version": "1.2",
+  "source": "work/front-generated_v004.png",
+  "prompt": "work/front-prompt_v004.txt",
+  "output": "image-undecided\\1024\\view\\front_v003.png",
+  "sha256": "1bc9a0df850e21899b7da5a5fd74c27ce23111acb7a11014a9e9841f77fca705",
+  "size": [
+    1024,
+    1024
+  ],
+  "visual_checked": [
+    "몸통·다리를 늘린 성인 비율",
+    "밝은 세로 광택 제거 및 저대비 천 명암",
+    "가슴·허벅지 볼륨과 얼굴·모자·실패 유지"
+  ],
+  "pending": [
+    "모자에 가린 정수리 기준 정확한 7등신 실측",
+    "손·부츠 사이 투명 경계 색 잔여 마감",
+    "카디건 하단 길이 검토",
+    "사용자 디자인 승인"
+  ],
+  "status": "미승인 디자인 검토본"
+}

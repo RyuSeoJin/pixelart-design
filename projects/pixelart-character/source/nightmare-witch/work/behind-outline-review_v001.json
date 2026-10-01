@@ -1,0 +1,36 @@
+{
+  "input": "image-undecided/1024/view/behind_v001.png",
+  "output": "image-undecided/1024/view/behind_v002.png",
+  "sha256": "a5017331a9186957851be8303bd3c95168073dc97acf59629755c9d810ab2ee3",
+  "rule": "spec/design/pixel-art-6head-illustration-guide.html v1.52#mandatory-outline-finish",
+  "prompt": "work/behind-outline-prompt_v001.txt",
+  "tool": "내장 imagegen 선 보완, Aseprite 출력·여백·검수 확대",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_bbox": [
+    295,
+    18,
+    741,
+    996
+  ],
+  "changes": [
+    "모자 챙·어깨 덮개·소매·밑단 겹침선 보완",
+    "다리·부츠 실루엣과 밑창 경계 선명도 보완",
+    "비율 유지 축소 후 중앙 배치로 위아래 여백 확보"
+  ],
+  "review": {
+    "full_white_dark": "확인",
+    "head_white_dark_2x": "확인",
+    "hands_hem_white_dark_2x": "확인",
+    "boots_white_dark_2x": "확인",
+    "observed_outline_defects": "검수한 전신·확대본에서 추가 보완할 끊김이나 이중 선을 발견하지 못했습니다."
+  },
+  "limitations": [
+    "생성 편집으로 내부 선과 명암의 미세 변화가 있으며 픽셀 동일 보존은 아닙니다.",
+    "시점 8종의 비율·색상·해짐 대응은 별도입니다."
+  ],
+  "approval": "사용자 이미지 승인 대기"
+}

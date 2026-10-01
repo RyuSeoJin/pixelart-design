@@ -1,0 +1,20 @@
+{
+  "source": "work/front-generated_v012.png",
+  "prompt": "work/front-prompt_v012.txt",
+  "output": "image-undecided/1024/view/front_v011.png",
+  "sha256": "25f9cb79b70dc31131b85244219747f014154c356e0275d0a2fc666fd1190741",
+  "settings_revision": "1.9",
+  "visual": [
+    "모자 챙의 한 곳 패임과 이어진 윤곽",
+    "소맷단 잔톱니 제거",
+    "앞자락 큰 결손과 연속된 천 끝",
+    "기존 저알파 색 잔여 제거"
+  ],
+  "technical": "1024 RGBA, 알파1~32 잔여 없음",
+  "status": "새 디자인 검토본·미승인",
+  "pending": [
+    "닳음 크기와 형태 사용자 승인",
+    "확정 후 각 방향에서 결손 위치 일치 검수",
+    "180 실제 재작화 시 가독성 검수"
+  ]
+}

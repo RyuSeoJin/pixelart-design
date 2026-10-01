@@ -1,0 +1,21 @@
+{
+  "sha256": "639934C03B84B85E0BA5734193CA1FB2D98A143696C2C7BA20B18A5DA878BB19",
+  "size": [
+    1024,
+    1024
+  ],
+  "prompts": [
+    "work/view-three-quarter-front-prompt_v013.txt",
+    "work/view-three-quarter-front-prompt_v014.txt"
+  ],
+  "limitations": [
+    "코·눈 주변 밝은 잔여가 있어 얼굴 완전 정리로 판정하지 않음"
+  ],
+  "observations": [
+    "허벅지의 밝은 면 복원",
+    "손 흰 얼룩 완화",
+    "두 배경 얼굴·하체 확대 검수"
+  ],
+  "status": "검토본, 얼굴 밝은 잔여 추가 보완 필요",
+  "provider": "내장 imagegen"
+}

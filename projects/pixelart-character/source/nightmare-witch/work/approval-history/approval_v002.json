@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "character_id": "nightmare-witch",
+  "status": "approved",
+  "at": "2026-09-30T02:14:20.582735+09:00",
+  "evidence": [
+    "디자인 확정합니다",
+    "뭐야 가장자리 마감도 같이 진행해주세요."
+  ],
+  "scope": "확정 v009 디자인 보존 및 명시 요청한 저알파 가장자리 정리 적용",
+  "previous_approvals": [
+    "work/approval-history/approval_v001.json"
+  ],
+  "files": [
+    {
+      "source": "image-undecided/1024/view/front_v010.png",
+      "source_version": "v010",
+      "path": "image-confirmed/1024/view/front.png",
+      "source_sha256": "14941d213fe28bbb8e76ff5ea1c4f82cda8a0005c175e9d5767686eaea07546a",
+      "sha256": "14941d213fe28bbb8e76ff5ea1c4f82cda8a0005c175e9d5767686eaea07546a",
+      "current": true
+    }
+  ],
+  "pending": [
+    "정확한 등신 실측",
+    "다른 시점 제작·검수",
+    "리소스 등록 별도"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "수정 이미지 승인 대기",
+  "provider": "내장 imagegen",
+  "edit_target": "work/three-quarter_left-generated_v001.png",
+  "color_reference": "work/three-quarter_right-generated_v001.png",
+  "prompt": "work/three-quarter_left-color-prompt_v002.txt",
+  "source": "work/three-quarter_left-generated_v002.png",
+  "output": "image-undecided/1024/view/three-quarter_left_v002.png",
+  "sha256": "330f638ca0d2381065ac787880546e99294bb345887f17c9425b44df9c83486c",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "observations": [
+    "사용자가 선호한 두 번째 우향 이미지의 밤갈색을 기준으로 좌향 신발의 주황빛과 밝기를 낮췄습니다.",
+    "최종 1024 출력의 밝은 배경·어두운 회색 배경 전신과 부츠 2배 확대에서 입구·끈·발등·밑창 외곽 및 내부 구분선을 확인했습니다.",
+    "좌향 모자 매듭과 실감개 위치 및 전체 자세가 유지됨을 시각적으로 확인했습니다."
+  ],
+  "limitations": [
+    "생성 편집이므로 신발 이외 영역의 바이트 동일성을 보장하지 않습니다.",
+    "양방향 조명과 주름 차이는 남으며 색상은 시각적으로 대조했습니다.",
+    "기존 확정본은 유지하며 새 수정본 승격은 사용자 승인 후 수행합니다."
+  ]
+}

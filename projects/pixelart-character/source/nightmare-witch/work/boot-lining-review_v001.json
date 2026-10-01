@@ -1,0 +1,22 @@
+{
+  "input": "image-confirmed/1024/view/front.png (v024)",
+  "output": "image-undecided/1024/view/front_v025.png",
+  "method": "부츠 잘라내기 → imagegen 편집 → Aseprite에서 입구 영역만 합성",
+  "prompt": "work/front-prompt_v026.txt",
+  "sha256": "808cba1f993fd15de9eaf1a4e85c53a4b256d2936d19be9bde3934cbf9b2a7a1",
+  "changed_pixels": 4208,
+  "changed_bounds": [
+    448,
+    826,
+    600,
+    860
+  ],
+  "outside_edit_unchanged": true,
+  "alpha_unchanged": true,
+  "visual": [
+    "안감이 부츠 안쪽 벽을 따라 이어지고 발목 양옆과 어두운 틈으로 구분됩니다.",
+    "동일 부츠 확대본으로 접합 경계를 확인했습니다."
+  ],
+  "status": "사용자 이미지 승인 대기",
+  "evidence": "work/boot-lining-detail_v001.png"
+}

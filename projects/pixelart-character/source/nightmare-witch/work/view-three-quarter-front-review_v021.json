@@ -1,0 +1,27 @@
+{
+  "prompts": [
+    "work/view-three-quarter-front-prompt_v020.txt",
+    "work/view-three-quarter-front-prompt_v021.txt"
+  ],
+  "provider": "내장 imagegen",
+  "sha256": "81041DABC22F51C3B1D6E7F220A74BE77A45403962AEB20C3E629E49A6EE5BC4",
+  "size": [
+    1024,
+    1024
+  ],
+  "limitations": [
+    "생성 편집으로 비수정 영역의 픽셀 동일성은 보장하지 않음"
+  ],
+  "references": [
+    "image-confirmed/1024/view/front.png",
+    "image-confirmed/1024/view/three-quarter_left.png",
+    "work/view-three-quarter-front-generated_v017.png"
+  ],
+  "observations": [
+    "굽힌 손 방향 복원 및 다섯 손가락 배열 보완",
+    "오른눈 크기·눈매 보완",
+    "실감개 원판 두께와 원통 곡면 명암 추가",
+    "각 수정 부위 확대 검수"
+  ],
+  "status": "사용자 검토 대기"
+}

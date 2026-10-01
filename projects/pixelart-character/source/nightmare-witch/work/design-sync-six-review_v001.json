@@ -1,0 +1,69 @@
+{
+  "status": "사용자 검토 대기",
+  "created_at": "2026-10-01 02:25",
+  "basis": "image-confirmed/1024/view/view-three-quarter-front.png",
+  "outputs": [
+    {
+      "path": "image-undecided/1024/view/front_v033.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "7f4b3df18e301a7d54ba4b63dd4d638388a0321db1dbe5806d9d431b2884dc19"
+    },
+    {
+      "path": "image-undecided/1024/view/side_left_v006.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "69e9e577194b21b8390f2203466e95e04344e06a2c2c3ec78080ee97c77da87c"
+    },
+    {
+      "path": "image-undecided/1024/view/side_right_v004.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "a19348786a336efedd558758244f5ae7dd28fe9cb8a7a083360c08912b012db6"
+    },
+    {
+      "path": "image-undecided/1024/view/behind_v005.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "298354828ef789700e0ca5659e7044cfd0c437143642726ab86bf899ad07a124"
+    },
+    {
+      "path": "image-undecided/1024/view/three-quarter_left_v003.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "f3664897174aa2d6c8d1cbecf1d6366b9cb3e1aea0afee275fb8f5779b71063f"
+    },
+    {
+      "path": "image-undecided/1024/view/three-quarter_right_v002.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "b7302146e97e246019757f07a872e21d38aad63fd8e2d3cbaf02bd510fed6ad5"
+    }
+  ],
+  "contact_sheets": [
+    "work/design-sync-six-white_v001.png",
+    "work/design-sync-six-dark_v001.png"
+  ],
+  "observations": [
+    "각 시점의 기존 방향과 기본 자세를 유지하도록 개별 편집했습니다.",
+    "짙은 와인색 모자·겉옷, 갈색 부츠와 피부·스타킹 명암을 최신 확정본에 맞춰 보완했습니다.",
+    "3/4 좌향에서 중복 생성된 모자 끝을 재편집해 한 벌로 수정했습니다.",
+    "밝고 어두운 배경 전체 비교표를 열어 실루엣과 방향별 가림을 확인했습니다."
+  ],
+  "limitations": [
+    "재생성 편집이므로 미세한 해짐 위치와 색상 수치의 완전 일치는 검증하지 않았습니다.",
+    "기존 확정 이미지와 승인 기록은 교체하지 않았습니다."
+  ]
+}

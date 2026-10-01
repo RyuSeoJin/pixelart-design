@@ -1,0 +1,116 @@
+[
+  {
+    "path": "image-undecided/1024/illustration/pose-02_front_v001.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "bbox": [
+      108,
+      32,
+      909,
+      979
+    ],
+    "sha256": "9b4ae9b04a5bb9d0f11f5d00142de4816507d81de2d2fce82372cedccf63032c"
+  },
+  {
+    "path": "image-undecided/1024/illustration/pose-02_head_front_v001.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "bbox": [
+      102,
+      32,
+      829,
+      979
+    ],
+    "sha256": "8f70dbb7fc124bc692a35ba0e40c70132d7725a91499741b8c9128c2a4762a29"
+  },
+  {
+    "path": "image-undecided/1024/illustration/pose-03_front_v001.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "bbox": [
+      32,
+      32,
+      927,
+      978
+    ],
+    "sha256": "04436226804970e9f7749aa6f1dc80cacd28b17bd14ec8e4356585ab1c13d854"
+  },
+  {
+    "path": "image-undecided/1024/illustration/pose-03_head_front_v001.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "bbox": [
+      102,
+      32,
+      903,
+      979
+    ],
+    "sha256": "5c6c3a9dac2c9ccd560f35d37f6d29f4cabe2a90e8100178fb28703a30ea6c37"
+  },
+  {
+    "path": "image-undecided/1024/illustration/pose-04_front_v001.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "bbox": [
+      334,
+      54,
+      901,
+      969
+    ],
+    "sha256": "a6585519d6b87b7f9fcafa7838430b246347f46d7a5a4015da3949ec8d6230a8"
+  },
+  {
+    "path": "image-undecided/1024/illustration/pose-04_head_front_v001.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "bbox": [
+      113,
+      52,
+      926,
+      969
+    ],
+    "sha256": "dbe8656908a1bda3556f31dcabe9d687fac4c4e168aee6da452c88e14c2fc193"
+  }
+]

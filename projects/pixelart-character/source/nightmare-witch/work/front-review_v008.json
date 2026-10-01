@@ -1,0 +1,20 @@
+{
+  "settings_version": "1.7",
+  "source": "work/front-generated_v009.png",
+  "prompt": "work/front-prompt_v009.txt",
+  "output": "image-undecided\\1024\\view\\front_v008.png",
+  "sha256": "853a561d49699c9d66ae50f6e116786dbd539ddc1ad3d294c9ad30717f6a12f3",
+  "technical": "1024 RGBA·투명 배경 확인",
+  "visual": [
+    "깊은 세로 주름 감소",
+    "배·밑단의 얕은 가로·사선 주름과 여유 있는 티셔츠",
+    "원래 의상·표정·소품 유지"
+  ],
+  "pending": [
+    "반복 생성에 따른 소재 질감·신발 명암 변화 대조",
+    "정확한 등신 실측",
+    "손·부츠 경계 색 잔여 및 모자 여백 마감",
+    "사용자 이미지 승인"
+  ],
+  "status": "미승인 디자인 시안"
+}

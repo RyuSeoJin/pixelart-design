@@ -1,0 +1,15 @@
+{
+  "settings_version": "1.3",
+  "source": "work/front-generated_v005.png",
+  "prompt": "work/front-prompt_v005.txt",
+  "output": "image-undecided\\1024\\view\\front_v004.png",
+  "sha256": "df66fcf3e04e2c2c7d0089e67c3f770dd67ce3fb331b37da626cc5d9f4231244",
+  "technical": "1024 RGBA·투명 배경 확인",
+  "visual": "기존보다 머리 대비 신체가 길어지고 스타킹의 낮은 대비 유지",
+  "pending": [
+    "정수리 가림으로 정확한 등신 실측 미완료",
+    "손·부츠 경계 색 잔여 및 모자 위 여백 마감",
+    "사용자 이미지 승인"
+  ],
+  "status": "미승인 시안"
+}

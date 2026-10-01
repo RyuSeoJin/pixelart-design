@@ -1,0 +1,214 @@
+{
+  "version": "v001",
+  "at": "2026-10-01T03:36:15.150284+09:00",
+  "character_id": "nightmare-witch",
+  "pose_approval": "work/approval-history/approval_v013.json",
+  "reference_images": [
+    {
+      "path": "image-confirmed/1024/view/front.png",
+      "version": "v034",
+      "sha256": "90d3744004b2dfba8ed0fce834289f2d33595f9d2c095a145134777966ffefad",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/side_left.png",
+      "version": "v007",
+      "sha256": "35b844a8075acc66e6967d8b8ca31268a4a02ea07b0b6b09fb78ea75ebb2afc7",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/side_right.png",
+      "version": "v005",
+      "sha256": "43d56a29f64a9b728415a52466631c38148fb4ce36525095f21ed7d536cdd46a",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/behind.png",
+      "version": "v006",
+      "sha256": "cd23f3eeb9d0a55b130a644f8dd03b36b32585846d417bb7c81d7d79de6231bf",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/three-quarter_left.png",
+      "version": "v004",
+      "sha256": "e9cb7aac553776ab2e739b931c898621b487377d1bdb6fd5f1987edf88b7aad9",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/three-quarter_right.png",
+      "version": "v003",
+      "sha256": "658d3332dbb5414179fcc610cbb560ce60ed89adbf4f9761db4dace9550ad0b9",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/view-three-quarter-front.png",
+      "version": "v032",
+      "sha256": "90aafb51a8fd68cb5e4c403523d5b98d33d1ae6d4ac759355951a25847923269",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/view-three-quarter-head_front.png",
+      "version": "v001",
+      "sha256": "2157ab26592866e62e331b3107bbdbcdf1ca4df12f0a966f69ab9e9f5159a600",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "image-undecided/1024/illustration/pose-02_front_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "bbox": [
+        108,
+        32,
+        909,
+        979
+      ],
+      "sha256": "9b4ae9b04a5bb9d0f11f5d00142de4816507d81de2d2fce82372cedccf63032c"
+    },
+    {
+      "path": "image-undecided/1024/illustration/pose-02_head_front_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "bbox": [
+        102,
+        32,
+        829,
+        979
+      ],
+      "sha256": "8f70dbb7fc124bc692a35ba0e40c70132d7725a91499741b8c9128c2a4762a29"
+    },
+    {
+      "path": "image-undecided/1024/illustration/pose-03_front_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "bbox": [
+        32,
+        32,
+        927,
+        978
+      ],
+      "sha256": "04436226804970e9f7749aa6f1dc80cacd28b17bd14ec8e4356585ab1c13d854"
+    },
+    {
+      "path": "image-undecided/1024/illustration/pose-03_head_front_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "bbox": [
+        102,
+        32,
+        903,
+        979
+      ],
+      "sha256": "5c6c3a9dac2c9ccd560f35d37f6d29f4cabe2a90e8100178fb28703a30ea6c37"
+    },
+    {
+      "path": "image-undecided/1024/illustration/pose-04_front_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "bbox": [
+        334,
+        54,
+        901,
+        969
+      ],
+      "sha256": "a6585519d6b87b7f9fcafa7838430b246347f46d7a5a4015da3949ec8d6230a8"
+    },
+    {
+      "path": "image-undecided/1024/illustration/pose-04_head_front_v001.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "bbox": [
+        113,
+        52,
+        926,
+        969
+      ],
+      "sha256": "dbe8656908a1bda3556f31dcabe9d687fac4c4e168aee6da452c88e14c2fc193"
+    }
+  ],
+  "status": "제작·검수 완료, 사용자 이미지 승인 대기",
+  "comparisons": [
+    "work/pose-234-white_v001.png",
+    "work/pose-234-dark_v001.png",
+    "work/pose-234-details_v001.png"
+  ],
+  "generation_record": "work/pose-234-generation_v001.json",
+  "technical_review": {
+    "result": "통과",
+    "evidence": "6종 모두 1024×1024 RGBA·투명 영역·캔버스 여백 확인, 승인 외형8종 해시 보존",
+    "alpha_note": "Aseprite 출력 알파 최댓값은 254입니다. 완전 불투명 255로 정규화하지 않았습니다."
+  },
+  "visual_review": {
+    "face": "몸 방향과 얼굴 정면의 차이를 확인했습니다. 졸린 반눈·다문 입, 코와 눈의 분리 및 목 연결을 대조했습니다.",
+    "hands": "실감개 받침·실끝 집기·앞자락 잡기·팔꿈치 받침을 확인했습니다. 보이는 손끝에 분기된 형태는 확인되지 않았습니다. 가려진 손가락 전체의 형태를 보장하지 않습니다.",
+    "hair_hat": "은백 단발과 화면 오른쪽 모자 끝을 대조했습니다. 3번 중간본의 모자 반전을 수정했습니다.",
+    "clothes_props": "와인색 겉옷·회백 티셔츠·갈색 부츠·보라색 원통 실감개와 원판 두께를 대조했습니다.",
+    "pose": "2번은 실을 다루는 높이가 다른 양손, 3번은 앞자락을 모은 자세와 비교차 다리, 4번은 팔을 올리고 두 발을 벌린 지지를 확인했습니다.",
+    "outline": "생성 편집의 외곽 보완 후 밝고 어두운 배경에서 머리·손·모자·겉옷·부츠 실루엣을 확인했습니다. 파생 두 장의 픽셀 단위 일치는 보장하지 않습니다."
+  },
+  "limitations": [
+    "포즈별 미세한 주름·해짐·하이라이트 차이가 있습니다.",
+    "3번 얼굴 정면 편집에서 어깨와 옷주름의 작은 변화가 있습니다.",
+    "정확한 등신 실측·180 도트·엔진 검수는 하지 않았습니다."
+  ],
+  "approved_images_modified": false
+}

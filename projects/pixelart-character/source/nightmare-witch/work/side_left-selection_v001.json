@@ -1,0 +1,8 @@
+{
+  "selection_evidence": "이 이미지가 좋은거같습니다",
+  "source": "work/side_left-attempt_v001.png",
+  "output": "image-undecided/1024/view/side_left_v002.png",
+  "sha256": "d8f3ce0703a5a948bbc7587815c34222c9439ab3e8c726bd0fb3eee8af258193",
+  "status": "사용자 선택, 확정 승격 전",
+  "note": "사용자가 첨부한 첫 생성안의 투명 원본을 사용했습니다. 후속 자동 수정안 v001을 대체하는 검토 기준입니다."
+}

@@ -1,0 +1,19 @@
+{
+  "size": [
+    1024,
+    1024
+  ],
+  "color_reference": "C:/Users/meeho/AppData/Local/Temp/codex-clipboard-23c5ec51-3c0b-471e-a944-b77b47354cfc.png",
+  "observations": [
+    "낮은 채도 와인색과 갈색 부츠로 변경",
+    "실감개 원판 옆면 및 곡면 명암 보완",
+    "밝은 배경 실감개 확대와 어두운 배경 전신 검수"
+  ],
+  "prompt": "work/view-three-quarter-front-prompt_v023.txt",
+  "status": "사용자 검토 대기",
+  "limitations": [
+    "생성 편집으로 비수정 영역 픽셀 동일성은 보장하지 않음"
+  ],
+  "sha256": "EBE4998CFD38DD6F4600C93374AF93505CED936145E9A28ED0823E8572537997",
+  "provider": "내장 imagegen"
+}

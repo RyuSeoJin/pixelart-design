@@ -1,0 +1,32 @@
+{
+  "status": "사용자 검토 대기",
+  "provider": "내장 imagegen",
+  "character_version": "v1.28",
+  "rule_version": "v1.52",
+  "input": "work/view-three-quarter-front-generated_v005.png",
+  "prompt": "work/view-three-quarter-front-prompt_v006.txt",
+  "output": "image-undecided/1024/view/view-three-quarter-front_v006.png",
+  "sha256": "53c506a5453d98d975d0861ccdeabb69c3b0823c0130a9f870b55ce999a14ba4",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "corrections": [
+    "다리 교차와 무릎의 과도한 내측 꺾임을 줄이고 지지 다리·쉬는 다리의 연결이 구분되도록 재작화했습니다.",
+    "양 부츠의 앞뒤 차이와 무릎에서 발목으로 이어지는 방향을 조정했습니다."
+  ],
+  "observations": [
+    "밝은·어두운 배경 전신과 밝은 배경 부츠 확대를 확인했습니다.",
+    "두 무릎 사이 간격이 생겼고 각 종아리가 같은 쪽 발목으로 이어집니다. 부츠 입구와 밑창에서 눈에 띄는 선 끊김은 관찰되지 않았습니다."
+  ],
+  "limitations": [
+    "시각적인 자세 검토이며 실제 무게중심 측정이나 생체역학 검증은 아닙니다.",
+    "생성 편집으로 다른 부위의 픽셀 동일성을 보장하지 않습니다.",
+    "사용자 승인과 8종 전체 대응 검수는 별도입니다."
+  ],
+  "generation_notes": [
+    "첫 결과는 다리 교차가 남아 미채택했습니다.",
+    "두 번째 시도는 출력 안전 필터에 차단되었으며 세 번째 자세·복식 중심 프롬프트의 결과를 채택했습니다."
+  ]
+}

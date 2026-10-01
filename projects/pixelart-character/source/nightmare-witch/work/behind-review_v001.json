@@ -1,0 +1,51 @@
+{
+  "inputs": [
+    {
+      "path": "image-confirmed/1024/view/front.png",
+      "sha256": "3da4ed6935c32b133f882c5e23d21c2fab7940278e66843aec9ccb0550f6bcf5"
+    },
+    {
+      "path": "image-undecided/1024/view/side_left_v003.png",
+      "sha256": "f14ead7146b2109d8570ad5f3af7c3501bf0351522eee583a29305d6d4cd62ee"
+    },
+    {
+      "path": "image-undecided/1024/view/side_right_v001.png",
+      "sha256": "8aba40f3e5e7adb7444b176ad92d7226f57500fb4d5d81b90c1fac3c0686babd"
+    }
+  ],
+  "output": "image-undecided\\1024\\view\\behind_v001.png",
+  "sha256": "dde7ff52a19364747e1c670d3cd4ff284c1dc4e6a62fa5d39e5b59a99ad48a59",
+  "prompt": "work/behind-prompt_v001.txt",
+  "tool": "내장 imagegen, Aseprite 출력",
+  "rules": [
+    "spec/design/pixel-art-6head-illustration-guide.html v1.51",
+    "character.md v1.26",
+    "core/modules/pixel-art/rules/pixel-style.md",
+    "core/modules/pixel-art/rules/pixel-pipeline.md"
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_bbox": [
+    287,
+    2,
+    748,
+    1013
+  ],
+  "visual": [
+    "흰색·어두운 배경에서 전신 윤곽과 겹침 확인",
+    "얼굴이 보이지 않는 후면·모자 끝 화면 왼쪽",
+    "뒷머리 가닥·등판과 소매 경계·손 연결 구분",
+    "실감개 및 허리끈은 등판에 가려짐",
+    "부츠 뒤 봉제선과 뒤꿈치 표현, 뒤쪽 끈 없음"
+  ],
+  "limitations": [
+    "후면 등판·밑단은 기존 시점에서 가려진 구조를 보완한 검토안",
+    "8종 전체의 해짐 위치·색상·비율 대조 미완료",
+    "모자 위 여백이 좁아 묶음 정렬 때 검토",
+    "모자에 가린 정수리 등신 실측 미완료"
+  ],
+  "status": "후면 이미지 승인 대기"
+}

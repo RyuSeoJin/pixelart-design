@@ -1,0 +1,21 @@
+{
+  "input": "image-undecided/1024/view/front_v025.png",
+  "output": "image-undecided/1024/view/front_v026.png",
+  "prompt": "work/front-prompt_v027.txt",
+  "sha256": "bb1421fabc8965615fe33f2d0877ef371f0b1232ac2f931b75dcf777bc14619b",
+  "changed_pixels": 4681,
+  "changed_bounds": [
+    448,
+    822,
+    599,
+    860
+  ],
+  "outside_edit_unchanged": true,
+  "alpha_unchanged": true,
+  "visual": [
+    "좁은 앞쪽 조각을 발목 정면을 덮는 넓은 곡면으로 수정했습니다.",
+    "입구 확대본에서 앞쪽 폭과 좌우 연결을 확인했습니다."
+  ],
+  "evidence": "work/boot-lining-detail_v002.png",
+  "status": "사용자 이미지 승인 대기"
+}

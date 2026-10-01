@@ -1,0 +1,20 @@
+{
+  "provider": "내장 imagegen",
+  "poseReference": "view-three-quarter-front-generated_v028.png",
+  "status": "사용자 검토 대기",
+  "limitations": [
+    "재작화로 미세 디자인과 해짐의 픽셀 동일성 보장 없음"
+  ],
+  "observations": [
+    "지정 디자인의 모자와 색감 참조",
+    "현재 상체 비틀기와 다리 교차 및 뒤꿈치 방향 적용",
+    "밝은 전신 및 어두운 손·옷자락 확대 확인"
+  ],
+  "designReference": "view-three-quarter-front-design-reference_v029.png",
+  "sha256": "9E4C44E2865949DD3BAD76AA157400E1E15D470C3EAE220BC71F2946D1368191",
+  "size": [
+    1024,
+    1024
+  ],
+  "prompt": "view-three-quarter-front-prompt_v029.txt"
+}

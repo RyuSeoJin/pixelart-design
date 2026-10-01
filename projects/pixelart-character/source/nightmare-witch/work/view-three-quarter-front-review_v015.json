@@ -1,0 +1,12 @@
+{
+  "prompt": "work/view-three-quarter-front-prompt_v015.txt",
+  "limitations": [
+    "반복 생성 편집으로 얼굴의 국소 밝은 조각을 충분히 제거하지 못함"
+  ],
+  "status": "얼굴 명암 추가 보완 미완료",
+  "sha256": "C750F05C33A9E93132BC0B8964F9D76BAA09EE7782A02FF832955D0E12D9B83E",
+  "observations": [
+    "허벅지 밝은 면과 손 명암은 유지",
+    "얼굴 확대 검수에서 코·눈 주변 잔여 확인"
+  ]
+}

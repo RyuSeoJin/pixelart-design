@@ -1,0 +1,89 @@
+{
+  "version": "v001",
+  "character_id": "nightmare-witch",
+  "at": "2026-10-01T03:17:15.628548+09:00",
+  "approval_path": "image-confirmed/approval.json",
+  "approval_sha256": "f0b0c32ba068b7013d9255867997ec15d20e743cddf82f5ddee6f7524e8867d6",
+  "references": [
+    {
+      "path": "image-confirmed/1024/view/front.png",
+      "version": "v034",
+      "sha256": "90d3744004b2dfba8ed0fce834289f2d33595f9d2c095a145134777966ffefad",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/side_left.png",
+      "version": "v007",
+      "sha256": "35b844a8075acc66e6967d8b8ca31268a4a02ea07b0b6b09fb78ea75ebb2afc7",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/side_right.png",
+      "version": "v005",
+      "sha256": "43d56a29f64a9b728415a52466631c38148fb4ce36525095f21ed7d536cdd46a",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/behind.png",
+      "version": "v006",
+      "sha256": "cd23f3eeb9d0a55b130a644f8dd03b36b32585846d417bb7c81d7d79de6231bf",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/three-quarter_left.png",
+      "version": "v004",
+      "sha256": "e9cb7aac553776ab2e739b931c898621b487377d1bdb6fd5f1987edf88b7aad9",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/three-quarter_right.png",
+      "version": "v003",
+      "sha256": "658d3332dbb5414179fcc610cbb560ce60ed89adbf4f9761db4dace9550ad0b9",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/view-three-quarter-front.png",
+      "version": "v032",
+      "sha256": "90aafb51a8fd68cb5e4c403523d5b98d33d1ae6d4ac759355951a25847923269",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    },
+    {
+      "path": "image-confirmed/1024/view/view-three-quarter-head_front.png",
+      "version": "v001",
+      "sha256": "2157ab26592866e62e331b3107bbdbcdf1ca4df12f0a966f69ab9e9f5159a600",
+      "width": 1024,
+      "height": 1024,
+      "format": "RGBA PNG"
+    }
+  ],
+  "status": "검수 기록 완료·미세 차이 존재",
+  "comparison_images": [
+    "work/approved-eight-white_v001.png",
+    "work/approved-eight-dark_v001.png"
+  ],
+  "technical_checks": "8종 승인 해시·1024×1024·RGBA 일치",
+  "visual_review": {
+    "observed": "밝은 배경과 어두운 배경 비교표에서 은백 단발·와인색 복식·모자 비대칭·실감개·전신과 머리 정면의 구분을 확인했습니다.",
+    "limitations": [
+      "미세 해짐과 주름의 일대일 일치는 보장하지 않습니다.",
+      "방향별 부츠 밝기와 스타킹 반사 강도에 차이가 있습니다.",
+      "정확한 등신 실측·180 도트·엔진 검수는 하지 않았습니다."
+    ],
+    "follow_up": "선택 포즈 제작 시 승인 원본과 모자·해짐·체형·색·손발·외곽선을 대조합니다."
+  },
+  "approved_images_modified": false
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "settings_version": "1.1",
+  "source": "work/front-generated_v003.png",
+  "prompt": "work/front-prompt_v003.txt",
+  "output": "image-undecided\\1024\\view\\front_v002.png",
+  "sha256": "5edd3978dd17901200a9662c01f5b2f5d2a4c47da98c9252c57cdaea06b8bbd2",
+  "size": [
+    1024,
+    1024
+  ],
+  "visual_checked": [
+    "가슴·허벅지 볼륨 증가",
+    "짧은 반바지·허벅지 스타킹과 곡면 광택",
+    "졸린 표정·모자·실패·문양 두 곳 유지"
+  ],
+  "pending": [
+    "정수리 가림에 따른 정확한 등신 실측",
+    "손·카디건 주변 투명 경계 색 잔여 마감",
+    "제안보다 긴 카디건 하단",
+    "사용자 디자인 검토"
+  ],
+  "status": "미승인 디자인 검토본, 최종 마감 미완료"
+}

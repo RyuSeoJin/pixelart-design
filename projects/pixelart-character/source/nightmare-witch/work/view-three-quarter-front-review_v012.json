@@ -1,0 +1,24 @@
+{
+  "status": "사용자 검토 대기",
+  "output": "image-undecided/1024/view/view-three-quarter-front_v012.png",
+  "input": "work/view-three-quarter-front-generated_v011.png",
+  "size": [
+    1024,
+    1024
+  ],
+  "sha256": "62D44E21E123E56D2894F50992BC3F73ED056421CACD4FE2B2123119D61A3059",
+  "provider": "내장 imagegen",
+  "prompts": [
+    "work/view-three-quarter-front-prompt_v012.txt",
+    "work/view-three-quarter-front-material-prompt_v012.txt"
+  ],
+  "observations": [
+    "노출 허벅지의 흰 수직 빛줄기 제거",
+    "얼굴 피부 명암 완화",
+    "스타킹 광택 별도 복원",
+    "얼굴 어두운 배경과 손·허벅지 밝은 배경 확대 검수"
+  ],
+  "limitations": [
+    "비수정 부위 픽셀 동일성 보장 없음"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "character_id": "nightmare-witch",
+  "status": "approved",
+  "at": "2026-10-01T02:07:42.3034586+09:00",
+  "evidence": [
+    "지금 시안으로 확정해주세요"
+  ],
+  "scope": "기존 여섯 시점과 손 곡선 보완 일러스트용 전신 v032 확정",
+  "previous_approvals": [
+    "work/approval-history/approval_v001.json",
+    "work/approval-history/approval_v002.json",
+    "work/approval-history/approval_v003.json",
+    "work/approval-history/approval_v004.json",
+    "work/approval-history/approval_v005.json",
+    "work/approval-history/approval_v006.json",
+    "work/approval-history/approval_v007.json",
+    "work/approval-history/approval_v008.json",
+    "work/approval-history/approval_v009.json"
+  ],
+  "files": [
+    {
+      "source": "image-undecided/1024/view/front_v031.png",
+      "source_version": "v031",
+      "path": "image-confirmed/1024/view/front.png",
+      "source_sha256": "9a52418a4435faf9a2dddfbf0d69849d82228d36971a4fae42022729ac2e3d94",
+      "sha256": "9a52418a4435faf9a2dddfbf0d69849d82228d36971a4fae42022729ac2e3d94",
+      "current": true,
+      "approved_at": "2026-09-30T20:04:04.196558+09:00",
+      "approval_evidence": "네 확정해주시고 다음 작업 진행해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/side_left_v005.png",
+      "source_version": "v005",
+      "path": "image-confirmed/1024/view/side_left.png",
+      "source_sha256": "ff65950e0c518e57a504487e70a757b2543cf7f3bee05155a30c8c52dccd32e3",
+      "sha256": "ff65950e0c518e57a504487e70a757b2543cf7f3bee05155a30c8c52dccd32e3",
+      "current": true,
+      "approved_at": "2026-09-30T20:04:04.196558+09:00",
+      "approval_evidence": "네 확정해주시고 다음 작업 진행해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/side_right_v003.png",
+      "source_version": "v003",
+      "path": "image-confirmed/1024/view/side_right.png",
+      "source_sha256": "d50ff2755bbcbdb5dba5883a0d08e5a81b9971029fab7f06d8883f318fceedad",
+      "sha256": "d50ff2755bbcbdb5dba5883a0d08e5a81b9971029fab7f06d8883f318fceedad",
+      "current": true,
+      "approved_at": "2026-09-30T20:04:04.196558+09:00",
+      "approval_evidence": "네 확정해주시고 다음 작업 진행해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/behind_v004.png",
+      "source_version": "v004",
+      "path": "image-confirmed/1024/view/behind.png",
+      "source_sha256": "28c55c5fb975c1133ad95749146cb4bc798b97c9eef2ca9bb07dcc21d9660b9e",
+      "sha256": "28c55c5fb975c1133ad95749146cb4bc798b97c9eef2ca9bb07dcc21d9660b9e",
+      "current": true,
+      "approved_at": "2026-09-30T20:04:04.196558+09:00",
+      "approval_evidence": "네 확정해주시고 다음 작업 진행해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/three-quarter_left_v002.png",
+      "source_version": "v002",
+      "path": "image-confirmed/1024/view/three-quarter_left.png",
+      "source_sha256": "330f638ca0d2381065ac787880546e99294bb345887f17c9425b44df9c83486c",
+      "sha256": "330f638ca0d2381065ac787880546e99294bb345887f17c9425b44df9c83486c",
+      "current": true,
+      "approved_at": "2026-09-30T20:04:04.196558+09:00",
+      "approval_evidence": "네 확정해주시고 다음 작업 진행해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/three-quarter_right_v001.png",
+      "source_version": "v001",
+      "path": "image-confirmed/1024/view/three-quarter_right.png",
+      "source_sha256": "4d458eee2b07f1b61fa0c01e0e1a02086d09785a34e4de6df446084ee89a1224",
+      "sha256": "4d458eee2b07f1b61fa0c01e0e1a02086d09785a34e4de6df446084ee89a1224",
+      "current": true,
+      "approved_at": "2026-09-30T20:04:04.196558+09:00",
+      "approval_evidence": "네 확정해주시고 다음 작업 진행해주세요"
+    },
+    {
+      "source": "image-undecided/1024/view/view-three-quarter-front_v032.png",
+      "source_version": "v032",
+      "path": "image-confirmed/1024/view/view-three-quarter-front.png",
+      "source_sha256": "90aafb51a8fd68cb5e4c403523d5b98d33d1ae6d4ac759355951a25847923269",
+      "sha256": "90aafb51a8fd68cb5e4c403523d5b98d33d1ae6d4ac759355951a25847923269",
+      "current": true,
+      "approved_at": "2026-10-01T02:07:42.3034586+09:00",
+      "approval_evidence": "지금 시안으로 확정해주세요"
+    }
+  ],
+  "pending": [
+    "남은 view-three-quarter-head_front 제작 및 8종 비율·색상·해짐 대응 검수",
+    "정확한 등신 실측",
+    "리소스 등록 별도"
+  ]
+}

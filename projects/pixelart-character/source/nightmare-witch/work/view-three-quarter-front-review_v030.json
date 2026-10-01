@@ -1,0 +1,18 @@
+{
+  "sha256": "3BC9410C9153C229A28EBEF9B16B4A5CF330F4EBBCFCFA69E7C565A917C39282",
+  "prompt": "view-three-quarter-front-prompt_v030.txt",
+  "size": [
+    1024,
+    1024
+  ],
+  "observations": [
+    "화면 오른쪽 지지 부츠 정면 회전",
+    "교차 다리 부츠 방향 보완",
+    "두 배경 확대 외곽 검수"
+  ],
+  "status": "사용자 검토 대기",
+  "provider": "내장 imagegen",
+  "limitations": [
+    "생성 편집의 비수정부위 픽셀 동일성 보장 없음"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "source": "work/front-generated_v013.png",
+  "prompt": "work/front-prompt_v013.txt",
+  "output": "image-undecided/1024/view/front_v012.png",
+  "sha256": "3680751dd3cb9c0c0c057b7cfa7f3f5d8d77efb3865434e9ff817970a53efc25",
+  "settings_revision": "1.10",
+  "visual": [
+    "위팔 자수를 조금 줄이고 넓은 소매 면으로 이동",
+    "자수 양끝·속눈썹과 경계 사이 천 여백 확인",
+    "밑단 자수 패널 안쪽 배치",
+    "저알파 가장자리 정리"
+  ],
+  "technical": "1024 RGBA·알파1~32 없음",
+  "status": "수정 디자인 미승인",
+  "pending": [
+    "사용자 승인",
+    "180 제작 시 자수·경계 사이 실제 도트 여백 검수"
+  ]
+}

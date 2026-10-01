@@ -1,0 +1,20 @@
+{
+  "source": "image-undecided/1024/view/front_v009.png",
+  "output": "image-undecided/1024/view/front_v010.png",
+  "method": "Aseprite Lua에서 알파 32 이하 픽셀의 RGBA를 0으로 정리",
+  "changed_pixels": 13977,
+  "checks": {
+    "size": [
+      1024,
+      1024
+    ],
+    "all_pixels_above_alpha_32_unchanged": true,
+    "visible_saturated_red_residue": 0,
+    "transparent_pixels_zero_rgb": true,
+    "confirmed_sha256_matches": true
+  },
+  "visual": "정면 전체에서 손 붉은 띠·부츠 사이 노란색·옷자락 색점 제거 확인",
+  "source_sha256": "7221252796ec6ec7f9453de5b353d0af099e58ad2b3f61052b9323bff09cc459",
+  "sha256": "14941d213fe28bbb8e76ff5ea1c4f82cda8a0005c175e9d5767686eaea07546a",
+  "generation_trial": "내장 imagegen 경계 편집에서도 색 잔여가 남아 채택하지 않았으며 확정 v009에서 직접 정리했습니다."
+}

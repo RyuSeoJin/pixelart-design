@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "character_id": "nightmare-witch",
+  "status": "approved",
+  "at": "2026-09-30T13:28:44.808548+09:00",
+  "evidence": [
+    "네 확정짓겠습니다."
+  ],
+  "scope": "밤갈색 부츠와 누적 수정 사항을 반영한 정면 front_v023 디자인 확정",
+  "previous_approvals": [
+    "work/approval-history/approval_v001.json",
+    "work/approval-history/approval_v002.json"
+  ],
+  "files": [
+    {
+      "source": "image-undecided/1024/view/front_v023.png",
+      "source_version": "v023",
+      "path": "image-confirmed/1024/view/front.png",
+      "source_sha256": "7833299d9edc774bd041408a2308d27b3d3f54a311eb672447db4ba2536b7063",
+      "sha256": "7833299d9edc774bd041408a2308d27b3d3f54a311eb672447db4ba2536b7063",
+      "current": true
+    }
+  ],
+  "pending": [
+    "정확한 등신 실측",
+    "닳음의 신체 기준 위치·개수 기록",
+    "다른 시점 제작·검수",
+    "리소스 등록 별도"
+  ]
+}

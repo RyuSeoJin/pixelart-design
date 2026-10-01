@@ -1,0 +1,35 @@
+{
+  "status": "사용자 수정본 승인 대기",
+  "provider": "내장 imagegen",
+  "character_version": "v1.28",
+  "rule_version": "v1.52",
+  "inputs": [
+    "work/view-three-quarter-front-generated_v001.png",
+    "image-confirmed/1024/view/front.png",
+    "image-confirmed/1024/view/side_left.png",
+    "image-confirmed/1024/view/three-quarter_left.png"
+  ],
+  "prompt": "work/view-three-quarter-front-prompt_v002.txt",
+  "output": "image-undecided/1024/view/view-three-quarter-front_v002.png",
+  "sha256": "61b1ee4390f9080d103181cd768a48c218f81bf7eee24bdfc7989ac1281f0d3d",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "corrections": [
+    "가까운 왼쪽 다리의 과한 무릎 전방 굽힘과 양발 앞뒤 차이를 줄여 골반 아래에 발을 배치했습니다.",
+    "정면처럼 옆으로 펼쳐졌던 모자 관을 원근에 맞게 짧게 보이도록 수정하고 매듭과 끝 천을 머리 가까이 배치했습니다.",
+    "모자·머리·손·옷자락·다리·부츠의 외곽선과 가림 경계를 마무리하도록 편집했습니다."
+  ],
+  "observations": [
+    "최종 1024 밝은 배경·어두운 배경 전신 및 머리·손·다리·부츠 2배 확대를 확인했습니다.",
+    "두 눈이 보이는 정면에 가까운 시점과 밤갈색 부츠가 유지됩니다.",
+    "눈에 띄는 선 끊김·흰테·고립 조각은 관찰되지 않았습니다."
+  ],
+  "limitations": [
+    "무릎 밝은 면은 남아 있으며 추가 소재 변경은 수행하지 않았습니다.",
+    "생성 편집이므로 수정 외 영역의 바이트 동일성은 보장하지 않습니다.",
+    "정확한 각도·등신 실측 및 8종 전체 대응 검수는 별도입니다."
+  ]
+}

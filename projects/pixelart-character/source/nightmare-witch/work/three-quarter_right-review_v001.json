@@ -1,0 +1,47 @@
+{
+  "character_version": "v1.27",
+  "rule_version": "v1.52",
+  "approval_reference": "image-confirmed/approval.json",
+  "inputs": [
+    "image-confirmed/1024/view/three-quarter_left.png",
+    "image-confirmed/1024/view/front.png",
+    "image-confirmed/1024/view/side_right.png"
+  ],
+  "output": "image-undecided/1024/view/three-quarter_right_v001.png",
+  "sha256": "4d458eee2b07f1b61fa0c01e0e1a02086d09785a34e4de6df446084ee89a1224",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_bbox": [
+    93,
+    23,
+    915,
+    993
+  ],
+  "provider": "내장 imagegen",
+  "source": "work/three-quarter_right-generated_v001.png",
+  "prompts": [
+    "work/three-quarter_right-prompt_v001.txt",
+    "work/three-quarter_right-finish-prompt_v001.txt",
+    "work/three-quarter_right-color-prompt_v001.txt"
+  ],
+  "corrections": [
+    "첫 생성에서 가까운 쪽에 나타난 모자 매듭·끝 천을 수정했습니다. 전 단계 원본은 attempt와 hat-fixed 파일에 보존했습니다.",
+    "부츠의 주황빛과 강한 밝은 면을 밤갈색·완만한 명암으로 보완했습니다.",
+    "모자·머리·손·옷자락·부츠의 외곽과 겹침 경계를 생성 수정에 포함하고 Aseprite 최종 출력 후 재확인했습니다."
+  ],
+  "visual_observations": [
+    "흰색 계열 #f5f5f5와 어두운 회색 #2d2d2d 배경 전신 100% 및 머리·손과 옷자락·부츠 2배 확대를 확인했습니다.",
+    "모자 긴 끝은 가려지고 챙 뒤 작은 끝만 보이며, 가까운 오른쪽 허리 실감개가 노출됩니다.",
+    "외곽선의 눈에 띄는 끊김·고립 조각·흰테는 관찰되지 않았습니다. 머리 가닥, 소매와 손, 밑창과 굽을 구분할 수 있습니다.",
+    "부츠 입구와 발목 사이 어두운 틈을 유지했고 최종 출력에서 전신 잘림이 없습니다."
+  ],
+  "limitations": [
+    "회전각과 정수리 기준 등신의 정확한 실측은 미완료입니다.",
+    "8종 사이 해짐 위치·부위별 색상·비율의 정밀 대응 검수는 별도입니다.",
+    "무릎의 작은 밝은 면은 남아 있으며 소재 표현은 사용자 검토 대상입니다."
+  ],
+  "status": "사용자 이미지 승인 대기"
+}

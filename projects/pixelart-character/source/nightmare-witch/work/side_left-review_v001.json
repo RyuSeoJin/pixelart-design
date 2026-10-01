@@ -1,0 +1,33 @@
+{
+  "input": "image-confirmed/1024/view/front.png",
+  "input_sha256": "3da4ed6935c32b133f882c5e23d21c2fab7940278e66843aec9ccb0550f6bcf5",
+  "output": "image-undecided/1024/view/side_left_v001.png",
+  "sha256": "43805f5836cf7e6c6c65118bbc6007027bd3c1d598e9981694867dc511d554c2",
+  "direction": "화면 왼쪽 순측면, 캐릭터 왼쪽 면",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "visual": [
+    "얼굴·몸·발의 좌향 일치",
+    "자수 없는 겉옷·굵은 하체 유지",
+    "초안의 접힌 부츠 커프 제거 및 티셔츠 여유 보완",
+    "흰색·어두운 회색 배경 전신 관찰"
+  ],
+  "occlusion": [
+    "오른쪽 허리 실감개는 먼쪽 몸통과 겉옷 뒤에 가림"
+  ],
+  "pending": [
+    "부츠 명암이 정면보다 어두워 보이는 정도와 방향별 색상 통일",
+    "숨은 정수리 기준 정확한 등신 실측",
+    "해짐 위치·개수의 전 시점 대응 명세",
+    "나머지 6개 시점 제작 및 8종 묶음 대조",
+    "사용자 시점 승인"
+  ],
+  "status": "첫 좌측면 검토 시안, 8종 검수 미완료",
+  "evidence": [
+    "work/side_left-white_v001.png",
+    "work/side_left-dark_v001.png"
+  ]
+}

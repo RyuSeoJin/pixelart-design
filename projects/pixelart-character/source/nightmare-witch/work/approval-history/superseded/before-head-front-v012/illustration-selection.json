@@ -1,0 +1,16 @@
+{
+  "character_id": "nightmare-witch",
+  "pose_selections": [
+    {
+      "pose": "view-three-quarter-front",
+      "path": "image-confirmed/1024/view/view-three-quarter-front.png",
+      "source": "image-undecided/1024/view/view-three-quarter-front_v032.png",
+      "source_version": "v032",
+      "status": "approved",
+      "approved_at": "2026-10-01T02:07:42.3034586+09:00",
+      "approval_evidence": "지금 시안으로 확정해주세요",
+      "sha256": "90aafb51a8fd68cb5e4c403523d5b98d33d1ae6d4ac759355951a25847923269"
+    }
+  ],
+  "selections": []
+}

@@ -1,0 +1,19 @@
+{
+  "input": "image-undecided/1024/view/front_v017.png",
+  "output": "image-undecided/1024/view/front_v018.png",
+  "sha256": "b67287c8c2d195a216b943c7a20ef20d75acddfc35d8213b037c61511cacc3c2",
+  "prompt": "work/front-prompt_v019.txt",
+  "rules": "v1.51",
+  "technical": "1024 RGBA, Aseprite 저알파 마감",
+  "visual": [
+    "발등의 불규칙한 패치 명암을 넓은 면으로 정리했습니다.",
+    "입구 양옆의 벌어진 조각을 정리하고 입구·혀·끈 패널·작은 매듭을 연결했습니다.",
+    "부츠 확대본에서 밑창과 발끝의 닫힌 윤곽을 확인했습니다."
+  ],
+  "evidence": "work/boots-detail_v001.png",
+  "status": "새 디자인 승인 대기",
+  "pending": [
+    "180에서 끈·매듭 단순화와 동작 중 명암 일관성 검수"
+  ],
+  "confirmed_unchanged": true
+}

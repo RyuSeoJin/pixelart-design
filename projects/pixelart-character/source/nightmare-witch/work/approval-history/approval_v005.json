@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "character_id": "nightmare-witch",
+  "status": "approved",
+  "at": "2026-09-30T15:25:50.378670+09:00",
+  "evidence": [
+    "확정 짓겠습니다."
+  ],
+  "scope": "허벅지 볼륨·무릎 명암·부츠 보완 및 자수 제거를 포함한 정면 front_v030 확정",
+  "previous_approvals": [
+    "work/approval-history/approval_v001.json",
+    "work/approval-history/approval_v002.json",
+    "work/approval-history/approval_v003.json",
+    "work/approval-history/approval_v004.json"
+  ],
+  "files": [
+    {
+      "source": "image-undecided/1024/view/front_v030.png",
+      "source_version": "v030",
+      "path": "image-confirmed/1024/view/front.png",
+      "source_sha256": "3da4ed6935c32b133f882c5e23d21c2fab7940278e66843aec9ccb0550f6bcf5",
+      "sha256": "3da4ed6935c32b133f882c5e23d21c2fab7940278e66843aec9ccb0550f6bcf5",
+      "current": true
+    }
+  ],
+  "pending": [
+    "정확한 등신 실측",
+    "닳음의 신체 기준 위치·개수 기록",
+    "다른 시점 제작·검수",
+    "리소스 등록 별도"
+  ]
+}

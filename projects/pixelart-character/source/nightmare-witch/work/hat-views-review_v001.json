@@ -1,0 +1,70 @@
+{
+  "character_version": "v1.27",
+  "rule_version": "v1.52",
+  "front_reference": "image-confirmed/1024/view/front.png",
+  "outputs": [
+    {
+      "view": "side_left",
+      "input": "image-undecided/1024/view/side_left_v003.png",
+      "output": "image-undecided\\1024\\view\\side_left_v004.png",
+      "sha256": "454fba5a13854ccd754b48335eaa8724fc36f8d57fa808b5b46b2dae7637a23c",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        356,
+        21,
+        721,
+        1001
+      ]
+    },
+    {
+      "view": "side_right",
+      "input": "image-undecided/1024/view/side_right_v001.png",
+      "output": "image-undecided\\1024\\view\\side_right_v002.png",
+      "sha256": "d76d9ca465f4f1fa3adf0cbd841b7a55dca745c2652590c20477b4e13ba84576",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        332,
+        22,
+        686,
+        999
+      ]
+    },
+    {
+      "view": "behind",
+      "input": "image-undecided/1024/view/behind_v002.png",
+      "output": "image-undecided\\1024\\view\\behind_v003.png",
+      "sha256": "e5576823dc184b395aa12a0050be15e4ee4b27c25641cce11d3f726dad179299",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        300,
+        30,
+        739,
+        981
+      ]
+    }
+  ],
+  "observations": [
+    "좌측면의 매듭·끝 천이 가까운 챙 위에 노출됩니다.",
+    "우측면의 긴 끝 천이 챙에 가려지며 접힘 일부만 남습니다.",
+    "후면은 신체 왼쪽인 화면 왼쪽으로 처집니다.",
+    "모든 시점의 두 배경 전신 및 모자 확대에서 외곽·가림 경계를 확인했습니다."
+  ],
+  "limitations": [
+    "정밀 3D 모델의 회전 검증은 아니며 시점별 형태를 그림으로 대조했습니다.",
+    "생성 편집으로 모자 외 부위의 명암·세부선도 달라졌습니다. 특히 후면 부츠가 기존보다 밝게 보이므로 8종 색상 대조에 포함합니다.",
+    "8종 전체 비율·해짐 대응 검수 미완료"
+  ],
+  "approval": "새 세 시점은 사용자 이미지 승인 대기"
+}

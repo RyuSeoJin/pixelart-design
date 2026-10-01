@@ -1,0 +1,12 @@
+{
+  "status": "사용자 검토 대기",
+  "source": "C:/Users/meeho/AppData/Local/Temp/codex-clipboard-2a47581f-c577-4b64-8f32-89072e5a9a38.png",
+  "output": "image-undecided\\1024\\illustration\\pose-02_head_front_v003.png",
+  "sha256": "a4a879edf2a3d332fd6c5bed43fc22c36f6aa8649aeaebad88e09674d96680b5",
+  "size": [
+    1024,
+    1024
+  ],
+  "review": "첨부 원본에서 다시 생성하여 좁은 발 간격과 짝다리, 얼굴 정면·실 정리 상체를 대조했습니다. v002의 과한 부츠 외회전을 줄였으며 밝고 어두운 배경에서 윤곽을 확인했습니다. 미세 주름·색·선은 원본과 완전히 동일하지 않습니다.",
+  "comparison": "work/pose-02-lower-review_v003.png"
+}

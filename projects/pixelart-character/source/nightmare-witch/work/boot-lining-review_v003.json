@@ -1,0 +1,20 @@
+{
+  "input": "image-undecided/1024/view/front_v026.png",
+  "output": "image-undecided/1024/view/front_v027.png",
+  "prompt": "work/boot-lining-refine-prompt_v003.txt",
+  "sha256": "1269392f8f0b40cca6aa137a3b6b4b66531a1eba7f93dc77e13cd373eb2b9b78",
+  "changed_bounds": [
+    448,
+    822,
+    600,
+    860
+  ],
+  "outside_edit_unchanged": true,
+  "alpha_unchanged": true,
+  "visual": [
+    "분리된 앞쪽 띠를 제거하고 부츠 벽의 안쪽 면으로 통합했습니다.",
+    "발목과 입구 사이의 어두운 공간을 확인했습니다."
+  ],
+  "evidence": "work/boot-lining-detail_v003.png",
+  "status": "사용자 이미지 승인 대기"
+}

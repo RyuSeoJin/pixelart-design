@@ -1,0 +1,22 @@
+{
+  "input": "image-undecided/1024/view/front_v029.png",
+  "output": "image-undecided/1024/view/front_v030.png",
+  "prompt": "work/front-prompt_v030.txt",
+  "sha256": "3da4ed6935c32b133f882c5e23d21c2fab7940278e66843aec9ccb0550f6bcf5",
+  "size": [
+    1024,
+    1024
+  ],
+  "upper_body_pixel_identical": true,
+  "visual": [
+    "허벅지 상부·중간 폭 증가",
+    "무릎의 날카로운 삼각 명암을 완만한 곡면으로 조정",
+    "종아리·발목과 부츠 입구 연결 및 끈·발등·밑창 구분 확인"
+  ],
+  "limitations": [
+    "하체 명암과 연결 부위의 형태가 재작화됐습니다.",
+    "폭 증가율은 생성 목표이며 실측 비율이 아닙니다."
+  ],
+  "evidence": "work/lower-body-detail_v001.png",
+  "status": "사용자 이미지 승인 대기"
+}

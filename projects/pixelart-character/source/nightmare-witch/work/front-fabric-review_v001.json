@@ -1,0 +1,36 @@
+{
+  "status": "사용자 승인 대기",
+  "output": "image-undecided\\1024\\view\\front_v015.png",
+  "sha256": "f4d311d67bcf68434276bc9add704d4da2f0e3a7821db2bce2e83bee12f47831",
+  "method": "내장 imagegen 편집, Aseprite 1024 출력·저알파 마감",
+  "inputs": [
+    "image-undecided/1024/view/front_v012.png",
+    "image-undecided/1024/view/front_v013.png",
+    "image-undecided/1024/view/front_v014.png"
+  ],
+  "confirmed_preserved_sha256": "14941d213fe28bbb8e76ff5ea1c4f82cda8a0005c175e9d5767686eaea07546a",
+  "visual_review": [
+    "v013: 해짐 복원·머리 재작화, 소매 접힘 수정 필요",
+    "v014: 소매의 떠 있는 삼각 접힘 제거, 연속된 소매 윤곽 확인",
+    "v015: 챙 해진 부분의 검은 홈·내부 테두리 정리 확인, 일부 패임 형태도 변경",
+    "자수 두 개의 천 내부 배치와 전신 구성을 확인"
+  ],
+  "technical": {
+    "size": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_1_to_32": 0
+  },
+  "pending": [
+    "새 디자인 사용자 승인",
+    "180 도트 재현성 실제 검수",
+    "등신 실측"
+  ],
+  "prompts": [
+    "work/front-prompt_v014.txt",
+    "work/front-prompt_v015.txt",
+    "work/front-prompt_v016.txt"
+  ]
+}

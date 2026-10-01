@@ -1,0 +1,73 @@
+{
+  "status": "사용자 검토 대기",
+  "created_at": "2026-10-01 02:44",
+  "basis": "image-confirmed/1024/view/view-three-quarter-front.png",
+  "approval": "image-confirmed/approval.json",
+  "approved_hashes_verified": true,
+  "outputs": [
+    {
+      "path": "image-undecided/1024/view/front_v034.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "90d3744004b2dfba8ed0fce834289f2d33595f9d2c095a145134777966ffefad"
+    },
+    {
+      "path": "image-undecided/1024/view/side_left_v007.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "35b844a8075acc66e6967d8b8ca31268a4a02ea07b0b6b09fb78ea75ebb2afc7"
+    },
+    {
+      "path": "image-undecided/1024/view/side_right_v005.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "43d56a29f64a9b728415a52466631c38148fb4ce36525095f21ed7d536cdd46a"
+    },
+    {
+      "path": "image-undecided/1024/view/behind_v006.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "cd23f3eeb9d0a55b130a644f8dd03b36b32585846d417bb7c81d7d79de6231bf"
+    },
+    {
+      "path": "image-undecided/1024/view/three-quarter_left_v004.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "e9cb7aac553776ab2e739b931c898621b487377d1bdb6fd5f1987edf88b7aad9"
+    },
+    {
+      "path": "image-undecided/1024/view/three-quarter_right_v003.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "658d3332dbb5414179fcc610cbb560ce60ed89adbf4f9761db4dace9550ad0b9"
+    }
+  ],
+  "tool": "내장 imagegen / Aseprite MCP",
+  "observations": [
+    "모자 챙의 큰 톱니와 깊은 패임을 완화했습니다. 우측면은 생성 중 과장된 패임이 생겨 다시 수정했습니다.",
+    "어깨 옷깃의 완만한 곡선, 손목 바깥쪽 소맷단의 결손, 긴 자락의 큰 V자 결손을 같은 신체 부위 기준으로 대응시켰습니다.",
+    "밝은 배경 전신 비교표와 어두운 배경 상체 비교표를 실제로 열어 챙·옷깃·소맷단 경계와 방향별 가림을 확인했습니다."
+  ],
+  "limits": [
+    "생성 편집에 의한 작은 선·주름 차이가 남아 있으며 모든 미세 실밥의 일대일 동일성은 보장하지 않습니다.",
+    "기존 확정본은 교체하지 않았습니다."
+  ],
+  "sheets": [
+    "work/tear-sync-six-white_v001.png",
+    "work/tear-sync-six-dark_v001.png",
+    "work/tear-sync-detail-white_v001.png",
+    "work/tear-sync-detail-dark_v001.png"
+  ]
+}

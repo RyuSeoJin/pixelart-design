@@ -1,0 +1,18 @@
+{
+  "size": [
+    1024,
+    1024
+  ],
+  "limitations": [
+    "기존 확정 v031 보존",
+    "생성 편집의 비수정부위 픽셀 동일성 보장 없음"
+  ],
+  "provider": "내장 imagegen",
+  "sha256": "90AAFB51A8FD68CB5E4C403523D5B98D33D1AE6D4AC759355951A25847923269",
+  "status": "사용자 검토 대기",
+  "prompt": "view-three-quarter-front-prompt_v032.txt",
+  "observations": [
+    "손 마디와 끝의 각진 윤곽 완화",
+    "양손 확대 확인"
+  ]
+}

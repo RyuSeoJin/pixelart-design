@@ -1,0 +1,27 @@
+{
+  "input": "image-confirmed/1024/view/front.png (v023)",
+  "quality_reference": "image-undecided/1024/view/front_v017.png (얼굴·머리 선명도만)",
+  "output": "image-undecided/1024/view/front_v024.png",
+  "prompt": "work/front-prompt_v025.txt",
+  "sha256": "139e5016e8b9ed80dc268040be38fcd1428797f4deb9385311972d829181d718",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "visual": [
+    "v023에서 눈매·얼굴 명암 및 머리 가닥 경계의 거칠어짐 확인",
+    "v024에서 연속된 머리 가닥과 눈·턱·얼굴의 깨끗한 경계 확인",
+    "밤갈색 부츠·보라 실감개 유지 확인"
+  ],
+  "comparison": [
+    "work/head-detail_v023.png",
+    "work/head-detail_v024.png"
+  ],
+  "limitations": [
+    "생성 편집으로 요청 부위 이외의 선과 명암에도 미세 차이가 있습니다.",
+    "1024 전신 속 얼굴은 작은 영역이므로 확대본은 추가 해상도를 뜻하지 않습니다."
+  ],
+  "status": "사용자 이미지 승인 대기",
+  "confirmed_unchanged": true
+}

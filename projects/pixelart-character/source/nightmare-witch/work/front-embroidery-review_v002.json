@@ -1,0 +1,27 @@
+{
+  "rules": "v1.51",
+  "settings": "v1.15",
+  "input": "image-undecided/1024/view/front_v020.png",
+  "output": "image-undecided/1024/view/front_v021.png",
+  "sha256": "f6f200e7d1f0e5f2043869361c6530c707608c918c91ebe6d0ffbe3783a0ec1c",
+  "prompt": "work/front-prompt_v022.txt",
+  "technical": {
+    "size": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA"
+  },
+  "visual": [
+    "실은 연보라와 진보라 사이 시각적 중간 밝기로 조정했습니다. 수치 평균색을 강제하지 않았습니다.",
+    "두 자수의 채도와 밝기를 낮추고 패널 안쪽에 여백을 확보했습니다.",
+    "전신에서 자수가 옷 외곽선을 넘어가지 않는 배치를 확인했습니다."
+  ],
+  "status": "사용자 이미지 승인 대기",
+  "pending": [
+    "자수의 천 밀착감에 대한 사용자 검토",
+    "정수리 기준 등신 실측",
+    "다른 시점 및 180 제작"
+  ],
+  "confirmed_unchanged": true
+}

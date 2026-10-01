@@ -1,0 +1,21 @@
+{
+  "provider": "내장 imagegen",
+  "sha256": "2DDB90158744A4971D7221A209CB329B9A20F13AAE6B2747E2019A1DFCFD3224",
+  "limitations": [
+    "교정을 위해 문제 손의 제스처를 단순화함",
+    "생성 편집으로 비수정 영역의 픽셀 동일성은 보장하지 않음"
+  ],
+  "status": "사용자 검토 대기",
+  "prompts": [
+    "work/view-three-quarter-front-prompt_v018.txt",
+    "work/view-three-quarter-front-prompt_v019.txt"
+  ],
+  "observations": [
+    "화면 왼쪽 손은 엄지 하나와 아래로 향하는 네 손가락으로 교정",
+    "손·옷 경계와 양손 확대 검수"
+  ],
+  "size": [
+    1024,
+    1024
+  ]
+}

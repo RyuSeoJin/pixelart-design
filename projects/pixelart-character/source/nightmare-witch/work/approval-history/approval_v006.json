@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "character_id": "nightmare-witch",
+  "status": "approved",
+  "at": "2026-09-30T19:01:22.786583+09:00",
+  "evidence": [
+    "좋습니다. 확정짓겠습니다."
+  ],
+  "scope": "모자 방향 수정 좌측면 v004·우측면 v002·후면 v003 확정; 기존 정면 v030 승인 유지",
+  "previous_approvals": [
+    "work/approval-history/approval_v001.json",
+    "work/approval-history/approval_v002.json",
+    "work/approval-history/approval_v003.json",
+    "work/approval-history/approval_v004.json",
+    "work/approval-history/approval_v005.json"
+  ],
+  "files": [
+    {
+      "source": "image-undecided/1024/view/front_v030.png",
+      "source_version": "v030",
+      "path": "image-confirmed/1024/view/front.png",
+      "source_sha256": "3da4ed6935c32b133f882c5e23d21c2fab7940278e66843aec9ccb0550f6bcf5",
+      "sha256": "3da4ed6935c32b133f882c5e23d21c2fab7940278e66843aec9ccb0550f6bcf5",
+      "current": true
+    },
+    {
+      "source": "image-undecided/1024/view/side_left_v004.png",
+      "source_version": "v004",
+      "path": "image-confirmed/1024/view/side_left.png",
+      "source_sha256": "454fba5a13854ccd754b48335eaa8724fc36f8d57fa808b5b46b2dae7637a23c",
+      "sha256": "454fba5a13854ccd754b48335eaa8724fc36f8d57fa808b5b46b2dae7637a23c",
+      "current": true,
+      "approved_at": "2026-09-30T19:01:22.786583+09:00",
+      "approval_evidence": "좋습니다. 확정짓겠습니다."
+    },
+    {
+      "source": "image-undecided/1024/view/side_right_v002.png",
+      "source_version": "v002",
+      "path": "image-confirmed/1024/view/side_right.png",
+      "source_sha256": "d76d9ca465f4f1fa3adf0cbd841b7a55dca745c2652590c20477b4e13ba84576",
+      "sha256": "d76d9ca465f4f1fa3adf0cbd841b7a55dca745c2652590c20477b4e13ba84576",
+      "current": true,
+      "approved_at": "2026-09-30T19:01:22.786583+09:00",
+      "approval_evidence": "좋습니다. 확정짓겠습니다."
+    },
+    {
+      "source": "image-undecided/1024/view/behind_v003.png",
+      "source_version": "v003",
+      "path": "image-confirmed/1024/view/behind.png",
+      "source_sha256": "e5576823dc184b395aa12a0050be15e4ee4b27c25641cce11d3f726dad179299",
+      "sha256": "e5576823dc184b395aa12a0050be15e4ee4b27c25641cce11d3f726dad179299",
+      "current": true,
+      "approved_at": "2026-09-30T19:01:22.786583+09:00",
+      "approval_evidence": "좋습니다. 확정짓겠습니다."
+    }
+  ],
+  "pending": [
+    "남은 4개 시점 제작 및 8종 비율·색상·해짐 대응 검수",
+    "정확한 등신 실측",
+    "리소스 등록 별도"
+  ]
+}

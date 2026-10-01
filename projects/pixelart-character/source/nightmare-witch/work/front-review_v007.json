@@ -1,0 +1,19 @@
+{
+  "settings_version": "1.6",
+  "source": "work/front-generated_v008.png",
+  "prompt": "work/front-prompt_v008.txt",
+  "output": "image-undecided\\1024\\view\\front_v007.png",
+  "sha256": "afdcd881766cf516835581ba0ac1c7b4195821b5907a94002f498d205d3159e8",
+  "technical": "1024 RGBA·투명 배경 확인",
+  "visual": [
+    "가슴 하단의 밀착 사선 주름 감소",
+    "복부 앞의 여유 있는 천 실루엣과 세로 낙하 주름 확인",
+    "기존 얼굴·키 인상·허벅지·스타킹 및 소품 유지"
+  ],
+  "pending": [
+    "가슴 중력 표현과 의복 실루엣 사용자 검토",
+    "정수리 가림에 따른 정확한 등신 실측",
+    "손·부츠 경계 색 잔여와 모자 여백 마감"
+  ],
+  "status": "미승인 디자인 검토본"
+}

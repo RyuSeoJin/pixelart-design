@@ -1,0 +1,30 @@
+{
+  "status": "사용자 검토 대기",
+  "provider": "내장 imagegen",
+  "character_version": "v1.28",
+  "rule_version": "v1.52",
+  "reference": "사용자 첨부 codex-clipboard-4668b138-1374-44dd-ae11-58f45603ad94.png",
+  "hat_reference": "work/view-three-quarter-front-generated_v002.png",
+  "prompt": "work/view-three-quarter-front-prompt_v004.txt",
+  "output": "image-undecided/1024/view/view-three-quarter-front_v004.png",
+  "sha256": "061bc776fb2feb0150a49d8e25cd0d4d8223ec8d621ef9dea4a5d52fab789ac0",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "corrections": [
+    "첨부의 앞뒤 발 배치와 겹침을 복원했습니다.",
+    "앞쪽 무릎 굽힘을 완화하도록 재편집하고 부츠 앞코와 발등을 좌향에 맞췄습니다.",
+    "v002 모자 위치를 참조했습니다."
+  ],
+  "observations": [
+    "밝은·어두운 배경 전신과 밝은 배경 부츠 확대를 확인했습니다.",
+    "앞뒤 부츠가 같은 좌향을 향하며 앞 부츠가 뒤 부츠를 일부 가립니다. 밑창 경계가 연결되어 보입니다."
+  ],
+  "limitations": [
+    "짝다리 곡선은 남아 있으며 자연스러움에 대한 사용자 검토가 필요합니다.",
+    "생성 편집으로 타 부위 바이트 동일성을 보장하지 않습니다.",
+    "등신·각도 실측 및 8종 전체 검수는 별도입니다."
+  ]
+}

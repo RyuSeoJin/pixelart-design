@@ -1,0 +1,18 @@
+{
+  "provider": "내장 imagegen",
+  "size": [
+    1024,
+    1024
+  ],
+  "sha256": "081BA3738FE7A0DA69A02EDF90FD2B30F7A637747CF5971C49D4220E1DB40993",
+  "prompt": "work/view-three-quarter-front-prompt_v022.txt",
+  "observations": [
+    "잔가닥 축소와 큰 머리 묶음 정돈",
+    "오른눈 경사 완화",
+    "밝고 어두운 배경 머리 확대에서 외곽 검수"
+  ],
+  "limitations": [
+    "생성 편집으로 비수정 영역 픽셀 동일성은 보장하지 않음"
+  ],
+  "status": "사용자 검토 대기"
+}

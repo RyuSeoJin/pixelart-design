@@ -1,0 +1,22 @@
+{
+  "rules": "v1.51",
+  "settings": "v1.14",
+  "input": "image-undecided/1024/view/front_v019.png",
+  "output": "image-undecided/1024/view/front_v020.png",
+  "sha256": "1a80e2d9160d5ad612bfbac6cc99b00e4ccb0b3905e584da8dcf02f6dbb4618b",
+  "prompt": "work/front-prompt_v021.txt",
+  "technical": "1024 RGBA 및 저알파 경계 마감",
+  "visual": [
+    "이전보다 진한 보라색 실과 밝은 나무의 구분 확인",
+    "허리 고정점에서 앞쪽으로 이어지는 끈 확인",
+    "반대편 끈이 티셔츠 밑단 아래로 가려지는 경계 확인",
+    "긴 U자 늘어짐을 줄여 부착점 명료화"
+  ],
+  "evidence": "work/spool-detail_v002.png",
+  "status": "사용자 이미지 승인 대기",
+  "pending": [
+    "후면·측면의 가려진 허리끈 구조 제작",
+    "180 제작 및 동작 검수"
+  ],
+  "confirmed_unchanged": true
+}

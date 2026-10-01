@@ -1,0 +1,18 @@
+{
+  "input": "image-undecided/1024/view/front_v021.png",
+  "output": "image-undecided/1024/view/front_v022.png",
+  "settings": "v1.16",
+  "prompt": "work/front-prompt_v023.txt",
+  "sha256": "b685d9cc93edd2035527e76b60ddd0363733b9924829d0168aaa0fb5ba2da33f",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "visual": [
+    "부츠 주황빛 감소와 저채도 회갈색 확인",
+    "끈·입구·발등·밑창의 구분 확인"
+  ],
+  "status": "사용자 이미지 승인 대기",
+  "confirmed_unchanged": true
+}

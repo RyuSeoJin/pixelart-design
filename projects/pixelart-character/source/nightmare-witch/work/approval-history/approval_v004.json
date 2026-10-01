@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "character_id": "nightmare-witch",
+  "status": "approved",
+  "at": "2026-09-30T13:49:47.831974+09:00",
+  "evidence": [
+    "네 확정짓겠습니다."
+  ],
+  "scope": "얼굴·머리 디테일 복원 front_v024 정면 디자인 확정",
+  "previous_approvals": [
+    "work/approval-history/approval_v001.json",
+    "work/approval-history/approval_v002.json",
+    "work/approval-history/approval_v003.json"
+  ],
+  "files": [
+    {
+      "source": "image-undecided/1024/view/front_v024.png",
+      "source_version": "v024",
+      "path": "image-confirmed/1024/view/front.png",
+      "source_sha256": "139e5016e8b9ed80dc268040be38fcd1428797f4deb9385311972d829181d718",
+      "sha256": "139e5016e8b9ed80dc268040be38fcd1428797f4deb9385311972d829181d718",
+      "current": true
+    }
+  ],
+  "pending": [
+    "정확한 등신 실측",
+    "닳음의 신체 기준 위치·개수 기록",
+    "다른 시점 제작·검수",
+    "리소스 등록 별도"
+  ]
+}

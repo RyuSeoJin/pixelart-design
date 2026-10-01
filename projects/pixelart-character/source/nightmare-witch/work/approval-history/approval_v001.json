@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "character_id": "nightmare-witch",
+  "status": "approved",
+  "at": "2026-09-30T02:08:14.234836+09:00",
+  "evidence": [
+    "디자인 확정합니다"
+  ],
+  "scope": "1024 정면 front_v009의 디자인 확정. 가장자리 마감·정확한 등신 실측·배포 검수·리소스 등록은 별도입니다.",
+  "previous_approvals": [],
+  "files": [
+    {
+      "source": "image-undecided/1024/view/front_v009.png",
+      "source_version": "v009",
+      "path": "image-confirmed/1024/view/front.png",
+      "source_sha256": "7221252796ec6ec7f9453de5b353d0af099e58ad2b3f61052b9323bff09cc459",
+      "sha256": "7221252796ec6ec7f9453de5b353d0af099e58ad2b3f61052b9323bff09cc459",
+      "current": true
+    }
+  ],
+  "pending": [
+    "손 주변 붉은 경계·부츠 사이 색 잔여 마감",
+    "정확한 등신 실측·모자 상단 여백",
+    "다른 시점 제작·검수",
+    "리소스 등록 별도"
+  ]
+}

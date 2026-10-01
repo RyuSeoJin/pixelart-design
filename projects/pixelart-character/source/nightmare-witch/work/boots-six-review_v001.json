@@ -1,0 +1,68 @@
+{
+  "status": "여섯 시점 사용자 승인 완료",
+  "provider": "내장 imagegen",
+  "color_reference": "image-undecided/1024/view/three-quarter_right_v001.png",
+  "prompt": "work/boots-six-views-prompt_v001.txt",
+  "files": [
+    {
+      "view": "front",
+      "path": "image-undecided/1024/view/front_v031.png",
+      "sha256": "9a52418a4435faf9a2dddfbf0d69849d82228d36971a4fae42022729ac2e3d94"
+    },
+    {
+      "view": "side_left",
+      "path": "image-undecided/1024/view/side_left_v005.png",
+      "sha256": "ff65950e0c518e57a504487e70a757b2543cf7f3bee05155a30c8c52dccd32e3"
+    },
+    {
+      "view": "side_right",
+      "path": "image-undecided/1024/view/side_right_v003.png",
+      "sha256": "d50ff2755bbcbdb5dba5883a0d08e5a81b9971029fab7f06d8883f318fceedad"
+    },
+    {
+      "view": "behind",
+      "path": "image-undecided/1024/view/behind_v004.png",
+      "sha256": "28c55c5fb975c1133ad95749146cb4bc798b97c9eef2ca9bb07dcc21d9660b9e"
+    },
+    {
+      "view": "three-quarter_left",
+      "path": "image-undecided/1024/view/three-quarter_left_v002.png",
+      "sha256": "330f638ca0d2381065ac787880546e99294bb345887f17c9425b44df9c83486c"
+    },
+    {
+      "view": "three-quarter_right",
+      "path": "image-undecided/1024/view/three-quarter_right_v001.png",
+      "sha256": "4d458eee2b07f1b61fa0c01e0e1a02086d09785a34e4de6df446084ee89a1224"
+    }
+  ],
+  "contact_sheet": "work/boots-six-views-white_v001.png",
+  "dark_sheet": "work/boots-six-views-dark_v001.png",
+  "display_order": [
+    "정면",
+    "좌측면",
+    "우측면",
+    "후면",
+    "3/4 좌향",
+    "3/4 우향"
+  ],
+  "display_note": "3열 2행이며 비교표에서만 각 전신 높이를 950px로 맞췄습니다. 개별 1024 PNG는 별도입니다. 비율 실측 근거로 사용하지 않습니다.",
+  "corrections": [
+    "정면·좌측면·우측면·후면의 밝은 주황빛 부츠를 우향 3/4 기준의 차분한 밤갈색으로 편집했습니다.",
+    "기존 색 보완된 3/4 좌향 v002와 우향 v001은 재생성하지 않고 여섯 시점에 포함했습니다.",
+    "부츠 색 수정과 함께 외곽선·입구·끈·밑창 경계 보완을 지시하고 최종 출력에서 확인했습니다."
+  ],
+  "observations": [
+    "네 수정본을 두 배경에서 1024 전신으로 확인하고 여섯 시점의 신발 비교표를 대조했습니다.",
+    "정면·측면·후면의 부츠가 주황색에서 갈색 계열로 변경됐고 시점별 밝은 면과 그림자는 남아 있습니다.",
+    "모자의 가까운/먼쪽 노출과 실감개의 신체 오른쪽 배치를 유지합니다.",
+    "최종 출력에서 눈에 띄는 흰테·선 끊김·고립 조각은 관찰되지 않았습니다."
+  ],
+  "limitations": [
+    "생성 편집이므로 부츠 외 영역의 바이트 동일성은 보장되지 않으며 미세 선화·주름 차이는 사용자 검토 대상입니다.",
+    "시점별 조명에 따른 명도 차이가 남으며 정확한 동일 RGB 치환을 수행한 것은 아닙니다.",
+    "8종 전체 비율·해짐·얼굴 대응 검수와 정확한 등신 실측은 별도입니다."
+  ],
+  "confirmed_hashes_preserved": 5,
+  "approval_reference": "work/approval-history/approval_v008.json",
+  "approved_at": "2026-09-30T20:04:04.196558+09:00"
+}
