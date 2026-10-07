@@ -1,0 +1,585 @@
+{
+  "checks": [
+    {
+      "항목": "forest_far_day.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_far_day.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest_far_night.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_far_night.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest_lower_base_day.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_lower_base_day.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest_lower_base_night.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_lower_base_night.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest_mid_day.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_mid_day.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest_mid_night.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_mid_night.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest_stars.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_stars.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest_street_day.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_street_day.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest_street_night.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_street_night.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest_street_tile_day.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_street_tile_day.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest_street_tile_night.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_street_tile_night.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest_window_lights.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "forest_window_lights.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "forest far 낮밤 동일 윤곽",
+      "통과": true
+    },
+    {
+      "항목": "forest far 반복 양끝 일치",
+      "통과": true
+    },
+    {
+      "항목": "forest mid 낮밤 동일 윤곽",
+      "통과": true
+    },
+    {
+      "항목": "forest mid 반복 양끝 일치",
+      "통과": true
+    },
+    {
+      "항목": "forest lower_base 낮밤 동일 윤곽",
+      "통과": true
+    },
+    {
+      "항목": "forest street 낮밤 동일 윤곽",
+      "통과": true
+    },
+    {
+      "항목": "forest 불빛 합성 시 중경 원본 복원",
+      "통과": true
+    },
+    {
+      "항목": "forest 불빛 별도 픽셀 존재",
+      "통과": true
+    },
+    {
+      "항목": "forest 불빛이 중경 밖으로 나오지 않음",
+      "통과": true
+    },
+    {
+      "항목": "forest 별 별도 픽셀 존재",
+      "통과": true
+    },
+    {
+      "항목": "forest 별은 상단 하늘에만 배치",
+      "통과": true
+    },
+    {
+      "항목": "forest 근경 장식 내보내기 제거",
+      "통과": true
+    },
+    {
+      "항목": "forestday 바닥 하단 72px 투명",
+      "통과": true
+    },
+    {
+      "항목": "forestnight 바닥 하단 72px 투명",
+      "통과": true
+    },
+    {
+      "항목": "forest Aseprite 유효 헤더",
+      "통과": true
+    },
+    {
+      "항목": "forestscroll GIF 프레임",
+      "통과": true
+    },
+    {
+      "항목": "forestdaynight GIF 프레임",
+      "통과": true
+    },
+    {
+      "항목": "forest 음수·양수 전체 반복 복귀",
+      "통과": true
+    },
+    {
+      "항목": "forest 카메라 이동 시 장면 변화",
+      "통과": true
+    },
+    {
+      "항목": "forest 하단 UI 색면 고정",
+      "통과": true
+    },
+    {
+      "항목": "forest 하단 장식 없는 단색 영역",
+      "통과": true
+    },
+    {
+      "항목": "forest 이동 중 투명한 틈 없음",
+      "통과": true
+    },
+    {
+      "항목": "snow_far_day.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_far_day.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow_far_night.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_far_night.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow_lower_base_day.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_lower_base_day.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow_lower_base_night.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_lower_base_night.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow_mid_day.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_mid_day.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow_mid_night.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_mid_night.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow_stars.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_stars.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow_street_day.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_street_day.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow_street_night.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_street_night.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow_street_tile_day.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_street_tile_day.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow_street_tile_night.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_street_tile_night.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow_window_lights.png 크기",
+      "통과": true
+    },
+    {
+      "항목": "snow_window_lights.png 이진 알파",
+      "통과": true
+    },
+    {
+      "항목": "snow far 낮밤 동일 윤곽",
+      "통과": true
+    },
+    {
+      "항목": "snow far 반복 양끝 일치",
+      "통과": true
+    },
+    {
+      "항목": "snow mid 낮밤 동일 윤곽",
+      "통과": true
+    },
+    {
+      "항목": "snow mid 반복 양끝 일치",
+      "통과": true
+    },
+    {
+      "항목": "snow lower_base 낮밤 동일 윤곽",
+      "통과": true
+    },
+    {
+      "항목": "snow street 낮밤 동일 윤곽",
+      "통과": true
+    },
+    {
+      "항목": "snow 불빛 합성 시 중경 원본 복원",
+      "통과": true
+    },
+    {
+      "항목": "snow 불빛 별도 픽셀 존재",
+      "통과": true
+    },
+    {
+      "항목": "snow 불빛이 중경 밖으로 나오지 않음",
+      "통과": true
+    },
+    {
+      "항목": "snow 별 별도 픽셀 존재",
+      "통과": true
+    },
+    {
+      "항목": "snow 별은 상단 하늘에만 배치",
+      "통과": true
+    },
+    {
+      "항목": "snow 근경 장식 내보내기 제거",
+      "통과": true
+    },
+    {
+      "항목": "snowday 바닥 하단 72px 투명",
+      "통과": true
+    },
+    {
+      "항목": "snownight 바닥 하단 72px 투명",
+      "통과": true
+    },
+    {
+      "항목": "snow Aseprite 유효 헤더",
+      "통과": true
+    },
+    {
+      "항목": "snowscroll GIF 프레임",
+      "통과": true
+    },
+    {
+      "항목": "snowdaynight GIF 프레임",
+      "통과": true
+    },
+    {
+      "항목": "snow 음수·양수 전체 반복 복귀",
+      "통과": true
+    },
+    {
+      "항목": "snow 카메라 이동 시 장면 변화",
+      "통과": true
+    },
+    {
+      "항목": "snow 하단 UI 색면 고정",
+      "통과": true
+    },
+    {
+      "항목": "snow 하단 장식 없는 단색 영역",
+      "통과": true
+    },
+    {
+      "항목": "snow 이동 중 투명한 틈 없음",
+      "통과": true
+    }
+  ],
+  "passed": 92,
+  "total": 92,
+  "export_edge_reports": {
+    "forest_far": {
+      "schema_version": 1,
+      "axis": "x",
+      "size": [
+        1920,
+        1080
+      ],
+      "period": 1920,
+      "status": "pass",
+      "requires_visual_review": true,
+      "assessment": "Local pixel discontinuity checks only; review repeated tiles visually for cut silhouettes, repeated landmarks, and painting continuity.",
+      "review_reasons": [],
+      "color_metric": "mean per-channel absolute difference, worst of black/white composites (0..255)",
+      "edge_color_difference": {
+        "mean": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "interior_color_difference": {
+        "mean": 0.5096938014030457,
+        "p95": 1.0,
+        "max": 98.66666412353516
+      },
+      "edge_to_interior_color_ratio": 0.0,
+      "seam_alpha_mismatch": {
+        "mean": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mismatch_fraction": 0.0
+      },
+      "interior_alpha_difference": {
+        "mean": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mismatch_fraction": 0.0
+      },
+      "edge_to_interior_alpha_ratio": 0.0,
+      "thresholds": {
+        "color": {
+          "mean": 3.0,
+          "p95": 8.0,
+          "max": 197.3333282470703
+        },
+        "alpha": {
+          "mean": 3.0,
+          "p95": 8.0,
+          "max": 16.0
+        }
+      }
+    },
+    "forest_mid": {
+      "schema_version": 1,
+      "axis": "x",
+      "size": [
+        1920,
+        1080
+      ],
+      "period": 1920,
+      "status": "pass",
+      "requires_visual_review": true,
+      "assessment": "Local pixel discontinuity checks only; review repeated tiles visually for cut silhouettes, repeated landmarks, and painting continuity.",
+      "review_reasons": [],
+      "color_metric": "mean per-channel absolute difference, worst of black/white composites (0..255)",
+      "edge_color_difference": {
+        "mean": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "interior_color_difference": {
+        "mean": 1.0340124368667603,
+        "p95": 3.3333332538604736,
+        "max": 226.3333282470703
+      },
+      "edge_to_interior_color_ratio": 0.0,
+      "seam_alpha_mismatch": {
+        "mean": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mismatch_fraction": 0.0
+      },
+      "interior_alpha_difference": {
+        "mean": 0.5258670449256897,
+        "p95": 0.0,
+        "max": 255.0,
+        "mismatch_fraction": 0.002062223766236273
+      },
+      "edge_to_interior_alpha_ratio": 0.0,
+      "thresholds": {
+        "color": {
+          "mean": 3.0,
+          "p95": 8.0,
+          "max": 452.6666564941406
+        },
+        "alpha": {
+          "mean": 3.0,
+          "p95": 8.0,
+          "max": 510.0
+        }
+      }
+    },
+    "snow_far": {
+      "schema_version": 1,
+      "axis": "x",
+      "size": [
+        1920,
+        1080
+      ],
+      "period": 1920,
+      "status": "pass",
+      "requires_visual_review": true,
+      "assessment": "Local pixel discontinuity checks only; review repeated tiles visually for cut silhouettes, repeated landmarks, and painting continuity.",
+      "review_reasons": [],
+      "color_metric": "mean per-channel absolute difference, worst of black/white composites (0..255)",
+      "edge_color_difference": {
+        "mean": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "interior_color_difference": {
+        "mean": 0.6844608187675476,
+        "p95": 2.3333332538604736,
+        "max": 68.33333587646484
+      },
+      "edge_to_interior_color_ratio": 0.0,
+      "seam_alpha_mismatch": {
+        "mean": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mismatch_fraction": 0.0
+      },
+      "interior_alpha_difference": {
+        "mean": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mismatch_fraction": 0.0
+      },
+      "edge_to_interior_alpha_ratio": 0.0,
+      "thresholds": {
+        "color": {
+          "mean": 3.0,
+          "p95": 8.0,
+          "max": 136.6666717529297
+        },
+        "alpha": {
+          "mean": 3.0,
+          "p95": 8.0,
+          "max": 16.0
+        }
+      }
+    },
+    "snow_mid": {
+      "schema_version": 1,
+      "axis": "x",
+      "size": [
+        1920,
+        1080
+      ],
+      "period": 1920,
+      "status": "pass",
+      "requires_visual_review": true,
+      "assessment": "Local pixel discontinuity checks only; review repeated tiles visually for cut silhouettes, repeated landmarks, and painting continuity.",
+      "review_reasons": [],
+      "color_metric": "mean per-channel absolute difference, worst of black/white composites (0..255)",
+      "edge_color_difference": {
+        "mean": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "interior_color_difference": {
+        "mean": 2.3600046634674072,
+        "p95": 10.666666984558105,
+        "max": 238.0
+      },
+      "edge_to_interior_color_ratio": 0.0,
+      "seam_alpha_mismatch": {
+        "mean": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "mismatch_fraction": 0.0
+      },
+      "interior_alpha_difference": {
+        "mean": 0.6341410279273987,
+        "p95": 0.0,
+        "max": 255.0,
+        "mismatch_fraction": 0.002486827630131434
+      },
+      "edge_to_interior_alpha_ratio": 0.0,
+      "thresholds": {
+        "color": {
+          "mean": 4.7200093269348145,
+          "p95": 21.33333396911621,
+          "max": 476.0
+        },
+        "alpha": {
+          "mean": 3.0,
+          "p95": 8.0,
+          "max": 510.0
+        }
+      }
+    }
+  },
+  "quilt_warnings": {
+    "forest_mid.report": [
+      "Internal quilt color difference exceeds source interior variation."
+    ],
+    "snow_mid.report": [
+      "Internal quilt color difference exceeds source interior variation."
+    ]
+  },
+  "주의": "기계 검사는 미술 승인이나 언리얼 실행 검수를 대신하지 않습니다."
+}

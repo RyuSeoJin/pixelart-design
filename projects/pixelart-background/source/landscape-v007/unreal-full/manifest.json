@@ -1,0 +1,557 @@
+{
+  "version": 7,
+  "status": "숲·겨울 바닥 두께 통일 및 UE 가져오기 패키지",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "ground_y": 832,
+  "regions": [
+    "forest",
+    "snow"
+  ],
+  "render_order": [
+    {
+      "id": "far",
+      "label": "원경",
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 1920,
+      "phases": [
+        "day",
+        "night"
+      ]
+    },
+    {
+      "id": "stars",
+      "label": "별",
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 1920,
+      "phases": [
+        "night"
+      ],
+      "bind": "far"
+    },
+    {
+      "id": "mid",
+      "label": "중경",
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 1920,
+      "phases": [
+        "day",
+        "night"
+      ]
+    },
+    {
+      "id": "window_lights",
+      "label": "창 불빛",
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 1920,
+      "phases": [
+        "night"
+      ],
+      "bind": "mid"
+    },
+    {
+      "id": "lower_base",
+      "label": "하단 UI 색면",
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "phases": [
+        "day",
+        "night"
+      ],
+      "fixed": true
+    },
+    {
+      "id": "street",
+      "label": "지면",
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "phases": [
+        "day",
+        "night"
+      ]
+    }
+  ],
+  "filename_rule": "assets 배열의 file과 name이 패키지 파일명 및 UE 에셋 이름의 정본입니다.",
+  "street_tile": {
+    "canvas": [
+      480,
+      120
+    ],
+    "visible_rows": {
+      "forest": 48,
+      "snow": 48
+    },
+    "transparent_rows": {
+      "forest": 72,
+      "snow": 72
+    },
+    "files": "Textures/T_{Forest|Snow}_StreetTile_{Day|Night}.png",
+    "placement_y": 832
+  },
+  "scroll": {
+    "camera_unit": "1920×1080 기준 화면 픽셀, 기준점으로부터의 누적 가로 변위",
+    "offset_formula": "-floor(camera_x * numerator / denominator + 0.5)",
+    "wrap": "양수 나머지로 정규화한 오프셋에 주기 간격의 복사본을 배치합니다.",
+    "fixed_layers": "하단 UI 색면 lower_base만 화면에 고정합니다. 근경 장식은 표시하지 않습니다.",
+    "effect_parent": "별은 원경과, 불빛은 중경과 같은 위치·반복 주기를 사용합니다.",
+    "zoom": "원본과 배치 좌표는 정수입니다. 엔진의 비정수 화면 배율에 대한 검수는 별도입니다."
+  },
+  "time_of_day": {
+    "method": "같은 윤곽의 낮밤 레이어를 전환하거나 같은 위치에서 색을 보간합니다.",
+    "effects": "낮에는 stars와 window_lights를 숨기고 밤에는 표시합니다.",
+    "double_tint": "제공된 밤 PNG에 추가 밤 색조를 중복 적용하지 않도록 엔진에서 확인합니다."
+  },
+  "ui": {
+    "lower_base_top_y": 832,
+    "draw_ui_last": true
+  },
+  "seams": {
+    "method": "384픽셀 반사 겹침 후보와 최소 오차 quilting. 원본 도트 색을 섞지 않는 연결입니다.",
+    "edge_check": "원경·중경 반복 양끝 RGBA 일치",
+    "internal_quilt": "원경 2개 자동 통과. 중경 2개는 기존 내부 색 차이 경고와 관찰 기록 유지",
+    "visual_limit": "접합부의 나무 반복 모양은 미술 승인 대상입니다."
+  },
+  "originals": "v003 바탕 자산을 사용하며 근경 장식은 내보내기와 합성에서 제외합니다.",
+  "qa": "source-validation.json",
+  "native_files": [
+    "Source/forest.aseprite",
+    "Source/snow.aseprite",
+    "Source/forest_ground.aseprite",
+    "Source/snow_ground.aseprite"
+  ],
+  "engine_connected": false,
+  "unreal_package": ".",
+  "package_revision": 2,
+  "assets": [
+    {
+      "file": "Textures/T_Forest_Far_Day.png",
+      "name": "T_Forest_Far_Day",
+      "region": "forest",
+      "layer": "far",
+      "label": "원경",
+      "phase": "day",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "5c8b32fd5619cdb5f88317e97d3ba937f18a85291d4f5ba719bfe0cb53d67bea"
+    },
+    {
+      "file": "Textures/T_Forest_Far_Night.png",
+      "name": "T_Forest_Far_Night",
+      "region": "forest",
+      "layer": "far",
+      "label": "원경",
+      "phase": "night",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "e75479fad6936e02e74abb28e803fcf80f2f066bd30b31e3cdbe5e65c79d467f"
+    },
+    {
+      "file": "Textures/T_Forest_Mid_Day.png",
+      "name": "T_Forest_Mid_Day",
+      "region": "forest",
+      "layer": "mid",
+      "label": "중경",
+      "phase": "day",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "a2914447d46b1d7ba3f7e85dfafa9783281c4492622427a38e903bcbe1109b76"
+    },
+    {
+      "file": "Textures/T_Forest_Mid_Night.png",
+      "name": "T_Forest_Mid_Night",
+      "region": "forest",
+      "layer": "mid",
+      "label": "중경",
+      "phase": "night",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "e9b8977bde23994b5f788c815c82f41800da09642b8ddf7f103992b19c459def"
+    },
+    {
+      "file": "Textures/T_Forest_Stars.png",
+      "name": "T_Forest_Stars",
+      "region": "forest",
+      "layer": "stars",
+      "label": "별",
+      "phase": "night",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": "far",
+      "sha256": "af3c806ca82d2d501012f14bb796de7f224518c83a9956c922bb343b1d9c692a"
+    },
+    {
+      "file": "Textures/T_Forest_WindowLights.png",
+      "name": "T_Forest_WindowLights",
+      "region": "forest",
+      "layer": "window_lights",
+      "label": "창 불빛",
+      "phase": "night",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": "mid",
+      "sha256": "e3656b59cb73afc3046bd144c5417b57a17c4085ce7ee6f230db8a465804f976"
+    },
+    {
+      "file": "Textures/T_Forest_LowerBase_Day.png",
+      "name": "T_Forest_LowerBase_Day",
+      "region": "forest",
+      "layer": "lower_base",
+      "label": "하단 색면",
+      "phase": "day",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "8599b8a999728ab25016a93f93b405f73ec40ac833b29c1853821eb1464fd842"
+    },
+    {
+      "file": "Textures/T_Forest_LowerBase_Night.png",
+      "name": "T_Forest_LowerBase_Night",
+      "region": "forest",
+      "layer": "lower_base",
+      "label": "하단 색면",
+      "phase": "night",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "bd4f76e632bde0de4b8a52e56ecedc286b347ccac6db200ddb900685b4618614"
+    },
+    {
+      "file": "Textures/T_Forest_StreetTile_Day.png",
+      "name": "T_Forest_StreetTile_Day",
+      "region": "forest",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "day",
+      "size": [
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "placement_y": 832,
+      "bind": null,
+      "sha256": "d780bff5fc89242dddd1813c637b3cb81684572f3984bca1d46f9b62703972a2"
+    },
+    {
+      "file": "Textures/T_Forest_StreetTile_Night.png",
+      "name": "T_Forest_StreetTile_Night",
+      "region": "forest",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "night",
+      "size": [
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "placement_y": 832,
+      "bind": null,
+      "sha256": "dccebfb69e68d120edce02aabaf19a5166916712a774ac2b1f559f5ce8637a57"
+    },
+    {
+      "file": "Textures/T_Snow_Far_Day.png",
+      "name": "T_Snow_Far_Day",
+      "region": "snow",
+      "layer": "far",
+      "label": "원경",
+      "phase": "day",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "08f8c4ffb9686c5909cbd94d52c538181ca7dd491530fb6c32c4bda6cc2d4326"
+    },
+    {
+      "file": "Textures/T_Snow_Far_Night.png",
+      "name": "T_Snow_Far_Night",
+      "region": "snow",
+      "layer": "far",
+      "label": "원경",
+      "phase": "night",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "62cd76420a8cf202d9d9d7daa72fa60842f0e48e860323601cc0499d2f69612c"
+    },
+    {
+      "file": "Textures/T_Snow_Mid_Day.png",
+      "name": "T_Snow_Mid_Day",
+      "region": "snow",
+      "layer": "mid",
+      "label": "중경",
+      "phase": "day",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "69d291d57bb42bc989dab6a3698b84dc9ddcc77299da075cfedd61ed346f66ea"
+    },
+    {
+      "file": "Textures/T_Snow_Mid_Night.png",
+      "name": "T_Snow_Mid_Night",
+      "region": "snow",
+      "layer": "mid",
+      "label": "중경",
+      "phase": "night",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "4cf5dd41cf0f5c7d6811e7799c21f1ee3e82cfdd11b3845c63e961c9b6d3f822"
+    },
+    {
+      "file": "Textures/T_Snow_Stars.png",
+      "name": "T_Snow_Stars",
+      "region": "snow",
+      "layer": "stars",
+      "label": "별",
+      "phase": "night",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": "far",
+      "sha256": "8ea9d1b68a89ffad765f9e42baab90013e7774452207e644ee3010686d4efe84"
+    },
+    {
+      "file": "Textures/T_Snow_WindowLights.png",
+      "name": "T_Snow_WindowLights",
+      "region": "snow",
+      "layer": "window_lights",
+      "label": "창 불빛",
+      "phase": "night",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 1920,
+      "placement_y": 0,
+      "bind": "mid",
+      "sha256": "c3d192363f3084f2167c5a92b6beeed497165d5363e8eb9f96fd6b0665f67e4e"
+    },
+    {
+      "file": "Textures/T_Snow_LowerBase_Day.png",
+      "name": "T_Snow_LowerBase_Day",
+      "region": "snow",
+      "layer": "lower_base",
+      "label": "하단 색면",
+      "phase": "day",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "e7eedb4ed3bb10cd837d8186fc6f434ab6f8ff6791084d5aa523ed30bdb1002a"
+    },
+    {
+      "file": "Textures/T_Snow_LowerBase_Night.png",
+      "name": "T_Snow_LowerBase_Night",
+      "region": "snow",
+      "layer": "lower_base",
+      "label": "하단 색면",
+      "phase": "night",
+      "size": [
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "placement_y": 0,
+      "bind": null,
+      "sha256": "0d68555cc4b7acaab24a285088e84335bdecd098a21de6c75246dd6f305ffeb9"
+    },
+    {
+      "file": "Textures/T_Snow_StreetTile_Day.png",
+      "name": "T_Snow_StreetTile_Day",
+      "region": "snow",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "day",
+      "size": [
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "placement_y": 832,
+      "bind": null,
+      "sha256": "16123f7f81e82f0b685e36e3a1bd1b3b0fd293d42b97a2fda347b1410e614066"
+    },
+    {
+      "file": "Textures/T_Snow_StreetTile_Night.png",
+      "name": "T_Snow_StreetTile_Night",
+      "region": "snow",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "night",
+      "size": [
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "placement_y": 832,
+      "bind": null,
+      "sha256": "5aff7f6987483181b3391533aa53c064084c026e9d27d6c5617e7940bb9afa80"
+    }
+  ],
+  "import_script": "import_landscape.py",
+  "destination": "/Game/Art/PixelLandscape_v007",
+  "import_instructions": "RecordTales 에디터의 도구 → Python 스크립트 실행에서 import_landscape.py를 선택합니다. Textures와 manifest.json을 스크립트 옆에 유지합니다. 텍스처20개·스프라이트20개를 생성하며 아트 목록·이동 로직 연결은 별도입니다.",
+  "integration_limits": [
+    "현재 WalkStripH=128을120으로 맞추는 연결 작업이 필요합니다.",
+    "별·창 불빛은 부모 레이어와 이동을 동기화해야 합니다.",
+    "하단 색면은 화면 고정이며 근경 장식은 없습니다.",
+    "UE 실행 미검수입니다.",
+    "중경 내부 접합 색 차이 경고 두 건은 원본 qa.json에 남아 있습니다."
+  ]
+}
