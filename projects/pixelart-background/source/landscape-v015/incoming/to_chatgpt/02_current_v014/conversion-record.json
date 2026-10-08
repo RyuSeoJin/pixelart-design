@@ -1,0 +1,10 @@
+{
+  "version": 14,
+  "source": "사용자 제공 to_chatgpt (2).zip의 01_reference_package",
+  "workflow": "견본 PNG40장 보존, 바닥4장 정리, Aseprite 원본 재구성 및 렌더",
+  "new_ai_generation": false,
+  "original_generation_record": "generation-prompts.json",
+  "world_units_per_texel": 4,
+  "engine_executed": false,
+  "art_approval": "검토 대기"
+}

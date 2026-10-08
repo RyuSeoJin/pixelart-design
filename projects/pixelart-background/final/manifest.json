@@ -1,0 +1,2931 @@
+{
+  "version": 15,
+  "status": "4시간대·천체·효과 파일 검수 완료 · 미술 및 UE 실행 검수 대기",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "ground_y": 832,
+  "regions": [
+    "forest",
+    "snow"
+  ],
+  "assets": [
+    {
+      "name": "T_Forest_Sky_Day",
+      "file": "Textures/T_Forest_Sky_Day.png",
+      "region": "forest",
+      "layer": "sky",
+      "label": "하늘 색면",
+      "phase": "day",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "2134d1a09b474ed0b9c2270621d5884a955ed1142fcea7507b2a1cb762cf358c"
+    },
+    {
+      "name": "T_Forest_Sky_Night",
+      "file": "Textures/T_Forest_Sky_Night.png",
+      "region": "forest",
+      "layer": "sky",
+      "label": "하늘 색면",
+      "phase": "night",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "35b85813cf39ce8f2e555965046e4b0f717a861cdfff1a1e01497582308f2723"
+    },
+    {
+      "name": "T_Forest_Clouds_Day",
+      "file": "Textures/T_Forest_Clouds_Day.png",
+      "region": "forest",
+      "layer": "clouds",
+      "label": "구름",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "88b7faa381d1e119450c57f68857b5e925a8c6157c052a0c4ea4d11c1fb2094b"
+    },
+    {
+      "name": "T_Forest_Clouds_Night",
+      "file": "Textures/T_Forest_Clouds_Night.png",
+      "region": "forest",
+      "layer": "clouds",
+      "label": "구름",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "6f5717ce5e68d10408b7f018592613587eef299ab8d8d885d9d0850c9f4ddd64"
+    },
+    {
+      "name": "T_Forest_MountainsFar_Day",
+      "file": "Textures/T_Forest_MountainsFar_Day.png",
+      "region": "forest",
+      "layer": "mountains_far",
+      "label": "뒷산",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "434260865bec07e05d8718ed8c7bbad5e03aba58d6fe8515481b3cdd8d536522"
+    },
+    {
+      "name": "T_Forest_MountainsFar_Night",
+      "file": "Textures/T_Forest_MountainsFar_Night.png",
+      "region": "forest",
+      "layer": "mountains_far",
+      "label": "뒷산",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "cd117e309628df682e3cc0d35e85e28dee5675a87ea46be5287b70485f728d47"
+    },
+    {
+      "name": "T_Forest_MountainsNear_Day",
+      "file": "Textures/T_Forest_MountainsNear_Day.png",
+      "region": "forest",
+      "layer": "mountains_near",
+      "label": "앞산",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "5a07840defb4a5d7d9d9fa9748eacad77c4a285baec44856125034c0bb978cde"
+    },
+    {
+      "name": "T_Forest_MountainsNear_Night",
+      "file": "Textures/T_Forest_MountainsNear_Night.png",
+      "region": "forest",
+      "layer": "mountains_near",
+      "label": "앞산",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "2c9930e22d6b99527875dac912e21ddce316611f9feaabb946c6ecaa6df32604"
+    },
+    {
+      "name": "T_Forest_TreesBack_Day",
+      "file": "Textures/T_Forest_TreesBack_Day.png",
+      "region": "forest",
+      "layer": "trees_back",
+      "label": "뒤쪽 나무",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        3,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "e0f06effca195483905b815bb4cf684c40c159a0eade2937c41ebc89665337a4"
+    },
+    {
+      "name": "T_Forest_TreesBack_Night",
+      "file": "Textures/T_Forest_TreesBack_Night.png",
+      "region": "forest",
+      "layer": "trees_back",
+      "label": "뒤쪽 나무",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        3,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "025143a25566dc0da7ab0f0103fc33cab0c5cdadb02abf6b22ae7da922fed50b"
+    },
+    {
+      "name": "T_Forest_Buildings_Day",
+      "file": "Textures/T_Forest_Buildings_Day.png",
+      "region": "forest",
+      "layer": "buildings",
+      "label": "뒤쪽 건물",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        2,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "dab069c96c66e954177dde8fa2372d6f7b46a78569a7013616c2a894654ec734"
+    },
+    {
+      "name": "T_Forest_Buildings_Night",
+      "file": "Textures/T_Forest_Buildings_Night.png",
+      "region": "forest",
+      "layer": "buildings",
+      "label": "뒤쪽 건물",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        2,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "eb8535b60ea4df2806db16e6701d9e0881ec1c3e6fdad71aaf7d1fa7b6087618"
+    },
+    {
+      "name": "T_Forest_WindowLights",
+      "file": "Textures/T_Forest_WindowLights.png",
+      "region": "forest",
+      "layer": "window_lights",
+      "label": "창 불빛",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        2,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": "buildings",
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "a6a554d2f540ef7ca36d7f247cdc8f05175433f12ee33fee3566b759d5e5f164"
+    },
+    {
+      "name": "T_Forest_TreesFront_Day",
+      "file": "Textures/T_Forest_TreesFront_Day.png",
+      "region": "forest",
+      "layer": "trees_front",
+      "label": "앞쪽 나무",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "ce7786ac51fbe2b50fcc6f463c37df197153fcd3f542b2c7a7297fbb86c336b7"
+    },
+    {
+      "name": "T_Forest_TreesFront_Night",
+      "file": "Textures/T_Forest_TreesFront_Night.png",
+      "region": "forest",
+      "layer": "trees_front",
+      "label": "앞쪽 나무",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "66e668d814a2bfbd5fea087968a38a232ce0f78b6dc38a2d3f62a2709036bccf"
+    },
+    {
+      "name": "T_Forest_LowerBase_Day",
+      "file": "Textures/T_Forest_LowerBase_Day.png",
+      "region": "forest",
+      "layer": "lower_base",
+      "label": "하단 UI 색면",
+      "phase": "day",
+      "size": [
+        480,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "anchor": "viewport",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "2f60153433252609779d0edbbb46b24d2ac0ad5fe7b7e5af7887211eefef5a11"
+    },
+    {
+      "name": "T_Forest_LowerBase_Night",
+      "file": "Textures/T_Forest_LowerBase_Night.png",
+      "region": "forest",
+      "layer": "lower_base",
+      "label": "하단 UI 색면",
+      "phase": "night",
+      "size": [
+        480,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "anchor": "viewport",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "e7a3f100b759282ff9d2a41680f44f4f609b3b549f55ff271d03912cf02edd13"
+    },
+    {
+      "name": "T_Forest_StreetTile_Day",
+      "file": "Textures/T_Forest_StreetTile_Day.png",
+      "region": "forest",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "day",
+      "size": [
+        120,
+        30
+      ],
+      "world_rect": [
+        0,
+        832,
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "601e790a39560c81da5baf7accb10ca24d76d4cfc91fbcf3f3afd9ae4b8e1b19"
+    },
+    {
+      "name": "T_Forest_StreetTile_Night",
+      "file": "Textures/T_Forest_StreetTile_Night.png",
+      "region": "forest",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "night",
+      "size": [
+        120,
+        30
+      ],
+      "world_rect": [
+        0,
+        832,
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "987b4481de1e9de793a54f8d7717bfb919615887f24896fde9424c20844ae13e"
+    },
+    {
+      "name": "T_Snow_Sky_Day",
+      "file": "Textures/T_Snow_Sky_Day.png",
+      "region": "snow",
+      "layer": "sky",
+      "label": "하늘 색면",
+      "phase": "day",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "88f72c8d8059f4816547f32c1dedaccded9e7d62dbde3dd095233c34968e9af0"
+    },
+    {
+      "name": "T_Snow_Sky_Night",
+      "file": "Textures/T_Snow_Sky_Night.png",
+      "region": "snow",
+      "layer": "sky",
+      "label": "하늘 색면",
+      "phase": "night",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "3d554dc8bfcb40bb743a0b0b804829c55bf5524f83e4f4be265d9de7a4958283"
+    },
+    {
+      "name": "T_Snow_Clouds_Day",
+      "file": "Textures/T_Snow_Clouds_Day.png",
+      "region": "snow",
+      "layer": "clouds",
+      "label": "구름",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "ce82c68ee586e8349b4156a1c21ac6f8e39c5c64ab921dfc72c5b87810defa9a"
+    },
+    {
+      "name": "T_Snow_Clouds_Night",
+      "file": "Textures/T_Snow_Clouds_Night.png",
+      "region": "snow",
+      "layer": "clouds",
+      "label": "구름",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "d49dec8fcca097de28bae189b9af26214b677809cc076806040b30ceb6d1bc8c"
+    },
+    {
+      "name": "T_Snow_MountainsFar_Day",
+      "file": "Textures/T_Snow_MountainsFar_Day.png",
+      "region": "snow",
+      "layer": "mountains_far",
+      "label": "뒷산",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "0fdeeb0e049e455fb1cde454656dc1a3c8abc6729fe548ac5a543ba69181ea02"
+    },
+    {
+      "name": "T_Snow_MountainsFar_Night",
+      "file": "Textures/T_Snow_MountainsFar_Night.png",
+      "region": "snow",
+      "layer": "mountains_far",
+      "label": "뒷산",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "4dbb2faec2896b2e78d7421c11dc9e23127d799a13c3c52b793167a46bb67e37"
+    },
+    {
+      "name": "T_Snow_MountainsNear_Day",
+      "file": "Textures/T_Snow_MountainsNear_Day.png",
+      "region": "snow",
+      "layer": "mountains_near",
+      "label": "앞산",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "9562fd0a4ba84f477e493b7dbbdf070d9161705cdb4a593ac15020794537c341"
+    },
+    {
+      "name": "T_Snow_MountainsNear_Night",
+      "file": "Textures/T_Snow_MountainsNear_Night.png",
+      "region": "snow",
+      "layer": "mountains_near",
+      "label": "앞산",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "e30d5e4784ca6fecb6dd71fca6dad80cf27bdef774ba997fcb768ad1619f1330"
+    },
+    {
+      "name": "T_Snow_TreesBack_Day",
+      "file": "Textures/T_Snow_TreesBack_Day.png",
+      "region": "snow",
+      "layer": "trees_back",
+      "label": "뒤쪽 나무",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        3,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "ebb9643b140cf06473286770abdd930ec6049a758eebdaa0d890c82a1bb54b32"
+    },
+    {
+      "name": "T_Snow_TreesBack_Night",
+      "file": "Textures/T_Snow_TreesBack_Night.png",
+      "region": "snow",
+      "layer": "trees_back",
+      "label": "뒤쪽 나무",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        3,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "9d86daf8f874bc8c43a996bd11c12450c3c838d91feb690cf5e04cf31bbbfb1d"
+    },
+    {
+      "name": "T_Snow_Buildings_Day",
+      "file": "Textures/T_Snow_Buildings_Day.png",
+      "region": "snow",
+      "layer": "buildings",
+      "label": "뒤쪽 건물",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        2,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "e81ff49693ef130f9ad39c90c35d7b9ab971b5c4c6b7a8b882ecc88896b0a956"
+    },
+    {
+      "name": "T_Snow_Buildings_Night",
+      "file": "Textures/T_Snow_Buildings_Night.png",
+      "region": "snow",
+      "layer": "buildings",
+      "label": "뒤쪽 건물",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        2,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "46d826166095f52ae52293c5307c243429ba8340976ac1ea0bed16f61696086a"
+    },
+    {
+      "name": "T_Snow_WindowLights",
+      "file": "Textures/T_Snow_WindowLights.png",
+      "region": "snow",
+      "layer": "window_lights",
+      "label": "창 불빛",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        2,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": "buildings",
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "6d056ba091e066e3c903fe2d30bfd67d3f0663fe7f35ff4fc964a71c720c1faa"
+    },
+    {
+      "name": "T_Snow_TreesFront_Day",
+      "file": "Textures/T_Snow_TreesFront_Day.png",
+      "region": "snow",
+      "layer": "trees_front",
+      "label": "앞쪽 나무",
+      "phase": "day",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "a3a2520d769a0b9ee01b1c1172b7677ccb1b4d92d6c1df0387c3da341b82f6d3"
+    },
+    {
+      "name": "T_Snow_TreesFront_Night",
+      "file": "Textures/T_Snow_TreesFront_Night.png",
+      "region": "snow",
+      "layer": "trees_front",
+      "label": "앞쪽 나무",
+      "phase": "night",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "9847c0f991a38e902a6a8c88d8c3ab7c7fc600989379979a4ea91bf3cedbde12"
+    },
+    {
+      "name": "T_Snow_LowerBase_Day",
+      "file": "Textures/T_Snow_LowerBase_Day.png",
+      "region": "snow",
+      "layer": "lower_base",
+      "label": "하단 UI 색면",
+      "phase": "day",
+      "size": [
+        480,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "anchor": "viewport",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "a4decc56347f86a4feb0d4b7f31e9b9f5dfd01ac29521797f954a0871e7e4282"
+    },
+    {
+      "name": "T_Snow_LowerBase_Night",
+      "file": "Textures/T_Snow_LowerBase_Night.png",
+      "region": "snow",
+      "layer": "lower_base",
+      "label": "하단 UI 색면",
+      "phase": "night",
+      "size": [
+        480,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "anchor": "viewport",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "dd222ccc1d3b17e3ceb60e9362627adb5b6c74e207da351e4a7fca18dbca88a2"
+    },
+    {
+      "name": "T_Snow_StreetTile_Day",
+      "file": "Textures/T_Snow_StreetTile_Day.png",
+      "region": "snow",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "day",
+      "size": [
+        120,
+        30
+      ],
+      "world_rect": [
+        0,
+        832,
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "0aa57e052cfcf9ff416ba17a7d5df074e8898b1ad551113661af057101895126"
+    },
+    {
+      "name": "T_Snow_StreetTile_Night",
+      "file": "Textures/T_Snow_StreetTile_Night.png",
+      "region": "snow",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "night",
+      "size": [
+        120,
+        30
+      ],
+      "world_rect": [
+        0,
+        832,
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "d235de9734a6537fcd139340beb5adde8d7b9f446cf4f3ec21c8b60f1c017236"
+    },
+    {
+      "name": "T_Forest_CloudsHigh_Day",
+      "file": "Textures/T_Forest_CloudsHigh_Day.png",
+      "region": "forest",
+      "layer": "clouds_high",
+      "label": "높은 구름",
+      "phase": "day",
+      "size": [
+        1920,
+        624
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "anchor": "world",
+      "bind": null,
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        2496
+      ],
+      "period": 7680,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "a04711230d92c559de3446c983c373a0dea56e83f74ea3c5eff4c1b113a5ee64"
+    },
+    {
+      "name": "T_Forest_CloudsHigh_Night",
+      "file": "Textures/T_Forest_CloudsHigh_Night.png",
+      "region": "forest",
+      "layer": "clouds_high",
+      "label": "높은 구름",
+      "phase": "night",
+      "size": [
+        1920,
+        624
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "anchor": "world",
+      "bind": null,
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        2496
+      ],
+      "period": 7680,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "82ce69eea5be99c8b08cce006f136695880d1f2a08a2194784046298c84dd3d7"
+    },
+    {
+      "name": "T_Snow_CloudsHigh_Day",
+      "file": "Textures/T_Snow_CloudsHigh_Day.png",
+      "region": "snow",
+      "layer": "clouds_high",
+      "label": "높은 구름",
+      "phase": "day",
+      "size": [
+        1920,
+        624
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "anchor": "world",
+      "bind": null,
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        2496
+      ],
+      "period": 7680,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "a04711230d92c559de3446c983c373a0dea56e83f74ea3c5eff4c1b113a5ee64"
+    },
+    {
+      "name": "T_Snow_CloudsHigh_Night",
+      "file": "Textures/T_Snow_CloudsHigh_Night.png",
+      "region": "snow",
+      "layer": "clouds_high",
+      "label": "높은 구름",
+      "phase": "night",
+      "size": [
+        1920,
+        624
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "anchor": "world",
+      "bind": null,
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        2496
+      ],
+      "period": 7680,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "82ce69eea5be99c8b08cce006f136695880d1f2a08a2194784046298c84dd3d7"
+    },
+    {
+      "name": "T_Forest_Sky_Dawn",
+      "file": "Textures/T_Forest_Sky_Dawn.png",
+      "region": "forest",
+      "layer": "sky",
+      "label": "하늘 색면",
+      "phase": "dawn",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "c95fd8ffd6cd58530acebec016c4dc612ea039da9504d8598b6dd07cde8aa1c8"
+    },
+    {
+      "name": "T_Forest_Sky_Dusk",
+      "file": "Textures/T_Forest_Sky_Dusk.png",
+      "region": "forest",
+      "layer": "sky",
+      "label": "하늘 색면",
+      "phase": "dusk",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "d26c77768ba1124f9a48f89f238d3d5e5f5c2d6b48d6b17106278bcf38f66c82"
+    },
+    {
+      "name": "T_Forest_Clouds_Dawn",
+      "file": "Textures/T_Forest_Clouds_Dawn.png",
+      "region": "forest",
+      "layer": "clouds",
+      "label": "구름",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "27770af495b823f0cc931056dbac950a5f607f5c3c6233a7364919d872a4bda7"
+    },
+    {
+      "name": "T_Forest_Clouds_Dusk",
+      "file": "Textures/T_Forest_Clouds_Dusk.png",
+      "region": "forest",
+      "layer": "clouds",
+      "label": "구름",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "c6a5ce99bf9fdb6e43f2fd595b6cce1db9508c910cd2724c9db68a7db4e3d25f"
+    },
+    {
+      "name": "T_Forest_MountainsFar_Dawn",
+      "file": "Textures/T_Forest_MountainsFar_Dawn.png",
+      "region": "forest",
+      "layer": "mountains_far",
+      "label": "뒷산",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "4cb3e696bbe3f268d30c81498dd885f428df117e4f9bbc4bc284136b06b4e75c"
+    },
+    {
+      "name": "T_Forest_MountainsFar_Dusk",
+      "file": "Textures/T_Forest_MountainsFar_Dusk.png",
+      "region": "forest",
+      "layer": "mountains_far",
+      "label": "뒷산",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "78a86ca101730025a882f4684dafd31be354b9e4d6d59b097f14f2f7b4a8ac40"
+    },
+    {
+      "name": "T_Forest_MountainsNear_Dawn",
+      "file": "Textures/T_Forest_MountainsNear_Dawn.png",
+      "region": "forest",
+      "layer": "mountains_near",
+      "label": "앞산",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "af325edf66213ce5f840a25d05bc8b5bbe68e180aaed472fadf4c2b9a9d3daaf"
+    },
+    {
+      "name": "T_Forest_MountainsNear_Dusk",
+      "file": "Textures/T_Forest_MountainsNear_Dusk.png",
+      "region": "forest",
+      "layer": "mountains_near",
+      "label": "앞산",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "92dcb1ada2c1e95c14fefe76e45f98420dcb8724fd95437e6a92cd4a93f1f826"
+    },
+    {
+      "name": "T_Forest_TreesBack_Dawn",
+      "file": "Textures/T_Forest_TreesBack_Dawn.png",
+      "region": "forest",
+      "layer": "trees_back",
+      "label": "뒤쪽 나무",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        3,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "d60e9e57d0e337626af4012325c280970ec9894620bc43df97a64d19ab37d572"
+    },
+    {
+      "name": "T_Forest_TreesBack_Dusk",
+      "file": "Textures/T_Forest_TreesBack_Dusk.png",
+      "region": "forest",
+      "layer": "trees_back",
+      "label": "뒤쪽 나무",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        3,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "2dcbb27ff0ac4a636778f088afc1c298e805c049292240a74b7a3ea703ce645d"
+    },
+    {
+      "name": "T_Forest_Buildings_Dawn",
+      "file": "Textures/T_Forest_Buildings_Dawn.png",
+      "region": "forest",
+      "layer": "buildings",
+      "label": "뒤쪽 건물",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        2,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "68ae1907dcae655d56b440663d4fe2074cb9e56f5485db932ad5bc97b2af83c8"
+    },
+    {
+      "name": "T_Forest_Buildings_Dusk",
+      "file": "Textures/T_Forest_Buildings_Dusk.png",
+      "region": "forest",
+      "layer": "buildings",
+      "label": "뒤쪽 건물",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        2,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "80361d9d17200146fd4b9bdba76fad391088b103f722cc26a5a79cc96ae8f9f2"
+    },
+    {
+      "name": "T_Forest_TreesFront_Dawn",
+      "file": "Textures/T_Forest_TreesFront_Dawn.png",
+      "region": "forest",
+      "layer": "trees_front",
+      "label": "앞쪽 나무",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "e9009bcd21ce982dfee42f0e8c0a4046ae2f8170aadb90cfa01284226dbb251c"
+    },
+    {
+      "name": "T_Forest_TreesFront_Dusk",
+      "file": "Textures/T_Forest_TreesFront_Dusk.png",
+      "region": "forest",
+      "layer": "trees_front",
+      "label": "앞쪽 나무",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "77f556c67ab17d1c9427412fc33c50ee8155c1b5d1d1fde0355c5b6e19551a83"
+    },
+    {
+      "name": "T_Forest_LowerBase_Dawn",
+      "file": "Textures/T_Forest_LowerBase_Dawn.png",
+      "region": "forest",
+      "layer": "lower_base",
+      "label": "하단 UI 색면",
+      "phase": "dawn",
+      "size": [
+        480,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "anchor": "viewport",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "d467722e7771ba17bf46c890670915d980eaacfebc997789baf17a6e7d734d37"
+    },
+    {
+      "name": "T_Forest_LowerBase_Dusk",
+      "file": "Textures/T_Forest_LowerBase_Dusk.png",
+      "region": "forest",
+      "layer": "lower_base",
+      "label": "하단 UI 색면",
+      "phase": "dusk",
+      "size": [
+        480,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "anchor": "viewport",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "59ce416ccaa49a5a38bbe8b91bfb1120fdb301e1bbe30c87d57bfafb13858d5b"
+    },
+    {
+      "name": "T_Forest_StreetTile_Dawn",
+      "file": "Textures/T_Forest_StreetTile_Dawn.png",
+      "region": "forest",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "dawn",
+      "size": [
+        120,
+        30
+      ],
+      "world_rect": [
+        0,
+        832,
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "454d14f3e33df237d79fd9ae5d26d760e03daac0a80da8010b5483e4cf54d9ad"
+    },
+    {
+      "name": "T_Forest_StreetTile_Dusk",
+      "file": "Textures/T_Forest_StreetTile_Dusk.png",
+      "region": "forest",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "dusk",
+      "size": [
+        120,
+        30
+      ],
+      "world_rect": [
+        0,
+        832,
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "ea8f93d879f8a16d0d0e48d281bef7f147bd36e51592f981ed3831ebfbc1ee52"
+    },
+    {
+      "name": "T_Snow_Sky_Dawn",
+      "file": "Textures/T_Snow_Sky_Dawn.png",
+      "region": "snow",
+      "layer": "sky",
+      "label": "하늘 색면",
+      "phase": "dawn",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "c95fd8ffd6cd58530acebec016c4dc612ea039da9504d8598b6dd07cde8aa1c8"
+    },
+    {
+      "name": "T_Snow_Sky_Dusk",
+      "file": "Textures/T_Snow_Sky_Dusk.png",
+      "region": "snow",
+      "layer": "sky",
+      "label": "하늘 색면",
+      "phase": "dusk",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "d26c77768ba1124f9a48f89f238d3d5e5f5c2d6b48d6b17106278bcf38f66c82"
+    },
+    {
+      "name": "T_Snow_Clouds_Dawn",
+      "file": "Textures/T_Snow_Clouds_Dawn.png",
+      "region": "snow",
+      "layer": "clouds",
+      "label": "구름",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "ea6a1506da4d27c3355d95aa7cb5232761efd3addab4a3027dd76f5c8b4807bd"
+    },
+    {
+      "name": "T_Snow_Clouds_Dusk",
+      "file": "Textures/T_Snow_Clouds_Dusk.png",
+      "region": "snow",
+      "layer": "clouds",
+      "label": "구름",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "69514b9e4e4fba8bc327a8afedfbdd9d53b11e589157f74c3f6ce5a77c45c44c"
+    },
+    {
+      "name": "T_Snow_MountainsFar_Dawn",
+      "file": "Textures/T_Snow_MountainsFar_Dawn.png",
+      "region": "snow",
+      "layer": "mountains_far",
+      "label": "뒷산",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "d9880042cf5ac75be969ad070b86a8fa09212e6c1eeee2b6119f1c7a27b6669f"
+    },
+    {
+      "name": "T_Snow_MountainsFar_Dusk",
+      "file": "Textures/T_Snow_MountainsFar_Dusk.png",
+      "region": "snow",
+      "layer": "mountains_far",
+      "label": "뒷산",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "edb8fbddae9b66704784cab5b3b7eec5900230950e6987b5bbe4606f0c45c21d"
+    },
+    {
+      "name": "T_Snow_MountainsNear_Dawn",
+      "file": "Textures/T_Snow_MountainsNear_Dawn.png",
+      "region": "snow",
+      "layer": "mountains_near",
+      "label": "앞산",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "b4daf864e5787334ee7ef64a67eaf5a9ba04a260dc0a04d8d9f1ccd95822f9ba"
+    },
+    {
+      "name": "T_Snow_MountainsNear_Dusk",
+      "file": "Textures/T_Snow_MountainsNear_Dusk.png",
+      "region": "snow",
+      "layer": "mountains_near",
+      "label": "앞산",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "038a4fca24544951fdb5b8df6d3732ec349cbe3d15cc6f8251e3c8832a6baffd"
+    },
+    {
+      "name": "T_Snow_TreesBack_Dawn",
+      "file": "Textures/T_Snow_TreesBack_Dawn.png",
+      "region": "snow",
+      "layer": "trees_back",
+      "label": "뒤쪽 나무",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        3,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "71a5893740a16183d0ea4575b6e35b27c4d5417d1d7ce1e99208647290b28f82"
+    },
+    {
+      "name": "T_Snow_TreesBack_Dusk",
+      "file": "Textures/T_Snow_TreesBack_Dusk.png",
+      "region": "snow",
+      "layer": "trees_back",
+      "label": "뒤쪽 나무",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        3,
+        10
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "9bdc9d4d9238ac0d13b49767568cd74a396275fff4e7a2962182e981819033c6"
+    },
+    {
+      "name": "T_Snow_Buildings_Dawn",
+      "file": "Textures/T_Snow_Buildings_Dawn.png",
+      "region": "snow",
+      "layer": "buildings",
+      "label": "뒤쪽 건물",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        2,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "5ec2e71c03f2fdb178c63b4abcd14be716c875210fee271c1be863583213dff3"
+    },
+    {
+      "name": "T_Snow_Buildings_Dusk",
+      "file": "Textures/T_Snow_Buildings_Dusk.png",
+      "region": "snow",
+      "layer": "buildings",
+      "label": "뒤쪽 건물",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        2,
+        5
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "8b2e62fe22b10f8b135afb2f87ac241585627e5b221cb2e3a8c0c1373bfcb1f3"
+    },
+    {
+      "name": "T_Snow_TreesFront_Dawn",
+      "file": "Textures/T_Snow_TreesFront_Dawn.png",
+      "region": "snow",
+      "layer": "trees_front",
+      "label": "앞쪽 나무",
+      "phase": "dawn",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "5685e40df4ffa929a303e181c34670b0e81a6ea6528b313840d27627e173bfae"
+    },
+    {
+      "name": "T_Snow_TreesFront_Dusk",
+      "file": "Textures/T_Snow_TreesFront_Dusk.png",
+      "region": "snow",
+      "layer": "trees_front",
+      "label": "앞쪽 나무",
+      "phase": "dusk",
+      "size": [
+        1920,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        7680,
+        1080
+      ],
+      "ratio": [
+        1,
+        2
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "4fad9a7b97215a549a905df5f94fc86296e6c51b92505f259dc8d862d724bfcd"
+    },
+    {
+      "name": "T_Snow_LowerBase_Dawn",
+      "file": "Textures/T_Snow_LowerBase_Dawn.png",
+      "region": "snow",
+      "layer": "lower_base",
+      "label": "하단 UI 색면",
+      "phase": "dawn",
+      "size": [
+        480,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "anchor": "viewport",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "20007e74bf40bdc78293d2ed991df90fe55f77807c231a54c92242439af23e89"
+    },
+    {
+      "name": "T_Snow_LowerBase_Dusk",
+      "file": "Textures/T_Snow_LowerBase_Dusk.png",
+      "region": "snow",
+      "layer": "lower_base",
+      "label": "하단 UI 색면",
+      "phase": "dusk",
+      "size": [
+        480,
+        270
+      ],
+      "world_rect": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "anchor": "viewport",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "843d3ed3e43f014e00fc334e7a720ffeb2f32d2e87a0dc4c09ece02e212bf890"
+    },
+    {
+      "name": "T_Snow_StreetTile_Dawn",
+      "file": "Textures/T_Snow_StreetTile_Dawn.png",
+      "region": "snow",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "dawn",
+      "size": [
+        120,
+        30
+      ],
+      "world_rect": [
+        0,
+        832,
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "9a4f5e3b01f3685e7f0a05c957d436270b18cdf73ac03fb619394869d96543c4"
+    },
+    {
+      "name": "T_Snow_StreetTile_Dusk",
+      "file": "Textures/T_Snow_StreetTile_Dusk.png",
+      "region": "snow",
+      "layer": "street_tile",
+      "label": "바닥",
+      "phase": "dusk",
+      "size": [
+        120,
+        30
+      ],
+      "world_rect": [
+        0,
+        832,
+        480,
+        120
+      ],
+      "ratio": [
+        1,
+        1
+      ],
+      "period": 480,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "b6a358d6a114b7e0c92456d454c2b08132849a2f33fd675c162ad5e177c55731"
+    },
+    {
+      "name": "T_Forest_CloudsHigh_Dawn",
+      "file": "Textures/T_Forest_CloudsHigh_Dawn.png",
+      "region": "forest",
+      "layer": "clouds_high",
+      "label": "높은 구름",
+      "phase": "dawn",
+      "size": [
+        1920,
+        624
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "anchor": "world",
+      "bind": null,
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        2496
+      ],
+      "period": 7680,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "61e5a0100c00b64528d83f27f30d497dab4238723104ded16ab7ba234f1cdbbb"
+    },
+    {
+      "name": "T_Forest_CloudsHigh_Dusk",
+      "file": "Textures/T_Forest_CloudsHigh_Dusk.png",
+      "region": "forest",
+      "layer": "clouds_high",
+      "label": "높은 구름",
+      "phase": "dusk",
+      "size": [
+        1920,
+        624
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "anchor": "world",
+      "bind": null,
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        2496
+      ],
+      "period": 7680,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "0e88141d9752dc9edf6fb7aa90c4ca211f3f726b0348ba08d59249e76f3714f1"
+    },
+    {
+      "name": "T_Snow_CloudsHigh_Dawn",
+      "file": "Textures/T_Snow_CloudsHigh_Dawn.png",
+      "region": "snow",
+      "layer": "clouds_high",
+      "label": "높은 구름",
+      "phase": "dawn",
+      "size": [
+        1920,
+        624
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "anchor": "world",
+      "bind": null,
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        2496
+      ],
+      "period": 7680,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "61e5a0100c00b64528d83f27f30d497dab4238723104ded16ab7ba234f1cdbbb"
+    },
+    {
+      "name": "T_Snow_CloudsHigh_Dusk",
+      "file": "Textures/T_Snow_CloudsHigh_Dusk.png",
+      "region": "snow",
+      "layer": "clouds_high",
+      "label": "높은 구름",
+      "phase": "dusk",
+      "size": [
+        1920,
+        624
+      ],
+      "ratio": [
+        1,
+        20
+      ],
+      "anchor": "world",
+      "bind": null,
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        2496
+      ],
+      "period": 7680,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "0e88141d9752dc9edf6fb7aa90c4ca211f3f726b0348ba08d59249e76f3714f1"
+    },
+    {
+      "name": "T_Forest_StarsA",
+      "file": "Textures/T_Forest_StarsA.png",
+      "region": "forest",
+      "layer": "stars_a",
+      "label": "별 A",
+      "phase": "night",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": "sky",
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "5fa68b5062889f4e7aaf7bc426ed5831b6539530d28d08919b0b1fb3e92a60d4"
+    },
+    {
+      "name": "T_Forest_StarsB",
+      "file": "Textures/T_Forest_StarsB.png",
+      "region": "forest",
+      "layer": "stars_b",
+      "label": "별 B",
+      "phase": "night",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": "sky",
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "875bbfcb2e9c05856d234996afbde7370c05c7506f95ceca7932ef7c19ac7899"
+    },
+    {
+      "name": "T_Forest_StarsC",
+      "file": "Textures/T_Forest_StarsC.png",
+      "region": "forest",
+      "layer": "stars_c",
+      "label": "별 C",
+      "phase": "night",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": "sky",
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "189ba0d06a9171bbf71f4838ac36944aa808ae1c6fca5dbb4f421c3371b87a6e"
+    },
+    {
+      "name": "T_Snow_StarsA",
+      "file": "Textures/T_Snow_StarsA.png",
+      "region": "snow",
+      "layer": "stars_a",
+      "label": "별 A",
+      "phase": "night",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": "sky",
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "5fa68b5062889f4e7aaf7bc426ed5831b6539530d28d08919b0b1fb3e92a60d4"
+    },
+    {
+      "name": "T_Snow_StarsB",
+      "file": "Textures/T_Snow_StarsB.png",
+      "region": "snow",
+      "layer": "stars_b",
+      "label": "별 B",
+      "phase": "night",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": "sky",
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "875bbfcb2e9c05856d234996afbde7370c05c7506f95ceca7932ef7c19ac7899"
+    },
+    {
+      "name": "T_Snow_StarsC",
+      "file": "Textures/T_Snow_StarsC.png",
+      "region": "snow",
+      "layer": "stars_c",
+      "label": "별 C",
+      "phase": "night",
+      "size": [
+        1920,
+        894
+      ],
+      "world_rect": [
+        0,
+        -2496,
+        7680,
+        3576
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": 7680,
+      "anchor": "world",
+      "bind": "sky",
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "189ba0d06a9171bbf71f4838ac36944aa808ae1c6fca5dbb4f421c3371b87a6e"
+    },
+    {
+      "name": "T_Sun",
+      "file": "Textures/T_Sun.png",
+      "region": "shared",
+      "layer": "sun",
+      "label": "해",
+      "phase": "all",
+      "size": [
+        48,
+        48
+      ],
+      "world_rect": [
+        -96,
+        -96,
+        192,
+        192
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "8cba06d99f302ab272fc8b322da887eaad657ea1aaef66ed76d860093c92f232"
+    },
+    {
+      "name": "T_Moon",
+      "file": "Textures/T_Moon.png",
+      "region": "shared",
+      "layer": "moon",
+      "label": "달",
+      "phase": "all",
+      "size": [
+        48,
+        48
+      ],
+      "world_rect": [
+        -96,
+        -96,
+        192,
+        192
+      ],
+      "ratio": [
+        0,
+        1
+      ],
+      "period": null,
+      "anchor": "world",
+      "bind": null,
+      "texel_grid": 1,
+      "world_units_per_texel": 4,
+      "sha256": "e68d40aa9f164733244184ac72ad9a1813a7f88b6ee7714312655307e2359c14"
+    }
+  ],
+  "render_order": [
+    {
+      "id": "sky",
+      "label": "하늘 색면",
+      "ratio": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "stars_a",
+      "label": "별 A",
+      "ratio": [
+        0,
+        1
+      ],
+      "appear_darkness": 0.2,
+      "twinkle_period_s": 2.3
+    },
+    {
+      "id": "stars_b",
+      "label": "별 B",
+      "ratio": [
+        0,
+        1
+      ],
+      "appear_darkness": 0.5,
+      "twinkle_period_s": 3.1
+    },
+    {
+      "id": "stars_c",
+      "label": "별 C",
+      "ratio": [
+        0,
+        1
+      ],
+      "appear_darkness": 0.8,
+      "twinkle_period_s": 4.3
+    },
+    {
+      "id": "sun",
+      "label": "해",
+      "ratio": [
+        0,
+        1
+      ],
+      "body": "sun"
+    },
+    {
+      "id": "moon",
+      "label": "달",
+      "ratio": [
+        0,
+        1
+      ],
+      "body": "moon"
+    },
+    {
+      "id": "clouds_high",
+      "label": "높은 구름",
+      "ratio": [
+        1,
+        20
+      ],
+      "drift_px": 3
+    },
+    {
+      "id": "clouds",
+      "label": "구름",
+      "ratio": [
+        1,
+        20
+      ],
+      "drift_px": 6
+    },
+    {
+      "id": "mountains_far",
+      "label": "뒷산",
+      "ratio": [
+        1,
+        10
+      ]
+    },
+    {
+      "id": "mountains_near",
+      "label": "앞산",
+      "ratio": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "trees_back",
+      "label": "뒤쪽 나무",
+      "ratio": [
+        3,
+        10
+      ]
+    },
+    {
+      "id": "buildings",
+      "label": "뒤쪽 건물",
+      "ratio": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "window_lights",
+      "label": "창 불빛",
+      "ratio": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "trees_front",
+      "label": "앞쪽 나무",
+      "ratio": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "lower_base",
+      "label": "하단 UI 색면",
+      "ratio": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "street_tile",
+      "label": "바닥",
+      "ratio": [
+        1,
+        1
+      ]
+    }
+  ],
+  "depth_order_front_to_back": [
+    "trees_front",
+    "buildings",
+    "trees_back",
+    "mountains_near",
+    "mountains_far",
+    "clouds"
+  ],
+  "zoom_policy": {
+    "all_world_layers_use_same_zoom": true,
+    "world_zoom_range": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "pivot": [
+      960,
+      832
+    ],
+    "maximum_view_world_rect": [
+      -2880,
+      -2496,
+      7680,
+      4320
+    ],
+    "fixed_background_units_per_texel": 4,
+    "note": "그림 한 칸 = PNG 1픽셀, PNG 1픽셀 = 월드 4단위(RecordTales 배경 묶음 고정 규격). 모든 월드 레이어가 같은 카메라 배율 · 기준점을 쓰고 가로 이동 비율만 다릅니다."
+  },
+  "hidden_surface_policy": "건물은 지붕부터 기초까지 완성합니다. 산·숲의 아래 가림 부분도 캔버스 끝까지 보완합니다. 앞쪽 나무는 무리 사이를 넓게 비우고 하단 관목만 이어집니다. 하늘은 구름과 산이 없는 별도 불투명 색면입니다.",
+  "seams": {
+    "method": "견본의 접합을 유지합니다. 숲 바닥은 120×30 픽셀 격자로 정리하고 좌우 경계를 일치시킵니다.",
+    "buildings": "건물 전체가 화면 안에 있고 좌우 끝은 투명합니다.",
+    "approval": "경계 픽셀 검증과 내부 접합의 시각 검토를 구분합니다."
+  },
+  "native_files": [
+    "Source/forest.aseprite",
+    "Source/snow.aseprite",
+    "Source/forest_ground.aseprite",
+    "Source/snow_ground.aseprite",
+    "Source/celestial_fx.aseprite"
+  ],
+  "native_layout": {
+    "scene_canvas": [
+      1920,
+      894
+    ],
+    "scene_world_origin": [
+      0,
+      -2496
+    ],
+    "scene_world_units_per_pixel": 4,
+    "ground_world_units_per_pixel": 4,
+    "scene_layers": 40,
+    "ground_canvas_y": 832,
+    "original_background_offset": [
+      0,
+      624
+    ],
+    "viewport_layer_note": "LowerBase는 편집상 PNG y624에 놓고 게임에서는 화면에 고정합니다."
+  },
+  "destination": "/Game/Art/PixelLandscape_v015",
+  "import_script": "import_landscape.py",
+  "engine_connected": false,
+  "import_instructions": "RecordTales 에디터에서 import_landscape.py로 텍스처94장과 스프라이트94개를 가져옵니다. manifest의 assets90개·fx4개를 연결합니다.",
+  "integration_limits": [
+    "PNG 1픽셀=월드 4단위입니다. Paper2D는 pixels_per_unreal_unit=0.25입니다. world_rect를 적용할 때 4배를 중복 적용하지 않습니다.",
+    "모든 월드 층은 공통 배율·기준점과 기존 좌우 이동 비율을 유지합니다.",
+    "배경 반복 주기7680, 바닥 반복 주기480, 지면 월드y832를 유지합니다.",
+    "하늘·별·높은 구름은 월드y=-2496입니다.",
+    "앞쪽 나무도 플레이어 건물·캐릭터 뒤에 놓습니다.",
+    "하단 색면은 화면 고정입니다. 밤 색조를 중복 적용하지 않습니다.",
+    "텍스처는 최근접 필터·밉맵 없음이며 원본 최대 폭1920을 유지합니다.",
+    "실제 UE 실행 검수는 별도입니다."
+  ],
+  "qa": "package-validation.json",
+  "high_sky": {
+    "sky_and_stars_size": [
+      1920,
+      894
+    ],
+    "clouds_high_size": [
+      1920,
+      624
+    ],
+    "world_top": -2496,
+    "old_content_offset": 624,
+    "old_sky_bottom_preserved": "세로 색조 유지 · 가로 길이 확장"
+  },
+  "scale_reference": {
+    "player_building_world_size": [
+      240,
+      300
+    ],
+    "character_world_size": [
+      20,
+      56
+    ],
+    "source": "사용자 제공00_REQUEST.md의 현재 게임 크기",
+    "preview_building_rects": [
+      [
+        600,
+        532,
+        240,
+        300
+      ],
+      [
+        960,
+        532,
+        240,
+        300
+      ]
+    ],
+    "note": "비교용 윤곽 사각형이며 게임 리소스에 포함하지 않습니다."
+  },
+  "panorama": {
+    "width": 7680,
+    "segment_width": 1920,
+    "unique_segments": 4,
+    "composition": "기존 마을, 열린 숲과 외딴집, 작은 주거 군락, 낮은 숲과 헛간을 연결합니다. 가운데에도 볼거리를 불규칙한 간격으로 배치합니다.",
+    "unchanged_object_scale": true,
+    "ground_period": 480,
+    "sky_color_extension_only": true,
+    "clouds": "개별 구름을 서로 다른 간격과 높이로 배치합니다.",
+    "overlap_transition_world_px": 128,
+    "texture_width": 1920,
+    "texture_segment_width": 480
+  },
+  "preview_policy": {
+    "phases": [
+      "dawn",
+      "day",
+      "dusk",
+      "night"
+    ],
+    "zooms": [
+      1,
+      0.25
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "camera_x": 0,
+    "timeline_hours": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "transition_halfwidth_game_hours": 0.25,
+    "orbit_overlay": true,
+    "fx_preview": true
+  },
+  "request_source": "00_REQUEST.md · to_chatgpt (3).zip",
+  "ground_y_texel": 208,
+  "phases": [
+    "dawn",
+    "day",
+    "dusk",
+    "night"
+  ],
+  "fx": [
+    {
+      "id": "meteor",
+      "name": "T_Meteor",
+      "file": "Textures/T_Meteor.png",
+      "region": "shared",
+      "size": [
+        24,
+        6
+      ],
+      "world_units_per_texel": 4,
+      "blend": "normal",
+      "direction": "down_right",
+      "head_px": [
+        22,
+        4
+      ],
+      "sha256": "ea06fd92c6d471972182268d76128b55bd9b4db7a7a7b9b7767a313e96403f89"
+    },
+    {
+      "id": "meteor_big",
+      "name": "T_MeteorBig",
+      "file": "Textures/T_MeteorBig.png",
+      "region": "shared",
+      "size": [
+        160,
+        32
+      ],
+      "world_units_per_texel": 4,
+      "blend": "normal",
+      "direction": "down_right",
+      "head_px": [
+        137,
+        24
+      ],
+      "sha256": "160437ab0fffda81cf494653cfcb34b1b9d2c27924040de58895bef66c9d720e"
+    },
+    {
+      "id": "meteor_big_glow",
+      "name": "T_MeteorGlow",
+      "file": "Textures/T_MeteorGlow.png",
+      "region": "shared",
+      "size": [
+        64,
+        64
+      ],
+      "world_units_per_texel": 4,
+      "blend": "additive",
+      "sha256": "4ad2ee17a552aedc8a616105a35dbba32a0a1df0e59367053e09f8de7c02e96b"
+    },
+    {
+      "id": "meteor_big_spark",
+      "name": "T_MeteorSpark",
+      "file": "Textures/T_MeteorSpark.png",
+      "region": "shared",
+      "size": [
+        64,
+        16
+      ],
+      "world_units_per_texel": 4,
+      "blend": "normal",
+      "frames": 4,
+      "frame_size": [
+        16,
+        16
+      ],
+      "sha256": "7dfc759d9233e68ec9da0c32aa01170daebab49dd9f3b682f82a7e2e1f5d84fe"
+    }
+  ]
+}

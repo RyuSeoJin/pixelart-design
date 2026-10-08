@@ -1,0 +1,3787 @@
+{
+  "version": 15,
+  "passed": true,
+  "checks": 939,
+  "preserved_files": 42,
+  "stars": {
+    "Forest": {
+      "pixels_abc": [
+        105,
+        210,
+        485
+      ],
+      "old_pixels": 700,
+      "new_pixels": 800
+    },
+    "Snow": {
+      "pixels_abc": [
+        105,
+        210,
+        485
+      ],
+      "old_pixels": 700,
+      "new_pixels": 800
+    }
+  },
+  "engine_executed": false,
+  "pixel_grid_note": "PNG의 실제 한 픽셀이 작업 격자입니다. 같은 색이 이어지는 면을 금지하는 의미가 아닙니다.",
+  "failures": [],
+  "details": [
+    {
+      "검사": "manifest 개수",
+      "통과": true
+    },
+    {
+      "검사": "Textures94개",
+      "통과": true
+    },
+    {
+      "검사": "옛 별 파일 제거",
+      "통과": true
+    },
+    {
+      "검사": "시간대와목적지",
+      "통과": true
+    },
+    {
+      "검사": "zoom_policy 보존",
+      "통과": true
+    },
+    {
+      "검사": "ground_y 보존",
+      "통과": true
+    },
+    {
+      "검사": "canvas 보존",
+      "통과": true
+    },
+    {
+      "검사": "regions 보존",
+      "통과": true
+    },
+    {
+      "검사": "depth_order_front_to_back 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_WindowLights SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_WindowLights 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_WindowLights SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_WindowLights 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Day SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Day 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Night SHA256 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Night 배치 보존",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Day 하늘 불투명",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Day 세로 색만·천체 없음",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Night 하늘 불투명",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Night 세로 색만·천체 없음",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_WindowLights 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_WindowLights 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_WindowLights 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_WindowLights 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_WindowLights 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_WindowLights 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_WindowLights 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Day 하늘 불투명",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Day 세로 색만·천체 없음",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Night 하늘 불투명",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Night 세로 색만·천체 없음",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_WindowLights 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_WindowLights 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_WindowLights 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_WindowLights 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_WindowLights 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_WindowLights 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_WindowLights 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Day 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Day 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Day 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Day 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Day 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Day 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Day 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Night 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Night 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Night 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Night 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Night 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Night 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Night 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dawn 하늘 불투명",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dawn 세로 색만·천체 없음",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dusk 하늘 불투명",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dusk 세로 색만·천체 없음",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Sky_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Clouds_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsFar_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_MountainsNear_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesBack_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_Buildings_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_TreesFront_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_LowerBase_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StreetTile_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dawn 하늘 불투명",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dawn 세로 색만·천체 없음",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dusk 하늘 불투명",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dusk 세로 색만·천체 없음",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Sky_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Clouds_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsFar_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_MountainsNear_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesBack_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_Buildings_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_TreesFront_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_LowerBase_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StreetTile_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_CloudsHigh_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dawn 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dawn 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dawn 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dawn 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dawn 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dawn 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dawn 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dawn 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dawn 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dusk 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dusk 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dusk 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dusk 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dusk 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dusk 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dusk 낮판 알파 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dusk 낮판 배치 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_CloudsHigh_Dusk 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsA 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsA 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsA 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsA 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsA 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsA 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsA 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsB 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsB 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsB 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsB 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsB 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsB 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsB 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsC 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsC 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsC 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsC 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsC 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsC 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Forest_StarsC 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsA 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsA 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsA 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsA 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsA 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsA 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsA 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsB 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsB 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsB 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsB 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsB 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsB 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsB 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsC 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsC 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsC 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsC 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsC 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsC 좌우 경계",
+      "통과": true
+    },
+    {
+      "검사": "T_Snow_StarsC 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Sun 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Sun 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Sun 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Sun 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Sun 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Sun 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Moon 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Moon 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Moon 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Moon 월드4배",
+      "통과": true
+    },
+    {
+      "검사": "T_Moon 기하 일치",
+      "통과": true
+    },
+    {
+      "검사": "T_Moon 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_Meteor 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_Meteor 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_Meteor 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_Meteor 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorBig 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorBig 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorBig 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorBig 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorGlow 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorGlow 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorGlow 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorGlow 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorSpark 픽셀 크기",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorSpark 이진 알파",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorSpark 내용 존재",
+      "통과": true
+    },
+    {
+      "검사": "T_MeteorSpark 원본 왕복",
+      "통과": true
+    },
+    {
+      "검사": "Forest 별3층 겹침0",
+      "통과": true
+    },
+    {
+      "검사": "Forest 기존별 모두보존",
+      "통과": true
+    },
+    {
+      "검사": "Forest 별개수 A<B<C",
+      "통과": true
+    },
+    {
+      "검사": "ForestSky 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "ForestClouds 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "ForestMountainsFar 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "ForestMountainsNear 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "ForestTreesBack 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "ForestBuildings 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "ForestTreesFront 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "ForestStreetTile 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "ForestLowerBase 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "ForestCloudsHigh 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "Snow 별3층 겹침0",
+      "통과": true
+    },
+    {
+      "검사": "Snow 기존별 모두보존",
+      "통과": true
+    },
+    {
+      "검사": "Snow 별개수 A<B<C",
+      "통과": true
+    },
+    {
+      "검사": "SnowSky 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "SnowClouds 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "SnowMountainsFar 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "SnowMountainsNear 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "SnowTreesBack 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "SnowBuildings 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "SnowTreesFront 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "SnowStreetTile 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "SnowLowerBase 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "SnowCloudsHigh 새벽·저녁 밝기 차20이하",
+      "통과": true
+    },
+    {
+      "검사": "dawnsun 궤도 검산",
+      "통과": true
+    },
+    {
+      "검사": "dawnmoon 궤도 검산",
+      "통과": true
+    },
+    {
+      "검사": "daysun 궤도 검산",
+      "통과": true
+    },
+    {
+      "검사": "daymoon 궤도 검산",
+      "통과": true
+    },
+    {
+      "검사": "dusksun 궤도 검산",
+      "통과": true
+    },
+    {
+      "검사": "duskmoon 궤도 검산",
+      "통과": true
+    },
+    {
+      "검사": "nightsun 궤도 검산",
+      "통과": true
+    },
+    {
+      "검사": "nightmoon 궤도 검산",
+      "통과": true
+    },
+    {
+      "검사": "달 자정 연속",
+      "통과": true
+    },
+    {
+      "검사": "배율0.25 카메라-15360 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.25 카메라-7680 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.25 카메라-123 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.25 카메라0 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.25 카메라777 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.25 카메라7680 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.25 카메라15360 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.5 카메라-15360 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.5 카메라-7680 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.5 카메라-123 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.5 카메라0 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.5 카메라777 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.5 카메라7680 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.5 카메라15360 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.75 카메라-15360 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.75 카메라-7680 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.75 카메라-123 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.75 카메라0 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.75 카메라777 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.75 카메라7680 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율0.75 카메라15360 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율1 카메라-15360 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율1 카메라-7680 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율1 카메라-123 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율1 카메라0 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율1 카메라777 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율1 카메라7680 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "배율1 카메라15360 공통 기하",
+      "통과": true
+    },
+    {
+      "검사": "지면208",
+      "통과": true
+    },
+    {
+      "검사": "meteor 오른쪽 아래 머리",
+      "통과": true
+    },
+    {
+      "검사": "meteor_big 오른쪽 아래 머리",
+      "통과": true
+    },
+    {
+      "검사": "반짝임4칸 순서",
+      "통과": true
+    },
+    {
+      "검사": "구름 흐름값",
+      "통과": true
+    },
+    {
+      "검사": "stars_a 등장·반짝임",
+      "통과": true
+    },
+    {
+      "검사": "stars_b 등장·반짝임",
+      "통과": true
+    },
+    {
+      "검사": "stars_c 등장·반짝임",
+      "통과": true
+    },
+    {
+      "검사": "forest 원본크기",
+      "통과": true
+    },
+    {
+      "검사": "snow 원본크기",
+      "통과": true
+    },
+    {
+      "검사": "forest_ground 원본크기",
+      "통과": true
+    },
+    {
+      "검사": "snow_ground 원본크기",
+      "통과": true
+    },
+    {
+      "검사": "celestial_fx 원본크기",
+      "통과": true
+    },
+    {
+      "검사": "forest_dawn_zoom_25.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_dawn_zoom_25_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_dawn_zoom_100.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_dawn_zoom_100_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_day_zoom_25.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_day_zoom_25_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_day_zoom_100.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_day_zoom_100_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_dusk_zoom_25.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_dusk_zoom_25_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_dusk_zoom_100.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_dusk_zoom_100_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_night_zoom_25.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_night_zoom_25_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_night_zoom_100.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_night_zoom_100_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_fx_zoom_25.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "forest_fx_zoom_100.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_dawn_zoom_25.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_dawn_zoom_25_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_dawn_zoom_100.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_dawn_zoom_100_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_day_zoom_25.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_day_zoom_25_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_day_zoom_100.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_day_zoom_100_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_dusk_zoom_25.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_dusk_zoom_25_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_dusk_zoom_100.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_dusk_zoom_100_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_night_zoom_25.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_night_zoom_25_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_night_zoom_100.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_night_zoom_100_orbit.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_fx_zoom_25.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "snow_fx_zoom_100.png 화면",
+      "통과": true
+    },
+    {
+      "검사": "하루 흐름25시각·2지역",
+      "통과": true
+    },
+    {
+      "검사": "가져오기94개·0.25",
+      "통과": true
+    }
+  ]
+}

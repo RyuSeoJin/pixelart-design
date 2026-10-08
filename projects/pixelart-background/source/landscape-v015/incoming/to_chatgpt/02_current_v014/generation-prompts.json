@@ -1,0 +1,408 @@
+{
+  "provider": "내장 GPT 이미지 생성",
+  "records": [
+    {
+      "region": "Forest",
+      "kind": "TreesFront",
+      "segment": 1,
+      "prompt": "기존 게임배경 옆에 이어붙일 새로운 독립 레이어를 그립니다. 첨부는 픽셀 스타일·팔레트·사물 크기 참고입니다. 기존 배치를 복사하지말고 새구도로 제작. 캔버스1920×1080 비율16:9를 유지. 좌표는이캔버스기준. 투명 배경. 도트4픽셀정도의큰계단, 블러·미세질감금지. 큰 침엽수1그루는x=240, 작은 둥근 활엽수1그루는x=1660. 그 사이 넓은 빈터를 투명하게. 꼭대기y=620~700. 아래관목은y=1000부터캔버스끝까지. 요청한대상외다른레이어(하늘,구름,지면,UI,캐릭터)는없음. 나무레이어엔건물·산금지, 산레이어엔나무·건물금지, 건물엔나무·산금지. 상단위치와사물크기를준수하고대상을크게확대하지마세요. 글자·선·프레임없음.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-7dcd6169-de96-4b83-aca8-e588e837565b.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_TreesFront_1.png",
+      "selected": false
+    },
+    {
+      "region": "Forest",
+      "kind": "Buildings",
+      "segment": 1,
+      "prompt": "기존 게임배경 옆에 이어붙일 새로운 독립 레이어를 그립니다. 첨부는 픽셀 스타일·팔레트·사물 크기 참고입니다. 기존 배치를 복사하지말고 새구도로 제작. 캔버스1920×1080 비율16:9를 유지. 좌표는이캔버스기준. 투명 배경. 도트4픽셀정도의큰계단, 블러·미세질감금지. 작은 목조 석조 오두막 딱1채만x=1450~1710,y=592~824에. 탑은없음. 온전한기초까지. 나머지전부투명. 요청한대상외다른레이어(하늘,구름,지면,UI,캐릭터)는없음. 나무레이어엔건물·산금지, 산레이어엔나무·건물금지, 건물엔나무·산금지. 상단위치와사물크기를준수하고대상을크게확대하지마세요. 글자·선·프레임없음.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-e3595411-666a-41e7-9578-c87fa2fe0e3a.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_Buildings_1.png",
+      "selected": true,
+      "selected_input_sha256": "05c3659165996a9ecaf35b6b00f07a574e6cc3aaed02ef259db9f028ab4614d2"
+    },
+    {
+      "region": "Forest",
+      "kind": "TreesBack",
+      "segment": 1,
+      "prompt": "기존 게임배경 옆에 이어붙일 새로운 독립 레이어를 그립니다. 첨부는 픽셀 스타일·팔레트·사물 크기 참고입니다. 기존 배치를 복사하지말고 새구도로 제작. 캔버스1920×1080 비율16:9를 유지. 좌표는이캔버스기준. 투명 배경. 도트4픽셀정도의큰계단, 블러·미세질감금지. 옅은청록의작은침엽수숲. 왼쪽숲꼭대기y=500,중앙넓은골짜기y=660,오른쪽y=530. 숲내부는하단끝까지채움. 실루엣위투명. 요청한대상외다른레이어(하늘,구름,지면,UI,캐릭터)는없음. 나무레이어엔건물·산금지, 산레이어엔나무·건물금지, 건물엔나무·산금지. 상단위치와사물크기를준수하고대상을크게확대하지마세요. 글자·선·프레임없음.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-f82982a6-9cb4-4aaa-8d83-ac0aad1969ea.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_TreesBack_1.png",
+      "selected": true,
+      "selected_input_sha256": "610cd375078a8593d4dcde47790204fcfab1a935672a003982e3cf407a6fc0dd"
+    },
+    {
+      "region": "Forest",
+      "kind": "MountainsNear",
+      "segment": 1,
+      "prompt": "기존 게임배경 옆에 이어붙일 새로운 독립 레이어를 그립니다. 첨부는 픽셀 스타일·팔레트·사물 크기 참고입니다. 기존 배치를 복사하지말고 새구도로 제작. 캔버스1920×1080 비율16:9를 유지. 좌표는이캔버스기준. 투명 배경. 도트4픽셀정도의큰계단, 블러·미세질감금지. 앞산만: 청록푸른낮고긴능선,왼쪽y=460에서중앙넓은안부y=620,오른쪽작은바위봉y=440. 원본과다른독특한구도. 아래산비탈을캔버스끝까지완전채움. 위투명. 요청한대상외다른레이어(하늘,구름,지면,UI,캐릭터)는없음. 나무레이어엔건물·산금지, 산레이어엔나무·건물금지, 건물엔나무·산금지. 상단위치와사물크기를준수하고대상을크게확대하지마세요. 글자·선·프레임없음.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-8d732b58-32d9-40b3-8161-2ad78a3885b0.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_MountainsNear_1.png",
+      "selected": true,
+      "selected_input_sha256": "93e5b845c904f18bb3b46e755f9572f8dd87b46d67aa23b0c8f41971908eb335"
+    },
+    {
+      "region": "Forest",
+      "kind": "MountainsFar",
+      "segment": 1,
+      "prompt": "기존 게임배경 옆에 이어붙일 새로운 독립 레이어를 그립니다. 첨부는 픽셀 스타일·팔레트·사물 크기 참고입니다. 기존 배치를 복사하지말고 새구도로 제작. 캔버스1920×1080 비율16:9를 유지. 좌표는이캔버스기준. 투명 배경. 도트4픽셀정도의큰계단, 블러·미세질감금지. 뒷산만: 밝은회청색아주먼산,왼쪽완만한봉y=360,넓은중앙안부y=480,오른쪽쌍봉y=320. 저대비. 하단전체산색과약한질감으로채움. 위투명. 요청한대상외다른레이어(하늘,구름,지면,UI,캐릭터)는없음. 나무레이어엔건물·산금지, 산레이어엔나무·건물금지, 건물엔나무·산금지. 상단위치와사물크기를준수하고대상을크게확대하지마세요. 글자·선·프레임없음.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-46d807bc-4d24-432e-a0e6-9eaceb8a9192.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_MountainsFar_1.png",
+      "selected": true,
+      "selected_input_sha256": "da20d9e3f1747884917bfc6ed1575b6703f2e9f246c04142f504459a5ddb1314"
+    },
+    {
+      "region": "Forest",
+      "kind": "TreesFront",
+      "segment": 2,
+      "prompt": "기존게임배경 옆에이어붙일새독립레이어. 첨부는스타일/팔레트/사물크기참고. 기존배치를복사하지말고새구도. 캔버스1920×1080비율16:9,아래좌표는이기준. 투명배경,4픽셀정도큰계단 도트,블러미세질감금지. 둥근활엽수 x=340, 작은침엽수 x=880, 서로다른나무2그루 x=1350~1540. 가운데구간에도볼거리. 나무높이y=600~720, 넓이140~240. 간격은불규칙하며 나머지투명여백. 아래관목y=1000부터끝까지. 스크롤용이므로중앙에도자연스럽게볼거리를배치,양끝에만몰아넣지않기. 요청외레이어(하늘구름지면UI캐릭터)없음. 나무에는산건물없음,산에는나무건물없음,건물에는나무산없음. 글자선프레임없음. 참고와같은사물크기준수.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-aa7aa4a2-d99e-4074-8295-81f8ca9c51f5.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_TreesFront_2.png",
+      "selected": false
+    },
+    {
+      "region": "Forest",
+      "kind": "Buildings",
+      "segment": 2,
+      "prompt": "기존게임배경 옆에이어붙일새독립레이어. 첨부는스타일/팔레트/사물크기참고. 기존배치를복사하지말고새구도. 캔버스1920×1080비율16:9,아래좌표는이기준. 투명배경,4픽셀정도큰계단 도트,블러미세질감금지. 서로다른목조석조집4채를x=140~380,550~850,1060~1340,1580~1830에. 첫집지붕높이y=620,둘째y=560,셋째y=600,넷째y=640. 기초y=824공통. 교회탑없음. 집사이는투명. 스크롤용이므로중앙에도자연스럽게볼거리를배치,양끝에만몰아넣지않기. 요청외레이어(하늘구름지면UI캐릭터)없음. 나무에는산건물없음,산에는나무건물없음,건물에는나무산없음. 글자선프레임없음. 참고와같은사물크기준수.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-259a32d3-5211-46ae-9d2e-b2279b0a67ed.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_Buildings_2.png",
+      "selected": true,
+      "selected_input_sha256": "a5acc89a7fb606d871529a76a41a124ec04b90570e1cd8208712c770cd344796"
+    },
+    {
+      "region": "Forest",
+      "kind": "TreesBack",
+      "segment": 2,
+      "prompt": "기존게임배경 옆에이어붙일새독립레이어. 첨부는스타일/팔레트/사물크기참고. 기존배치를복사하지말고새구도. 캔버스1920×1080비율16:9,아래좌표는이기준. 투명배경,4픽셀정도큰계단 도트,블러미세질감금지. 옅은청록의숲. 왼쪽낮은둥근활엽수y=600,중앙침엽수y=510,오른쪽완만한숲y=580. 높이가불규칙. 하단끝까지채움. 위투명. 스크롤용이므로중앙에도자연스럽게볼거리를배치,양끝에만몰아넣지않기. 요청외레이어(하늘구름지면UI캐릭터)없음. 나무에는산건물없음,산에는나무건물없음,건물에는나무산없음. 글자선프레임없음. 참고와같은사물크기준수.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-4124cbb5-11d2-4e49-bb67-2b7c6f728ec3.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_TreesBack_2.png",
+      "selected": true,
+      "selected_input_sha256": "3b7e60f3ef17a2a78ba85ef8ae996ddca3d0dd96b9283ca03c75f398cfd71460"
+    },
+    {
+      "region": "Forest",
+      "kind": "MountainsNear",
+      "segment": 2,
+      "prompt": "기존게임배경 옆에이어붙일새독립레이어. 첨부는스타일/팔레트/사물크기참고. 기존배치를복사하지말고새구도. 캔버스1920×1080비율16:9,아래좌표는이기준. 투명배경,4픽셀정도큰계단 도트,블러미세질감금지. 앞산만: 청록푸른산. 왼쪽낮은봉y=480,중앙좌측에비대칭바위봉y=360,중앙오른쪽안부y=570,오른쪽긴능선y=440. 아래산비탈끝까지채움. 위투명. 스크롤용이므로중앙에도자연스럽게볼거리를배치,양끝에만몰아넣지않기. 요청외레이어(하늘구름지면UI캐릭터)없음. 나무에는산건물없음,산에는나무건물없음,건물에는나무산없음. 글자선프레임없음. 참고와같은사물크기준수.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-da29504a-4c26-4bc6-9bd9-43de9497a489.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_MountainsNear_2.png",
+      "selected": true,
+      "selected_input_sha256": "9405d8d4f273015b159e54ef67943dec8784d07ea5f56552531e6c90de60d5a7"
+    },
+    {
+      "region": "Forest",
+      "kind": "MountainsFar",
+      "segment": 2,
+      "prompt": "기존게임배경 옆에이어붙일새독립레이어. 첨부는스타일/팔레트/사물크기참고. 기존배치를복사하지말고새구도. 캔버스1920×1080비율16:9,아래좌표는이기준. 투명배경,4픽셀정도큰계단 도트,블러미세질감금지. 뒷산만: 밝은회청색먼산. 긴낮은능선y=420,오른쪽끝가까이혼자높은뾰족봉y=292. 저대비. 하단전체끝까지산으로채움. 위투명. 스크롤용이므로중앙에도자연스럽게볼거리를배치,양끝에만몰아넣지않기. 요청외레이어(하늘구름지면UI캐릭터)없음. 나무에는산건물없음,산에는나무건물없음,건물에는나무산없음. 글자선프레임없음. 참고와같은사물크기준수.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-bfa1ba40-05e2-4683-8a66-f83ac22f409f.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_MountainsFar_2.png",
+      "selected": true,
+      "selected_input_sha256": "ba43c060fe334287c46edde65845d9bceb3283a8ccd171cde65ad15ba0de5fbb"
+    },
+    {
+      "region": "Forest",
+      "kind": "TreesFront",
+      "segment": 3,
+      "prompt": "기존게임배경옆에새구간을그립니다. 첨부는스타일팔레트사물크기참고. 캔버스1920×1080비율16:9,아래좌표기준준수. 투명배경,4px계단픽셀아트. 작은침엽수x=170, 중앙x=730~1010에 서로다른나무2그루, 오른쪽x=1510에둥근나무1그루. 고르게분배하되 일정한간격은피함. 꼭대기y=580~720. 아래관목y=1000부터끝까지. 스크롤도중중간에도볼거리,끝에만몰지않음. 양끝형태는첨부와비슷하게맞추되중앙내용다르게. 요청한단일종류레이어외하늘구름지면UI캐릭터없음. 나무에는건물산금지,산에는나무건물금지,건물에는나무산금지. 글자선프레임없음. 블러미세질감금지.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-3154c478-c534-4eb1-b079-e42b16a6ae0c.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_TreesFront_3.png",
+      "selected": false
+    },
+    {
+      "region": "Forest",
+      "kind": "Buildings",
+      "segment": 3,
+      "prompt": "기존게임배경옆에새구간을그립니다. 첨부는스타일팔레트사물크기참고. 캔버스1920×1080비율16:9,아래좌표기준준수. 투명배경,4px계단픽셀아트. 외딴돌집1채x=600~840,y=608~824와 낮고긴목조헛간1채x=1160~1510,y=664~824만. 좌우끝으로몰지말고중간에도배치. 굴뚝과지붕모양이다름. 교회탑없음. 나머지전부투명. 스크롤도중중간에도볼거리,끝에만몰지않음. 양끝형태는첨부와비슷하게맞추되중앙내용다르게. 요청한단일종류레이어외하늘구름지면UI캐릭터없음. 나무에는건물산금지,산에는나무건물금지,건물에는나무산금지. 글자선프레임없음. 블러미세질감금지.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-51bb194e-3ec9-4d9f-94d7-c30e42e09e7f.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_Buildings_3.png",
+      "selected": true,
+      "selected_input_sha256": "ca2cb01585c479446e8fa7f36e9176dc25d092b83f8ce90ace5b25f617a0590a"
+    },
+    {
+      "region": "Forest",
+      "kind": "TreesBack",
+      "segment": 3,
+      "prompt": "기존게임배경옆에새구간을그립니다. 첨부는스타일팔레트사물크기참고. 캔버스1920×1080비율16:9,아래좌표기준준수. 투명배경,4px계단픽셀아트. 옅은청록의침엽수숲. 왼쪽숲이높아y=460,가운데낮아y=620,오른쪽y=560. 서로다른나무형태. 하단끝까지채움. 위투명. 스크롤도중중간에도볼거리,끝에만몰지않음. 양끝형태는첨부와비슷하게맞추되중앙내용다르게. 요청한단일종류레이어외하늘구름지면UI캐릭터없음. 나무에는건물산금지,산에는나무건물금지,건물에는나무산금지. 글자선프레임없음. 블러미세질감금지.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-f1682713-5aa3-4e62-ac3a-0e851bc83948.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_TreesBack_3.png",
+      "selected": true,
+      "selected_input_sha256": "d33a18ae82e719b9b2d7c7ed69f5ffc9e442100435fb8eab922f7ea95ae76d10"
+    },
+    {
+      "region": "Forest",
+      "kind": "MountainsNear",
+      "segment": 3,
+      "prompt": "기존게임배경옆에새구간을그립니다. 첨부는스타일팔레트사물크기참고. 캔버스1920×1080비율16:9,아래좌표기준준수. 투명배경,4px계단픽셀아트. 앞산만: 청록푸른암릉. 중앙은넓은낮은협곡y=600,오른쪽에큰각진봉우리y=380,왼쪽은낮은언덕y=500. 아래산비탈끝까지채움. 위투명. 스크롤도중중간에도볼거리,끝에만몰지않음. 양끝형태는첨부와비슷하게맞추되중앙내용다르게. 요청한단일종류레이어외하늘구름지면UI캐릭터없음. 나무에는건물산금지,산에는나무건물금지,건물에는나무산금지. 글자선프레임없음. 블러미세질감금지.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-0a99c9ee-f7e9-4104-a9b6-c6c5272e5a6b.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_MountainsNear_3.png",
+      "selected": true,
+      "selected_input_sha256": "e1f4b73295460fe505806484ea2ea3d1cc4530cc5ccaba6caf164e3b00c457e7"
+    },
+    {
+      "region": "Forest",
+      "kind": "MountainsFar",
+      "segment": 3,
+      "prompt": "기존게임배경옆에새구간을그립니다. 첨부는스타일팔레트사물크기참고. 캔버스1920×1080비율16:9,아래좌표기준준수. 투명배경,4px계단픽셀아트. 뒷산만: 밝은회청색먼산. 왼쪽세개의작은봉y=340~400,중앙오른쪽넓고평평한산등성이y=380. 저대비. 아래끝까지완전히채움. 위투명. 스크롤도중중간에도볼거리,끝에만몰지않음. 양끝형태는첨부와비슷하게맞추되중앙내용다르게. 요청한단일종류레이어외하늘구름지면UI캐릭터없음. 나무에는건물산금지,산에는나무건물금지,건물에는나무산금지. 글자선프레임없음. 블러미세질감금지.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-b9171425-d225-4395-8981-9aaedd1779e6.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Forest_MountainsFar_3.png",
+      "selected": true,
+      "selected_input_sha256": "6d04f655c4217ae534670d305682a5ace1820be29f54c6961c774507c819870a"
+    },
+    {
+      "region": "Snow",
+      "kind": "TreesFront",
+      "segment": 1,
+      "prompt": "첨부이미지를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 새물체추가금지. 나무라면잎위에얇은흰눈, 건물이라면지붕과처마에눈, 산이라면능선과산비탈에눈이쌓인청회색설산. 과도한순백대신청회색음영과부드러운흰눈. 픽셀도트스타일유지, 번짐블러금지. 원본의투명영역그대로, 하늘지면UI텍스트없음. 눈외새로운대상없음. 캔버스16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-1f73e4f1-5804-45a8-bfc0-e60b0c4ab2b0.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_TreesFront_1.png",
+      "selected": false
+    },
+    {
+      "region": "Snow",
+      "kind": "Buildings",
+      "segment": 1,
+      "prompt": "첨부이미지를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 새물체추가금지. 나무라면잎위에얇은흰눈, 건물이라면지붕과처마에눈, 산이라면능선과산비탈에눈이쌓인청회색설산. 과도한순백대신청회색음영과부드러운흰눈. 픽셀도트스타일유지, 번짐블러금지. 원본의투명영역그대로, 하늘지면UI텍스트없음. 눈외새로운대상없음. 캔버스16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-95da5bb9-9927-4ff0-a651-76a7e223afb9.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_Buildings_1.png",
+      "selected": true,
+      "selected_input_sha256": "7cda607b42d0c6a14e2f2e8fb5bf590206c542470397c7f03727af0f02853db8"
+    },
+    {
+      "region": "Snow",
+      "kind": "TreesBack",
+      "segment": 1,
+      "prompt": "첨부이미지를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 새물체추가금지. 나무라면잎위에얇은흰눈, 건물이라면지붕과처마에눈, 산이라면능선과산비탈에눈이쌓인청회색설산. 과도한순백대신청회색음영과부드러운흰눈. 픽셀도트스타일유지, 번짐블러금지. 원본의투명영역그대로, 하늘지면UI텍스트없음. 눈외새로운대상없음. 캔버스16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-c0f9e515-2f2b-4cbe-a1dc-d1367592b2f9.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_TreesBack_1.png",
+      "selected": true,
+      "selected_input_sha256": "e1ab144a0890ad7b5c0ac17dd5bf8216e41e15c98bd18f0849eac3c45325f71e"
+    },
+    {
+      "region": "Snow",
+      "kind": "MountainsNear",
+      "segment": 1,
+      "prompt": "첨부이미지를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 새물체추가금지. 나무라면잎위에얇은흰눈, 건물이라면지붕과처마에눈, 산이라면능선과산비탈에눈이쌓인청회색설산. 과도한순백대신청회색음영과부드러운흰눈. 픽셀도트스타일유지, 번짐블러금지. 원본의투명영역그대로, 하늘지면UI텍스트없음. 눈외새로운대상없음. 캔버스16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-edb97537-2ece-4827-b5f3-79f714a4391a.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_MountainsNear_1.png",
+      "selected": true,
+      "selected_input_sha256": "864e1aba9b492af940599601a7ececc4099f35f5c1cc34eb52774417d034b2d2"
+    },
+    {
+      "region": "Snow",
+      "kind": "MountainsFar",
+      "segment": 1,
+      "prompt": "첨부이미지를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 새물체추가금지. 나무라면잎위에얇은흰눈, 건물이라면지붕과처마에눈, 산이라면능선과산비탈에눈이쌓인청회색설산. 과도한순백대신청회색음영과부드러운흰눈. 픽셀도트스타일유지, 번짐블러금지. 원본의투명영역그대로, 하늘지면UI텍스트없음. 눈외새로운대상없음. 캔버스16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-2ae39b60-f887-4cf5-8df6-1c32b259869d.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_MountainsFar_1.png",
+      "selected": true,
+      "selected_input_sha256": "9f0b2a4bdc33d11d4f189348d7a0eca70165119830e18daccfba18e9b4badad6"
+    },
+    {
+      "region": "Snow",
+      "kind": "TreesFront",
+      "segment": 2,
+      "prompt": "첨부원화를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 나무잎위에얇은흰눈,건물지붕처마에눈,산에는청회색음영의눈덮인능선. 순백과청회색눈으로차분한설원. 픽셀도트스타일유지,블러금지. 원본투명영역유지. 하늘지면UI텍스트새물체없음. 16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-c8d2eb91-b85b-44a6-8a5a-71be4239c501.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_TreesFront_2.png",
+      "selected": false
+    },
+    {
+      "region": "Snow",
+      "kind": "Buildings",
+      "segment": 2,
+      "prompt": "첨부원화를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 나무잎위에얇은흰눈,건물지붕처마에눈,산에는청회색음영의눈덮인능선. 순백과청회색눈으로차분한설원. 픽셀도트스타일유지,블러금지. 원본투명영역유지. 하늘지면UI텍스트새물체없음. 16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-37e58ef0-5dac-4a9a-a1fe-a5d893ef6d82.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_Buildings_2.png",
+      "selected": true,
+      "selected_input_sha256": "9160746ac4d246ad86c52e274d484cd7b83f5522bf419c54af533a1aa2fe36be"
+    },
+    {
+      "region": "Snow",
+      "kind": "TreesBack",
+      "segment": 2,
+      "prompt": "첨부원화를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 나무잎위에얇은흰눈,건물지붕처마에눈,산에는청회색음영의눈덮인능선. 순백과청회색눈으로차분한설원. 픽셀도트스타일유지,블러금지. 원본투명영역유지. 하늘지면UI텍스트새물체없음. 16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-a1381b5c-8996-4f2f-a1f0-5ccee882358e.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_TreesBack_2.png",
+      "selected": true,
+      "selected_input_sha256": "4497b8be4f972b0ee4b7359dc21918da509167a46215cbc464952aa5f38e73f7"
+    },
+    {
+      "region": "Snow",
+      "kind": "MountainsNear",
+      "segment": 2,
+      "prompt": "첨부원화를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 나무잎위에얇은흰눈,건물지붕처마에눈,산에는청회색음영의눈덮인능선. 순백과청회색눈으로차분한설원. 픽셀도트스타일유지,블러금지. 원본투명영역유지. 하늘지면UI텍스트새물체없음. 16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-8bb3e6c1-d895-4893-b23a-a76154c2f270.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_MountainsNear_2.png",
+      "selected": true,
+      "selected_input_sha256": "7ecf9323cc345265beb26532576d19edf602ee1573ab6fb1945295cd225d19b6"
+    },
+    {
+      "region": "Snow",
+      "kind": "MountainsFar",
+      "segment": 2,
+      "prompt": "첨부원화를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 나무잎위에얇은흰눈,건물지붕처마에눈,산에는청회색음영의눈덮인능선. 순백과청회색눈으로차분한설원. 픽셀도트스타일유지,블러금지. 원본투명영역유지. 하늘지면UI텍스트새물체없음. 16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-1a4cd9a9-f4e1-4de6-9637-97e57fcacdc2.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_MountainsFar_2.png",
+      "selected": false
+    },
+    {
+      "region": "Snow",
+      "kind": "TreesFront",
+      "segment": 3,
+      "prompt": "첨부원화를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 나무잎위에얇은흰눈,건물지붕처마에눈,산에는청회색음영의눈덮인능선. 순백과청회색눈으로차분한설원. 픽셀도트스타일유지,블러금지. 원본투명영역유지. 하늘지면UI텍스트새물체없음. 16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-1148d28b-7574-4e55-a7a6-5fc7b5ce7a62.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_TreesFront_3.png",
+      "selected": false
+    },
+    {
+      "region": "Snow",
+      "kind": "Buildings",
+      "segment": 3,
+      "prompt": "첨부원화를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 나무잎위에얇은흰눈,건물지붕처마에눈,산에는청회색음영의눈덮인능선. 순백과청회색눈으로차분한설원. 픽셀도트스타일유지,블러금지. 원본투명영역유지. 하늘지면UI텍스트새물체없음. 16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-b7f46c2e-5f6b-4312-9ea5-9cea8ba6bde4.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_Buildings_3.png",
+      "selected": true,
+      "selected_input_sha256": "5fc5bdcd2d7f5a9b20631a2ad22783e7e6c13ce55162766e641c3ab4379608c5"
+    },
+    {
+      "region": "Snow",
+      "kind": "TreesBack",
+      "segment": 3,
+      "prompt": "첨부원화를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 나무잎위에얇은흰눈,건물지붕처마에눈,산에는청회색음영의눈덮인능선. 순백과청회색눈으로차분한설원. 픽셀도트스타일유지,블러금지. 원본투명영역유지. 하늘지면UI텍스트새물체없음. 16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-f58087f0-7c4a-4a83-a311-a7fa4fef810c.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_TreesBack_3.png",
+      "selected": true,
+      "selected_input_sha256": "0921c9366ea07f0f6a03711f787c7d3287cd6aabbd9e52ea96335a53f60dff8a"
+    },
+    {
+      "region": "Snow",
+      "kind": "MountainsNear",
+      "segment": 3,
+      "prompt": "첨부원화를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 나무잎위에얇은흰눈,건물지붕처마에눈,산에는청회색음영의눈덮인능선. 순백과청회색눈으로차분한설원. 픽셀도트스타일유지,블러금지. 원본투명영역유지. 하늘지면UI텍스트새물체없음. 16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-f2e51877-1b20-4a68-98dc-1a14cf08eb1a.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_MountainsNear_3.png",
+      "selected": true,
+      "selected_input_sha256": "0f7e28688dfc4696d96e0db326accdcbf6cf3c2a33323689221ca10af12a36c6"
+    },
+    {
+      "region": "Snow",
+      "kind": "MountainsFar",
+      "segment": 3,
+      "prompt": "첨부원화를 같은게임의 겨울 낮 버전으로 수정. 캔버스와 모든 물체 위치/크기/실루엣을 그대로 유지. 나무잎위에얇은흰눈,건물지붕처마에눈,산에는청회색음영의눈덮인능선. 순백과청회색눈으로차분한설원. 픽셀도트스타일유지,블러금지. 원본투명영역유지. 하늘지면UI텍스트새물체없음. 16:9.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-4ab91a04-87b9-470c-9bdb-9d4ff4b9ecc1.png",
+      "file": "P:/github-repository/pixelart-design/projects/pixelart-background/source/landscape-v013/input/Snow_MountainsFar_3.png",
+      "selected": false
+    },
+    {
+      "region": "Snow",
+      "kind": "MountainsFar",
+      "segment": 2,
+      "prompt": "이 설산 레이어의 아래쪽에 잘못 그려진 작은 전나무 모양/화살표 같은 반복 문양들을 전부 제거해주세요. 대신 첫번째 큰 능선 아래로는 아주 먼 산의 낮은 대비 청회색 넓은 산비탈 음영만 자연스럽게 완성. 위쪽 큰 능선의 위치/형태/크기와 투명영역은 유지. 산만 존재. 나무나 숲,작은산무늬의반복,구름,새,건물,지면없음. 차분한픽셀아트,16:9원본프레임유지.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-60194aaa-f34a-4f56-b471-120d829d305c.png",
+      "file": "input/Snow_MountainsFar_2.png",
+      "revision": 2,
+      "selected": true,
+      "selected_input_sha256": "c4907f04ec7291362339de03901d94901fe8de37b505c90bad113033fb552a35"
+    },
+    {
+      "region": "Snow",
+      "kind": "MountainsFar",
+      "segment": 3,
+      "prompt": "이 설산 레이어의 아래쪽에 잘못 그려진 작은 전나무 모양/화살표 같은 반복 문양들을 전부 제거해주세요. 대신 첫번째 큰 능선 아래로는 아주 먼 산의 낮은 대비 청회색 넓은 산비탈 음영만 자연스럽게 완성. 위쪽 큰 능선의 위치/형태/크기와 투명영역은 유지. 산만 존재. 나무나 숲,작은산무늬의반복,구름,새,건물,지면없음. 차분한픽셀아트,16:9원본프레임유지.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-21723546-64d5-4d79-beb3-949fef096611.png",
+      "file": "input/Snow_MountainsFar_3.png",
+      "revision": 2,
+      "selected": true,
+      "selected_input_sha256": "d48047dc4fd4e40df9aedcbe35282b4628aa47604fb8ba15ab12041bee414a45"
+    },
+    {
+      "region": "Forest",
+      "kind": "TreesFront",
+      "segment": 0,
+      "prompt": "게임 스크롤 배경의 앞쪽 나무 레이어 수정. 원본과같은16:9캔버스, 나무크기·낮팔레트·픽셀도트스타일 유지. 가장중요: 화면양끝으로 잘려나가는 나무나가지가 절대없도록 양끝각200픽셀(가로10%)은 y=980위로 완전히투명하게 비우세요. 가장자리 나무는삭제하지말고 안쪽으로옮겨온전하게. 전체나무군락을중앙80%안에불규칙간격으로배치. 나무높이와나무수를늘리지말고 넓은빈터도유지. 맨아래 y=1000~1080의 낮은관목층만좌우끝까지이어짐. 건물산하늘지면없음. 나무밑동까지완전그림,투명배경. 나무들의상단y=580~700. 양끝에는높은나무·활엽수수관절대없음.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-97f8c259-c6ce-4b69-9e38-b182c0eb911b.png",
+      "file": "input/Forest_TreesFront_0.png",
+      "revision": 2,
+      "selected": true,
+      "selected_input_sha256": "32d222e28425fae069b3bb72512ea78b9788862225bfcabdc4878580f1828ed0"
+    },
+    {
+      "region": "Forest",
+      "kind": "TreesFront",
+      "segment": 1,
+      "prompt": "게임 스크롤 배경의 앞쪽 나무 레이어 수정. 원본과같은16:9캔버스, 나무크기·낮팔레트·픽셀도트스타일 유지. 가장중요: 화면양끝으로 잘려나가는 나무나가지가 절대없도록 양끝각200픽셀(가로10%)은 y=980위로 완전히투명하게 비우세요. 가장자리 나무는삭제하지말고 안쪽으로옮겨온전하게. 전체나무군락을중앙80%안에불규칙간격으로배치. 나무높이와나무수를늘리지말고 넓은빈터도유지. 맨아래 y=1000~1080의 낮은관목층만좌우끝까지이어짐. 건물산하늘지면없음. 나무밑동까지완전그림,투명배경. 나무들의상단y=580~700. 양끝에는높은나무·활엽수수관절대없음.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-52e21d31-e2b0-429d-ae09-0e373001027a.png",
+      "file": "input/Forest_TreesFront_1.png",
+      "revision": 2,
+      "selected": true,
+      "selected_input_sha256": "4f4ea7afbb9b6a34c2b19e94d63fe98edfca7f2c585a48d2bfe5eb4052495406"
+    },
+    {
+      "region": "Forest",
+      "kind": "TreesFront",
+      "segment": 2,
+      "prompt": "게임 스크롤 배경의 앞쪽 나무 레이어 수정. 원본과같은16:9캔버스, 나무크기·낮팔레트·픽셀도트스타일 유지. 가장중요: 화면양끝으로 잘려나가는 나무나가지가 절대없도록 양끝각200픽셀(가로10%)은 y=980위로 완전히투명하게 비우세요. 가장자리 나무는삭제하지말고 안쪽으로옮겨온전하게. 전체나무군락을중앙80%안에불규칙간격으로배치. 나무높이와나무수를늘리지말고 넓은빈터도유지. 맨아래 y=1000~1080의 낮은관목층만좌우끝까지이어짐. 건물산하늘지면없음. 나무밑동까지완전그림,투명배경. 나무들의상단y=580~700. 양끝에는높은나무·활엽수수관절대없음.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-57a03992-2ca0-46b9-bd36-26f6079f9177.png",
+      "file": "input/Forest_TreesFront_2.png",
+      "revision": 2,
+      "selected": true,
+      "selected_input_sha256": "75f3b144e2fc628e9199fa7029748c5457d21a79317cd88c65eb80f0ead0e485"
+    },
+    {
+      "region": "Forest",
+      "kind": "TreesFront",
+      "segment": 3,
+      "prompt": "게임 스크롤 배경의 앞쪽 나무 레이어 수정. 원본과같은16:9캔버스, 나무크기·낮팔레트·픽셀도트스타일 유지. 가장중요: 화면양끝으로 잘려나가는 나무나가지가 절대없도록 양끝각200픽셀(가로10%)은 y=980위로 완전히투명하게 비우세요. 가장자리 나무는삭제하지말고 안쪽으로옮겨온전하게. 전체나무군락을중앙80%안에불규칙간격으로배치. 나무높이와나무수를늘리지말고 넓은빈터도유지. 맨아래 y=1000~1080의 낮은관목층만좌우끝까지이어짐. 건물산하늘지면없음. 나무밑동까지완전그림,투명배경. 나무들의상단y=580~700. 양끝에는높은나무·활엽수수관절대없음.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-5b021254-e906-48d2-8027-27014aa4f88d.png",
+      "file": "input/Forest_TreesFront_3.png",
+      "revision": 2,
+      "selected": true,
+      "selected_input_sha256": "ba6c876405914a626d11a68c9e1626e0ef98e4eaf2b56c4f6082912a039657c1"
+    },
+    {
+      "region": "Snow",
+      "kind": "TreesFront",
+      "segment": 0,
+      "prompt": "첨부 나무레이어를겨울낮버전으로수정. 캔버스/나무위치/나무크기/나무숫자/실루엣/양끝빈여백을고정. 잎과낮은관목위에흰눈이쌓인청회색겨울나무로만변경. 가장자리200픽셀은원본처럼y980위에완전히투명. 새로운나무나가지추가금지. 눈이외새물체금지. 하늘건물산지면글자없음. 같은16:9비율픽셀아트투명배경.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-a1b59cdf-a589-4b70-81ce-37f080eb9131.png",
+      "file": "input/Snow_TreesFront_0.png",
+      "revision": 2,
+      "selected": true,
+      "selected_input_sha256": "682025316c1ba35294724e3370d1b2ab7e50bb2d50f2492c38fc8d4c6d2493a4"
+    },
+    {
+      "region": "Snow",
+      "kind": "TreesFront",
+      "segment": 1,
+      "prompt": "첨부 나무레이어를겨울낮버전으로수정. 캔버스/나무위치/나무크기/나무숫자/실루엣/양끝빈여백을고정. 잎과낮은관목위에흰눈이쌓인청회색겨울나무로만변경. 가장자리200픽셀은원본처럼y980위에완전히투명. 새로운나무나가지추가금지. 눈이외새물체금지. 하늘건물산지면글자없음. 같은16:9비율픽셀아트투명배경.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-65b4138e-94fb-46aa-86d2-0436b71a3a79.png",
+      "file": "input/Snow_TreesFront_1.png",
+      "revision": 2,
+      "selected": true,
+      "selected_input_sha256": "330e013d3bdbc6fa0f90288e23777e70f2c2710c1d35698c7ca140f0164faeab"
+    },
+    {
+      "region": "Snow",
+      "kind": "TreesFront",
+      "segment": 2,
+      "prompt": "첨부 나무레이어를겨울낮버전으로수정. 캔버스/나무위치/나무크기/나무숫자/실루엣/양끝빈여백을고정. 잎과낮은관목위에흰눈이쌓인청회색겨울나무로만변경. 가장자리200픽셀은원본처럼y980위에완전히투명. 새로운나무나가지추가금지. 눈이외새물체금지. 하늘건물산지면글자없음. 같은16:9비율픽셀아트투명배경.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-d8e11937-bd70-4cb7-9104-6525108d212c.png",
+      "file": "input/Snow_TreesFront_2.png",
+      "revision": 2,
+      "selected": true,
+      "selected_input_sha256": "b43949e1051853b84b14cb8bfa2009a550b594152a5166449c7c9afe5905c70a"
+    },
+    {
+      "region": "Snow",
+      "kind": "TreesFront",
+      "segment": 3,
+      "prompt": "첨부 나무레이어를겨울낮버전으로수정. 캔버스/나무위치/나무크기/나무숫자/실루엣/양끝빈여백을고정. 잎과낮은관목위에흰눈이쌓인청회색겨울나무로만변경. 가장자리200픽셀은원본처럼y980위에완전히투명. 새로운나무나가지추가금지. 눈이외새물체금지. 하늘건물산지면글자없음. 같은16:9비율픽셀아트투명배경.",
+      "generated_path": "C:\\Users\\meeho\\.codex\\generated_images\\01a0e88d-a7be-7390-867a-2f50ddddb971\\exec-bf478ef4-e0a0-48b6-8d02-744ec925a8fa.png",
+      "file": "input/Snow_TreesFront_3.png",
+      "revision": 2,
+      "selected": true,
+      "selected_input_sha256": "a37e12f6a3ccfe48087628ebb255134e76c2e1b6fc3665bc252694501cf30951"
+    }
+  ],
+  "workflow": "내장 GPT 원화 생성 및 수정 후 Aseprite에서 정수 격자·팔레트·접합·레이어를 정리했습니다."
+}

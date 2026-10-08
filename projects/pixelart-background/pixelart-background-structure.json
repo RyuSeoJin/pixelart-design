@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "resources": [
+    {
+      "id": "landscape-final",
+      "label": "숲·설원 최종 전달 폴더 · v015",
+      "path": "final",
+      "role": "implementation",
+      "kind": "directory",
+      "depends_on": [
+        "landscape-source"
+      ]
+    },
+    {
+      "id": "landscape-source",
+      "label": "숲·설원 v015 · 4시간대·천체·효과",
+      "path": "source/landscape-v015",
+      "role": "implementation",
+      "kind": "directory"
+    },
+    {
+      "id": "landscape-v015-request",
+      "path": "spec/design/landscape-v015-request.md",
+      "label": "사용자 제공4시간대·천체 요청서",
+      "role": "specification",
+      "kind": "file"
+    },
+    {
+      "id": "landscape-v014-history",
+      "path": "source/landscape-v014",
+      "label": "2시간대 배경 이전본 · v015로 대체",
+      "role": "archive",
+      "kind": "directory"
+    },
+    {
+      "id": "landscape-fixed-spec",
+      "path": "rules/landscape-fixed-2026-10-08.md",
+      "label": "사용자 제공 배경 고정 규격",
+      "role": "specification",
+      "kind": "file"
+    },
+    {
+      "id": "landscape-v013-history",
+      "path": "source/landscape-v013",
+      "label": "1:1 저장 이전본 · v014로 대체",
+      "role": "archive",
+      "kind": "directory"
+    },
+    {
+      "id": "landscape-v012-history",
+      "path": "source/landscape-v012",
+      "label": "1920주기 이전 배경 · v013으로 대체",
+      "role": "archive",
+      "kind": "directory"
+    },
+    {
+      "id": "landscape-v011-history",
+      "path": "source/landscape-v011",
+      "label": "4배 배경 배치 이전본 · v012로 대체",
+      "role": "archive",
+      "kind": "directory"
+    },
+    {
+      "id": "landscape-v010-history",
+      "path": "source/landscape-v010",
+      "label": "6단계 분리 이전 배경 · v011로 대체",
+      "role": "archive",
+      "kind": "directory"
+    },
+    {
+      "id": "landscape-v009-history",
+      "path": "source/landscape-v009",
+      "label": "사용자가 철회한 깊이별 축소율 · v010으로 대체",
+      "role": "archive",
+      "kind": "directory"
+    },
+    {
+      "id": "landscape-v008-history",
+      "label": "전 레이어 동일 배율의 위 하늘 확장본 · v009로 대체",
+      "path": "source/landscape-v008",
+      "role": "archive",
+      "kind": "directory"
+    },
+    {
+      "id": "landscape-v002-history",
+      "label": "돌 장식이 포함된 이전 패럴렉스 · v003으로 대체",
+      "path": "source/landscape-v002",
+      "role": "archive",
+      "kind": "directory"
+    },
+    {
+      "id": "landscape-v001-history",
+      "label": "초기 레이어 분리와 이동 검토본 · v002로 대체",
+      "path": "source/landscape-v001",
+      "role": "archive",
+      "kind": "directory"
+    },
+    {
+      "id": "production-rules",
+      "label": "승인된 배경·건물 제작 규칙",
+      "path": "rules/background-production.md",
+      "role": "specification",
+      "kind": "file"
+    },
+    {
+      "id": "restaurant-layout",
+      "label": "식당 첫 제작 좌표 · 이미지 검토 대기",
+      "path": "spec/design/restaurant-v001.json",
+      "role": "specification",
+      "kind": "file",
+      "depends_on": [
+        "production-rules"
+      ]
+    },
+    {
+      "id": "restaurant-source",
+      "label": "식당 Aseprite·PNG·재현·검수 · 검토 대기",
+      "path": "source/restaurant-v001",
+      "role": "implementation",
+      "kind": "directory",
+      "depends_on": [
+        "restaurant-layout"
+      ]
+    },
+    {
+      "id": "concept-reference",
+      "label": "대화에서 선택한 GPT 시안 · 치수 정본 아님",
+      "path": "reference/restaurant-concept.png",
+      "role": "reference",
+      "kind": "file"
+    },
+    {
+      "id": "ground-source",
+      "label": "숲·도시·설원 반복 바닥 480×120 PNG·Aseprite·검수",
+      "path": "source/ground-v002",
+      "role": "implementation",
+      "kind": "directory",
+      "depends_on": [
+        "production-rules"
+      ]
+    },
+    {
+      "id": "ground-v001-history",
+      "label": "480×128 이전 바닥 · v002 제작 입력",
+      "path": "source/ground-v001",
+      "role": "archive",
+      "kind": "directory"
+    },
+    {
+      "id": "landscape-v003-history",
+      "path": "source/landscape-v003",
+      "role": "archive",
+      "label": "앞쪽 장식이 있는 이전 버전",
+      "kind": "directory"
+    },
+    {
+      "path": "source/landscape-v004",
+      "kind": "directory",
+      "id": "landscape-v004-history",
+      "role": "archive",
+      "label": "숲 지면 수정 전 버전"
+    },
+    {
+      "label": "봉우리 윤곽 수정 전 버전",
+      "id": "landscape-v005-history",
+      "kind": "directory",
+      "role": "archive",
+      "path": "source/landscape-v005"
+    },
+    {
+      "id": "landscape-v006-history",
+      "path": "source/landscape-v006",
+      "role": "archive",
+      "kind": "directory",
+      "label": "얕은 숲 바닥 버전 · v007으로 대체"
+    },
+    {
+      "id": "landscape-v007-history",
+      "label": "위쪽 하늘 확장 전 패럴렉스 · v008 제작 기준",
+      "path": "source/landscape-v007",
+      "role": "archive",
+      "kind": "directory"
+    }
+  ]
+}
