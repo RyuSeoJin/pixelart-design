@@ -2,6 +2,13 @@
   "schema_version": 1,
   "resources": [
     {
+      "id": "building-reference",
+      "label": "사용자 제공 식당 건물 · 숲·도시·설원 낮밤 참고본",
+      "path": "building",
+      "role": "reference",
+      "kind": "directory"
+    },
+    {
       "id": "landscape-final",
       "label": "숲·설원 최종 전달 폴더 · v015",
       "path": "final",

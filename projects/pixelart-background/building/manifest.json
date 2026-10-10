@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "label": "식당 건물 지역·낮밤 디자인 참고본",
+  "image": "restaurant-regions-daynight.png",
+  "source": "사용자가 대화에 첨부한 건물 이미지",
+  "source_filename": "codex-clipboard-a8b711b6-60bf-4f1c-8b2a-4e94b76d85f6.png",
+  "sha256": "2ec42d7e2a86f94810010fef4b56a57f21bfb5abaae8fa3b89f79ecb6cf6bd08",
+  "width": 1774,
+  "height": 887,
+  "columns": [
+    "숲",
+    "도시",
+    "설원"
+  ],
+  "rows": [
+    "낮",
+    "밤"
+  ],
+  "status": "원본 보관 · 배경과 제목 포함 · 게임용 투명 스프라이트로 분리 전",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "description": "사용자 요청으로 building 폴더에 건물 디자인 원본을 추가했습니다."
+    }
+  ]
+}
