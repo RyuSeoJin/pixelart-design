@@ -19,6 +19,8 @@
     python core/base/scripts/sync_core.py --from {중앙 저장소} --discard-local
                                                                           손댄 파일을 버리고 받는다
     python core/base/scripts/sync_core.py --local                         받은 뒤 손댄 파일만 본다
+    python core/base/scripts/sync_core.py --check                         지난번 받은 자리에서 본다
+                                                                          (작업 시작 때의 확인)
 """
 import argparse
 import datetime
@@ -39,8 +41,20 @@ SKIP_DIRS = ("__pycache__", ".git", "node_modules")
 SOURCE = ".source.json"
 
 
-def files(core):
-    """core/ 아래 파일의 상대 경로 → sha256. 받은 기록 파일과 캐시는 뺍니다."""
+def lf(data):
+    """글 파일이면 줄바꿈을 LF로 맞춥니다. NUL 바이트가 있으면 이진 파일로 보고 그대로 둡니다.
+
+    git의 core.autocrlf 설정이나 편집기에 따라 같은 내용이 CRLF로 체크아웃되는 일이 흔합니다.
+    줄바꿈만 다른 파일을 「손댄 파일」로 잡으면 받기가 까닭 없이 멈춥니다.
+    """
+    return data if b"\0" in data else data.replace(b"\r\n", b"\n")
+
+
+def files(core, raw=False):
+    """core/ 아래 파일의 상대 경로 → sha256(줄바꿈을 LF로 맞춘 내용). 받은 기록 파일과 캐시는 뺍니다.
+
+    raw=True면 맞추지 않은 바이트의 해시입니다 — 줄바꿈을 맞추기 전에 쓴 받은 기록과 견줄 때 씁니다.
+    """
     out = {}
     for cur, dirs, names in os.walk(core):
         dirs[:] = sorted(d for d in dirs if d not in SKIP_DIRS)
@@ -50,7 +64,8 @@ def files(core):
             p = os.path.join(cur, n)
             rel = os.path.relpath(p, core).replace(os.sep, "/")
             with open(p, "rb") as f:
-                out[rel] = hashlib.sha256(f.read()).hexdigest()
+                data = f.read()
+            out[rel] = hashlib.sha256(data if raw else lf(data)).hexdigest()
     return out
 
 
@@ -68,7 +83,10 @@ def local_changes(core, src):
     if not before:
         return []
     now = files(core)
-    out = [("수정", p) for p in sorted(now) if p in before and now[p] != before[p]]
+    # 옛 받은 기록은 맞추지 않은 바이트의 해시라, 그 해시와 같아도 손대지 않은 것으로 봅니다
+    old = files(core, raw=True)
+    out = [("수정", p) for p in sorted(now)
+           if p in before and before[p] not in (now[p], old[p])]
     out += [("추가", p) for p in sorted(now) if p not in before]
     out += [("삭제", p) for p in sorted(before) if p not in now]
     return out
@@ -92,17 +110,37 @@ def git_head(repo):
 ENTRY = re.compile(r"^###\s+(\d{4}-\d{2}-\d{2})(?:\s+(\d{2}:\d{2}))?\s+—\s+(.+)$")
 
 
-def new_entries(central, since):
-    """지난번 받은 날 이후의 중앙 이력 항목 제목."""
+def entries(central):
+    """중앙 이력 항목 — (날짜, 시각 또는 None, 제목 줄) 목록. 파일 순서(최신이 위)대로입니다."""
     p = os.path.join(central, "center-change-log.md")
     if not os.path.exists(p):
         return []
     out = []
     for line in io.open(p, encoding="utf-8").read().split("\n"):
         m = ENTRY.match(line.strip())
-        if m and (not since or m.group(1) >= since[:10]):
-            out.append(line.strip()[4:])
+        if m:
+            out.append((m.group(1), m.group(2), line.strip()[4:]))
     return out
+
+
+def new_entries(central, src):
+    """지난번 받은 뒤 새로 생긴 중앙 이력 항목 제목.
+
+    받은 기록에 그때 맨 위 항목(last_entry)이 있으면 그 위의 항목만 고릅니다 — 중앙에서 항목을
+    적은 시각과 push한 시각이 어긋나도 빠뜨리지 않습니다. 없거나 찾지 못하면 받은 시각과 견줍니다.
+    시각이 있는 항목은 시각까지, 날짜만 있는 옛 항목은 날짜로 견줍니다. 같은 분이면 새 항목으로
+    봅니다 — 처리한 항목을 한 번 더 보이는 편이 새 항목을 놓치는 것보다 낫기 때문입니다.
+    """
+    items = entries(central)
+    last = src.get("last_entry")
+    titles = [t for _d, _t, t in items]
+    if last in titles:
+        return titles[:titles.index(last)]
+    since = src.get("synced")
+    if not since:
+        return titles
+    return [title for d, t, title in items
+            if (d + " " + t >= since[:16] if t else d >= since[:10])]
 
 
 def main():
@@ -140,7 +178,13 @@ def main():
         return 1
 
     if not args.central:
-        sys.exit("--from {중앙 저장소 경로 또는 주소}가 필요합니다")
+        # 생략하면 지난번 받은 자리에서 봅니다 — 작업 시작 때의 확인을 명령 하나로 하기 위함
+        args.central = src.get("source")
+        if not args.central:
+            sys.exit("--from {중앙 저장소 경로 또는 주소}가 필요합니다 — 받은 기록에 자리가 없습니다")
+        if not is_url(args.central) and not os.path.isdir(args.central):
+            sys.exit("받은 기록의 중앙 저장소 폴더가 이 컴퓨터에 없습니다: %s\n"
+                     "--from {중앙 저장소 경로 또는 주소}로 다시 실행합니다" % args.central)
     tmp = None
     if is_url(args.central):
         tmp = tempfile.mkdtemp(prefix="central-")
@@ -189,10 +233,10 @@ def receive(args, root, core, src, changed, central, url):
     for label, items in (("더함", add), ("바뀜", mod), ("지움", rem)):
         for p in items[:200]:
             print("   %s  core/%s" % (label, p))
-    entries = new_entries(central, src.get("synced"))
-    if entries:
+    fresh = new_entries(central, src)
+    if fresh:
         print("\n새 중앙 이력 항목 — 태그를 처리합니다 (rules/change-log-writing.md §6)")
-        for e in entries:
+        for e in fresh:
             print("   " + e)
 
     if changed and not args.discard_local:
@@ -214,13 +258,19 @@ def receive(args, root, core, src, changed, central, url):
     for p in add + mod:
         dst = os.path.join(core, *p.split("/"))
         os.makedirs(os.path.dirname(dst), exist_ok=True)
-        shutil.copy2(os.path.join(c_core, *p.split("/")), dst)
+        src_path = os.path.join(c_core, *p.split("/"))
+        with open(src_path, "rb") as f:
+            data = f.read()
+        with open(dst, "wb") as f:
+            f.write(lf(data))
+        shutil.copymode(src_path, dst)
     record = {
         "source": url or central.replace(os.sep, "/"),
         "commit": head,
         "tag": tag,
         "dirty": dirty,
         "synced": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "last_entry": next((t for _d, _t, t in entries(central)), None),
         "files": files(core),
     }
     with io.open(os.path.join(core, SOURCE), "w", encoding="utf-8", newline="\n") as f:
