@@ -33,6 +33,10 @@
 python core/base/scripts/module.py list {프로젝트}
 ```
 
+목록은 분야별로 묶여 나옵니다 — 분야와 그 순서는 모듈 폴더의 groups.json이 정합니다. 하는 일에서
+출발해 찾으려면 모듈 폴더의 module-map.md(분야별 질문 · 함께 쓰는 모듈 · 둘 중 하나를 고르는 기준)를
+봅니다. 이 지도는 `gen_module_map.py`가 찍어 내는 생성물이라 손으로 고치지 않습니다.
+
 ## 2. 다섯 갈래
 
 ### ① 이미 있는 것을 고쳐야 하는 경우 (base · 켜진 모듈)
@@ -91,7 +95,7 @@ python core/base/scripts/module.py list {프로젝트}
 ```
 core/modules/{모듈}/
 ├─ module.md        자기소개 — 언제 켜나 · 켜면 따라오는 것 · 전제 모듈
-├─ module.json      적용 범위(scope) · 켜면 프로젝트에 만들 폴더(creates) — 필요할 때만
+├─ module.json      적용 범위(scope) · 분야(group) · 켜면 만들 폴더(creates) · 짝(pairs · instead)
 ├─ rules/           규칙
 ├─ scripts/         도구 — 있으면 check.py를 반드시 둡니다
 ├─ check.py         모듈 자기 점검 (modcheck.py로 몇 줄)
@@ -130,7 +134,8 @@ python core/base/scripts/module.py on {프로젝트} {모듈}   # 동의를 받�
 점검을 쓰면 추측이 되므로, 처음에는 「도구가 뜨는가」까지만 두고 **실제로 걸린 것이 나올 때마다
 두꺼워집니다.** 규칙 문서도 같습니다 — 겪지 않은 예외는 미리 적을 수 없습니다.
 
-1. 받아 가는 저장소에서 발견한 중앙 규칙의 문제는 `repo-remaining-work.md`의 「중앙에 되돌려 보낼
-   것」에 남깁니다. 중앙 저장소에서는 `center-remaining-work.md`가 출발점입니다.
+1. 받아 가는 저장소에서 발견한 중앙 규칙의 문제는 중앙 저장소를 함께 열어 두었으면 그 자리에서
+   고치고, 열 수 없으면 `repo-remaining-work.md`의 「중앙에 되돌려 보낼 것」에 남깁니다
+   (`central-sync.md` §3). 중앙 저장소에서는 `center-remaining-work.md`가 출발점입니다.
 2. **못 잡은 케이스를 점검에 넣습니다.** 고치기만 하고 케이스를 안 남기면 같은 것이 다시 지나갑니다.
 3. **올릴 때 일반화합니다.** 점검 코드의 시험 데이터에도 프로젝트 고유명사를 넣지 않습니다.
